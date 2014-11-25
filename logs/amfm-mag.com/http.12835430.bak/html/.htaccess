@@ -1,4 +1,0 @@
-AuthType Basic
-AuthUserFile /home/ciera/logs/amfm-mag.com/http.12835430/html/.htpasswd
-AuthName "Statistics Area"
-require valid-user
