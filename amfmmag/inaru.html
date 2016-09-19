@@ -2,135 +2,159 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>amfm</title>
+<title>amfm magazine</title>
 <style type="text/css">
 <!--
-.content {	font-family: Verdana, Geneva, sans-serif;
+body {
+	font: 100% Verdana, Arial, Helvetica, sans-serif;
+	background: #FFFFFF;
+	margin: 0; /* it's good practice to zero the margin and padding of the body element to account for differing browser defaults */
+	padding: 0;
+	text-align: center; /* this centers the container in IE 5* browsers. The text is then set to the left aligned default in the #container selector */
+	color: #000000;
 }
-.content {	font-family: Arial, Helvetica, sans-serif;
+
+/* Tips for Elastic layouts 
+1. Since the elastic layouts overall sizing is based on the user's default fonts size, they are more unpredictable. Used correctly, they are also more accessible for those that need larger fonts size since the line length remains proportionate.
+2. Sizing of divs in this layout are based on the 100% font size in the body element. If you decrease the text size overall by using a font-size: 80% on the body element or the #container, remember that the entire layout will downsize proportionately. You may want to increase the widths of the various divs to compensate for this.
+3. If font sizing is changed in differing amounts on each div instead of on the overall design (ie: #sidebar1 is given a 70% font size and #mainContent is given an 85% font size), this will proportionately change each of the divs overall size. You may want to adjust based on your final font sizing.
+*/
+.oneColElsCtrHdr #container {
+	width: 46em;  /* this width will create a container that will fit in an 800px browser window if text is left at browser default font sizes */
+	background: #FFFFFF;
+	margin: 0 auto; /* the auto margins (in conjunction with a width) center the page */
+	border: 1px solid #FFFFFF;
+	text-align: left; /* this overrides the text-align: center on the body element. */
 }
-.content {	font-family: Tahoma, Geneva, sans-serif;
+.oneColElsCtrHdr #header { 
+	background: #FFFFFF; 
+	padding: 0 10px 0 20px;  /* this padding matches the left alignment of the elements in the divs that appear beneath it. If an image is used in the #header instead of text, you may want to remove the padding. */
+} 
+.oneColElsCtrHdr #header h1 {
+	margin: 0; /* zeroing the margin of the last element in the #header div will avoid margin collapse - an unexplainable space between divs. If the div has a border around it, this is not necessary as that also avoids the margin collapse */
+	padding: 10px 0; /* using padding instead of margin will allow you to keep the element away from the edges of the div */
 }
-.content {	font-family: MS Serif, New York, serif;
+.oneColElsCtrHdr #mainContent {
+	padding: 0 20px; /* remember that padding is the space inside the div box and margin is the space outside the div box */
+	background: #FFFFFF;
 }
-.content {	font-family: Arial Black, Gadget, sans-serif;
-}
-.content {	font-family: Calibri;
-}
-.style4 {font-family: Verdana, Arial, Helvetica, sans-serif; font-weight: bold; }
-a:link {
-	color: #000;
-}
-a:visited {
-	color: #000;
+.oneColElsCtrHdr #footer { 
+	padding: 0 10px; /* this padding matches the left alignment of the elements in the divs that appear above it. */
+	background:#FFFFFF;
+} 
+.oneColElsCtrHdr #footer p {
+	margin: 0; /* zeroing the margins of the first element in the footer will avoid the possibility of margin collapse - a space between divs */
+	padding: 10px 0; /* padding on this element will create space, just as the the margin would have, without the margin collapse issue */
 }
 body,td,th {
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 11pt;
+	font-family: Trebuchet MS, Arial, Helvetica, sans-serif;
+}
+a:link {
+	color: #000;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #000;
+}
+a:hover {
+	text-decoration: none;
+}
+a:active {
+	text-decoration: none;
 }
 -->
-</style>
-</head>
+</style></head>
 
-<body>
-<table width="955" border="0" cellspacing="0" cellpadding="0">
-  <tr>
-    <td colspan="3"><img src="../images/amfmmag/inarumasthead.jpg" width="955" height="400" alt="cocoandbreezy" /></td>
-    <td width="4">&nbsp;</td>
-  </tr>
-  <tr>
-    <td colspan="3">&nbsp;</td>
-    <td>&nbsp;</td>
-  </tr>
-  <tr>
-    <td colspan="3" bgcolor="#000000"><div align="center"><a href="contact.html"><img src="../images/mkeissue/contactbutton.jpg" alt="blog" width="95" height="33" hspace="81" align="right" /></a><a href="magazine.html"><img src="../images/mkeissue/magazinebutton-b.jpg" alt="magazine" width="116" height="33" align="right" /></a><a href="fashion.html"><img src="../images/mkeissue/fashionbuttonb.jpg" alt="fashion" width="95" height="33" hspace="81" align="right" /></a><a href="music.html"><img src="../images/mkeissue/musicbuttonb.jpg" alt="music" width="81" height="33" hspace="0" align="right" /></a><a href="arts.html"><img src="../images/mkeissue/artsbuttonb.jpg" alt="arts" width="53" height="33" hspace="81" align="right" /></a></div></td>
-    <td>&nbsp;</td>
-  </tr>
-  <tr>
-    <td width="228"><blockquote>
-      <blockquote>
-        <p>&nbsp;</p>
-        <p align="center">&nbsp;</p>
-<p>&nbsp;</p>
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-      </blockquote>
-    </blockquote></td>
-    <td width="517"><p>&nbsp;</p>
-      <p dir="ltr"><strong>INARU</strong></p>
-      <p dir="ltr">INARU <em>(pronounced e-na-ru) </em>is what happens when art, jewelry and spirit and nature collide. Jecilia Negron, the artist and mastermind behind the jewelry line decided to adorn bodies with art rather than on the canvases she was used to working with. Negron, who comes from a family of artists and musicians, is a painter and photographer, and recently launched her debut jewelry line, INARU, inspired by natural elements, vintage statement pieces and the strength of women, this past March.<br />
-        <br />
-      Negron does most of the work herself, from designing, to photographing, and branding and marketing her pieces. Each piece is a handmade, one of a kind vibrant piece of jewelry, whether it be hand painted or wrapped in thread, a symmetrical necklace evokes the elements of nature with wooden shapes that appear leaf-like, a pair of earrings with tri-colored wooden shades contrast against one another, and a gold cuff with jade colored beads lines the wrist like precious pebbles. With hard work, dedication, cultural pride, and art with intention, INARU is beautiful and powerful, just like the designer behind the pieces.      </p>
-      <p dir="ltr"><strong id="docs-internal-guid-19d1b278-bba3-45ef-3100-37e537b45877">amfm: </strong>How long has INARU been a brainchild for you and why was launching your own jewelry line something that you wanted to do?<br />
-      </p>
-      <p dir="ltr"><strong id="docs-internal-guid-19d1b278-bba3-45ef-3100-37e537b45877">INARU:</strong> Jewelry is something that can enlighten my whole mood and the way I feel throughout the day. I remember always being so excited when finding unique and funky earrings or dope rings. Realizing the feeling it brought me, I figured why not create my own? &nbsp;My senior year in high school I started to paint and photo collage onto light-weighted wood rectangles and then turned those into earrings. They were vibrant, full of pattern, and definitely statement makers from how large they were! That was really the starting point of making jewelry. INARU was a turning point for me. It&rsquo;s when I started to be conscious of branding and running an actual online business. The INARU jewelry line released March of 2016. I started really getting into brand identity and design, which is still growing with INARU. All of the designing, website managing, photography, and running is all done by myself! Which at times can be a lot of work, but in the end it&rsquo;s all rewarding.<br />
-      </p>
-      <p dir="ltr"><strong id="docs-internal-guid-19d1b278-bba3-45ef-3100-37e537b45877">amfm: </strong>A lot of your pieces seem to be of the earth and alluding to nature. What is your inspiration behind the pieces? What about nature inspires you and what is your process like?<br />
-      </p>
-      <p dir="ltr"><strong id="docs-internal-guid-19d1b278-bba3-45ef-3100-37e537b45877">INARU: </strong>What I wanted for INARU was to become something that can be deeper than just being a pair of earrings. I wanted there to be a spiritual, intimate, and empowering feeling when someone wears them. My designs are inspired by momma earth because she gives me those exact feelings. The delicacy of nature and it&rsquo;s details flow within my work and even when I&rsquo;m photographing pieces. These elements are what supports my designs and the purpose of INARU. When I&rsquo;m creating a design or producing a piece, I love to problem solve and sometimes just go with the flow. A lot of pieces are made from unique pieces that I find at antique shops or from old jewelry. I enjoy the one of a kind pieces because that&rsquo;s really when I get creative! It&rsquo;s not like when I&rsquo;m producing a design over and over again. Overall, I love to keep things different and expand. I eventually want to learn metalsmithing and the designs are cultivated to honor the dopeness and fuerza <em>(strength)</em> that we hold. It&rsquo;s made to empower and enlighten.<br />
-      </p>
-      <p dir="ltr"><strong id="docs-internal-guid-19d1b278-bba3-45ef-3100-37e537b45877">amfm: </strong>You are also an artist first and foremost, how does your art (painting, drawing, photography) influence your jewelry making and will the two collide more in the future?<br />
-      </p>
-      <p dir="ltr"><strong id="docs-internal-guid-19d1b278-bba3-45ef-3100-37e537b45877">INARU: </strong>When I paint women I sometimes paint my earring designs on them and it&rsquo;s interesting to see how the earrings in the paintings can come to life through jewelry making. I enjoy having all of my work flow within each other. I plan to put more of my painting/drawing by hand in some designs. I&rsquo;m currently working on clay necklaces and plan to paint those!</p>
-      <strong id="docs-internal-guid-19d1b278-bba3-45ef-3100-37e537b45877">amfm: </strong>With your line having just launched, what do you aspire for INARU? What's next for you and the line?<br />
-      <p dir="ltr"><strong id="docs-internal-guid-19d1b278-bba3-45ef-3100-37e537b45877">INARU:</strong> I&rsquo;m looking and applying to vend at markets and events this year so I can share the line locally! I&rsquo;m also currently searching for fixtures and furniture to create mini pop up shops! l&rsquo;m really interested in visual display and how you can create a dope environment that creates a mood for the customers! Eventually my dream is to open up a boutique. The space would be utilized as a store and also as a community space. I hope to bring artists into teach workshops, have a gallery space, and foster emerging entrepreneurs and makers like myself!<br />
-      </p>
-      <p dir="ltr"><strong id="docs-internal-guid-19d1b278-bba3-45ef-3100-37e537b45877">amfm: </strong>Describe what INARU means to you.<br />
-      </p>
-      <p dir="ltr"><strong id="docs-internal-guid-19d1b278-bba3-45ef-3100-37e537b45877">INARU: </strong>The word INARU derives from the native taíno word for &ldquo;spirit of a wombyn.&rdquo; My jewelry is something that honors style, individuality, and creativity.
+<body class="oneColElsCtrHdr">
+
+<div id="container">
+  <div id="header">
+    <h2 align="center"><a href="amfmmag.html">AMFM</a><a href="amfmarts.html"> | ARTS</a><a href="amfmmusic.html"> | MUSIC </a><a href="amfmfashion.html">| <em>FASHION</em></a><a href="amfmevents.html">| EVENTS</a>
+      <!-- end #header -->
+      | <img src="../images/amfmmag/socialmedia.jpg" alt="social media" width="141" height="28" border="0" align="absbottom" usemap="#Map" />
+      <map name="Map" id="Map22">
+        <area shape="circle" coords="17,13,9" href="#http://www.facebook.com/amfmmag" />
+        <area shape="circle" coords="55,14,8" href="#http://www.twitter.com/amfmmag" />
+        <area shape="rect" coords="113,6,133,24" href="#http://www.instagram.com/amfmmag" />
+        <area shape="circle" coords="89,15,9" href="#amfm-mag.tumblr.com" />
+      </map>
       <br />
-      </p>
-      <table width="513" border="0">
-        <tr>
-          <td width="174"><p><a href="../images/amfmmag/inaru2.jpg" target="_blank"><img src="../images/amfmmag/inaru2.jpg" alt="danielfleming2" width="150" height="150" border="1" /></a></p></td>
-          <td width="154"><a href="../images/amfmmag/inaru1.jpg" target="_blank"><img src="../images/amfmmag/inaru1.jpg" alt="daniel fleming" width="150" height="150" hspace="10" border="1" /></a></td>
-          <td width="171"><a href="../images/amfmmag/inaru3.jpg" target="_blank"><img src="../images/amfmmag/inaru3.jpg" alt="danielfleming3" width="150" height="150" hspace="10" border="1" /></a></td>
-        </tr>
-      </table>
-<br />
       <br />
-<p><strong>      For more from INARU:
-</strong></p>
-      <p><a href="http://www.inarushop.com/" target="_blank">http://www.inarushop.com<br />
-      </a><a href="https://www.instagram.com/jecilia.negron/" target="_blank">Instagram</a></p>
-<p><em>p</em><em>hoto credits: INARU</em></p>
-<p>&nbsp;</p></td>
-    <td width="214">&nbsp;</td>
-    <td>&nbsp;</td>
-  </tr>
-  <tr>
-    <td align="right"><a href="http://www.facebook.com/amfmmag" target="_blank"><img src="../images/mkeissue/facebook.jpg" alt="facebook" width="50" height="50" align="left" /></a><a href="http://www.twitter.com/amfmmag" target="_blank"><img src="../images/mkeissue/tumblr.jpg" alt="tumblr" width="50" height="50" align="left" /></a><a href="http://www.instagram.com/amfmmag" target="_blank"><img src="../images/amfmmag/instagram.jpg" alt="instagram" width="41" height="41" vspace="3" align="left" /></a><a href="http://www.amfm-mag.tumblr.com" target="_blank"><img src="../images/amfmmag/tumblr.jpg" alt="tumblr" width="41" height="41" vspace="3" align="left" /></a></td>
-    <td align="right">&nbsp;</td>
-  </tr>
-  <tr>
-    <td align="right">&nbsp;</td>
-    <td align="right">&nbsp;</td>
-  </tr>
-  <tr>
-    <td align="right">&nbsp;</td>
-    <td align="right">&nbsp;</td>
-  </tr>
-</table>
+    </h2>
+    <!-- end #header -->
+  </div>
+  <div id="mainContent"><p><img src="../images/amfmmag/inarumasthead.jpg" width="700" height="400" alt="calid b" /></p>
+    <h2>Q&amp;A: INARU </h2>
+<p dir="ltr">INARU (pronounced e-na-ru) is what happens when art, jewelry and spirit and nature collide. Jecilia Negron, the artist and mastermind behind the jewelry line decided to adorn bodies with art rather than on the canvases she was used to working with. Negron, who comes from a family of artists and musicians, is a painter and photographer, and recently launched her debut jewelry line, INARU, inspired by natural elements, vintage statement pieces and the strength of women, this past March.</p>
+    <p>Negron does most of the work herself, from designing, to photographing, and branding and marketing her pieces. Each piece is a handmade, one of a kind vibrant piece of jewelry, whether it be hand painted or wrapped in thread, a symmetrical necklace evokes the elements of nature with wooden shapes that appear leaf-like, a pair of earrings with tri-colored wooden shades contrast against one another, and a gold cuff with jade colored beads lines the wrist like precious pebbles. With hard work, dedication, cultural pride, and art with intention, INARU is beautiful and powerful, just like the designer behind the pieces. </p>
+    <p><img src="../images/amfmmag/inaru2.jpg" width="700" height="600" alt="inaru" /><br />
+      <strong id="docs-internal-guid-2afd7e31-2f65-15ee-906d-dce3c03137ca">    <br />
+      AMFM: </strong>How long has INARU been a brainchild for you and why was launching your own jewelry line something that you wanted to do? <strong><br />
+      </strong></p>
+    <p>    <strong>INARU: </strong>Jewelry is something that can enlighten my whole mood and the way I feel throughout the day. I remember always being so excited when finding unique and funky earrings or dope rings. Realizing the feeling it brought me, I figured why not create my own? &nbsp;My senior year in high school I started to paint and photo collage onto light-weighted wood rectangles and then turned those into earrings. They were vibrant, full of pattern, and definitely statement makers from how large they were! That was really the starting point of making jewelry. INARU was a turning point for me. It&rsquo;s when I started to be conscious of branding and running an actual online business. The INARU jewelry line released March of 2016. I started really getting into brand identity and design, which is still growing with INARU. All of the designing, website managing, photography, and running is all done by myself! Which at times can be a lot of work, but in the end it&rsquo;s all rewarding. <br />
+      <strong><br />
+      AMFM</strong>: A lot of your pieces seem to be of the earth and alluding to nature. What is your inspiration behind the pieces? What about nature inspires you and what is your process like?</p>
+    <p><strong>INARU:</strong> What I wanted for INARU was to become something that can be deeper than just being a pair of earrings. I wanted there to be a spiritual, intimate, and empowering feeling when someone wears them. My designs are inspired by momma earth because she gives me those exact feelings. The delicacy of nature and it&rsquo;s details flow within my work and even when I&rsquo;m photographing pieces. These elements are what supports my designs and the purpose of INARU. When I&rsquo;m creating a design or producing a piece, I love to problem solve and sometimes just go with the flow. A lot of pieces are made from unique pieces that I find at antique shops or from old jewelry. I enjoy the one of a kind pieces because that&rsquo;s really when I get creative! It&rsquo;s not like when I&rsquo;m producing a design over and over again. Overall, I love to keep things different and expand. I eventually want to learn metalsmithing and the designs are cultivated to honor the dopeness and fuerza (strength) that we hold. It&rsquo;s made to empower and enlighten.<strong> <br />
+      </strong></p>
+    <p><img src="../images/amfmmag/inaru1.jpg" width="700" height="700" alt="inaru" /></p>
+    <p><strong><br />
+      AMFM: </strong>You are also an artist first and foremost, how does your art (painting, drawing, photography) influence your jewelry making and will the two collide more in the future?</p>
+    <p>
+      <strong>INARU: </strong>When I paint women I sometimes paint my earring designs on them and it&rsquo;s interesting to see how the earrings in the paintings can come to life through jewelry making. I enjoy having all of my work flow within each other. I plan to put more of my painting/drawing by hand in some designs. I&rsquo;m currently working on clay necklaces and plan to paint those! <strong><br />
+      </strong></p>
+    <p><strong>    AMFM:</strong> With your line having just launched, what do you aspire for INARU? What's next for you and the line?     <strong>    <br />
+    </strong></p>
+    <p><strong>      INARU:</strong> I&rsquo;m looking and applying to vend at markets and events this year so I can share the line locally! I&rsquo;m also currently searching for fixtures and furniture to create mini pop up shops! l&rsquo;m really interested in visual display and how you can create a dope environment that creates a mood for the customers! Eventually my dream is to open up a boutique. The space would be utilized as a store and also as a community space. I hope to bring artists into teach workshops, have a gallery space, and foster emerging entrepreneurs and makers like myself!     <strong>    <br />
+      <br />
+      AMFM: </strong>Describe what INARU means to you.<strong> <br />
+      <br />
+      INARU: </strong>The word INARU derives from the native taíno word for &ldquo;spirit of a wombyn.&rdquo; My jewelry is something that honors style, individuality, and creativity.    <strong><br />
+      </strong>
+    </p>
+    <p><strong id="docs-internal-guid-2afd7e31-2a9e-6be5-f20d-e5756aa19564">FOR MORE FROM INARU:</strong> <br />
+      <a href="https://www.instagram.com/inarushop" target="_blank">INSTAGRAM</a><br />
+    </p>
+    <h6 dir="ltr"><strong id="docs-internal-guid-2afd7e31-2a9e-6be5-f20d-e5756aa19564"><em>PHOTO CREDITS: JECILIA NEGRON</em></strong></h6></div>
+  <div id="footer">
+    <h2><a href="aboutamfm.html">ABOUT AMFM</a><br />
+      <a href="mailto:info@amfm-mag.com">CONTACT</a><br />
+<img src="../images/amfmmag/socialmedia.jpg" alt="social media" width="150" height="32" border="0" usemap="#Map" />
+<map name="Map" id="Map2">
+  <area shape="circle" coords="93,15,9" href="#amfm-mag.tumblr.com" />
+  <area shape="rect" coords="120,5,140,25" href="#http://www.instagram.com/amfmmag" />
+  <area shape="circle" coords="57,17,11" href="#http://www.twitter.com/amfmmag" />
+  <area shape="circle" coords="20,19,10" href="#http://www.facebook.com/amfmmag" />
+</map>
+    </h2>
+    <h2>
+      <div id="mc_embed_signup">
+        <form action="//amfm-mag.us10.list-manage.com/subscribe/post?u=738860a67ed3f5cd20e478572&amp;id=8db9e6e243" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate="novalidate">
+          <div id="mc_embed_signup_scroll">SIGN UP FOR UPDATES!
+            <div class="mc-field-group">
+              <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" />
+            </div>
+            <div id="mce-responses" class="clear">
+              <div class="response" id="mce-error-response" style="display:none"></div>
+              <div class="response" id="mce-success-response" style="display:none"></div>
+            </div>
+            <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+            <div style="position: absolute; left: -5000px;" aria-hidden="true">
+              <input type="text" name="b_738860a67ed3f5cd20e478572_8db9e6e243" tabindex="-1" value="" />
+            </div>
+            <div class="clear">
+              <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button" />
+            </div>
+          </div>
+        </form>
+      </div>
+      <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
+      <script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+      <!--End mc_embed_signup-->
+      <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+</head></h2>
+    <td align="right">&nbsp;</td></p>
+  <!-- end #footer --></div>
+<!-- end #container --></div>
 </body>
-</html>
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-48234405-1', 'amfm-mag.com');
-  ga('send', 'pageview');
-
-</script>
-<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
 </html>

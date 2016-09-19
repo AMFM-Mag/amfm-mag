@@ -2,132 +2,158 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>amfm</title>
+<title>amfm magazine</title>
 <style type="text/css">
 <!--
-.content {	font-family: Verdana, Geneva, sans-serif;
+body {
+	font: 100% Verdana, Arial, Helvetica, sans-serif;
+	background: #FFFFFF;
+	margin: 0; /* it's good practice to zero the margin and padding of the body element to account for differing browser defaults */
+	padding: 0;
+	text-align: center; /* this centers the container in IE 5* browsers. The text is then set to the left aligned default in the #container selector */
+	color: #000000;
 }
-.content {	font-family: Arial, Helvetica, sans-serif;
+
+/* Tips for Elastic layouts 
+1. Since the elastic layouts overall sizing is based on the user's default fonts size, they are more unpredictable. Used correctly, they are also more accessible for those that need larger fonts size since the line length remains proportionate.
+2. Sizing of divs in this layout are based on the 100% font size in the body element. If you decrease the text size overall by using a font-size: 80% on the body element or the #container, remember that the entire layout will downsize proportionately. You may want to increase the widths of the various divs to compensate for this.
+3. If font sizing is changed in differing amounts on each div instead of on the overall design (ie: #sidebar1 is given a 70% font size and #mainContent is given an 85% font size), this will proportionately change each of the divs overall size. You may want to adjust based on your final font sizing.
+*/
+.oneColElsCtrHdr #container {
+	width: 46em;  /* this width will create a container that will fit in an 800px browser window if text is left at browser default font sizes */
+	background: #FFFFFF;
+	margin: 0 auto; /* the auto margins (in conjunction with a width) center the page */
+	border: 1px solid #FFFFFF;
+	text-align: left; /* this overrides the text-align: center on the body element. */
 }
-.content {	font-family: Tahoma, Geneva, sans-serif;
+.oneColElsCtrHdr #header { 
+	background: #FFFFFF; 
+	padding: 0 10px 0 20px;  /* this padding matches the left alignment of the elements in the divs that appear beneath it. If an image is used in the #header instead of text, you may want to remove the padding. */
+} 
+.oneColElsCtrHdr #header h1 {
+	margin: 0; /* zeroing the margin of the last element in the #header div will avoid margin collapse - an unexplainable space between divs. If the div has a border around it, this is not necessary as that also avoids the margin collapse */
+	padding: 10px 0; /* using padding instead of margin will allow you to keep the element away from the edges of the div */
 }
-.content {	font-family: MS Serif, New York, serif;
+.oneColElsCtrHdr #mainContent {
+	padding: 0 20px; /* remember that padding is the space inside the div box and margin is the space outside the div box */
+	background: #FFFFFF;
 }
-.content {	font-family: Arial Black, Gadget, sans-serif;
-}
-.content {	font-family: Calibri;
-}
-.style4 {font-family: Verdana, Arial, Helvetica, sans-serif; font-weight: bold; }
-a:link {
-	color: #000;
-}
-a:visited {
-	color: #000;
+.oneColElsCtrHdr #footer { 
+	padding: 0 10px; /* this padding matches the left alignment of the elements in the divs that appear above it. */
+	background:#FFFFFF;
+} 
+.oneColElsCtrHdr #footer p {
+	margin: 0; /* zeroing the margins of the first element in the footer will avoid the possibility of margin collapse - a space between divs */
+	padding: 10px 0; /* padding on this element will create space, just as the the margin would have, without the margin collapse issue */
 }
 body,td,th {
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 11pt;
+	font-family: Trebuchet MS, Arial, Helvetica, sans-serif;
+}
+a:link {
+	color: #000;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #000;
+}
+a:hover {
+	text-decoration: none;
+}
+a:active {
+	text-decoration: none;
 }
 -->
-</style>
-</head>
+</style></head>
 
-<body>
-<table width="955" border="0" cellspacing="0" cellpadding="0">
-  <tr>
-    <td colspan="3"><img src="../images/amfmmag/calidb.jpg" width="965" height="400" alt="klassik" /></td>
-    <td width="4">&nbsp;</td>
-  </tr>
-  <tr>
-    <td colspan="3">&nbsp;</td>
-    <td>&nbsp;</td>
-  </tr>
-  <tr>
-    <td colspan="3" bgcolor="#000000"><div align="center"><a href="contact.html"><img src="../images/mkeissue/contactbutton.jpg" alt="blog" width="95" height="33" hspace="75" align="right" /></a><a href="magazine.html"><img src="../images/mkeissue/magazinebutton-b.jpg" alt="magazine" width="116" height="33" align="right" /></a><a href="fashion.html"><img src="../images/mkeissue/fashionbuttonb.jpg" alt="fashion" width="95" height="33" hspace="81" align="right" /></a><a href="music.html"><img src="../images/mkeissue/musicbuttonw.jpg" alt="music" width="77" height="33" hspace="0" align="right" /></a><a href="arts.html"><img src="../images/mkeissue/artsbuttonb.jpg" alt="arts" width="53" height="33" hspace="81" align="right" /></a></div></td>
-    <td>&nbsp;</td>
-  </tr>
-  <tr>
-    <td width="228"><blockquote>
-      <blockquote>
-        <p>&nbsp;</p>
-        <p align="center">&nbsp;</p>
-<p>&nbsp;</p>
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-      </blockquote>
-    </blockquote></td>
-    <td width="517"><p>&nbsp;</p>
-      <p><strong>Calid B</strong></p>
-      <p>Calid B is what you would call a triple threat in the creative sphere. He's a musician, a fire producer, and is the founder of his own clothing brand called Ochio, a combination of his Ohio roots, and his current home in Chicago. His roots don't just lie there, Calid orignally hails from Cote D'Ivoire, and his African roots are most prevalent in his most recent, and first solo project, <em>Afrobang</em>, an EP that combines the dynamics of his afrocentric background infused with hip-hop and jazz influenced beats that he produced himself. </p>
-      <p>Calid, having been surrounded by music his whole life, was made to make music, even when he may have doubted himself. From playing djembe at a young age, to starting his own production company in college, to the real meaning of his name, Afrobang is a telling musical tale of the journey of a young man stepping into his greatness. Calid B comes out with a bang and he will continue to make noise as his music career further blossoms.      </p>
-      <p dir="ltr"><strong id="docs-internal-guid-dee2d507-6dee-c4d6-6046-c671f5024c3a">amfm: </strong>Your parents put you onto Afrocentric things at a young age, and you learned how to play djembe, and your dad is from Cote D'Ivoire. How did your upbringing influence your musical path?<br />
-      </p>
-      <p dir="ltr"><strong id="docs-internal-guid-dee2d507-6dee-c4d6-6046-c671f5024c3a">calid b: </strong>It influenced me tremendously. In a sense, AfroBang has been in the making my whole life. The rhythms and melodies that I learned as child are still fresh in my head til this day. Even when I was in high school, I played the djembe in our school's jazz band. I didn't want to play at first because I didn't think it would be cool since I was young and thought I should play a more traditional jazz instrument, but my mom made me go to our jazz teacher and ask to play my djembe, so that's what I did and it worked. I've always been encouraged to be Afrocentric in whatever I do, and my mom is big reason for that.<br />
-      </p>
-      <p dir="ltr"><strong id="docs-internal-guid-dee2d507-6dee-c4d6-6046-c671f5024c3a">amfm: </strong>Your project is called &quot;Afrobang&quot; and you were heavily influenced by the African Diaspora, why was this something that you chose to explore musically and how does this relate to your journey as an artist and person?<br />
-      </p>
-      <p dir="ltr"><strong id="docs-internal-guid-dee2d507-6dee-c4d6-6046-c671f5024c3a">calid b: </strong>Well initially I was looking for a sound that I could call my own, and I immediately went to sample different African artists, instruments, drums, etc. As I was working on crafting this sound, a lot was going on in the world, particularly in the African diaspora. Whether it was the police violence happening domestically or the senseless acts of violence happening in different countries in Africa, there was a sense of hopelessness in the air. I was just saying to myself, we are all in this fight together. We are one people. Black, African, African-American, whatever you want to call it, we come from the same place. If we unite and work together as one, we can overcome all of our obstacles and regain our sense of hope, pride, and prosperity. There's a psychological divide among our people that we have to eradicate in order for us to come together globally. I think we all need to reconnect with our roots and gain a deeper understanding of our heritage. In my music, I mention kings such as Mansa Musa, Sindiata Keita, in addition to black intellectuals, leaders, and revolutionaries like Marcus Garvey. My goal is to make music that will make people, when they listen closely, start to wonder and research who are these people being mentioned in this music, and where are these places that are being mentioned? I hope that this will inspire a curiosity that leads people to reconnect with their roots while having fun.<br />
-      </p>
-      <p dir="ltr"><strong id="docs-internal-guid-dee2d507-6dee-c4d6-6046-c671f5024c3a">amfm: </strong>How does your background as a producer overlap or influence you as a musician? What is it like to be so involved with every process of your music in that way and how does that evolve your musical approach?<br />
-      </p>
-      <p dir="ltr"><strong id="docs-internal-guid-dee2d507-6dee-c4d6-6046-c671f5024c3a">calid b: </strong>Being a producer first, has definitely helped me in all aspects of being an artist. Because the producer has to see the vision before anyone else does. The producer has to know how people will react during the certain part of a song, or how the artist should flow over the beat in order for it to form a perfect marriage. Having a producer background has made me more creative, and has allowed me to feel confident in every part of the musical process from concepting, writing, to engineering. My production background helps me hear things that the average listener may not hear or understand, but they feel it, and that's the real magic of music.<br />
-      </p>
-      <p dir="ltr"><strong id="docs-internal-guid-dee2d507-6dee-c4d6-6046-c671f5024c3a">amfm: </strong>You actually sat on this project and a solo music career for quite some time saying that &quot;we are the things that hold us back,&quot; how did you overcome that and what was the catalyst for you finally taking the plunge?<br />
-      </p>
-      <p dir="ltr"><strong id="docs-internal-guid-dee2d507-6dee-c4d6-6046-c671f5024c3a">calid b: </strong>Man, it's been a long time coming. I never saw myself putting out a solo project, mainly due to my very private personality. And I'm mad sensitive, it's a Cancer thing. I had been in groups in the past, like I was in an alternative rock group at one point, and couple different rap groups in college, and I felt more comfortable in groups because I could fall back when I wanted to, and I could step up to the front when I wanted to. But at the end of the day, I had to admit that it was a comfort zone thing, and it stemmed from fear of criticism and failure. Once I started making money in Corporate America, I really just fell back like I'll just make beats for people, but it got to a point where I would just make full songs for myself and my friends would come over and check them out, and be like &quot;that's you?&quot; And they would encourage me to release these songs, and my confidence as a solo artist started to grow. At the end of the day, I just got tired of letting this fear hold me back. I would live my whole life regretting not trying to do it at least. So I just said fuck it, let's do this solo thing; stop acting scared and get out there. It's been one of the best decisions I've ever made. Even though it's a lot of hard work, it's so much fun, and there's a freedom that comes with doing your own thing, that allows to really create music from the soul.<br />
-      </p>
-      <p dir="ltr"><strong id="docs-internal-guid-dee2d507-6dee-c4d6-6046-c671f5024c3a">amfm: </strong>What song on &quot;Afrobang&quot; resonates or means the most to you and why?<br />
-      </p>
-      <p dir="ltr"><strong id="docs-internal-guid-dee2d507-6dee-c4d6-6046-c671f5024c3a">calid b: </strong>I'd have to say &ldquo;Sundiata.&rdquo; That's my shit right there. That song is very biographical, and kind of takes you through a journey of different parts of my life. Sundiata Keita is my middle name, name after one of the greatest African conquerors from the 12th century. If you look up his story, I feel like a lot of young brothers would be able to relate to it. All the obstacles he was able to overcome and eventually lead his people to greatness, it's a great story. Every time I play that song, I just feel like I'm back in Abijan, Cote D'Ivoire celebrating life and dancing with my people.<br />
-        <br />
-        <strong>Calid B &quot;Parasites&quot;&nbsp;</strong>      </p>
-      <p><iframe width="525" height="250" src="https://www.youtube.com/embed/PKD0U4DmaC8" frameborder="0" allowfullscreen></iframe>&nbsp;</p>
-      <p><strong>For more from Calid B:</strong> </p>
-      <p><a href="http://www.afrobang.com" target="_blank">http://www.afrobang.com</a><a href="https://www.facebook.com/lilikmusic?fref=ts" target="_blank"><br />
-      </a><a href="https://soundcloud.com/calidb" target="_blank">https://soundcloud.com/calidb</a></p>
-      <p>Check out Calid B's Album Release Party Thursday August 11th!<br />
-      Get your tickets <a href="https://www.ticketfly.com/purchase/event/1262893" target="_blank">here</a>. </p>
-      <p><img src="../images/amfmmag/afrobangflyer.jpg" alt="flyer" width="465" height="602" /><br />
-      </p>
-      <p><em>photo credits: reginald eldridge</em><br />
-      </p>
-<p>&nbsp;</p></td>
-    <td width="214">&nbsp;</td>
-    <td>&nbsp;</td>
-  </tr>
-  <tr>
-    <td align="right"><p><a href="http://www.facebook.com/amfmmag" target="_blank"><img src="../images/mkeissue/facebook.jpg" alt="facebook" width="50" height="50" align="left" /></a><a href="http://www.twitter.com/amfmmag" target="_blank"><img src="../images/mkeissue/tumblr.jpg" alt="tumblr" width="50" height="50" align="left" /></a><a href="http://www.instagram.com/amfmmag" target="_blank"><img src="../images/amfmmag/instagram.jpg" alt="instagram" width="41" height="41" vspace="3" align="left" /></a><a href="http://www.amfm-mag.tumblr.com" target="_blank"><img src="../images/amfmmag/tumblr.jpg" alt="tumblr" width="41" height="41" vspace="3" align="left" /></a></p></td>
-    <td align="right">&nbsp;</td>
-  </tr>
-  <tr>
-    <td colspan="3" align="right">&nbsp;</td>
-    <td align="right">&nbsp;</td>
-  </tr>
-  <tr>
-    <td colspan="3" align="right">&nbsp;</td>
-    <td align="right">&nbsp;</td>
-  </tr>
-</table>
+<body class="oneColElsCtrHdr">
+
+<div id="container">
+  <div id="header">
+    <h2 align="center"><a href="amfmmag.html">AMFM</a><a href="amfmarts.html"> | ARTS</a> <a href="amfmmusic.html">| <em>MUSIC</em></a><a href="amfmfashion.html">| FASHION </a><a href="amfmevents.html">| EVENTS</a>
+      <!-- end #header -->
+      | <img src="../images/amfmmag/socialmedia.jpg" alt="social media" width="141" height="28" border="0" align="absbottom" usemap="#Map" />
+      <map name="Map" id="Map22">
+        <area shape="circle" coords="18,13,10" href="#http://www.facebook.com/amfmmag" />
+        <area shape="circle" coords="59,16,9" href="#http://www.twitter.com/amfmmag" />
+        <area shape="rect" coords="119,7,139,25" href="#http://www.instagram.com/amfmmag" />
+        <area shape="circle" coords="93,15,9" href="#amfm-mag.tumblr.com" />
+      </map>
+      <br />
+      <br />
+    </h2>
+    <!-- end #header -->
+  </div>
+  <div id="mainContent"><img src="../images/amfmmag/calidb.jpg" width="700" height="400" alt="edo and olivier" />
+    <h2><strong>Q&amp;A:  CALID B</strong></h2>
+    <p dir="ltr">Calid B is what you would call a triple threat in the creative sphere. He's a musician, a fire producer, and is the founder of his own clothing brand called Ochio, a combination of his Ohio roots, and his current home in Chicago. His roots don't just lie there, Calid orignally hails from Cote D'Ivoire, and his African roots are most prevalent in his most recent, and first solo project, Afrobang, an EP that combines the dynamics of his afrocentric background infused with hip-hop and jazz influenced beats that he produced himself. </p>
+    <p>Calid, having been surrounded by music his whole life, was made to make music, even when he may have doubted himself. From playing djembe at a young age, to starting his own production company in college, to the real meaning of his name, Afrobang is a telling musical tale of the journey of a young man stepping into his greatness. Calid B comes out with a bang and he will continue to make noise as his music career further blossoms. </p>
+    <p><iframe width="700" height="400" src="https://www.youtube.com/embed/PKD0U4DmaC8" frameborder="0" allowfullscreen></iframe>
+    </p>
+    <h5>      <em>&quot;Parasites&quot; </em><br />
+    </h5>
+<p dir="ltr"><strong id="docs-internal-guid-2afd7e31-2c4f-f649-3f79-c91fa6cfad5f">AMFM: </strong>Your parents put you onto Afrocentric things at a young age, and you learned how to play djembe, and your dad is from Cote D'Ivoire. How did your upbringing influence your musical path?</p>
+    <strong id="docs-internal-guid-2afd7e31-2c4f-f649-3f79-c91fa6cfad5f">CALID B: </strong>It influenced me tremendously. In a sense, AfroBang has been in the making my whole life. The rhythms and melodies that I learned as child are still fresh in my head til this day. Even when I was in high school, I played the djembe in our school's jazz band. I didn't want to play at first because I didn't think it would be cool since I was young and thought I should play a more traditional jazz instrument, but my mom made me go to our jazz teacher and ask to play my djembe, so that's what I did and it worked. I've always been encouraged to be Afrocentric in whatever I do, and my mom is big reason for that. <strong><br />
+    </strong><br />
+    <p dir="ltr"><strong id="docs-internal-guid-2afd7e31-2c4f-f649-3f79-c91fa6cfad5f">AMFM: </strong>Your project is called &quot;Afrobang&quot; and you were heavily influenced by the African Diaspora, why was this something that you chose to explore musically and how does this relate to your journey as an artist and person?</p>
+    <strong>CALID B:</strong> Well initially I was looking for a sound that I could call my own, and I immediately went to sample different African artists, instruments, drums, etc. As I was working on crafting this sound, a lot was going on in the world, particularly in the African diaspora. Whether it was the police violence happening domestically or the senseless acts of violence happening in different countries in Africa, there was a sense of hopelessness in the air. I was just saying to myself, we are all in this fight together. We are one people. Black, African, African-American, whatever you want to call it, we come from the same place. If we unite and work together as one, we can overcome all of our obstacles and regain our sense of hope, pride, and prosperity. There's a psychological divide among our people that we have to eradicate in order for us to come together globally. I think we all need to reconnect with our roots and gain a deeper understanding of our heritage. In my music, I mention kings such as Mansa Musa, Sindiata Keita, in addition to black intellectuals, leaders, and revolutionaries like Marcus Garvey. My goal is to make music that will make people, when they listen closely, start to wonder and research who are these people being mentioned in this music, and where are these places that are being mentioned? I hope that this will inspire a curiosity that leads people to reconnect with their roots while having fun. <br />
+    <br />
+    <p dir="ltr"><strong id="docs-internal-guid-2afd7e31-2c4f-f649-3f79-c91fa6cfad5f">AMFM: </strong>How does your background as a producer overlap or influence you as a musician? What is it like to be so involved with every process of your music in that way and how does that evolve your musical approach?
+    <br />
+    </p>
+    <p dir="ltr"><strong id="docs-internal-guid-2afd7e31-2c4f-f649-3f79-c91fa6cfad5f">CALID B: </strong>Being a producer first, has definitely helped me in all aspects of being an artist. Because the producer has to see the vision before anyone else does. The producer has to know how people will react during the certain part of a song, or how the artist should flow over the beat in order for it to form a perfect marriage. Having a producer background has made me more creative, and has allowed me to feel confident in every part of the musical process from concepting, writing, to engineering. My production background helps me hear things that the average listener may not hear or understand, but they feel it, and that's the real magic of music.</p>
+    <p><iframe width="100%" height="400" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/690431&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>&nbsp;</p>
+    <p><strong>AMFM: </strong>You actually sat on this project and a solo music career for quite some time saying that &quot;we are the things that hold us back,&quot; how did you overcome that and what was the catalyst for you finally taking the plunge? <br />
+      <br />
+    <strong id="docs-internal-guid-2afd7e31-2c4f-f649-3f79-c91fa6cfad5f">CALID B: </strong>Man, it's been a long time coming. I never saw myself putting out a solo project, mainly due to my very private personality. And I'm mad sensitive, it's a Cancer thing. I had been in groups in the past, like I was in an alternative rock group at one point, and couple different rap groups in college, and I felt more comfortable in groups because I could fall back when I wanted to, and I could step up to the front when I wanted to. But at the end of the day, I had to admit that it was a comfort zone thing, and it stemmed from fear of criticism and failure. Once I started making money in Corporate America, I really just fell back like I'll just make beats for people, but it got to a point where I would just make full songs for myself and my friends would come over and check them out, and be like &quot;that's you?&quot; And they would encourage me to release these songs, and my confidence as a solo artist started to grow. At the end of the day, I just got tired of letting this fear hold me back. I would live my whole life regretting not trying to do it at least. So I just said fuck it, let's do this solo thing; stop acting scared and get out there. It's been one of the best decisions I've ever made. Even though it's a lot of hard work, it's so much fun, and there's a freedom that comes with doing your own thing, that allows to really create music from the soul.</p>
+    <strong>AMFM:</strong> What song on &quot;Afrobang&quot; resonates or means the most to you and why? <br />
+    <br />
+    <p dir="ltr"><strong id="docs-internal-guid-2afd7e31-2c4f-f649-3f79-c91fa6cfad5f">CALID B: </strong>I'd have to say &ldquo;Sundiata.&rdquo; That's my shit right there. That song is very biographical, and kind of takes you through a journey of different parts of my life. Sundiata Keita is my middle name, name after one of the greatest African conquerors from the 12th century. If you look up his story, I feel like a lot of young brothers would be able to relate to it. All the obstacles he was able to overcome and eventually lead his people to greatness, it's a great story. Every time I play that song, I just feel like I'm back in Abijan, Cote D'Ivoire celebrating life and dancing with my people.</p>
+    <p><strong id="docs-internal-guid-2afd7e31-2a9e-6be5-f20d-e5756aa19564">FOR MORE FROM CALID B:</strong> <br />
+      <a href="http://www.afrobang.com" target="_blank"> WEBSITE</a> / <a href="https://www.instagram.com/calidb/" target="_blank">INSTAGRAM</a><br />
+    </p>
+    <h6 dir="ltr"><strong id="docs-internal-guid-2afd7e31-2a9e-6be5-f20d-e5756aa19564"><em>PHOTO CREDITS: REGINALD ELDRIDGE</em></strong>
+    <!-- end #mainContent -->
+</h6>
+  </div>
+  <div id="footer">
+    <h2><a href="aboutamfm.html">ABOUT AMFM</a><br />
+      <a href="mailto:info@amfm-mag.com">CONTACT</a><br />
+<img src="../images/amfmmag/socialmedia.jpg" alt="social media" width="150" height="32" border="0" usemap="#Map" />
+<map name="Map" id="Map2">
+  <area shape="circle" coords="93,15,9" href="#amfm-mag.tumblr.com" />
+  <area shape="rect" coords="120,5,140,25" href="#http://www.instagram.com/amfmmag" />
+  <area shape="circle" coords="57,17,11" href="#http://www.twitter.com/amfmmag" />
+  <area shape="circle" coords="20,19,10" href="#http://www.facebook.com/amfmmag" />
+</map>
+    </h2>
+    <h2>
+      <div id="mc_embed_signup">
+        <form action="//amfm-mag.us10.list-manage.com/subscribe/post?u=738860a67ed3f5cd20e478572&amp;id=8db9e6e243" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate="novalidate">
+          <div id="mc_embed_signup_scroll">SIGN UP FOR UPDATES!
+            <div class="mc-field-group">
+              <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" />
+            </div>
+            <div id="mce-responses" class="clear">
+              <div class="response" id="mce-error-response" style="display:none"></div>
+              <div class="response" id="mce-success-response" style="display:none"></div>
+            </div>
+            <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+            <div style="position: absolute; left: -5000px;" aria-hidden="true">
+              <input type="text" name="b_738860a67ed3f5cd20e478572_8db9e6e243" tabindex="-1" value="" />
+            </div>
+            <div class="clear">
+              <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button" />
+            </div>
+          </div>
+        </form>
+      </div>
+      <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
+      <script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+      <!--End mc_embed_signup-->
+      <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" /></h2>
+    <td align="right">&nbsp;</td></p>
+  <!-- end #footer --></div>
+<!-- end #container --></div>
 </body>
-</html>
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-48234405-1', 'amfm-mag.com');
-  ga('send', 'pageview');
-
-</script>
-<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
 </html>

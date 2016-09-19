@@ -2,139 +2,157 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>amfm</title>
+<title>amfm magazine</title>
 <style type="text/css">
 <!--
-.content {	font-family: Verdana, Geneva, sans-serif;
+body {
+	font: 100% Verdana, Arial, Helvetica, sans-serif;
+	background: #FFFFFF;
+	margin: 0; /* it's good practice to zero the margin and padding of the body element to account for differing browser defaults */
+	padding: 0;
+	text-align: center; /* this centers the container in IE 5* browsers. The text is then set to the left aligned default in the #container selector */
+	color: #000000;
 }
-.content {	font-family: Arial, Helvetica, sans-serif;
+
+/* Tips for Elastic layouts 
+1. Since the elastic layouts overall sizing is based on the user's default fonts size, they are more unpredictable. Used correctly, they are also more accessible for those that need larger fonts size since the line length remains proportionate.
+2. Sizing of divs in this layout are based on the 100% font size in the body element. If you decrease the text size overall by using a font-size: 80% on the body element or the #container, remember that the entire layout will downsize proportionately. You may want to increase the widths of the various divs to compensate for this.
+3. If font sizing is changed in differing amounts on each div instead of on the overall design (ie: #sidebar1 is given a 70% font size and #mainContent is given an 85% font size), this will proportionately change each of the divs overall size. You may want to adjust based on your final font sizing.
+*/
+.oneColElsCtrHdr #container {
+	width: 46em;  /* this width will create a container that will fit in an 800px browser window if text is left at browser default font sizes */
+	background: #FFFFFF;
+	margin: 0 auto; /* the auto margins (in conjunction with a width) center the page */
+	border: 1px solid #FFFFFF;
+	text-align: left; /* this overrides the text-align: center on the body element. */
 }
-.content {	font-family: Tahoma, Geneva, sans-serif;
+.oneColElsCtrHdr #header { 
+	background: #FFFFFF; 
+	padding: 0 10px 0 20px;  /* this padding matches the left alignment of the elements in the divs that appear beneath it. If an image is used in the #header instead of text, you may want to remove the padding. */
+} 
+.oneColElsCtrHdr #header h1 {
+	margin: 0; /* zeroing the margin of the last element in the #header div will avoid margin collapse - an unexplainable space between divs. If the div has a border around it, this is not necessary as that also avoids the margin collapse */
+	padding: 10px 0; /* using padding instead of margin will allow you to keep the element away from the edges of the div */
 }
-.content {	font-family: MS Serif, New York, serif;
+.oneColElsCtrHdr #mainContent {
+	padding: 0 20px; /* remember that padding is the space inside the div box and margin is the space outside the div box */
+	background: #FFFFFF;
 }
-.content {	font-family: Arial Black, Gadget, sans-serif;
-}
-.content {	font-family: Calibri;
-}
-.style4 {font-family: Verdana, Arial, Helvetica, sans-serif; font-weight: bold; }
-a:link {
-	color: #000;
-}
-a:visited {
-	color: #000;
+.oneColElsCtrHdr #footer { 
+	padding: 0 10px; /* this padding matches the left alignment of the elements in the divs that appear above it. */
+	background:#FFFFFF;
+} 
+.oneColElsCtrHdr #footer p {
+	margin: 0; /* zeroing the margins of the first element in the footer will avoid the possibility of margin collapse - a space between divs */
+	padding: 10px 0; /* padding on this element will create space, just as the the margin would have, without the margin collapse issue */
 }
 body,td,th {
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 11pt;
+	font-family: Trebuchet MS, Arial, Helvetica, sans-serif;
+}
+a:link {
+	color: #000;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #000;
+}
+a:hover {
+	text-decoration: none;
+}
+a:active {
+	text-decoration: none;
 }
 -->
-</style>
-</head>
+</style></head>
 
-<body>
-<table width="955" border="0" cellspacing="0" cellpadding="0">
-  <tr>
-    <td colspan="3"><img src="../images/amfmmag/wildfang.jpg" alt="cocoandbreezy" width="955" height="400" border="1" /></td>
-    <td width="4">&nbsp;</td>
-  </tr>
-  <tr>
-    <td colspan="3">&nbsp;</td>
-    <td>&nbsp;</td>
-  </tr>
-  <tr>
-    <td colspan="3" bgcolor="#000000"><div align="center"><a href="contact.html"><img src="../images/mkeissue/contactbutton.jpg" alt="blog" width="95" height="33" hspace="81" align="right" /></a><a href="magazine.html"><img src="../images/mkeissue/magazinebutton-b.jpg" alt="magazine" width="116" height="33" align="right" /></a><a href="fashion.html"><img src="../images/mkeissue/fashionbuttonb.jpg" alt="fashion" width="95" height="33" hspace="81" align="right" /></a><a href="music.html"><img src="../images/mkeissue/musicbuttonb.jpg" alt="music" width="81" height="33" hspace="0" align="right" /></a><a href="arts.html"><img src="../images/mkeissue/artsbuttonb.jpg" alt="arts" width="53" height="33" hspace="81" align="right" /></a></div></td>
-    <td>&nbsp;</td>
-  </tr>
-  <tr>
-    <td width="228"><blockquote>
-      <blockquote>
-        <p>&nbsp;</p>
-        <p align="center">&nbsp;</p>
-<p>&nbsp;</p>
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-      </blockquote>
-    </blockquote></td>
-    <td width="517"><p>&nbsp;</p>
-      <p dir="ltr"><strong>Wild Fang</strong></p>      
-      <p dir="ltr">Portland&rsquo;s Wildfang isn&rsquo;t simply just a brand, but a growing movement for women who do not fit the mold of what society may deem them. For a long time fashion has fallen short in regards to the outdated gender binary. Tomboys were either subjected to having to shop in the men&rsquo;s section, and wear oversized, ill fitting clothing not made for their bodies, or wear clothes that didn&rsquo;t speak to their identity or fashion preference, Then comes Wildfang. Two years ago, founders Emma McIlroy and Julia Parsley saw a void that needed to be filled and Wildfang was born.<br />
-        <br />
-      Wildfang is urban tailored chic for the woman who wears what she wants, and is what she wants. These dapper duds are more than just bowties and oxfords. From button ups with clean designs and blazers and jackets with an edge, Wildfang has quality craftsmanship and style from head to toe. Inspired by their indie roots in Portland, the city and it&rsquo;s hip spirit heavily influences the brand. So, whether you like to rock out with your arms out, be simple with a bit steez, or classic and casual, there is something at Wildfang for everyone.      </p>
-      <p dir="ltr"><strong id="docs-internal-guid-aedb5eb5-f871-d21a-e7e3-dfff28395d50">amfm: </strong>How did your history working for the behemoth that is Nike, prepare you for the creative endeavor of starting Wild Fang?<br />
-      </p>
-      <p dir="ltr"><strong id="docs-internal-guid-aedb5eb5-f871-d21a-e7e3-dfff28395d50">wildfang: </strong>Nike made me a passionate brand builder. Nike is obsessed with the consumer and puts the athlete at the heart of every decision. I was taught to be utterly consumer obsessed. Without your community, you have no reason to exist.<br />
-      </p>
-      <p dir="ltr"><strong id="docs-internal-guid-aedb5eb5-f871-d21a-e7e3-dfff28395d50">amfm: </strong>The brand started off as an idea grazed over while shopping one day and has grown such a large following since, and you work as a small team, but have such a large reach. How have you seen the brand evolve since it's inception? What has been your most valuable takeaway?<br />
-      </p>
-      <p dir="ltr"><strong id="docs-internal-guid-aedb5eb5-f871-d21a-e7e3-dfff28395d50">wildfang: </strong>I learn something every single day. This has been the most challenging and also the most rewarding experience of my life. The highlight for me is when we really go above and beyond to make a Wildfang's day. It shows that we really give a shit about them and are working our butts off to build something they can be proud of.<br />
-      </p>
-      <p dir="ltr"><strong id="docs-internal-guid-aedb5eb5-f871-d21a-e7e3-dfff28395d50">amfm: </strong>How does the aesthetic of Portland inspire the brand? What do you want people to know about Portland that Portlandia doesn't show?<br />
-      </p>
-      <p dir="ltr"><strong id="docs-internal-guid-aedb5eb5-f871-d21a-e7e3-dfff28395d50">wildfang: </strong>Did you know that Portlandia filmed an episode in our store? Those guys are hilarious. Anyways, I digress, Julia and I met in PDX, and Wildfang was born here. The DNA of the city is definitely infused into Wildfang's DNA: cheeky, liberal, irreverent, and bold. If Wildfang had been born in a different city, it would probably have looked a little different.<br />
-      </p>
-      <p dir="ltr"><strong id="docs-internal-guid-aedb5eb5-f871-d21a-e7e3-dfff28395d50">amfm: </strong>What is a Tom Boy to you?<br />
-      </p>
-      <p dir="ltr"><strong id="docs-internal-guid-aedb5eb5-f871-d21a-e7e3-dfff28395d50">wildfang: </strong>It represents someone who doesn't settle for the norm, and who doesn't follow rules which don't make sense. It's about authenticity, boldness and a very human spirit.</p>
-      <p dir="ltr"><strong id="docs-internal-guid-aedb5eb5-f871-d21a-e7e3-dfff28395d50">amfm:</strong> What is the significance of the name?<br />
-      </p>
-      <p dir="ltr"><strong id="docs-internal-guid-aedb5eb5-f871-d21a-e7e3-dfff28395d50">wildfang: </strong>Wildfang has a wonderful duality, inherent in the word - you can thank the Germans for that. 'Wild' literally means a raw, fierce, wild energy. 'Fang' means captured, community, safe. That duality not only appropriately describes mine and Julia's partnership, but also the spirit of the company. Our name sounds like it's halfway between a rock band and a kid's book. We are bold and brave, but also cheeky and loyal. We want to break rules, but also be a part of a community. The duality of the word is important.<br />
-      </p>
-      <p dir="ltr"><strong id="docs-internal-guid-aedb5eb5-f871-d21a-e7e3-dfff28395d50">amfm:</strong> Wild Fang in a way is so much more than a clothing brand , and is more like a movement against the rigid gender lines of the fashion industry and society. Why was this something you wanted to tackle? &nbsp;Why was it necessary for you to fill that void?<br />
-      </p>
-      <p dir="ltr"><strong id="docs-internal-guid-aedb5eb5-f871-d21a-e7e3-dfff28395d50">wildfang: </strong>It's 2015: it's about time we had the opportunity to wear whatever the hell we want, but you&rsquo;re right, Wildfang is a hell of a lot more than a fashion brand. We are the home of badass. We wanted to create a place where women were pushed and inspired to be bolder and braver and go leave their mark on the world. Where they felt like themselves and could explore silhouettes and styles often restricted to them. Societal and cultural norms have shifted a lot - we are making great progress as a society in that respect. How people identify and express themselves is changing a lot too and we want to be a part of that. The traditional gender boundaries are being dismantled - in society and fashion. The bottom line is - it's a shitty thing if you can't self express. Self-expression and self-confidence are both vital to feeling fulfilled and reaching your full potential. We want to help with that. We won't always get everything right, but we are trying our best to create a home for strong, confident tomboys who want to leave their mark on the world and are tired of being held back.</p>
-      <table width="513" border="0">
-        <tr>
-          <td width="174"><p><a href="../images/amfmmag/wildfang2.png" target="_blank"><img src="../images/amfmmag/wildfang2.png" alt="danielfleming2" width="150" height="150" border="1" /></a></p></td>
-          <td width="154"><a href="../images/amfmmag/wildfang1.png" target="_blank"><img src="../images/amfmmag/wildfang1.png" alt="daniel fleming" width="150" height="150" hspace="10" border="1" /></a></td>
-          <td width="171"><a href="../images/amfmmag/wildfang3.png" target="_blank"><img src="../images/amfmmag/wildfang3.png" alt="danielfleming3" width="150" height="150" hspace="10" border="1" /></a></td>
-        </tr>
-      </table>
+<body class="oneColElsCtrHdr">
+
+<div id="container">
+  <div id="header">
+    <h2 align="center"><a href="amfmmag.html">AMFM</a><a href="amfmarts.html"> |<em> ARTS</em><em></em></a><a href="amfmmusic.html"> | MUSIC </a><a href="amfmfashion.html">| <em>FASHION</em></a><a href="amfmevents.html">| EVENTS</a>
+      <!-- end #header -->
+      | <img src="../images/amfmmag/socialmedia.jpg" alt="social media" width="141" height="28" border="0" align="absbottom" usemap="#Map" />
+      <map name="Map" id="Map22">
+        <area shape="circle" coords="20,13,8" href="#http://www.facebook.com/amfmmag" />
+        <area shape="circle" coords="55,12,8" href="#http://www.twitter.com/amfmmag" />
+        <area shape="rect" coords="122,8,142,26" href="#http://www.instagram.com/amfmmag" />
+        <area shape="circle" coords="94,15,9" href="#amfm-mag.tumblr.com" />
+      </map>
       <br />
       <br />
-<p><strong>      For more about Wild Fang:
-    <br />
-</strong><a href="http://cocoandbreezy.com/" target="_blank"><br />
-      </a><a href="http://www.wildfang.com/" target="_blank">Windfang's Website<br />
-      </a><a href="https://www.facebook.com/wearewildfang/" target="_blank">Wild Fang on Facebook</a></p>
-<p><em>photo credits: wildfang</em></p>
-<p>&nbsp;</p></td>
-    <td width="214">&nbsp;</td>
-    <td>&nbsp;</td>
-  </tr>
-  <tr>
-    <td align="right"><a href="http://www.facebook.com/amfmmag" target="_blank"><img src="../images/mkeissue/facebook.jpg" alt="facebook" width="50" height="50" align="left" /></a><a href="http://www.twitter.com/amfmmag" target="_blank"><img src="../images/mkeissue/tumblr.jpg" alt="tumblr" width="50" height="50" align="left" /></a><a href="http://www.instagram.com/amfmmag" target="_blank"><img src="../images/amfmmag/instagram.jpg" alt="instagram" width="41" height="41" vspace="3" align="left" /></a><a href="http://www.amfm-mag.tumblr.com" target="_blank"><img src="../images/amfmmag/tumblr.jpg" alt="tumblr" width="41" height="41" vspace="3" align="left" /></a></td>
-    <td align="right">&nbsp;</td>
-  </tr>
-  <tr>
-    <td align="right">&nbsp;</td>
-    <td align="right">&nbsp;</td>
-  </tr>
-  <tr>
-    <td align="right">&nbsp;</td>
-    <td align="right">&nbsp;</td>
-  </tr>
-</table>
+    </h2>
+    <!-- end #header -->
+  </div>
+  <div id="mainContent">
+    <p><img src="../images/amfmmag/wildfang.jpg" width="700" height="400" alt="calid b" /></p>
+    <h2>Q&amp;A: WILDFANG </h2>
+<p dir="ltr">Portland&rsquo;s Wildfang isn&rsquo;t simply just a brand, but a growing movement for women who do not fit the mold of what society may deem them. For a long time fashion has fallen short in regards to the outdated gender binary. Tomboys were either subjected to having to shop in the men&rsquo;s section, and wear oversized, ill fitting clothing not made for their bodies, or wear clothes that didn&rsquo;t speak to their identity or fashion preference, Then comes Wildfang. Two years ago, founders Emma McIlroy and Julia Parsley saw a void that needed to be filled and Wildfang was born.</p>
+<p>Wildfang is urban tailored chic for the woman who wears what she wants, and is what she wants. These dapper duds are more than just bowties and oxfords. From button ups with clean designs and blazers and jackets with an edge, Wildfang has quality craftsmanship and style from head to toe. Inspired by their indie roots in Portland, the city and it&rsquo;s hip spirit heavily influences the brand. So, whether you like to rock out with your arms out, be simple with a bit steez, or classic and casual, there is something at Wildfang for everyone.</p>
+<p><img src="../images/amfmmag/wildfang2.png" width="700" height="700" alt="WILDFANG" /><br />
+</p>
+<p dir="ltr"><strong id="docs-internal-guid-2afd7e31-2fa5-e9d6-2a87-b55e8df24301">AMFM: </strong>How did your history working for the behemoth that is Nike, prepare you for the creative endeavor of starting Wild Fang?</p>
+<strong id="docs-internal-guid-2afd7e31-2fa5-e9d6-2a87-b55e8df24301">WILDFANG: </strong>Nike made me a passionate brand builder. Nike is obsessed with the consumer and puts the athlete at the heart of every decision. I was taught to be utterly consumer obsessed. Without your community, you have no reason to exist.<strong id="docs-internal-guid-2afd7e31-2fa5-e9d6-2a87-b55e8df24301">AMFM: </strong>The brand started off as an idea grazed over while shopping one day and has grown such a large following since, and you work as a small team, but have such a large reach. How have you seen the brand evolve since it's inception? What has been your most valuable takeaway?<br />
+<p dir="ltr"><strong id="docs-internal-guid-2afd7e31-2fa5-e9d6-2a87-b55e8df24301">WILDFANG:</strong> I learn something every single day. This has been the most challenging and also the most rewarding experience of my life. The highlight for me is when we really go above and beyond to make a Wildfang's day. It shows that we really give a shit about them and are working our butts off to build something they can be proud of.<br />
+</p>
+<p dir="ltr"><strong id="docs-internal-guid-2afd7e31-2fa5-e9d6-2a87-b55e8df24301">AMFM: </strong>How does the aesthetic of Portland inspire the brand? What do you want people to know about Portland that Portlandia doesn't show?<br />
+</p>
+<p dir="ltr"><strong id="docs-internal-guid-2afd7e31-2fa5-e9d6-2a87-b55e8df24301">WILDFANG:</strong> Did you know that Portlandia filmed an episode in our store? Those guys are hilarious. Anyways, I digress, Julia and I met in PDX, and Wildfang was born here. The DNA of the city is definitely infused into Wildfang's DNA: cheeky, liberal, irreverent, and bold. If Wildfang had been born in a different city, it would probably have looked a little different.<br />
+</p>
+<p dir="ltr"><img src="../images/amfmmag/wildfang1.png" width="700" height="700" alt="WILDFANG" /></p>
+<p dir="ltr"><strong>AMFM: </strong>What is a Tom Boy to you?<br />
+</p>
+<p dir="ltr"><strong id="docs-internal-guid-2afd7e31-2fa5-e9d6-2a87-b55e8df24301">WILDFANG:</strong> It represents someone who doesn't settle for the norm, and who doesn't follow rules which don't make sense. It's about authenticity, boldness and a very human spirit.</p>
+<p dir="ltr"><strong id="docs-internal-guid-2afd7e31-2fa5-e9d6-2a87-b55e8df24301">AMFM: </strong>What is the significance of the name?<br />
+</p>
+<p dir="ltr"><strong id="docs-internal-guid-2afd7e31-2fa5-e9d6-2a87-b55e8df24301">WILDFANG:</strong> Wildfang has a wonderful duality, inherent in the word - you can thank the Germans for that. 'Wild' literally means a raw, fierce, wild energy. 'Fang' means captured, community, safe. That duality not only appropriately describes mine and Julia's partnership, but also the spirit of the company. Our name sounds like it's halfway between a rock band and a kid's book. We are bold and brave, but also cheeky and loyal. We want to break rules, but also be a part of a community. The duality of the word is important.</p>
+<p dir="ltr"><img src="../images/amfmmag/wildfang3.png" width="700" height="700" alt="WILDFANG" /></p>
+<strong id="docs-internal-guid-2afd7e31-2fa5-e9d6-2a87-b55e8df24301">AMFM: </strong>Wild Fang in a way is so much more than a clothing brand , and is more like a movement against the rigid gender lines of the fashion industry and society. Why was this something you wanted to tackle? &nbsp;Why was it necessary for you to fill that void?<strong><br />
+</strong><br />
+<strong>WILDFANG:</strong> It's 2015: it's about time we had the opportunity to wear whatever the hell we want, but you&rsquo;re right, Wildfang is a hell of a lot more than a fashion brand. We are the home of badass. We wanted to create a place where women were pushed and inspired to be bolder and braver and go leave their mark on the world. Where they felt like themselves and could explore silhouettes and styles often restricted to them. Societal and cultural norms have shifted a lot - we are making great progress as a society in that respect. How people identify and express themselves is changing a lot too and we want to be a part of that. The traditional gender boundaries are being dismantled - in society and fashion. The bottom line is - it's a shitty thing if you can't self express. Self-expression and self-confidence are both vital to feeling fulfilled and reaching your full potential. We want to help with that. We won't always get everything right, but we are trying our best to create a home for strong, confident tomboys who want to leave their mark on the world and are tired of being held back.
+<p><strong id="docs-internal-guid-2afd7e31-2a9e-6be5-f20d-e5756aa19564">FOR MORE FROM WILDFANG:</strong> <br />
+  <a href="http://www.wildfang.com/" target="_blank">WEBSITE </a><a href="https://www.instagram.com/wearewildfang/" target="_blank">/ INSTAGRAM</a><br />
+</p>
+<h6 dir="ltr"><strong id="docs-internal-guid-2afd7e31-2a9e-6be5-f20d-e5756aa19564"><em>PHOTO CREDITS: WILDFANG</em></strong></h6></div>
+  <div id="footer">
+    <h2><a href="aboutamfm.html">ABOUT AMFM</a><br />
+      <a href="mailto:info@amfm-mag.com">CONTACT</a><br />
+<img src="../images/amfmmag/socialmedia.jpg" alt="social media" width="150" height="32" border="0" usemap="#Map" />
+<map name="Map" id="Map2">
+  <area shape="circle" coords="93,15,9" href="#amfm-mag.tumblr.com" />
+  <area shape="rect" coords="120,5,140,25" href="#http://www.instagram.com/amfmmag" />
+  <area shape="circle" coords="57,17,11" href="#http://www.twitter.com/amfmmag" />
+  <area shape="circle" coords="20,19,10" href="#http://www.facebook.com/amfmmag" />
+</map>
+    </h2>
+    <h2>
+      <div id="mc_embed_signup">
+        <form action="//amfm-mag.us10.list-manage.com/subscribe/post?u=738860a67ed3f5cd20e478572&amp;id=8db9e6e243" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate="novalidate">
+          <div id="mc_embed_signup_scroll">SIGN UP FOR UPDATES!
+            <div class="mc-field-group">
+              <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" />
+            </div>
+            <div id="mce-responses" class="clear">
+              <div class="response" id="mce-error-response" style="display:none"></div>
+              <div class="response" id="mce-success-response" style="display:none"></div>
+            </div>
+            <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+            <div style="position: absolute; left: -5000px;" aria-hidden="true">
+              <input type="text" name="b_738860a67ed3f5cd20e478572_8db9e6e243" tabindex="-1" value="" />
+            </div>
+            <div class="clear">
+              <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button" />
+            </div>
+          </div>
+        </form>
+      </div>
+      <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
+      <script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+      <!--End mc_embed_signup-->
+      <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+</head></h2>
+    <td align="right">&nbsp;</td></p>
+  <!-- end #footer --></div>
+<!-- end #container --></div>
 </body>
-</html>
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-48234405-1', 'amfm-mag.com');
-  ga('send', 'pageview');
-
-</script>
-<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
 </html>

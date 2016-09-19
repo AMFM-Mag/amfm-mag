@@ -2,132 +2,157 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>amfm</title>
+<title>amfm magazine</title>
 <style type="text/css">
 <!--
-.content {	font-family: Verdana, Geneva, sans-serif;
+body {
+	font: 100% Verdana, Arial, Helvetica, sans-serif;
+	background: #FFFFFF;
+	margin: 0; /* it's good practice to zero the margin and padding of the body element to account for differing browser defaults */
+	padding: 0;
+	text-align: center; /* this centers the container in IE 5* browsers. The text is then set to the left aligned default in the #container selector */
+	color: #000000;
 }
-.content {	font-family: Arial, Helvetica, sans-serif;
+
+/* Tips for Elastic layouts 
+1. Since the elastic layouts overall sizing is based on the user's default fonts size, they are more unpredictable. Used correctly, they are also more accessible for those that need larger fonts size since the line length remains proportionate.
+2. Sizing of divs in this layout are based on the 100% font size in the body element. If you decrease the text size overall by using a font-size: 80% on the body element or the #container, remember that the entire layout will downsize proportionately. You may want to increase the widths of the various divs to compensate for this.
+3. If font sizing is changed in differing amounts on each div instead of on the overall design (ie: #sidebar1 is given a 70% font size and #mainContent is given an 85% font size), this will proportionately change each of the divs overall size. You may want to adjust based on your final font sizing.
+*/
+.oneColElsCtrHdr #container {
+	width: 46em;  /* this width will create a container that will fit in an 800px browser window if text is left at browser default font sizes */
+	background: #FFFFFF;
+	margin: 0 auto; /* the auto margins (in conjunction with a width) center the page */
+	border: 1px solid #FFFFFF;
+	text-align: left; /* this overrides the text-align: center on the body element. */
 }
-.content {	font-family: Tahoma, Geneva, sans-serif;
+.oneColElsCtrHdr #header { 
+	background: #FFFFFF; 
+	padding: 0 10px 0 20px;  /* this padding matches the left alignment of the elements in the divs that appear beneath it. If an image is used in the #header instead of text, you may want to remove the padding. */
+} 
+.oneColElsCtrHdr #header h1 {
+	margin: 0; /* zeroing the margin of the last element in the #header div will avoid margin collapse - an unexplainable space between divs. If the div has a border around it, this is not necessary as that also avoids the margin collapse */
+	padding: 10px 0; /* using padding instead of margin will allow you to keep the element away from the edges of the div */
 }
-.content {	font-family: MS Serif, New York, serif;
+.oneColElsCtrHdr #mainContent {
+	padding: 0 20px; /* remember that padding is the space inside the div box and margin is the space outside the div box */
+	background: #FFFFFF;
 }
-.content {	font-family: Arial Black, Gadget, sans-serif;
-}
-.content {	font-family: Calibri;
-}
-.style4 {font-family: Verdana, Arial, Helvetica, sans-serif; font-weight: bold; }
-a:link {
-	color: #000;
-}
-a:visited {
-	color: #000;
+.oneColElsCtrHdr #footer { 
+	padding: 0 10px; /* this padding matches the left alignment of the elements in the divs that appear above it. */
+	background:#FFFFFF;
+} 
+.oneColElsCtrHdr #footer p {
+	margin: 0; /* zeroing the margins of the first element in the footer will avoid the possibility of margin collapse - a space between divs */
+	padding: 10px 0; /* padding on this element will create space, just as the the margin would have, without the margin collapse issue */
 }
 body,td,th {
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 11pt;
+	font-family: Trebuchet MS, Arial, Helvetica, sans-serif;
+}
+a:link {
+	color: #000;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #000;
+}
+a:hover {
+	text-decoration: none;
+}
+a:active {
+	text-decoration: none;
 }
 -->
-</style>
-</head>
+</style></head>
 
-<body>
-<table width="955" border="0" cellspacing="0" cellpadding="0">
-  <tr>
-    <td colspan="3"><img src="../images/amfmmag/emmittjames.jpg" width="967" height="400" alt="klassik" /></td>
-    <td width="4">&nbsp;</td>
-  </tr>
-  <tr>
-    <td colspan="3">&nbsp;</td>
-    <td>&nbsp;</td>
-  </tr>
-  <tr>
-    <td colspan="3" bgcolor="#000000"><div align="center"><a href="contact.html"><img src="../images/mkeissue/contactbutton.jpg" alt="blog" width="95" height="33" hspace="75" align="right" /></a><a href="magazine.html"><img src="../images/mkeissue/magazinebutton-b.jpg" alt="magazine" width="116" height="33" align="right" /></a><a href="fashion.html"><img src="../images/mkeissue/fashionbuttonb.jpg" alt="fashion" width="95" height="33" hspace="81" align="right" /></a><a href="music.html"><img src="../images/mkeissue/musicbuttonw.jpg" alt="music" width="77" height="33" hspace="0" align="right" /></a><a href="arts.html"><img src="../images/mkeissue/artsbuttonb.jpg" alt="arts" width="53" height="33" hspace="81" align="right" /></a></div></td>
-    <td>&nbsp;</td>
-  </tr>
-  <tr>
-    <td width="228"><blockquote>
-      <blockquote>
-        <p>&nbsp;</p>
-        <p align="center">&nbsp;</p>
-<p>&nbsp;</p>
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-      </blockquote>
-    </blockquote></td>
-    <td width="517"><p>&nbsp;</p>
-      <p><strong>Emmitt James</strong>      </p>
-      <p>Emmitt James makes that everyday people type of music - hip hop telling stories about lost love, burning rice, ATM fees and his lackluster financial situation.  He may be a starving artist, after all his most recent EP is called “Hunger Pains,” but he is wealthy with words of wisdom, and a flow that is rooted in passion and drive, which is priceless. A kid from Milwaukee on the come up, and true to the nature of the name of his EP, he took his hunger to the coast and is making a name for himself in Los Angeles.</p>
-      <p>His music is a jazz-fusion of hip-hop, Toro y &quot;Emmitt&quot; kind of vibe. London lives in his heart, and he wears his heart on his sleeve with ghosts of pancakes loved and lost fueling the fire within. There is a certain eloquence behind his cadence and confidence in the lilting delivery of his lines with a stage energy heard through the speakers that will leave you hungry for more. </p>
-      <p><strong>amfm:</strong> So you’re originally from Milwaukee, but you’re living and working in LA now, what brought you out here to LA?</p>
-      <p><strong>emmitt james:</strong> It was always between Miami and Los Angeles, and I wanted to use school to get to either place. I was an Arts Management major and for the last semester you have to do something in the field. Some of my classmates went to London, some went to Texas…I went to London two summers ago so I was like ehhh cool, but I wanted to be in LA, so used my externship to get here. I saw the <a href="https://www.youtube.com/watch?v=IpbDHxCV29A">“20 Strangers”</a> kissing video, and I thought it was dope. I found out they were located in LA, so I thought, this is perfect, so I hit them up, and they emailed me back. I was surprised, I wasn’t even expecting a reply. I told them “this is who I am. These are the credits I need to fulfill, and I hope to learn, and this is why I think this would be mutually beneficial,” and I started in in January, and I’m still here as a marketing intern for the brand. </p>
-      <p><strong>amfm: </strong>That’s pretty progressive of you to just be like, this is who I am, this is why you should have me…</p>
-      <p><strong>james:</strong> I’ve always been the type of person where when I want to do something, instead of making excuses and being like I don’t have this, I don’t have that, I will just do it myself. Back when I was on campus and I couldn’t get booked, and no one knew who I was, I was like I guess I’ll just make my own shows. I hit up some musicians and we started practicing and doing live renditions of my music, and then after that the entertainment sector that does booking, started seeing me and started booking me as an opener for headlining performers. </p>
-      <p><strong>amfm:</strong> How has LA helped benefit your music career and things in general? You’ve kind of got you foot in a couple of different places with the fashion and the music.</p>
-      <p>j<strong>ames:</strong> It’s cool. It’s so big. I remember people would ask me before I left, “what are you gonna do out there?” California is just so big. I didn’t have a plan. I just planned to get there and do stuff, and that’s just what I’ve been doing. I hadn’t been really playing and performing til May. I had done a couple shows, some spoken word – which is how I sort of started. Then it wasn’t until May that I performed at the Sideroom and The House of Blues, and the Airliner, which is like the home of The Low End Theory. I played Studio City last weekend. I think it just helped polish what I was already doing. I had to start over and meet all new people and stuff like that. I think it helped me stay hungry. It wasn’t until meeting musicians and looking for shows that stuff started to turn around. When I did The House of Blues, I started meeting people and then it’s kind of just been carry over from each gig since then. </p>
-      <p><strong>amfm: </strong>You said you started off as a spoken word artist? How did you get started making music and doing the whole spoken word thing?</p>
-      <p><strong>james: </strong>I started in high school. I didn’t really know anything about a poetry slam until my junior year of high school. I was doing cross-country with some friends and then I noticed that cross-country really helped with my standing a lot. The thing I loved about cross-country was that every time you wanted to beat <em>your </em>time, so you’re competing against yourself.  So even though it was a team effort, you’re just trying to get better than who you were the last time, and I kind of carried that mentality over to music in wanting to be better than the last time. In the process I am progressing and I am passing others up, but that hasn’t been the focus. It was, how can Emmitt James be a better person? How can he be a better artist? So that’s sort of the skill set or mentality that I took from cross-country. But it started there! Later I saw that UWM (University of Wisconsin-Milwaukee) was having this thing called Lyrical Sanctuary, and we saw this flyer for this thing that they have called Voltage, and if you qualify for that you go to Madison, and if you win that it gets you to BNV (Brave New Voices), so I did that and I thought it was really cool. All through high school I would get comments on my report card that said ‘talks too much’ and I was like I finally found the opportunity to say what I want to say in three minutes and 30 seconds and people HAD to listen, so I thought that that was amazing. I met some beautiful souls through it. I started doing that and got good at it. In 2010, I was on the BNV team out in LA, and we made it to the semi-finals and Malcolm Jamal Warner and Rosario Dawson were like the hosts. It was cool! In 2011, I did it again and we went to San Fran and we were like a spot away from making semi-finals again, and that’s kind of how it started. That’s kind of how I’m known back home more so for spoken word. As of late, I’ve been becoming known for making music, but poetry is where it all started. I wrote my first poem freshman year for this Puerto Rican girl. Her name was Tamara Linda Lees and I thought she was really beautiful so I wrote a poem about her, and I gave it to her. She liked it. It didn’t go anywhere, but that’s how it started. Ever since then I’ve been writing. </p>
-      <p><strong>amfm: </strong>How does your poetry background lend itself to making music?</p>
-      <p><strong>james:</strong> I think once people listen to the music, they see it’s poetic. There are concepts and there are stories, and it carries over to the music. The last project that I put out is called <em>The Hunger Pains EP</em>. This constant food theme just bleeds throughout the project. There’s one on there called “Ramen Noodles and Red Wine,” “Pancakes,” and “Leftover Burnt Rice,” stuff like that. With poetry there’s a lot of creative storytelling and metaphors. The music isn’t as heavy as the poetry.</p>
-      <p><strong>amfm: </strong>So <em>Hunger Pains</em>, why did you want to have that theme? What does the title mean?</p>
-      <p><strong>james:</strong> I’ve always been skinny, but when I got here, LA, I didn’t really have much money for food. My roommate and I would eat like pancakes, sausages and rice for like two months straight. It was kind of us being poor and money management. Physically I was going through that. I was also going through a breakup from moving here from back home. The project is actually like 88 percent about one person, but I used food as a metaphor. The reason I decided to call it <em>Hunger Pains</em> and have it be about food is that, I feel like every time we eat something there’s memories attached, and with those memories there’s people attached. So with “Pancakes,” I used to date this girl and she was really, really cool - she probably won’t say the same thing about me anymore, but she was really cool. The very first time she made me pancakes it was late at night, I was at her place, and she was like dancing, we were just having a good time. The second time she made pancakes, we got into an argument and I didn’t eat it and threw it away. That’s why the hook goes, “I was up making pancakes thinking about you.” The song is about a memory. “Leftover Burnt Rice is about – I’m really not a very good cook at all. I don’t know how to make simple things, so I look them up on YouTube to make sure. Like I looked up how to make a baked potato, I was like this is too simple. So I looked up how to make rice and I did exactly what the lady told me to do on YouTube, and I burnt it anyway. So that’s what the song is about, and it’s also about me apologizing to the girl and reminiscing about stuff. So the EP is about me being physically hungry, me going through a breakup, and then on top of the metaphor of me moving out here to pursue my dreams and being hungry in that aspect as well. </p>
-      <p><strong>amfm: </strong>What are you hungry for? What are you seeking?</p>
-      <p><strong>james:</strong> On the song “ATM Fees” I start off the song saying, “They big me up, but I don’t really want to shine. I just wanna make art and pay my rent on time.” So right now, I would love to make millions of dollars, and win Grammys, stuff like that, but right now I just want to make art, and I know that I also have to pay rent. Right now I’m a barista and that’s what pays the rent. Being a barista is cool, and kind of artsy and hipster, but like it’s not what I want to do. I just want to like wake up every day and do what I love and get paid for it, more times than not.  It’s not always about money. I do it for free, or for a movement, but the reality is that I need to pay rent. The reality is that I just want to be able to do what I want, and get paid for it, and in the process inspire people. </p>
-      <p><strong>amfm:</strong> You’ve done a couple of different projects before <em>Hunger Pains</em>, There was one called <em>James London</em>? How do they differ from <em>Hunger Pains</em>?</p>
-      <p>j<strong>ames: </strong>I am obsessed with London. In high school I made people call me Prince William. When junior year came around, and it was prom, we already knew who was going to win Prince, cause that’s what people were calling me, so I won, and when next year rolled around I didn’t even care about King. Between my sophomore year and my junior year going into college, I got to go to London for a theatre trip.  I saw 17 plays in 12 days. And the girl I was with at the time, we lived together on campus and had a cat named James London. I started an indie street wear brand, which has kind of been quiet, but that was called James London. And I just had a niece and they asked me what we should name her and I threw out a couple names and said London, so now her name is London.  That project doesn’t really have a deep concept or focused theme like <em>Hunger Pains</em> but that’s just where I was in my life. I went to London that year, and I just felt like I had nothing to complain about.  I mean, there was a bunch of injustices in the world, I was broke, but I went to London! And it’s not even like a bragging thing. I was just really appreciative of it. Like not many people where I’m from can say that. A kid from Milwaukee, got to go out the country. </p>
-      <p><strong>amfm: </strong>Do you remember the first spoken word piece that you ever did and that feeling of stepping up to the mic?</p>
-      <p><strong>james: </strong>It’s in my chapbook that I wrote a long time ago. It’s called “Ashes.” It was kind of nerve wrecking, but there’s so much love and support there. It’s fun. I’ve never experienced anything like it before. </p>
-      <p><strong>amfm:</strong> If you had to have your last meal, since your EP is called <em>Hunger Pains</em>, what would your last meal be?</p>
-      <p><strong>james: </strong>My favorite food is tacos. I don’t really eat them often, but that’s my favorite food. If I’m gonna go out, that’s probably what it would be. American tacos, with ground beef, as long as the tortilla is white. <br />
-      </p>
-      <p dir="ltr"><strong>&quot;Hunger Pains EP&quot;</strong>      </p>
-      <p><iframe width="525" height="250" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/115908142&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>&nbsp;<strong><br />
-      For more from Emmitt James:</strong></p>
-      <p><a href="http://www.emmittjames.com/" target="_blank">Emmitt James' Website<br />
-      </a><a href="https://www.facebook.com/EmmittJamesMusic?fref=ts" target="_blank">Emmitt James on Facebook<br />
-        </a><a href="https://soundcloud.com/emmittjames" target="_blank">Emmitt James on Soundcloud<br />
-        </a><br />
-        <br />
-        <em>photo credits: ciera mckissick</em><br />
-      </p>
-<p>&nbsp;</p></td>
-    <td width="214">&nbsp;</td>
-    <td>&nbsp;</td>
-  </tr>
-  <tr>
-    <td align="right"><p><a href="http://www.facebook.com/amfmmag" target="_blank"><img src="../images/mkeissue/facebook.jpg" alt="facebook" width="50" height="50" align="left" /></a><a href="http://www.twitter.com/amfmmag" target="_blank"><img src="../images/mkeissue/tumblr.jpg" alt="tumblr" width="50" height="50" align="left" /></a><a href="http://www.instagram.com/amfmmag" target="_blank"><img src="../images/amfmmag/instagram.jpg" alt="instagram" width="41" height="41" vspace="3" align="left" /></a><a href="http://www.amfm-mag.tumblr.com" target="_blank"><img src="../images/amfmmag/tumblr.jpg" alt="tumblr" width="41" height="41" vspace="3" align="left" /></a></p></td>
-    <td align="right">&nbsp;</td>
-  </tr>
-  <tr>
-    <td colspan="3" align="right">&nbsp;</td>
-    <td align="right">&nbsp;</td>
-  </tr>
-  <tr>
-    <td colspan="3" align="right">&nbsp;</td>
-    <td align="right">&nbsp;</td>
-  </tr>
-</table>
+<body class="oneColElsCtrHdr">
+
+<div id="container">
+  <div id="header">
+    <h2><a href="amfmmag.html">| AMFM</a></h2>
+    <h2><a href="amfmarts.html">| ARTS </a></h2>
+    <h2><a href="amfmmusic.html">| <em>MUSIC</em></a></h2>
+    <h2><a href="amfmfashion.html">| FASHION</a></h2>
+    <h2><a href="amfmevents.html">| EVENTS</a></h2>
+  <!-- end #header --></div>
+  <div id="mainContent">
+    <p><img src="../images/amfmmag/emmittjames.jpg" width="700" height="400" alt="calid b" /></p>
+    <h2 dir="ltr">Q&amp;A: EMMITT JAMES</h2>
+    <p dir="ltr">Emmitt James makes that everyday people type of music - hip hop telling stories about lost love, burning rice, ATM fees and his lackluster financial situation. &nbsp;He may be a starving artist, after all his most recent EP is called &ldquo;Hunger Pains,&rdquo; but he is wealthy with words of wisdom, and a flow that is rooted in passion and drive, which is priceless. A kid from Milwaukee on the come up, and true to the nature of the name of his EP, he took his hunger to the coast and is making a name for himself in Los Angeles.</p>
+    <p>His music is a jazz-fusion of hip-hop, Toro y &quot;Emmitt&quot; kind of vibe. London lives in his heart, and he wears his heart on his sleeve with ghosts of pancakes loved and lost fueling the fire within. There is a certain eloquence behind his cadence and confidence in the lilting delivery of his lines with a stage energy heard through the speakers that will leave you hungry for more.</p>
+    <p><iframe width="700" height="400" src="https://www.youtube.com/embed/hzEODNWzFhE" frameborder="0" allowfullscreen></iframe>
+    </p>
+    <h5>      <em>Aurora</em><br />
+    </h5>
+    <p dir="ltr"><strong id="docs-internal-guid-2afd7e31-2c99-72d3-bc65-694bb7149517">AMFM: </strong>So you&rsquo;re originally from Milwaukee, but you&rsquo;re living and working in LA now, what brought you out here to LA?</p>
+    <strong>EMMITT JAMES:</strong> It was always between Miami and Los Angeles, and I wanted to use school to get to either place. I was an Arts Management major and for the last semester you have to do something in the field. Some of my classmates went to London, some went to Texas…I went to London two summers ago so I was like ehhh cool, but I wanted to be in LA, so used my externship to get here. I saw the &ldquo;20 Strangers&rdquo; kissing video, and I thought it was dope. I found out they were located in LA, so I thought, this is perfect, so I hit them up, and they emailed me back. I was surprised, I wasn&rsquo;t even expecting a reply. I told them &ldquo;this is who I am. These are the credits I need to fulfill, and I hope to learn, and this is why I think this would be mutually beneficial,&rdquo; and I started in in January, and I&rsquo;m still here as a marketing intern for the brand. <br />
+    <p dir="ltr"><strong id="docs-internal-guid-2afd7e31-2c99-72d3-bc65-694bb7149517">AMFM: </strong>That&rsquo;s pretty progressive of you to just be like, this is who I am, this is why you should have me…</p>
+    <strong id="docs-internal-guid-2afd7e31-2c99-72d3-bc65-694bb7149517">EMMITT JAMES: </strong>I&rsquo;ve always been the type of person where when I want to do something, instead of making excuses and being like I don&rsquo;t have this, I don&rsquo;t have that, I will just do it myself. Back when I was on campus and I couldn&rsquo;t get booked, and no one knew who I was, I was like I guess I&rsquo;ll just make my own shows. I hit up some musicians and we started practicing and doing live renditions of my music, and then after that the entertainment sector that does booking, started seeing me and started booking me as an opener for headlining performers. <br />
+    <p dir="ltr"><strong id="docs-internal-guid-2afd7e31-2c99-72d3-bc65-694bb7149517">AMFM: </strong>How has LA helped benefit your music career and things in general? You&rsquo;ve kind of got you foot in a couple of different places with the fashion and the music.</p>
+    <strong>JAMES: </strong>It&rsquo;s cool. It&rsquo;s so big. I remember people would ask me before I left, &ldquo;what are you gonna do out there?&rdquo; California is just so big. I didn&rsquo;t have a plan. I just planned to get there and do stuff, and that&rsquo;s just what I&rsquo;ve been doing. I hadn&rsquo;t been really playing and performing til May. I had done a couple shows, some spoken word – which is how I sort of started. Then it wasn&rsquo;t until May that I performed at the Sideroom and The House of Blues, and the Airliner, which is like the home of The Low End Theory. I played Studio City last weekend. I think it just helped polish what I was already doing. I had to start over and meet all new people and stuff like that. I think it helped me stay hungry. It wasn&rsquo;t until meeting musicians and looking for shows that stuff started to turn around. When I did The House of Blues, I started meeting people and then it&rsquo;s kind of just been carry over from each gig since then. <br />
+    <p dir="ltr"><strong id="docs-internal-guid-2afd7e31-2c99-72d3-bc65-694bb7149517">AMFM: </strong>You said you started off as a spoken word artist? How did you get started making music and doing the whole spoken word thing?</p>
+    <strong>JAMES:</strong> I started in high school. I didn&rsquo;t really know anything about a poetry slam until my junior year of high school. I was doing cross-country with some friends and then I noticed that cross-country really helped with my standing a lot. The thing I loved about cross-country was that every time you wanted to beat your time, so you&rsquo;re competing against yourself. &nbsp;So even though it was a team effort, you&rsquo;re just trying to get better than who you were the last time, and I kind of carried that mentality over to music in wanting to be better than the last time. In the process I am progressing and I am passing others up, but that hasn&rsquo;t been the focus. It was, how can Emmitt James be a better person? How can he be a better artist? So that&rsquo;s sort of the skill set or mentality that I took from cross-country. But it started there! Later I saw that UWM (University of Wisconsin-Milwaukee) was having this thing called Lyrical Sanctuary, and we saw this flyer for this thing that they have called Voltage, and if you qualify for that you go to Madison, and if you win that it gets you to BNV (Brave New Voices), so I did that and I thought it was really cool. All through high school I would get comments on my report card that said &lsquo;talks too much&rsquo; and I was like I finally found the opportunity to say what I want to say in three minutes and 30 seconds and people HAD to listen, so I thought that that was amazing. I met some beautiful souls through it. I started doing that and got good at it. In 2010, I was on the BNV team out in LA, and we made it to the semi-finals and Malcolm Jamal Warner and Rosario Dawson were like the hosts. It was cool! In 2011, I did it again and we went to San Fran and we were like a spot away from making semi-finals again, and that&rsquo;s kind of how it started. That&rsquo;s kind of how I&rsquo;m known back home more so for spoken word. As of late, I&rsquo;ve been becoming known for making music, but poetry is where it all started. I wrote my first poem freshman year for this Puerto Rican girl. Her name was Tamara Linda Lees and I thought she was really beautiful so I wrote a poem about her, and I gave it to her. She liked it. It didn&rsquo;t go anywhere, but that&rsquo;s how it started. Ever since then I&rsquo;ve been writing. <br />
+    <p dir="ltr"><strong id="docs-internal-guid-2afd7e31-2c99-72d3-bc65-694bb7149517">AMFM:</strong> How does your poetry background lend itself to making music?</p>
+    <p><strong>JAMES:</strong> I think once people listen to the music, they see it&rsquo;s poetic. There are concepts and there are stories, and it carries over to the music. The last project that I put out is called The Hunger Pains EP. This constant food theme just bleeds throughout the project. There&rsquo;s one on there called &ldquo;Ramen Noodles and Red Wine,&rdquo; &ldquo;Pancakes,&rdquo; and &ldquo;Leftover Burnt Rice,&rdquo; stuff like that. With poetry there&rsquo;s a lot of creative storytelling and metaphors. The music isn&rsquo;t as heavy as the poetry. </p>
+    <p><iframe width="100%" height="400" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/115908142&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe><br />
+    </p>
+    <p><strong>AMFM:</strong> So Hunger Pains, why did you want to have that theme? What does the title mean? <br />
+    </p>
+    <p dir="ltr"><strong id="docs-internal-guid-2afd7e31-2c99-72d3-bc65-694bb7149517">JAMES: </strong>I&rsquo;ve always been skinny, but when I got here, LA, I didn&rsquo;t really have much money for food. My roommate and I would eat like pancakes, sausages and rice for like two months straight. It was kind of us being poor and money management. Physically I was going through that. I was also going through a breakup from moving here from back home. The project is actually like 88 percent about one person, but I used food as a metaphor. The reason I decided to call it Hunger Pains and have it be about food is that, I feel like every time we eat something there&rsquo;s memories attached, and with those memories there&rsquo;s people attached. So with &ldquo;Pancakes,&rdquo; I used to date this girl and she was really, really cool - she probably won&rsquo;t say the same thing about me anymore, but she was really cool. The very first time she made me pancakes it was late at night, I was at her place, and she was like dancing, we were just having a good time. The second time she made pancakes, we got into an argument and I didn&rsquo;t eat it and threw it away. That&rsquo;s why the hook goes, &ldquo;I was up making pancakes thinking about you.&rdquo; The song is about a memory. &ldquo;Leftover Burnt Rice is about – I&rsquo;m really not a very good cook at all. I don&rsquo;t know how to make simple things, so I look them up on YouTube to make sure. Like I looked up how to make a baked potato, I was like this is too simple. So I looked up how to make rice and I did exactly what the lady told me to do on YouTube, and I burnt it anyway. So that&rsquo;s what the song is about, and it&rsquo;s also about me apologizing to the girl and reminiscing about stuff. So the EP is about me being physically hungry, me going through a breakup, and then on top of the metaphor of me moving out here to pursue my dreams and being hungry in that aspect as well. </p>
+    <strong>AMFM:</strong> What are you hungry for? What are you seeking? <br />
+    <p dir="ltr"><strong id="docs-internal-guid-2afd7e31-2c99-72d3-bc65-694bb7149517">JAMES: </strong>On the song &ldquo;ATM Fees&rdquo; I start off the song saying, &ldquo;They big me up, but I don&rsquo;t really want to shine. I just wanna make art and pay my rent on time.&rdquo; So right now, I would love to make millions of dollars, and win Grammys, stuff like that, but right now I just want to make art, and I know that I also have to pay rent. Right now I&rsquo;m a barista and that&rsquo;s what pays the rent. Being a barista is cool, and kind of artsy and hipster, but like it&rsquo;s not what I want to do. I just want to like wake up every day and do what I love and get paid for it, more times than not. &nbsp;It&rsquo;s not always about money. I do it for free, or for a movement, but the reality is that I need to pay rent. The reality is that I just want to be able to do what I want, and get paid for it, and in the process inspire people. &nbsp;</p>
+    <strong>AMFM:</strong> You&rsquo;ve done a couple of different projects before Hunger Pains, There was one called James London? How do they differ from Hunger Pains? <strong><br />
+    </strong>
+    <p dir="ltr"><strong>JAMES: </strong>I am obsessed with London. In high school I made people call me Prince William. When junior year came around, and it was prom, we already knew who was going to win Prince, cause that&rsquo;s what people were calling me, so I won, and when next year rolled around I didn&rsquo;t even care about King. Between my sophomore year and my junior year going into college, I got to go to London for a theatre trip. &nbsp;I saw 17 plays in 12 days. And the girl I was with at the time, we lived together on campus and had a cat named James London. I started an indie street wear brand, which has kind of been quiet, but that was called James London. And I just had a niece and they asked me what we should name her and I threw out a couple names and said London, so now her name is London. &nbsp;That project doesn&rsquo;t really have a deep concept or focused theme like Hunger Pains but that&rsquo;s just where I was in my life. I went to London that year, and I just felt like I had nothing to complain about. &nbsp;I mean, there was a bunch of injustices in the world, I was broke, but I went to London! And it&rsquo;s not even like a bragging thing. I was just really appreciative of it. Like not many people where I&rsquo;m from can say that. A kid from Milwaukee, got to go out the country. </p>
+    <strong>AMFM: </strong>Do you remember the first spoken word piece that you ever did and that feeling of stepping up to the mic? <br />
+    <p dir="ltr"><strong id="docs-internal-guid-2afd7e31-2c99-72d3-bc65-694bb7149517">JAMES: </strong>It&rsquo;s in my chapbook that I wrote a long time ago. It&rsquo;s called &ldquo;Ashes.&rdquo; It was kind of nerve wrecking, but there&rsquo;s so much love and support there. It&rsquo;s fun. I&rsquo;ve never experienced anything like it before. </p>
+    <strong id="docs-internal-guid-2afd7e31-2c99-72d3-bc65-694bb7149517">AMFM: </strong>If you had to have your last meal, since your EP is called Hunger Pains, what would your last meal be? <br />
+    <p dir="ltr"><strong id="docs-internal-guid-2afd7e31-2c99-72d3-bc65-694bb7149517">JAMES: </strong>My favorite food is tacos. I don&rsquo;t really eat them often, but that&rsquo;s my favorite food. If I&rsquo;m gonna go out, that&rsquo;s probably what it would be. American tacos, with ground beef, as long as the tortilla is white.</p>
+    <p><strong id="docs-internal-guid-2afd7e31-2a9e-6be5-f20d-e5756aa19564">FOR MORE FROM EMMITT JAMES:</strong> <br />
+      <a href="http://www.emmittjames.com/" target="_blank">WEBSITE</a> / <a href="https://www.instagram.com/emmitt_james/" target="_blank">INSTAGRAM</a><br />
+    </p>
+    <h6 dir="ltr"><strong id="docs-internal-guid-2afd7e31-2a9e-6be5-f20d-e5756aa19564"><em>PHOTO CREDITS: CIERA MCKISSICK</em></strong><br />
+    </h6>
+  <!-- end #mainContent --></div>
+  <div id="footer">
+    <h2><a href="aboutamfm.html">ABOUT AMFM</a><br />
+      <a href="mailto:info@amfm-mag.com">CONTACT</a><br />
+<img src="../images/amfmmag/socialmedia.jpg" alt="social media" width="150" height="32" border="0" usemap="#Map" />
+<map name="Map" id="Map2">
+  <area shape="circle" coords="93,15,9" href="#amfm-mag.tumblr.com" />
+  <area shape="rect" coords="120,5,140,25" href="#http://www.instagram.com/amfmmag" />
+  <area shape="circle" coords="57,17,11" href="#http://www.twitter.com/amfmmag" />
+  <area shape="circle" coords="20,19,10" href="#http://www.facebook.com/amfmmag" />
+</map>
+    </h2>
+    <h2>
+      <div id="mc_embed_signup">
+        <form action="//amfm-mag.us10.list-manage.com/subscribe/post?u=738860a67ed3f5cd20e478572&amp;id=8db9e6e243" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate="novalidate">
+          <div id="mc_embed_signup_scroll">SIGN UP FOR UPDATES!
+            <div class="mc-field-group">
+              <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" />
+            </div>
+            <div id="mce-responses" class="clear">
+              <div class="response" id="mce-error-response" style="display:none"></div>
+              <div class="response" id="mce-success-response" style="display:none"></div>
+            </div>
+            <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+            <div style="position: absolute; left: -5000px;" aria-hidden="true">
+              <input type="text" name="b_738860a67ed3f5cd20e478572_8db9e6e243" tabindex="-1" value="" />
+            </div>
+            <div class="clear">
+              <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button" />
+            </div>
+          </div>
+        </form>
+      </div>
+      <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
+      <script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+      <!--End mc_embed_signup-->
+      <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" /></h2>
+    <td align="right">&nbsp;</td></p>
+  <!-- end #footer --></div>
+<!-- end #container --></div>
 </body>
-</html>
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-48234405-1', 'amfm-mag.com');
-  ga('send', 'pageview');
-
-</script>
-<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
 </html>

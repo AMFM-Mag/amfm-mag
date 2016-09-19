@@ -2,145 +2,168 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>amfm</title>
+<title>amfm magazine</title>
 <style type="text/css">
 <!--
-.content {	font-family: Verdana, Geneva, sans-serif;
+body {
+	font: 100% Verdana, Arial, Helvetica, sans-serif;
+	background: #FFFFFF;
+	margin: 0; /* it's good practice to zero the margin and padding of the body element to account for differing browser defaults */
+	padding: 0;
+	text-align: center; /* this centers the container in IE 5* browsers. The text is then set to the left aligned default in the #container selector */
+	color: #000000;
 }
-.content {	font-family: Arial, Helvetica, sans-serif;
+
+/* Tips for Elastic layouts 
+1. Since the elastic layouts overall sizing is based on the user's default fonts size, they are more unpredictable. Used correctly, they are also more accessible for those that need larger fonts size since the line length remains proportionate.
+2. Sizing of divs in this layout are based on the 100% font size in the body element. If you decrease the text size overall by using a font-size: 80% on the body element or the #container, remember that the entire layout will downsize proportionately. You may want to increase the widths of the various divs to compensate for this.
+3. If font sizing is changed in differing amounts on each div instead of on the overall design (ie: #sidebar1 is given a 70% font size and #mainContent is given an 85% font size), this will proportionately change each of the divs overall size. You may want to adjust based on your final font sizing.
+*/
+.oneColElsCtrHdr #container {
+	width: 46em;  /* this width will create a container that will fit in an 800px browser window if text is left at browser default font sizes */
+	background: #FFFFFF;
+	margin: 0 auto; /* the auto margins (in conjunction with a width) center the page */
+	border: 1px solid #FFFFFF;
+	text-align: left; /* this overrides the text-align: center on the body element. */
 }
-.content {	font-family: Tahoma, Geneva, sans-serif;
+.oneColElsCtrHdr #header { 
+	background: #FFFFFF; 
+	padding: 0 10px 0 20px;  /* this padding matches the left alignment of the elements in the divs that appear beneath it. If an image is used in the #header instead of text, you may want to remove the padding. */
+} 
+.oneColElsCtrHdr #header h1 {
+	margin: 0; /* zeroing the margin of the last element in the #header div will avoid margin collapse - an unexplainable space between divs. If the div has a border around it, this is not necessary as that also avoids the margin collapse */
+	padding: 10px 0; /* using padding instead of margin will allow you to keep the element away from the edges of the div */
 }
-.content {	font-family: MS Serif, New York, serif;
+.oneColElsCtrHdr #mainContent {
+	padding: 0 20px; /* remember that padding is the space inside the div box and margin is the space outside the div box */
+	background: #FFFFFF;
 }
-.content {	font-family: Arial Black, Gadget, sans-serif;
-}
-.content {	font-family: Calibri;
-}
-.style4 {font-family: Verdana, Arial, Helvetica, sans-serif; font-weight: bold; }
-a:link {
-	color: #000;
-}
-a:visited {
-	color: #000;
+.oneColElsCtrHdr #footer { 
+	padding: 0 10px; /* this padding matches the left alignment of the elements in the divs that appear above it. */
+	background:#FFFFFF;
+} 
+.oneColElsCtrHdr #footer p {
+	margin: 0; /* zeroing the margins of the first element in the footer will avoid the possibility of margin collapse - a space between divs */
+	padding: 10px 0; /* padding on this element will create space, just as the the margin would have, without the margin collapse issue */
 }
 body,td,th {
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 11pt;
+	font-family: Trebuchet MS, Arial, Helvetica, sans-serif;
+}
+a:link {
+	color: #000;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #000;
+}
+a:hover {
+	text-decoration: none;
+}
+a:active {
+	text-decoration: none;
 }
 -->
-</style>
-</head>
+</style></head>
 
-<body>
-<table width="955" border="0" cellspacing="0" cellpadding="0">
-  <tr>
-    <td colspan="3"><img src="../images/amfmmag/diamondsareevil.jpg" width="955" height="400" alt="cocoandbreezy" /></td>
-    <td width="4">&nbsp;</td>
-  </tr>
-  <tr>
-    <td colspan="3">&nbsp;</td>
-    <td>&nbsp;</td>
-  </tr>
-  <tr>
-    <td colspan="3" bgcolor="#000000"><div align="center"><a href="contact.html"><img src="../images/mkeissue/contactbutton.jpg" alt="blog" width="95" height="33" hspace="81" align="right" /></a><a href="magazine.html"><img src="../images/mkeissue/magazinebutton-b.jpg" alt="magazine" width="116" height="33" align="right" /></a><a href="fashion.html"><img src="../images/mkeissue/fashionbuttonb.jpg" alt="fashion" width="95" height="33" hspace="81" align="right" /></a><a href="music.html"><img src="../images/mkeissue/musicbuttonb.jpg" alt="music" width="81" height="33" hspace="0" align="right" /></a><a href="arts.html"><img src="../images/mkeissue/artsbuttonb.jpg" alt="arts" width="53" height="33" hspace="81" align="right" /></a></div></td>
-    <td>&nbsp;</td>
-  </tr>
-  <tr>
-    <td width="228"><blockquote>
-      <blockquote>
-        <p>&nbsp;</p>
-        <p align="center">&nbsp;</p>
-<p>&nbsp;</p>
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-      </blockquote>
-    </blockquote></td>
-    <td width="517"><p>&nbsp;</p>
-      <p dir="ltr"><strong>Diamonds Are Evil</strong></p>
-      <p dir="ltr">Not all diamonds come with blood shed or conflict. One of them is the Austin, Texas based jewelry and design duo &ldquo;Diamonds Are Evil.&rdquo; Definitely a name with shock value, but it comes from a place of genuinity. The husband and wife pair, Meredith Butler and Michael Murphy, are exposing the ills of the diamond industry in a beautiful and sustainable way with their intricate one of a kind wood cut creations ranging from earrings to necklaces, bolo ties and cufflinks.<br />
-      </p>
-      <p dir="ltr">The former architect and engineer began their business using leftover wood scraps because it was readily available to them, and knew they were on to something when they were able create beautiful ornate shapes, designs and patterns using a laser. Their designs are like snowflakes, none are quite the same. They find their inspiration studying different periods, cultural artisans and the wood medium itself. They may say &ldquo;diamonds are forever,&rdquo; but in order to truly be forever, sustainability, and good karma is key, which they&rsquo;ve definitely nailed. <strong>&nbsp;</strong><br />
-      </p>
-      <p dir="ltr"><strong id="docs-internal-guid-ba217877-3d5a-6ada-9b18-f9295d704849">amfm: </strong>Why was the diamond industry something that you wanted to tackle with your brand and name? Was this something intentional in the beginning when you launched Diamonds Are Evil and in your choice of using wood?<br />
-      </p>
-      <p dir="ltr"><strong id="docs-internal-guid-ba217877-3d5a-6ada-9b18-f9295d704849">diamonds: </strong>We chose our name to bring awareness to consumers about the diamond industry. Our focus was on that because we started out making jewelry, so we wanted to point out the atrocities of the industry that we were in. When people see our name or sign at a show, it raises questions in their minds if they aren't already aware of negative aspects of the diamond industry. In turn, we decided to use only materials that we could ethically and sustainably source. We began with wood because we wanted a material that acted as a canvas for our designs. We wanted to take a simple material and elevate it to something beautiful and valuable with the design alone.<br />
-      </p>
-      <p dir="ltr"><strong id="docs-internal-guid-ba217877-3d5a-6ada-9b18-f9295d704849">amfm: </strong>You said the brand name itself and ethics of the company start a conversation. What are some interactions you've had because of the brand and what it stands for, either positive or negative?<br />
-      </p>
-      <p dir="ltr"><strong id="docs-internal-guid-ba217877-3d5a-6ada-9b18-f9295d704849">diamonds: </strong>We definitely get all kinds of reactions from people! It's amazing to me how many people are still so unaware of the atrocities of the diamond industry. We never try to shame people for having diamonds, merely answer questions and educate. Some people get defensive of their diamonds, claiming that they are 'conflict free' (which isn't usually a verifiable fact), while other people just tell us how much they love our name. I hope that we've at least convinced a few people that they don't need a rock that has such a shady ethical background!<br />
-      </p>
-      <p dir="ltr"><strong id="docs-internal-guid-ba217877-3d5a-6ada-9b18-f9295d704849">amfm: </strong>Why do you say you escaped your careers?<br />
-      </p>
-      <p dir="ltr"><strong id="docs-internal-guid-ba217877-3d5a-6ada-9b18-f9295d704849">diamonds: </strong>That's really just a term that I use for leaving the profession of Architecture. I think that many Architects absolutely love what they are doing within the profession and so this doesn't apply to them (my dad being one of those - he can't imagine ever doing anything else, and he is so talented and natural at it that I can't imagine him as anything other than an Architect!), but I also think that some Architects can feel confined by the profession and want to escape to do something else creatively that is more about design and craft - furniture design, jewelry, home decor. It's so nice to not be tied to a construction schedule or the long, arduous process of construction documents, permitting and construction administration! Michael worked as an Engineer for a brief time. Long enough to appreciate working for himself and know that wasn't the path for him.<br />
-      </p>
-      <p dir="ltr"><strong id="docs-internal-guid-ba217877-3d5a-6ada-9b18-f9295d704849">amfm: </strong>How have your backgrounds in architecture and engineering influenced your work with Diamonds Are Evil?</p>
-      <p dir="ltr"><strong id="docs-internal-guid-ba217877-3d5a-6ada-9b18-f9295d704849">diamonds:</strong> My background in Architecture was a huge influence on the founding of Diamonds Are Evil, really. In school, I was introduced to laser cutting as a way to build models for design studio. I loved making intricate models for my final presentations for class. I used the diagrammatically, to show my explorations of the sites, as well as to show the final design in a physical form. After becoming familiar with them through school, I wanted to use them for everything! I love the immediacy of the virtual product becoming a reality through the laser. Michael's Engineering background came into play in different ways throughout founding Diamonds Are Evil and the creation of products. His structural and technical knowledge allows us to push the limits of the materials we use, and explore new ways of creating forms with laser cut materials. He is constantly testing our designs for their longevity and wear and helping us to create the best product we can possibly put out into the world!<br />
-      </p>
-      <p dir="ltr"><strong id="docs-internal-guid-ba217877-3d5a-6ada-9b18-f9295d704849">amfm: </strong>You started using scraps of wood from architecture projects? What does the design process look like, do you draw it out?<br />
-      </p>
-      <p dir="ltr"><strong id="docs-internal-guid-ba217877-3d5a-6ada-9b18-f9295d704849">diamonds: </strong>Michael ran the laser machines in the School of Architecture while we were both in school. The students would usually come in with these really interesting, repetitive shapes to cut out for their models and just throw away the remnants once their materials were done. I was painting at the time, so Michael would save any unique, abstract remnants for me to use as stencils to add texture to my paintings. In time, we began exploring what else we could do with the scraps, and eventually began making jewelry. We quickly switched from saving scraps to designing our own pieces. We start with a concept for a collection that we want to create, which can be abstract, such as '1960s futurism' or draw on history, such as our latest collection based on Egyptian art and architecture. From this, we sketch out shapes and forms that are inspired by that concept. These are very rough sketches, just to give us a place to start. From there, we move into a computer drafting program to begin finalizing the design. After cutting a few iterations of the same design, we can choose which one to use as the final product.<br />
-      </p>
-      <p dir="ltr"><strong id="docs-internal-guid-ba217877-3d5a-6ada-9b18-f9295d704849">amfm: </strong>Is one of you more artistic while the other executes?<br />
-      </p>
-      <p dir="ltr"><strong id="docs-internal-guid-ba217877-3d5a-6ada-9b18-f9295d704849">diamonds: </strong>It really takes both of us to create our best pieces. Michael will give me some really abstract direction for a piece that he is thinking about that doesn't really mean anything in his head yet, and I can take that idea and translate it into the beginning of a design. Once I get the design to a certain point, I cut it out once and hand it off to him to push further. We then collaborate in the final part of the process.<br />
-      </p>
-      <p dir="ltr"><strong id="docs-internal-guid-ba217877-3d5a-6ada-9b18-f9295d704849">amfm: </strong>What is the dynamic like for you two working as a couple? You said that the experience has not worn your relationship down but has made it stronger. In what ways have you seen it evolve with your business?</p>
-      <strong id="docs-internal-guid-ba217877-3d5a-6ada-9b18-f9295d704849">diamonds: </strong>We work well together. There are obviously times throughout the year that work can be stressful and hectic, but if we remind ourselves that work is not life, it keeps us from allowing that stress to permeate other areas of our lives. I'm actually usually the only one that gets stressed, and Michael is great at reminding me that I am the only one that has expectations of myself. As our business has grown, we've been able to lean on each other when it's tough, and that has really strengthened our relationship. We also get to celebrate milestones together, travel together and skip work together when we both would rather be outside riding a bike!<br />
-      <p dir="ltr"><strong id="docs-internal-guid-ba217877-3d5a-6ada-9b18-f9295d704849">amfm: </strong>What was the catalyst for wanting to start your own small business? Do you aspire for it to be a large scale business?<br />
-      </p>
-      <p dir="ltr"><strong id="docs-internal-guid-ba217877-3d5a-6ada-9b18-f9295d704849">diamonds: </strong>We really knew we wanted to start our own small business from the minute that we first created what we thought was a viable product back in school. From there it was all about growing the business enough in our spare time to make the leap to full-time. We both love the flexibility of having our own business. I particularly love the multitude of jobs that need to be taken care of within a small business and how that constantly challenges me to learn something new. We definitely aspire for it to be a larger business than it is right now. Our goals for the upcoming year are to add a few new product lines, begin teaching classes, and grow into a larger, more prominent space.</p>
-      <table width="513" border="0">
-        <tr>
-          <td width="174"><p><a href="../images/amfmmag/diamonds1.jpg" target="_blank"> <img src="../images/amfmmag/diamonds1.jpg" alt="daniel fleming" width="150" height="150" hspace="10" border="1" /></a></p></td>
-          <td width="154"><a href="../images/amfmmag/diamonds2.jpg" target="_blank"><img src="../images/amfmmag/diamonds2.jpg" alt="danielfleming2" width="150" height="150" border="1" /></a></td>
-          <td width="171"><a href="../images/amfmmag/dtm.jpg" target="_blank"><img src="../images/amfmmag/diamonds3.jpg" alt="danielfleming3" width="150" height="150" hspace="10" border="1" /></a></td>
-        </tr>
-      </table>
-<br />
+<body class="oneColElsCtrHdr">
+
+<div id="container">
+  <div id="header">
+    <h2 align="center"><a href="amfmmag.html">AMFM</a><a href="amfmarts.html"> | ARTS</a><a href="amfmmusic.html"> | MUSIC </a><a href="amfmfashion.html">|<em> FASHION</em></a><a href="amfmevents.html">| EVENTS</a>
+      <!-- end #header -->
+      | <img src="../images/amfmmag/socialmedia.jpg" alt="social media" width="141" height="28" border="0" align="absbottom" usemap="#Map" />
+      <map name="Map" id="Map22">
+        <area shape="circle" coords="17,13,9" href="#http://www.facebook.com/amfmmag" />
+        <area shape="circle" coords="55,13,12" href="#http://www.twitter.com/amfmmag" />
+        <area shape="rect" coords="119,5,139,23" href="#http://www.instagram.com/amfmmag" />
+        <area shape="circle" coords="93,14,12" href="#amfm-mag.tumblr.com" />
+      </map>
       <br />
-<p><strong>      For more from Diamonds Are Evil:
-</strong></p>
-      <p><a href="http://diamondsareevil.com/" target="_blank">http://diamondsareevil.com<br />
-      </a></p>
-      <p><em>photo credits: diamonds are evil</em></p>
-<p>&nbsp;</p></td>
-    <td width="214">&nbsp;</td>
-    <td>&nbsp;</td>
-  </tr>
-  <tr>
-    <td align="right"><a href="http://www.facebook.com/amfmmag" target="_blank"><img src="../images/mkeissue/facebook.jpg" alt="facebook" width="50" height="50" align="left" /></a><a href="http://www.twitter.com/amfmmag" target="_blank"><img src="../images/mkeissue/tumblr.jpg" alt="tumblr" width="50" height="50" align="left" /></a><a href="http://www.instagram.com/amfmmag" target="_blank"><img src="../images/amfmmag/instagram.jpg" alt="instagram" width="41" height="41" vspace="3" align="left" /></a><a href="http://www.amfm-mag.tumblr.com" target="_blank"><img src="../images/amfmmag/tumblr.jpg" alt="tumblr" width="41" height="41" vspace="3" align="left" /></a></td>
-    <td align="right">&nbsp;</td>
-  </tr>
-  <tr>
-    <td align="right">&nbsp;</td>
-    <td align="right">&nbsp;</td>
-  </tr>
-  <tr>
-    <td align="right">&nbsp;</td>
-    <td align="right">&nbsp;</td>
-  </tr>
-</table>
+      <br />
+    </h2>
+    <!-- end #header -->
+  </div>
+  <div id="mainContent">
+    <p><img src="../images/amfmmag/diamondsareevil.jpg" width="700" height="400" alt="calid b" /></p>
+    <h2>Q&amp;A: DIAMONDS ARE EVIL</h2>
+<p dir="ltr">Not all diamonds come with blood shed or conflict. One of them is the Austin, Texas based jewelry and design duo &ldquo;Diamonds Are Evil.&rdquo; Definitely a name with shock value, but it comes from a place of genuinity. The husband and wife pair, Meredith Butler and Michael Murphy, are exposing the ills of the diamond industry in a beautiful and sustainable way with their intricate one of a kind wood cut creations ranging from earrings to necklaces, bolo ties and cufflinks.</p>
+<p>The former architect and engineer began their business using leftover wood scraps because it was readily available to them, and knew they were on to something when they were able create beautiful ornate shapes, designs and patterns using a laser. Their designs are like snowflakes, none are quite the same. They find their inspiration studying different periods, cultural artisans and the wood medium itself. They may say &ldquo;diamonds are forever,&rdquo; but in order to truly be forever, sustainability, and good karma is key, which they&rsquo;ve definitely nailed<strong>. &nbsp;</strong><br />
+  </p>
+<p><img src="../images/amfmmag/diamonds2.jpg" width="700" height="700" alt="DIAMONDS" /></p>
+<p><br />
+  <strong id="docs-internal-guid-2afd7e31-2f8a-9580-79f4-a5786f4ca9e3">AMFM: </strong>Why was the diamond industry something that you wanted to tackle with your brand and name? Was this something intentional in the beginning when you launched Diamonds Are Evil and in your choice of using wood?
+</p>
+<p><strong>DIAMONDS: </strong>We chose our name to bring awareness to consumers about the diamond industry. Our focus was on that because we started out making jewelry, so we wanted to point out the atrocities of the industry that we were in. When people see our name or sign at a show, it raises questions in their minds if they aren't already aware of negative aspects of the diamond industry. In turn, we decided to use only materials that we could ethically and sustainably source. We began with wood because we wanted a material that acted as a canvas for our designs. We wanted to take a simple material and elevate it to something beautiful and valuable with the design alone.<br />
+</p>
+<p dir="ltr"><strong id="docs-internal-guid-2afd7e31-2f8a-9580-79f4-a5786f4ca9e3">amfm: </strong>You said the brand name itself and ethics of the company start a conversation. What are some interactions you've had because of the brand and what it stands for, either positive or negative?</p>
+<strong>DIAMONDS: </strong>We definitely get all kinds of reactions from people! It's amazing to me how many people are still so unaware of the atrocities of the diamond industry. We never try to shame people for having diamonds, merely answer questions and educate. Some people get defensive of their diamonds, claiming that they are 'conflict free' (which isn't usually a verifiable fact), while other people just tell us how much they love our name. I hope that we've at least convinced a few people that they don't need a rock that has such a shady ethical background!<br />
+<p dir="ltr"><strong id="docs-internal-guid-2afd7e31-2f8a-9580-79f4-a5786f4ca9e3">AMFM: </strong>Why do you say you escaped your careers?<br />
+</p>
+<p dir="ltr"><strong id="docs-internal-guid-2afd7e31-2f8a-9580-79f4-a5786f4ca9e3">DIAMONDS: </strong>That's really just a term that I use for leaving the profession of Architecture. I think that many Architects absolutely love what they are doing within the profession and so this doesn't apply to them (my dad being one of those - he can't imagine ever doing anything else, and he is so talented and natural at it that I can't imagine him as anything other than an Architect!), but I also think that some Architects can feel confined by the profession and want to escape to do something else creatively that is more about design and craft - furniture design, jewelry, home decor. It's so nice to not be tied to a construction schedule or the long, arduous process of construction documents, permitting and construction administration! Michael worked as an Engineer for a brief time. Long enough to appreciate working for himself and know that wasn't the path for him.<br />
+</p>
+<p dir="ltr"><img src="../images/amfmmag/diamonds1.jpg" width="700" height="700" alt="DIAMONDS" /></p>
+<p dir="ltr"><strong>AMFM: </strong>How have your backgrounds in architecture and engineering influenced your work with Diamonds Are Evil?<br />
+</p>
+<p dir="ltr"><strong id="docs-internal-guid-2afd7e31-2f8a-9580-79f4-a5786f4ca9e3">DIAMONDS: </strong>My background in Architecture was a huge influence on the founding of Diamonds Are Evil, really. In school, I was introduced to laser cutting as a way to build models for design studio. I loved making intricate models for my final presentations for class. I used the diagrammatically, to show my explorations of the sites, as well as to show the final design in a physical form. After becoming familiar with them through school, I wanted to use them for everything! I love the immediacy of the virtual product becoming a reality through the laser. Michael's Engineering background came into play in different ways throughout founding Diamonds Are Evil and the creation of products. His structural and technical knowledge allows us to push the limits of the materials we use, and explore new ways of creating forms with laser cut materials. He is constantly testing our designs for their longevity and wear and helping us to create the best product we can possibly put out into the world!<br />
+</p>
+<p dir="ltr"><strong id="docs-internal-guid-2afd7e31-2f8a-9580-79f4-a5786f4ca9e3">AMFM: </strong>You started using scraps of wood from architecture projects? What does the design process look like, do you draw it out?<br />
+</p>
+<p dir="ltr"><strong id="docs-internal-guid-2afd7e31-2f8a-9580-79f4-a5786f4ca9e3">DIAMONDS: </strong>Michael ran the laser machines in the School of Architecture while we were both in school. The students would usually come in with these really interesting, repetitive shapes to cut out for their models and just throw away the remnants once their materials were done. I was painting at the time, so Michael would save any unique, abstract remnants for me to use as stencils to add texture to my paintings. In time, we began exploring what else we could do with the scraps, and eventually began making jewelry. We quickly switched from saving scraps to designing our own pieces. We start with a concept for a collection that we want to create, which can be abstract, such as '1960s futurism' or draw on history, such as our latest collection based on Egyptian art and architecture. From this, we sketch out shapes and forms that are inspired by that concept. These are very rough sketches, just to give us a place to start. From there, we move into a computer drafting program to begin finalizing the design. After cutting a few iterations of the same design, we can choose which one to use as the final product.<br />
+</p>
+<p dir="ltr"><strong>AMFM:</strong> Is one of you more artistic while the other executes?<br />
+</p>
+<p dir="ltr"><strong id="docs-internal-guid-2afd7e31-2f8a-9580-79f4-a5786f4ca9e3">DIAMONDS: </strong>It really takes both of us to create our best pieces. Michael will give me some really abstract direction for a piece that he is thinking about that doesn't really mean anything in his head yet, and I can take that idea and translate it into the beginning of a design. Once I get the design to a certain point, I cut it out once and hand it off to him to push further. We then collaborate in the final part of the process.<br />
+</p>
+<p dir="ltr"><img src="../images/amfmmag/diamonds3.jpg" width="700" height="700" alt="DIAMONDS" /></p>
+<p dir="ltr"><strong>AMFM: </strong>What is the dynamic like for you two working as a couple? You said that the experience has not worn your relationship down but has made it stronger. In what ways have you seen it evolve with your business?<br />
+</p>
+<p dir="ltr"><strong id="docs-internal-guid-2afd7e31-2f8a-9580-79f4-a5786f4ca9e3">DIAMONDS: </strong>We work well together. There are obviously times throughout the year that work can be stressful and hectic, but if we remind ourselves that work is not life, it keeps us from allowing that stress to permeate other areas of our lives. I'm actually usually the only one that gets stressed, and Michael is great at reminding me that I am the only one that has expectations of myself. As our business has grown, we've been able to lean on each other when it's tough, and that has really strengthened our relationship. We also get to celebrate milestones together, travel together and skip work together when we both would rather be outside riding a bike!</p>
+<p dir="ltr"><strong id="docs-internal-guid-2afd7e31-2f8a-9580-79f4-a5786f4ca9e3">AMFM: </strong>What was the catalyst for wanting to start your own small business? Do you aspire for it to be a large scale business?</p>
+<strong>DIAMONDS:</strong> We really knew we wanted to start our own small business from the minute that we first created what we thought was a viable product back in school. From there it was all about growing the business enough in our spare time to make the leap to full-time. We both love the flexibility of having our own business. I particularly love the multitude of jobs that need to be taken care of within a small business and how that constantly challenges me to learn something new. We definitely aspire for it to be a larger business than it is right now. Our goals for the upcoming year are to add a few new product lines, begin teaching classes, and grow into a larger, more prominent space.
+<p dir="ltr"><strong id="docs-internal-guid-2afd7e31-2a9e-6be5-f20d-e5756aa">FOR MORE FROM DIAMONDS ARE EVIL:</strong><br />
+  <a href="http://diamondsareevil.com/" target="_blank">WEBSITE </a><a href="https://www.instagram.com/diamondsareevil/" target="_blank">/ INSTAGRAM</a><br />
+</p>
+<h6 dir="ltr"><strong id="docs-internal-guid-2afd7e31-2a9e-6be5-f20d-e5756aa19564"><em>PHOTO CREDITS: DIAMONDS ARE EVIL</em></strong></h6></div>
+  <div id="footer">
+    <h2><a href="aboutamfm.html">ABOUT AMFM</a><br />
+      <a href="mailto:info@amfm-mag.com">CONTACT</a><br />
+<img src="../images/amfmmag/socialmedia.jpg" alt="social media" width="150" height="32" border="0" usemap="#Map" />
+<map name="Map" id="Map2">
+  <area shape="circle" coords="93,15,9" href="#amfm-mag.tumblr.com" />
+  <area shape="rect" coords="120,5,140,25" href="#http://www.instagram.com/amfmmag" />
+  <area shape="circle" coords="57,17,11" href="#http://www.twitter.com/amfmmag" />
+  <area shape="circle" coords="20,19,10" href="#http://www.facebook.com/amfmmag" />
+</map>
+    </h2>
+    <h2>
+      <div id="mc_embed_signup">
+        <form action="//amfm-mag.us10.list-manage.com/subscribe/post?u=738860a67ed3f5cd20e478572&amp;id=8db9e6e243" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate="novalidate">
+          <div id="mc_embed_signup_scroll">SIGN UP FOR UPDATES!
+            <div class="mc-field-group">
+              <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" />
+            </div>
+            <div id="mce-responses" class="clear">
+              <div class="response" id="mce-error-response" style="display:none"></div>
+              <div class="response" id="mce-success-response" style="display:none"></div>
+            </div>
+            <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+            <div style="position: absolute; left: -5000px;" aria-hidden="true">
+              <input type="text" name="b_738860a67ed3f5cd20e478572_8db9e6e243" tabindex="-1" value="" />
+            </div>
+            <div class="clear">
+              <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button" />
+            </div>
+          </div>
+        </form>
+      </div>
+      <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
+      <script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+      <!--End mc_embed_signup-->
+      <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+</head></h2>
+    <td align="right">&nbsp;</td></p>
+  <!-- end #footer --></div>
+<!-- end #container --></div>
 </body>
-</html>
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-48234405-1', 'amfm-mag.com');
-  ga('send', 'pageview');
-
-</script>
-<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
 </html>

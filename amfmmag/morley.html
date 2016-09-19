@@ -2,143 +2,162 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>amfm</title>
+<title>amfm magazine</title>
 <style type="text/css">
 <!--
-.content {	font-family: Verdana, Geneva, sans-serif;
+body {
+	font: 100% Verdana, Arial, Helvetica, sans-serif;
+	background: #FFFFFF;
+	margin: 0; /* it's good practice to zero the margin and padding of the body element to account for differing browser defaults */
+	padding: 0;
+	text-align: center; /* this centers the container in IE 5* browsers. The text is then set to the left aligned default in the #container selector */
+	color: #000000;
 }
-.content {	font-family: Arial, Helvetica, sans-serif;
+
+/* Tips for Elastic layouts 
+1. Since the elastic layouts overall sizing is based on the user's default fonts size, they are more unpredictable. Used correctly, they are also more accessible for those that need larger fonts size since the line length remains proportionate.
+2. Sizing of divs in this layout are based on the 100% font size in the body element. If you decrease the text size overall by using a font-size: 80% on the body element or the #container, remember that the entire layout will downsize proportionately. You may want to increase the widths of the various divs to compensate for this.
+3. If font sizing is changed in differing amounts on each div instead of on the overall design (ie: #sidebar1 is given a 70% font size and #mainContent is given an 85% font size), this will proportionately change each of the divs overall size. You may want to adjust based on your final font sizing.
+*/
+.oneColElsCtrHdr #container {
+	width: 46em;  /* this width will create a container that will fit in an 800px browser window if text is left at browser default font sizes */
+	background: #FFFFFF;
+	margin: 0 auto; /* the auto margins (in conjunction with a width) center the page */
+	border: 1px solid #FFFFFF;
+	text-align: left; /* this overrides the text-align: center on the body element. */
 }
-.content {	font-family: Tahoma, Geneva, sans-serif;
+.oneColElsCtrHdr #header { 
+	background: #FFFFFF; 
+	padding: 0 10px 0 20px;  /* this padding matches the left alignment of the elements in the divs that appear beneath it. If an image is used in the #header instead of text, you may want to remove the padding. */
+} 
+.oneColElsCtrHdr #header h1 {
+	margin: 0; /* zeroing the margin of the last element in the #header div will avoid margin collapse - an unexplainable space between divs. If the div has a border around it, this is not necessary as that also avoids the margin collapse */
+	padding: 10px 0; /* using padding instead of margin will allow you to keep the element away from the edges of the div */
 }
-.content {	font-family: MS Serif, New York, serif;
+.oneColElsCtrHdr #mainContent {
+	padding: 0 20px; /* remember that padding is the space inside the div box and margin is the space outside the div box */
+	background: #FFFFFF;
 }
-.content {	font-family: Arial Black, Gadget, sans-serif;
-}
-.content {	font-family: Calibri;
-}
-.style4 {font-family: Verdana, Arial, Helvetica, sans-serif; font-weight: bold; }
-a:link {
-	color: #000;
-}
-a:visited {
-	color: #000;
+.oneColElsCtrHdr #footer { 
+	padding: 0 10px; /* this padding matches the left alignment of the elements in the divs that appear above it. */
+	background:#FFFFFF;
+} 
+.oneColElsCtrHdr #footer p {
+	margin: 0; /* zeroing the margins of the first element in the footer will avoid the possibility of margin collapse - a space between divs */
+	padding: 10px 0; /* padding on this element will create space, just as the the margin would have, without the margin collapse issue */
 }
 body,td,th {
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 11pt;
+	font-family: Trebuchet MS, Arial, Helvetica, sans-serif;
+}
+a:link {
+	color: #000;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #000;
+}
+a:hover {
+	text-decoration: none;
+}
+a:active {
+	text-decoration: none;
 }
 -->
-</style>
-</head>
+</style></head>
 
-<body>
-<table width="955" border="0" cellspacing="0" cellpadding="0">
-  <tr>
-    <td colspan="3"><img src="../images/amfmmag/morley.jpg" alt="tyanna" width="955" height="400" border="1" /></td>
-    <td width="4">&nbsp;</td>
-  </tr>
-  <tr>
-    <td colspan="3">&nbsp;</td>
-    <td>&nbsp;</td>
-  </tr>
-  <tr>
-    <td colspan="3" bgcolor="#000000"><div align="center"><a href="contact.html"><img src="../images/mkeissue/contactbutton.jpg" alt="blog" width="95" height="33" hspace="75" align="right" /></a><a href="magazine.html"><img src="../images/mkeissue/magazinebutton-b.jpg" alt="magazine" width="116" height="33" align="right" /></a><a href="fashion.html"><img src="../images/mkeissue/fashionbuttonb.jpg" alt="fashion" width="95" height="33" hspace="81" align="right" /></a><a href="music.html"><img src="../images/mkeissue/musicbuttonb.jpg" alt="music" width="81" height="33" hspace="0" align="right" /></a><a href="arts.html"><img src="../images/mkeissue/artbuttonw.jpg" alt="arts" width="61" height="33" hspace="81" align="right" /></a></div></td>
-    <td>&nbsp;</td>
-  </tr>
-  <tr>
-    <td width="227"><blockquote>
-      <blockquote>
-        <p>&nbsp;</p>
-        <p align="center">&nbsp;</p>
-<p>&nbsp;</p>
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-      </blockquote>
-    </blockquote></td>
-    <td width="513"><p>&nbsp;</p>
-      <p dir="ltr">LA based street artist Morley didn&rsquo;t know much about street art growing up in Iowa. To him street art consisted of illegible scrawls on buildings or street signs. It wasn&rsquo;t until he went to college in the street art haven of New York that he was exposed to work of that nature that could truly be considered &ldquo;art.&rdquo; It also wasn&rsquo;t until college that Morley explored and began to consider himself an artist. With a love for writing and illustration up his sleeve, he took to the streets with his recognizable witty phrases and sayings accompanying a realistic cartoon of himself.<br />
-      </p>
-      <p dir="ltr">Morley doesn&rsquo;t make your typical street art, he makes art with a message, literally and figuratively. He often incorporates a statement with an image to match, a piece missing from a puzzle or a play on words, with phrases like &ldquo;I promise you&rsquo;re not just a waitress,&rdquo; or &ldquo;If you&rsquo;re reading this there&rsquo;s still time,&rdquo; also the title of his book inspired by that piece. He hopes to capture a slice of life and touch someone, or make them laugh or smile to themselves in passing as they go carry on with their day.<br />
-      </p>
-      <p dir="ltr">It was for this reason and more that Lindsey Meyers, owner of Beauty and Brawn Gallery and Thinkspace in Chicago&rsquo;s Logan Square invited the street artist to host a solo exhibition in January and secured him a wall in the Columbia College Corrider to create a mural. The show&rsquo;s opening brought Morley&rsquo;s art indoors to engage people in an interactive art experience.<br />
-        <br />
-        <img src="../images/amfmmag/writingsonthewall.jpg" width="525" height="600" alt="morley" /><br />
-      </p>
-      <p dir="ltr">There were large scale prints of Morley&rsquo;s signature pieces, including the first piece he ever made,  a large Morley figure donning a tuxedo, and black balloons adorned with phrases. The walls also included large blank sheets posing questions and phrases with ellipses at the end inviting people to finish the sentence, one of them being, &ldquo;I forgive you for…&rdquo; Another signature Morley piece he is known for in LA are tear off tabs on flyers with phrases people can take with them, like &ldquo;Middle finger to those who deserve it the most.&rdquo; Now that&rsquo;s a whole new way to flip someone off in a silent passive aggressive manner.<br />
-      </p>
-      <p dir="ltr">Morley also read an excerpt from his book and did a question and answer session with the audience ranging from how the concept of street art evolves once in an art gallery, connecting with strangers and some of his experiences getting caught and dodging the police, especially when your work is not exactly anonymous because there is a large cartoon of yourself wheatpaste on the wall you just did.<strong><br />
-      </strong><br />
-      The Morley show, &ldquo;The Writings on the Wall&rdquo; runs at Beauty and Brawn until February 20th. For more information about the exhibition, check out their website <a href="http://www.beautyandbrawngallery.com/"><strong id="docs-internal-guid-77034f55-8a9d-9264-ee0a-c7d27489b86d">here</strong></a> and our video collaboration with SeeThruVision and the Q&amp;A with Morley below.      </p>
-      <p dir="ltr"><iframe width="525" height="250" src="https://www.youtube.com/embed/bmuX11YVMx0" frameborder="0" allowfullscreen></iframe>&nbsp;</p>
-      <p dir="ltr"><strong id="docs-internal-guid-281dc207-6209-f0f5-2ad0-7c20582187f1">amfm: </strong>How did you get into street art? What was the first Morley piece you ever made?<br />
-      </p>
-      <p dir="ltr"><strong id="docs-internal-guid-281dc207-6209-f0f5-2ad0-7c20582187f1">morley:</strong> I came from Iowa, and in Iowa, when i was growing up at least, there wasn't a lot of street art. I sort of like to say that street art I saw in Iowa were curse words carved in the bathroom stall doors, so when I moved out to New York and went to college out there, it was like a revelation to me. I finally started seeing art that was created to be specifically for the streets and it changed my whole perspective on what art can be.</p>
-      <p dir="ltr"><strong id="docs-internal-guid-281dc207-6209-f0f5-2ad0-7c20582187f1">amfm: </strong>What's the first Morley piece you did? You remember what it said?</p>
-      <p dir="ltr"><strong id="docs-internal-guid-281dc207-6209-f0f5-2ad0-7c20582187f1">morley:</strong> I started making art when I went to college out there in New York and it started out where I would silkscreen my slogans to sticker or contact paper and I would put it up around the subway. I enjoyed it because it was, as oppose to a lot of art forms where youre saying come to my screening, or gallery show, performance or whatever, it was the chance to take your artwork and put it into someone's world, and because of that it really affected the way people saw the work. They receive it as a message to them rather than something they have to seek out and find. So the first Morley piece I ever made was one that said &ldquo;Let's fall in love like both our parents aren't divorced.&rdquo; My parents are divorced. Every girl I've ever dated parents&rsquo; are divorced, and most of my friends&rsquo; parents are divorced. I think if it meant something to me it might mean something to someone else to.</p>
-      <p dir="ltr"><strong id="docs-internal-guid-281dc207-6209-f0f5-2ad0-7c20582187f1">amfm: </strong>So you do these kind of pieces with life sayings about love and humorous quotes, what are the messages you try to get across and incorporate into your work?</p>
-      <p dir="ltr"><strong id="docs-internal-guid-281dc207-6209-f0f5-2ad0-7c20582187f1">morley: </strong>When I went to art school, I went as a screenwriting major and I never thought of myself as someone who had any skill in visual art. &nbsp;It was going to art school that showed me all the different kinds of art there were. There were photographers; there were illustrators; there was a lot of art. I got to see all these different kind of art forms, and it made me realize that maybe I don't have to be the best painter in the world in order to put something out there that people might respond to. The sayings that I put out there are things that I think people, when they're driving by at 35 mph down the street, might make people think, bring a certain amount of humor, or a certain nature of cuteness to their day or whatever. The main goal I always have with my work is really to connect with someone who is going through some struggle or some sort of trial in their life and can use some encouragement. I think the best drug in the world is the drug of relief, and it's the relief that comes when you realize you're not the only one who feels a certain way, or experiences something. We can live out our lives and feel like no one understands what we&rsquo;re going through and the moment you find someone and like they &ldquo;get it get it,&rdquo; there's this feeling that washes over you of like maybe I'll be okay. If I'm not the only one, maybe we're all in this together. That's what I aim for in my sayings. I try to think of something that would matter to me...that would leave some lasting impact on my life, and I try to start there and see if i can make &nbsp;difference.</p>
-      <p dir="ltr"><strong id="docs-internal-guid-281dc207-6209-f0f5-2ad0-7c20582187f1">amfm:</strong> So you have a background in writing?</p>
-      <p dir="ltr"><strong id="docs-internal-guid-281dc207-6209-f0f5-2ad0-7c20582187f1">morley: </strong>Yeah I love writing, and I love poetry. It&rsquo;s beautiful and wonderful. There's a famous story that someone once challenged Ernest Hemingway to write a story in six words. People said &ldquo;I don't think you can do it,&rdquo; and he was like &ldquo;I'll try,&rdquo; and he came back with the story. &nbsp;he wrote &ldquo;For sale, baby shoes, never worn.&rdquo; To me when I hear something like that I think he's requiring the person to fill in everything and to bring their own guesstimation as to what this story was about, to bring their own experience to it. That's what I try to do - &nbsp;have brief poetic sayings or things, and it really does require the person who's seeing it to fill in all the gaps and say what does that mean to me. A person who's never known rejection or been frustrated or disappointed will probably think my stuff is pretty boring. I think to people that can understand where I'm coming from can see it as something more profound than that.</p>
-      <p dir="ltr"><strong id="docs-internal-guid-281dc207-6209-f0f5-2ad0-7c20582187f1">amfm: </strong>You often insert in yourself in your art unlike most street artists who would prefer to remain anonymous. Why was that something you wanted to do and what has been the response?</p>
-      <p dir="ltr"><strong id="docs-internal-guid-281dc207-6209-f0f5-2ad0-7c20582187f1">morley: </strong>For me I think it was twofold. The first was that I wanted to create a relationship between the person looking at the art and the artist. Music for example, you get a relationship there because you see the person perform. You see John Lennon or Bob Marley and you know even if you have no actual physical connection with them, you can see them on a TV screen or whatever and feel that they are a person and appreciate that, so you create a human intimate connection. Filmmaking you can feel a connection through a filmmaker, but it's filtered through all the people they are collaborating with. With photography, you are seeing a beautiful image, but not necessarily connecting with the photographer, so I thought, is there a way to create that kind of connection, that kind of bond, between that person that's looking at something? I do, so I thought, why not put myself in it? I feel like you earn the privilege of speaking into someone's life when you are open, honest, and vulnerable with them. No one wants to hear advice from someone they don't feel is being real with them, or struggled with similar things. I thought if I put myself in my work it might create that connection more than if I was a logo or a brand. Secondly, I feel there&rsquo;s artists like Banksy that are anonymous, and they create a connection that is based on an urban legend, folklore or a myth. Banksy is an idea. He's obviously a real person, but the idea of Banksy is different than the actual person. I'm not &nbsp;cool enough to pull that off anyway...How about I embrace my &lsquo;not very cool guy&rsquo; truth and be like there&rsquo;s gotta be somebody else out there that&rsquo;s also not cool, like this is guy I can relate to...I always think about growing up, and all my friends loved Nirvana, but I&rsquo;m not Kurt Cobain; I don&rsquo;t see myself as him. I think his music is amazing, but like for me, I was into Weezer. I was guy with the glasses, like that&rsquo;s me, that&rsquo;s the guy I relate to. He sings about looking like Buddy Holly and I was attracted to that kind of a thing. I wanted to bring the same sort of feeling to my work. I didn't want people to think I was the cool and clever Banksy guy, I wanted to be dopey dude in glasses standing next to something and desperately sprawling against the wall</p>
-      <p dir="ltr"><strong id="docs-internal-guid-281dc207-6209-f0f5-2ad0-7c20582187f1">amfm: </strong>Have you ever gotten into trouble doing street art in LA?<br />
-      </p>
-      <p dir="ltr"><strong id="docs-internal-guid-281dc207-6209-f0f5-2ad0-7c20582187f1">morley:</strong> I have gotten in trouble a couple of times, but I've never gotten arrested. I've been fortunate and it's helpful to be respectful to police officers that stop me. It's also that the places I put my stuff in aren't high in damage - I always try to be aware. I never want someone to be like &lsquo;oh what a positive message told in a destructive way&rsquo; that wrecks someone&rsquo;s day that owns that store or something. I mostly do borders of buildings, and then when they sell the building they take the board or temporary walls down. Those are the places I like to go to first and foremost. There are ways of staying out of trouble, and I think it is important that you have an air of authority. I always say it&rsquo;s better to ask for forgiveness than ask for permission.<br />
-      </p>
-      <p dir="ltr"><strong id="docs-internal-guid-281dc207-6209-f0f5-2ad0-7c20582187f1">amfm: </strong>How do you feel about this idea of impermanence with your work?<strong><br />
-      </strong><br />
-      <strong>morley:</strong> The idea of permanence is intimidating. I'm an artist that works mostly with paper and glue, and it's something that's not permanent in the slightest bit. The idea of something that can be here for a while is kind of intimidating. I think that to me what I think is exciting is the idea of creating something that is interactive that people can revisit and appreciate for themselves anytime. A lot of time with galleries there's some velvet rope. I like art that you can touch, that has texture, that you can physically interact with. That's one reason why I love street art. </p>
-      <table width="513" border="0">
-        <tr>
-          <td width="166"><p><a href="../images/amfmmag/morley1.jpg" target="_blank"><img src="../images/amfmmag/morley1.jpg" alt="danielfleming2" width="150" height="150" border="1" /></a></p></td>
-          <td width="160"><a href="../images/amfmmag/morley2.jpg" target="_blank"><img src="../images/amfmmag/morley2.jpg" alt="jasonyi1" width="150" height="150" hspace="10" border="1" /></a></td>
-          <td width="173"><a href="../images/amfmmag/morley3.jpg" target="_blank"><img src="../images/amfmmag/morley3.jpg" alt="danielfleming3" width="150" height="150" hspace="10" border="1" /></a></td>
-        </tr>
-      </table>
-      <p dir="ltr"><strong>For more from Morley:</strong></p>
-      <p dir="ltr"><a href="http://iammorley.squarespace.com/" target="_blank">Morley's Website </a><br />
-        Morley's Facebook
-      </p>
-    <p dir="ltr"><em>photo credits: morley (facebook), ciera mckissick, beautifully bizarre, beauty and brawn gallery and thinkspace</em></p>
-    <p dir="ltr">&nbsp;</p></td>
-    <td width="215">&nbsp;</td>
-    <td>&nbsp;</td>
-  </tr>
-  <tr>
-    <td align="right"><a href="http://www.facebook.com/amfmmag" target="_blank"><img src="../images/mkeissue/facebook.jpg" alt="facebook" width="50" height="50" align="left" /></a><a href="http://www.twitter.com/amfmmag" target="_blank"><img src="../images/mkeissue/tumblr.jpg" alt="tumblr" width="50" height="50" align="left" /></a><a href="http://www.instagram.com/amfmmag" target="_blank"><img src="../images/amfmmag/instagram.jpg" alt="instagram" width="41" height="41" vspace="3" align="left" /></a><a href="http://www.amfm-mag.tumblr.com" target="_blank"><img src="../images/amfmmag/tumblr.jpg" alt="tumblr" width="41" height="41" vspace="3" align="left" /></a></td>
-    <td align="right">&nbsp;</td>
-  </tr>
-  <tr>
-    <td align="right">&nbsp;</td>
-    <td align="right">&nbsp;</td>
-  </tr>
-  <tr>
-    <td align="right">&nbsp;</td>
-    <td align="right">&nbsp;</td>
-  </tr>
-</table>
+<body class="oneColElsCtrHdr">
+
+<div id="container">
+  <div id="header">
+    <h2 align="center"><a href="amfmmag.html">AMFM</a><a href="amfmarts.html"> | <em>ARTS</em></a><a href="amfmmusic.html"> | MUSIC </a><a href="amfmfashion.html">| FASHION </a><a href="amfmevents.html">| EVENTS</a>
+      <!-- end #header -->
+      | <img src="../images/amfmmag/socialmedia.jpg" alt="social media" width="141" height="28" border="0" align="absbottom" usemap="#Map" />
+      <map name="Map" id="Map22">
+        <area shape="circle" coords="17,13,9" href="#http://www.facebook.com/amfmmag" />
+        <area shape="circle" coords="56,14,9" href="#http://www.twitter.com/amfmmag" />
+        <area shape="rect" coords="118,5,138,23" href="#http://www.instagram.com/amfmmag" />
+        <area shape="circle" coords="93,15,11" href="#amfm-mag.tumblr.com" />
+      </map>
+      <br />
+      <br />
+    </h2>
+    <!-- end #header -->
+  </div>
+  <div id="mainContent"><img src="../images/amfmmag/morley.jpg" width="700" height="400" alt="edo and olivier" />
+    <h2><strong id="docs-internal-guid-fd0bcbe6-9029-98c6-56f3-34feb7c6844b">Q&amp;A: MORLEY</strong></h2>
+    <p dir="ltr">LA based street artist Morley didn&rsquo;t know much about street art growing up in Iowa. To him street art consisted of illegible scrawls on buildings or street signs. It wasn&rsquo;t until he went to college in the street art haven of New York that he was exposed to work of that nature that could truly be considered &ldquo;art.&rdquo; It also wasn&rsquo;t until college that Morley explored and began to consider himself an artist. With a love for writing and illustration up his sleeve, he took to the streets with his recognizable witty phrases and sayings accompanying a realistic cartoon of himself. He doesn&rsquo;t make your typical street art, he makes art with a message, literally and figuratively.</p>
+    <p><iframe width="700" height="400" src="https://www.youtube.com/embed/bmuX11YVMx0" frameborder="0" allowfullscreen></iframe>&nbsp;</p>
+    <p dir="ltr"><strong id="docs-internal-guid-2afd7e31-2ac2-c22c-17a7-0b049db1c2fa">AMFM: </strong>How did you get into street art? What was the first Morley piece you ever made?</p>
+    <p><strong id="docs-internal-guid-2afd7e31-2ac2-c22c-17a7-0b049db1c2fa">MORLEY: </strong>I came from Iowa, and in Iowa, when i was growing up at least, there wasn't a lot of street art. I sort of like to say that street art I saw in Iowa were curse words carved in the bathroom stall doors, so when I moved out to New York and went to college out there, it was like a revelation to me. I finally started seeing art that was created to be specifically for the streets and it changed my whole perspective on what art can be. <br />
+      <br />
+    <strong id="docs-internal-guid-2afd7e31-2ac2-c22c-17a7-0b049db1c2fa">AMFM: </strong>What's the first Morley piece you did? You remember what it said?</p>
+    <strong>MORLEY:</strong> I started making art when I went to college out there in New York and it started out where I would silkscreen my slogans to sticker or contact paper and I would put it up around the subway. I enjoyed it because it was, as oppose to a lot of art forms where youre saying come to my screening, or gallery show, performance or whatever, it was the chance to take your artwork and put it into someone's world, and because of that it really affected the way people saw the work. They receive it as a message to them rather than something they have to seek out and find. So the first Morley piece I ever made was one that said &ldquo;Let's fall in love like both our parents aren't divorced.&rdquo; My parents are divorced. Every girl I've ever dated parents&rsquo; are divorced, and most of my friends&rsquo; parents are divorced. I think if it meant something to me it might mean something to someone else to. <br />
+    <br />
+    <img src="../images/amfmmag/morley3.jpg" width="700" height="400" alt="morley" /><br />
+    <p dir="ltr"><strong id="docs-internal-guid-2afd7e31-2ac6-88dd-1943-6dc980e5d66b">AMFM:</strong> So you do these kind of pieces with life sayings about love and humorous quotes, what are the messages you try to get across and incorporate into your work?</p>
+    <strong id="docs-internal-guid-2afd7e31-2ac6-88dd-1943-6dc980e5d66b">MORLEY: </strong>When I went to art school, I went as a screenwriting major and I never thought of myself as someone who had any skill in visual art. &nbsp;It was going to art school that showed me all the different kinds of art there were. There were photographers; there were illustrators; there was a lot of art. I got to see all these different kind of art forms, and it made me realize that maybe I don't have to be the best painter in the world in order to put something out there that people might respond to. The sayings that I put out there are things that I think people, when they're driving by at 35 mph down the street, might make people think, bring a certain amount of humor, or a certain nature of cuteness to their day or whatever. The main goal I always have with my work is really to connect with someone who is going through some struggle or some sort of trial in their life and can use some encouragement. I think the best drug in the world is the drug of relief, and it's the relief that comes when you realize you're not the only one who feels a certain way, or experiences something. We can live out our lives and feel like no one understands what we&rsquo;re going through and the moment you find someone and like they &ldquo;get it get it,&rdquo; there's this feeling that washes over you of like maybe I'll be okay. If I'm not the only one, maybe we're all in this together. That's what I aim for in my sayings. I try to think of something that would matter to me...that would leave some lasting impact on my life, and I try to start there and see if i can make difference. <br />
+    <p dir="ltr"><strong id="docs-internal-guid-2afd7e31-2ac6-88dd-1943-6dc980e5d66b">AMFM: </strong>So you have a background in writing?</p>
+    <strong>MORLEY: </strong>Yeah I love writing, and I love poetry. It&rsquo;s beautiful and wonderful. There's a famous story that someone once challenged Ernest Hemingway to write a story in six words. People said &ldquo;I don't think you can do it,&rdquo; and he was like &ldquo;I'll try,&rdquo; and he came back with the story. &nbsp;he wrote &ldquo;For sale, baby shoes, never worn.&rdquo; To me when I hear something like that I think he's requiring the person to fill in everything and to bring their own guesstimation as to what this story was about, to bring their own experience to it. That's what I try to do - &nbsp;have brief poetic sayings or things, and it really does require the person who's seeing it to fill in all the gaps and say what does that mean to me. A person who's never known rejection or been frustrated or disappointed will probably think my stuff is pretty boring. I think to people that can understand where I'm coming from can see it as something more profound than that. <br />
+<p><img src="../images/amfmmag/morley1.jpg" width="700" height="400" alt="morley" /></p>
+    <p dir="ltr"><strong>AMFM:</strong> You often insert in yourself in your art unlike most street artists who would prefer to remain anonymous. Why was that something you wanted to do and what has been the response?</p>
+    <p><strong>MORLEY: </strong>For me I think it was twofold. The first was that I wanted to create a relationship between the person looking at the art and the artist. Music for example, you get a relationship there because you see the person perform. You see John Lennon or Bob Marley and you know even if you have no actual physical connection with them, you can see them on a TV screen or whatever and feel that they are a person and appreciate that, so you create a human intimate connection. Filmmaking you can feel a connection through a filmmaker, but it's filtered through all the people they are collaborating with. With photography, you are seeing a beautiful image, but not necessarily connecting with the photographer, so I thought, is there a way to create that kind of connection, that kind of bond, between that person that's looking at something? I do, so I thought, why not put myself in it? I feel like you earn the privilege of speaking into someone's life when you are open, honest, and vulnerable with them. No one wants to hear advice from someone they don't feel is being real with them, or struggled with similar things. I thought if I put myself in my work it might create that connection more than if I was a logo or a brand. Secondly, I feel there&rsquo;s artists like Banksy that are anonymous, and they create a connection that is based on an urban legend, folklore or a myth. Banksy is an idea. He's obviously a real person, but the idea of Banksy is different than the actual person. I'm not &nbsp;cool enough to pull that off anyway...How about I embrace my &lsquo;not very cool guy&rsquo; truth and be like there&rsquo;s gotta be somebody else out there that&rsquo;s also not cool, like this is guy I can relate to...I always think about growing up, and all my friends loved Nirvana, but I&rsquo;m not Kurt Cobain; I don&rsquo;t see myself as him. I think his music is amazing, but like for me, I was into Weezer. I was guy with the glasses, like that&rsquo;s me, that&rsquo;s the guy I relate to. He sings about looking like Buddy Holly and I was attracted to that kind of a thing. I wanted to bring the same sort of feeling to my work. I didn't want people to think I was the cool and clever Banksy guy, I wanted to be dopey dude in glasses standing next to something and desperately sprawling against the wall. </p>
+    <p><img src="../images/amfmmag/morley2.jpg" width="700" height="700" alt="morley" /><br />
+    </p>
+    <p dir="ltr"><strong id="docs-internal-guid-2afd7e31-2ada-dbf6-fc91-a0f9c4e68599">AMFM:</strong> Have you ever gotten into trouble doing street art in LA?</p>
+<strong>MORLEY:</strong> I have gotten in trouble a couple of times, but I've never gotten arrested. I've been fortunate and it's helpful to be respectful to police officers that stop me. It's also that the places I put my stuff in aren't high in damage - I always try to be aware. I never want someone to be like &lsquo;oh what a positive message told in a destructive way&rsquo; that wrecks someone&rsquo;s day that owns that store or something. I mostly do borders of buildings, and then when they sell the building they take the board or temporary walls down. Those are the places I like to go to first and foremost. There are ways of staying out of trouble, and I think it is important that you have an air of authority. I always say it&rsquo;s better to ask for forgiveness than ask for permission. <br />
+<br />
+<p dir="ltr"><strong id="docs-internal-guid-2afd7e31-2ada-dbf6-fc91-a0f9c4e68599">AMFM: </strong>How do you feel about this idea of impermanence with your work?</p>
+<strong>MORLEY:</strong> The idea of permanence is intimidating. I'm an artist that works mostly with paper and glue, and it's something that's not permanent in the slightest bit. The idea of something that can be here for a while is kind of intimidating. I think that to me what I think is exciting is the idea of creating something that is interactive that people can revisit and appreciate for themselves anytime. A lot of time with galleries there's some velvet rope. I like art that you can touch, that has texture, that you can physically interact with. That's one reason why I love street art. <br />
+    <p><strong id="docs-internal-guid-2afd7e31-2a9e-6be5-f20d-e5756aa19564">FOR MORE FROM MORLEY:<br />
+      </strong><a href="https://www.instagram.com/official_morley/" target="_blank">INSTAGRAM</a> / <a href="http://iammorley.squarespace.com/" target="_blank">WEBSITE</a><br />
+    </p>
+    <h6 dir="ltr"><strong id="docs-internal-guid-2afd7e31-2a9e-6be5-f20d-e5756aa19564"><em>PHOTO CREDITS: MORLEY<br />
+      VIDEO CREDITS: SEE THRU VISION / JORDAN HOLMES
+    </em></strong><strong><em><br />
+    </em></strong></h6>
+    <!-- end #mainContent -->
+</div>
+  <div id="footer">
+    <h2><a href="aboutamfm.html">ABOUT AMFM</a><br />
+      <a href="mailto:info@amfm-mag.com">CONTACT</a><br />
+<img src="../images/amfmmag/socialmedia.jpg" alt="social media" width="150" height="32" border="0" usemap="#Map" />
+<map name="Map" id="Map2">
+  <area shape="circle" coords="93,15,9" href="#amfm-mag.tumblr.com" />
+  <area shape="rect" coords="120,5,140,25" href="#http://www.instagram.com/amfmmag" />
+  <area shape="circle" coords="57,17,11" href="#http://www.twitter.com/amfmmag" />
+  <area shape="circle" coords="20,19,10" href="#http://www.facebook.com/amfmmag" />
+</map>
+    </h2>
+    <h2>
+      <div id="mc_embed_signup">
+        <form action="//amfm-mag.us10.list-manage.com/subscribe/post?u=738860a67ed3f5cd20e478572&amp;id=8db9e6e243" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate="novalidate">
+          <div id="mc_embed_signup_scroll">SIGN UP FOR UPDATES!
+            <div class="mc-field-group">
+              <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" />
+            </div>
+            <div id="mce-responses" class="clear">
+              <div class="response" id="mce-error-response" style="display:none"></div>
+              <div class="response" id="mce-success-response" style="display:none"></div>
+            </div>
+            <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+            <div style="position: absolute; left: -5000px;" aria-hidden="true">
+              <input type="text" name="b_738860a67ed3f5cd20e478572_8db9e6e243" tabindex="-1" value="" />
+            </div>
+            <div class="clear">
+              <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button" />
+            </div>
+          </div>
+        </form>
+      </div>
+      <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
+      <script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+      <!--End mc_embed_signup-->
+      <br />
+    </h2>
+    <td align="right">&nbsp;</td></p>
+  <!-- end #footer --></div></div>
 </body>
 </html>
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-48234405-1', 'amfm-mag.com');
-  ga('send', 'pageview');
-
-</script>
 <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
-</html>
-
+</head

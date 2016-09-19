@@ -2,134 +2,160 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>amfm</title>
+<title>amfm magazine</title>
 <style type="text/css">
 <!--
-.content {	font-family: Verdana, Geneva, sans-serif;
+body {
+	font: 100% Verdana, Arial, Helvetica, sans-serif;
+	background: #FFFFFF;
+	margin: 0; /* it's good practice to zero the margin and padding of the body element to account for differing browser defaults */
+	padding: 0;
+	text-align: center; /* this centers the container in IE 5* browsers. The text is then set to the left aligned default in the #container selector */
+	color: #000000;
 }
-.content {	font-family: Arial, Helvetica, sans-serif;
+
+/* Tips for Elastic layouts 
+1. Since the elastic layouts overall sizing is based on the user's default fonts size, they are more unpredictable. Used correctly, they are also more accessible for those that need larger fonts size since the line length remains proportionate.
+2. Sizing of divs in this layout are based on the 100% font size in the body element. If you decrease the text size overall by using a font-size: 80% on the body element or the #container, remember that the entire layout will downsize proportionately. You may want to increase the widths of the various divs to compensate for this.
+3. If font sizing is changed in differing amounts on each div instead of on the overall design (ie: #sidebar1 is given a 70% font size and #mainContent is given an 85% font size), this will proportionately change each of the divs overall size. You may want to adjust based on your final font sizing.
+*/
+.oneColElsCtrHdr #container {
+	width: 46em;  /* this width will create a container that will fit in an 800px browser window if text is left at browser default font sizes */
+	background: #FFFFFF;
+	margin: 0 auto; /* the auto margins (in conjunction with a width) center the page */
+	border: 1px solid #FFFFFF;
+	text-align: left; /* this overrides the text-align: center on the body element. */
 }
-.content {	font-family: Tahoma, Geneva, sans-serif;
+.oneColElsCtrHdr #header { 
+	background: #FFFFFF; 
+	padding: 0 10px 0 20px;  /* this padding matches the left alignment of the elements in the divs that appear beneath it. If an image is used in the #header instead of text, you may want to remove the padding. */
+} 
+.oneColElsCtrHdr #header h1 {
+	margin: 0; /* zeroing the margin of the last element in the #header div will avoid margin collapse - an unexplainable space between divs. If the div has a border around it, this is not necessary as that also avoids the margin collapse */
+	padding: 10px 0; /* using padding instead of margin will allow you to keep the element away from the edges of the div */
 }
-.content {	font-family: MS Serif, New York, serif;
+.oneColElsCtrHdr #mainContent {
+	padding: 0 20px; /* remember that padding is the space inside the div box and margin is the space outside the div box */
+	background: #FFFFFF;
 }
-.content {	font-family: Arial Black, Gadget, sans-serif;
-}
-.content {	font-family: Calibri;
-}
-.style4 {font-family: Verdana, Arial, Helvetica, sans-serif; font-weight: bold; }
-a:link {
-	color: #000;
-}
-a:visited {
-	color: #000;
+.oneColElsCtrHdr #footer { 
+	padding: 0 10px; /* this padding matches the left alignment of the elements in the divs that appear above it. */
+	background:#FFFFFF;
+} 
+.oneColElsCtrHdr #footer p {
+	margin: 0; /* zeroing the margins of the first element in the footer will avoid the possibility of margin collapse - a space between divs */
+	padding: 10px 0; /* padding on this element will create space, just as the the margin would have, without the margin collapse issue */
 }
 body,td,th {
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 11pt;
+	font-family: Trebuchet MS, Arial, Helvetica, sans-serif;
+}
+a:link {
+	color: #000;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #000;
+}
+a:hover {
+	text-decoration: none;
+}
+a:active {
+	text-decoration: none;
 }
 -->
-</style>
-</head>
+</style></head>
 
-<body>
-<table width="955" border="0" cellspacing="0" cellpadding="0">
-  <tr>
-    <td colspan="3"><img src="../images/amfmmag/iridium.jpg" width="955" height="400" alt="cocoandbreezy" /></td>
-    <td width="4">&nbsp;</td>
-  </tr>
-  <tr>
-    <td colspan="3">&nbsp;</td>
-    <td>&nbsp;</td>
-  </tr>
-  <tr>
-    <td colspan="3" bgcolor="#000000"><div align="center"><a href="contact.html"><img src="../images/mkeissue/contactbutton.jpg" alt="blog" width="95" height="33" hspace="81" align="right" /></a><a href="magazine.html"><img src="../images/mkeissue/magazinebutton-b.jpg" alt="magazine" width="116" height="33" align="right" /></a><a href="fashion.html"><img src="../images/mkeissue/fashionbuttonb.jpg" alt="fashion" width="95" height="33" hspace="81" align="right" /></a><a href="music.html"><img src="../images/mkeissue/musicbuttonb.jpg" alt="music" width="81" height="33" hspace="0" align="right" /></a><a href="arts.html"><img src="../images/mkeissue/artsbuttonb.jpg" alt="arts" width="53" height="33" hspace="81" align="right" /></a></div></td>
-    <td>&nbsp;</td>
-  </tr>
-  <tr>
-    <td width="228"><blockquote>
-      <blockquote>
-        <p>&nbsp;</p>
-        <p align="center">&nbsp;</p>
-<p>&nbsp;</p>
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-      </blockquote>
-    </blockquote></td>
-    <td width="517"><p>&nbsp;</p>
-      <p dir="ltr"><strong>Iridium Clothing Co.</strong><br />
-      </p>
-<p dir="ltr">Home of elongating silhouettes and homages to the advanced style of Japanese streetwear, Iridium Clothing Co. collates current trends and futuristic designs. The brainchild of founder Mr. Platinum, a former artist stylist, Iridium is constantly redefining its limits each season. The brands notorious original design was their signature varsity jacket; the garment sliced room in Chicago's fashion scene by establishing the brand as a select creative force and redefined style in Chicago. </p>
-<p dir="ltr">Years later,  one subsequent building upgrade and an expansion to Atlanta, the globally recognized brand is paving their own segment into streetwear while incessantly stretching boundaries. Their most recent collection, Fall/Winter 2015, features excellent draping, precise cuts, and magnificent structure that continues to challenge familiar silhouettes of average streetwear designs.<br />
-      </p>
-<p dir="ltr"> <strong>amfm:</strong> How was Iridium born?<strong><br />
-</strong></p>
-<p dir="ltr"><strong>pugs atomz creative director of iridium:</strong> Iridium started in 2008 by the designer and founder Platinum, after earning his degree in BioChemistry from Chicago State University. He started out styling rappers and personalities like Rocsi, Common, Kanye, and Nikki Minaj to name a few. After a while he grew tired of finding the clothing and decided to create the looks he styled his clients in. I met Platinum while I was working at Power 92 and he was attending CSU, I introduced him to Rocsi when she asked if I knew a good stylist. Fast forward five years and I was living in London, but visiting my family here in Chicago and saw this MJ Thriller themed &nbsp;t-shirt come across my timeline. So I did what any touring artist would do, find out who made it and hit them up to cop. As I researched, I found out the shirt was from Iridium and realized I knew the guy. Platinum gave me a few items for my shows in Poland, and we kept in touch when I would come home to visit. When I moved back to Chicago I started to submit designs and did some video work for the brand and eventually became the brand&rsquo;s Creative Director and set out to find our first retail location.<br />
+<body class="oneColElsCtrHdr">
+
+<div id="container">
+  <div id="header">
+    <h2 align="center"><a href="amfmmag.html">AMFM</a><a href="amfmarts.html"> | ARTS</a><a href="amfmmusic.html"> | MUSIC </a><a href="amfmfashion.html">|<em> FASHION</em></a><a href="amfmevents.html">| EVENTS</a>
+      <!-- end #header -->
+      | <img src="../images/amfmmag/socialmedia.jpg" alt="social media" width="141" height="28" border="0" align="absbottom" usemap="#Map" />
+      <map name="Map" id="Map22">
+        <area shape="circle" coords="18,13,10" href="#http://www.facebook.com/amfmmag" />
+        <area shape="circle" coords="56,15,10" href="#http://www.twitter.com/amfmmag" />
+        <area shape="rect" coords="114,6,134,24" href="#http://www.instagram.com/amfmmag" />
+        <area shape="circle" coords="90,14,11" href="#amfm-mag.tumblr.com" />
+      </map>
+      <br />
+      <br />
+    </h2>
+    <!-- end #header -->
+  </div>
+  <div id="mainContent">
+    <p><img src="../images/amfmmag/iridium.jpg" width="700" height="400" alt="calid b" /></p>
+    <h2>Q&amp;A: IRIDIUM </h2>
+<p dir="ltr">Home of elongating silhouettes and homages to the advanced style of Japanese streetwear, Iridium Clothing Co. collates current trends and futuristic designs. The brainchild of founder Mr. Platinum, a former artist stylist, Iridium is constantly redefining its limits each season. The brands notorious original design was their signature varsity jacket; the garment sliced room in Chicago's fashion scene by establishing the brand as a select creative force and redefined style in Chicago.<br />
 </p>
-<p dir="ltr"><strong id="docs-internal-guid-bdcc6012-1567-58b4-7e73-847c73f811a1">amfm: </strong>You spent time in China and Japan during college and your professional working life, how did this experience help mold Iridiums &ldquo;aesthetic&rdquo;? &nbsp;<br />
-      </p>
-<p dir="ltr"><strong id="docs-internal-guid-bdcc6012-1567-58b4-7e73-847c73f811a1">iridium founder platinum: </strong>The Japanese culture is very forward in all aspects of life, including time and fashion. The appreciation for fashion was born in Japan, not only for the look, but also the feel, and the quality. The Asian culture continues to shape a variety of aspects with Iridium.<br />
-      </p>
-<p dir="ltr"><strong id="docs-internal-guid-bdcc6012-1567-58b4-7e73-847c73f811a1">amfm: </strong>Iridium is an scientific element and often the brand references science in its designs. From the &ldquo;think science&rdquo; slogan to the molecular prints on neoprene fabric, what inspired the name iridum? Was it a love of science or just for aesthetic purposes?</p>
-<p dir="ltr"><strong id="docs-internal-guid-bdcc6012-1567-58b4-7e73-847c73f811a1">iridium: </strong>My first love is Science. I have a biochemistry degree and was all set to go to Med School before I decided to take on the challenge of a fashion takeover. Iridium is the purest form of platinum. I didn't want to name the brand platinum, so i decided to call it Iridium instead of Platinum which is too typical of a business name. The goal is to bring an element of science to the fashion world and keep it at a platinum level and that&rsquo;s the essence of Iridium.</p>
-      <p dir="ltr"> <strong>amfm:</strong> Would you describe your varsity skull jacket a staple iridium piece or the piece that put the brand on the map? In what ways did you make your imprint into the fashion world?</p>
-      <p dir="ltr"><strong id="docs-internal-guid-bdcc6012-1567-58b4-7e73-847c73f811a1">iridium: </strong>It&rsquo;s the piece that put us on the map. It was the piece that connected us to the world that we wanted to be a part of from a global standpoint. Our imprint isn't complete yet, were still in the process of getting our lifestyle brand in the balance. I know that we would like to add an new element of style and swag to life, not just through clothes, but our lifestyle.  </p>
-<p dir="ltr"><strong id="docs-internal-guid-bdcc6012-1567-58b4-7e73-847c73f811a1">amfm: </strong>What groundbreaking or new element does Iridium bring to High end street fashion? How do you combine high end fashion with street wear?</p>
-<p dir="ltr"><strong id="docs-internal-guid-bdcc6012-1567-58b4-7e73-847c73f811a1">iridium: </strong>The blend of fabrics, and new technology from 3-D printing, and sustainable materials that are eco friendly and good for the environment and one&rsquo;s soul, being soul conscious to society, and representing the unrepresented. We want our products to be a connection, a universal language that all aspects of life can connect with.</p>
-<p dir="ltr"><strong id="docs-internal-guid-bdcc6012-1567-58b4-7e73-847c73f811a1">amfm: </strong>The second Iridium store was recently opened in Atl. What inspired this expansion, and why Atlanta? Why not LA or NYC, cities that are better known for fashion? &nbsp;What else can we expect from Iridium in the future?</p>
-<p dir="ltr"><strong id="docs-internal-guid-bdcc6012-1567-58b4-7e73-847c73f811a1">iridium:</strong> Atlanta in our mind is one of the hottest cities - the mecca our successful black people. We felt like it was necessary to introduce the brand in a positive way in ATL. We have many clients who shop with us from the NYC, and LA area, and we felt like Atlanta is somewhat just like our hometown of Chicago where the fashion community sleeps on us. They don't realize that we are very fashionable, fashion forward, and knowledgeable of what&rsquo;s current in the fashion world today. It was only right to bring Iridium to Atlanta. We fit together like a hand in a glove. The future is bright for Iridium.<br />
-      </p>
-<table width="513" border="0">
-        <tr>
-          <td width="174"><p><a href="../images/amfmmag/iridium1.jpg" target="_blank"> <img src="../images/amfmmag/iridium1.jpg" alt="daniel fleming" width="150" height="150" hspace="10" border="1" /></a></p></td>
-          <td width="154"><a href="../images/amfmmag/iridium2.jpg" target="_blank"><img src="../images/amfmmag/iridium2.jpg" alt="danielfleming2" width="150" height="150" border="1" /></a></td>
-          <td width="171"><a href="../images/amfmmag/iridium3.jpg" target="_blank"><img src="../images/amfmmag/iridium3.jpg" alt="danielfleming3" width="150" height="150" hspace="10" border="1" /></a></td>
-        </tr>
-      </table>
-<br />
-<strong>For more from Iridium Clothing Co:
-</strong>
-      <p><a href="https://iridiumclothingco.com/" target="_blank">https://iridiumclothingco.com<br />
-      </a></p>
-      <p><em>photo credits: Iridium Clothing Co.<br />
-    </em><em>contributing writer: marissa sallie</em><br />
-      </p></td>
-    <td width="214">&nbsp;</td>
-    <td>&nbsp;</td>
-  </tr>
-  <tr>
-    <td align="right"><a href="http://www.facebook.com/amfmmag" target="_blank"><img src="../images/mkeissue/facebook.jpg" alt="facebook" width="50" height="50" align="left" /></a><a href="http://www.twitter.com/amfmmag" target="_blank"><img src="../images/mkeissue/tumblr.jpg" alt="tumblr" width="50" height="50" align="left" /></a><a href="http://www.instagram.com/amfmmag" target="_blank"><img src="../images/amfmmag/instagram.jpg" alt="instagram" width="41" height="41" vspace="3" align="left" /></a><a href="http://www.amfm-mag.tumblr.com" target="_blank"><img src="../images/amfmmag/tumblr.jpg" alt="tumblr" width="41" height="41" vspace="3" align="left" /></a></td>
-    <td align="right">&nbsp;</td>
-  </tr>
-  <tr>
-    <td align="right">&nbsp;</td>
-    <td align="right">&nbsp;</td>
-  </tr>
-  <tr>
-    <td align="right">&nbsp;</td>
-    <td align="right">&nbsp;</td>
-  </tr>
-</table>
+<p dir="ltr">Years later, one subsequent building upgrade and an expansion to Atlanta, the globally recognized brand is paving their own segment into streetwear while incessantly stretching boundaries. Their most recent collection, Fall/Winter 2015, features excellent draping, precise cuts, and magnificent structure that continues to challenge familiar silhouettes of average streetwear designs.</p>
+<p><img src="../images/amfmmag/iridium1.jpg" width="700" height="600" alt="inaru" /><strong id="docs-internal-guid-2afd7e31-2f65-15ee-906d-dce3c03137ca"><br /></strong></p>
+<p dir="ltr"><strong id="docs-internal-guid-2afd7e31-2f7d-8d93-b4dd-1a19cf5e5668">AMFM:</strong> How was Iridium born?</p>
+<p dir="ltr"><strong id="docs-internal-guid-2afd7e31-2f7d-8d93-b4dd-1a19cf5e5668">PUGS ATOMZ CREATIVE DIRECTOR OF IRIDIUM:</strong>Iridium started in 2008 by the designer and founder Platinum, after earning his degree in BioChemistry from Chicago State University. He started out styling rappers and personalities like Rocsi, Common, Kanye, and Nikki Minaj to name a few. After a while he grew tired of finding the clothing and decided to create the looks he styled his clients in. I met Platinum while I was working at Power 92 and he was attending CSU, I introduced him to Rocsi when she asked if I knew a good stylist. Fast forward five years and I was living in London, but visiting my family here in Chicago and saw this MJ Thriller themed &nbsp;t-shirt come across my timeline. So I did what any touring artist would do, find out who made it and hit them up to cop. As I researched, I found out the shirt was from Iridium and realized I knew the guy. Platinum gave me a few items for my shows in Poland, and we kept in touch when I would come home to visit. When I moved back to Chicago I started to submit designs and did some video work for the brand and eventually became the brand&rsquo;s Creative Director and set out to find our first retail location.</p>
+<p dir="ltr"><strong id="docs-internal-guid-2afd7e31-2f7d-8d93-b4dd-1a19cf5e5668">AMFM: </strong>You spent time in China and Japan during college and your professional working life, how did this experience help mold Iridium's &ldquo;aesthetic&rdquo;? &nbsp;<br />
+</p>
+<p dir="ltr"><strong id="docs-internal-guid-2afd7e31-2f7d-8d93-b4dd-1a19cf5e5668">IRIDIUM FOUNDER PLATINUM: </strong>The Japanese culture is very forward in all aspects of life, including time and fashion. The appreciation for fashion was born in Japan, not only for the look, but also the feel, and the quality. The Asian culture continues to shape a variety of aspects with Iridium.</p>
+<p dir="ltr"><img src="../images/amfmmag/iridium2.jpg" width="700" height="400" alt="iridium" /><br />
+</p>
+<p dir="ltr"><strong id="docs-internal-guid-2afd7e31-2f7d-8d93-b4dd-1a19cf5e5668">AMFM:</strong> Iridium is an scientific element and often the brand references science in its designs. From the &ldquo;think science&rdquo; slogan to the molecular prints on neoprene fabric, what inspired the name iridum? Was it a love of science or just for aesthetic purposes?<br />
+</p>
+<p dir="ltr"><strong id="docs-internal-guid-2afd7e31-2f7d-8d93-b4dd-1a19cf5e5668">IRIDIUM: </strong>My first love is Science. I have a biochemistry degree and was all set to go to Med School before I decided to take on the challenge of a fashion takeover. Iridium is the purest form of platinum. I didn't want to name the brand Platinum, so I decided to call it Iridium instead of Platinum which is too typical of a business name. The goal is to bring an element of science to the fashion world and keep it at a platinum level and that&rsquo;s the essence of Iridium.<br />
+</p>
+<p dir="ltr"><strong>AMFM: </strong>Would you describe your varsity skull jacket a staple iridium piece or the piece that put the brand on the map? In what ways did you make your imprint into the fashion world?<br />
+</p>
+<p dir="ltr"><strong id="docs-internal-guid-2afd7e31-2f7d-8d93-b4dd-1a19cf5e5668">IRIDIUM: </strong>It&rsquo;s the piece that put us on the map. It was the piece that connected us to the world that we wanted to be a part of from a global standpoint. Our imprint isn't complete yet, were still in the process of getting our lifestyle brand in the balance. I know that we would like to add an new element of style and swag to life, not just through clothes, but our lifestyle.</p>
+<p dir="ltr"><strong id="docs-internal-guid-2afd7e31-2f7d-8d93-b4dd-1a19cf5e5668">AMFM: </strong>What groundbreaking or new element does Iridium bring to High end street fashion? How do you combine high end fashion with street wear?<br />
+</p>
+<p dir="ltr"><strong id="docs-internal-guid-2afd7e31-2f7d-8d93-b4dd-1a19cf5e5668">IRIDIUM: </strong>The blend of fabrics, and new technology from 3-D printing, and sustainable materials that are eco friendly and good for the environment and one&rsquo;s soul, being soul conscious to society, and representing the unrepresented. We want our products to be a connection, a universal language that all aspects of life can connect with.<br />
+</p>
+<p dir="ltr"><strong id="docs-internal-guid-2afd7e31-2f7d-8d93-b4dd-1a19cf5e5668"><img src="../images/amfmmag/pugs.jpg" width="700" height="400" alt="pugs" /><br />
+  AMFM: </strong>The second Iridium store was recently opened in Atl. What inspired this expansion, and why Atlanta? Why not LA or NYC, cities that are better known for fashion? &nbsp;What else can we expect from Iridium in the future?<br />
+</p>
+<p dir="ltr"><strong id="docs-internal-guid-2afd7e31-2f7d-8d93-b4dd-1a19cf5e5668">IRIDIUM:</strong> Atlanta in our mind is one of the hottest cities - the mecca our successful black people. We felt like it was necessary to introduce the brand in a positive way in ATL. We have many clients who shop with us from the NYC, and LA area, and we felt like Atlanta is somewhat just like our hometown of Chicago where the fashion community sleeps on us. They don't realize that we are very fashionable, fashion forward, and knowledgeable of what&rsquo;s current in the fashion world today. It was only right to bring Iridium to Atlanta. We fit together like a hand in a glove. The future is bright for Iridium.</p>
+<p><strong id="docs-internal-guid-2afd7e31-2a9e-6be5-f20d-e5756aa19564">FOR MORE FROM IRIDIUM:</strong> <br />
+    <a href="https://iridiumclothingco.com/" target="_blank">WEBSITE </a><a href="https://www.instagram.com/iridiumclothingco/" target="_blank">/ INSTAGRAM</a><br />
+</p>
+<h6 dir="ltr"><strong id="docs-internal-guid-2afd7e31-2a9e-6be5-f20d-e5756aa19564"><em>PHOTO CREDITS: IRIDIUM</em></strong></h6></div>
+  <div id="footer">
+    <h2><a href="aboutamfm.html">ABOUT AMFM</a><br />
+      <a href="mailto:info@amfm-mag.com">CONTACT</a><br />
+<img src="../images/amfmmag/socialmedia.jpg" alt="social media" width="150" height="32" border="0" usemap="#Map" />
+<map name="Map" id="Map2">
+  <area shape="circle" coords="93,15,9" href="#amfm-mag.tumblr.com" />
+  <area shape="rect" coords="120,5,140,25" href="#http://www.instagram.com/amfmmag" />
+  <area shape="circle" coords="57,17,11" href="#http://www.twitter.com/amfmmag" />
+  <area shape="circle" coords="20,19,10" href="#http://www.facebook.com/amfmmag" />
+</map>
+    </h2>
+    <h2>
+      <div id="mc_embed_signup">
+        <form action="//amfm-mag.us10.list-manage.com/subscribe/post?u=738860a67ed3f5cd20e478572&amp;id=8db9e6e243" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate="novalidate">
+          <div id="mc_embed_signup_scroll">SIGN UP FOR UPDATES!
+            <div class="mc-field-group">
+              <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" />
+            </div>
+            <div id="mce-responses" class="clear">
+              <div class="response" id="mce-error-response" style="display:none"></div>
+              <div class="response" id="mce-success-response" style="display:none"></div>
+            </div>
+            <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+            <div style="position: absolute; left: -5000px;" aria-hidden="true">
+              <input type="text" name="b_738860a67ed3f5cd20e478572_8db9e6e243" tabindex="-1" value="" />
+            </div>
+            <div class="clear">
+              <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button" />
+            </div>
+          </div>
+        </form>
+      </div>
+      <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
+      <script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+      <!--End mc_embed_signup-->
+      <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+</head></h2>
+    <td align="right">&nbsp;</td></p>
+  <!-- end #footer --></div>
+<!-- end #container --></div>
 </body>
-</html>
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-48234405-1', 'amfm-mag.com');
-  ga('send', 'pageview');
-
-</script>
-<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
 </html>

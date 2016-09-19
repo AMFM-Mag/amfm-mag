@@ -2,131 +2,163 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>amfm</title>
+<title>amfm magazine</title>
 <style type="text/css">
 <!--
-.content {	font-family: Verdana, Geneva, sans-serif;
+body {
+	font: 100% Verdana, Arial, Helvetica, sans-serif;
+	background: #FFFFFF;
+	margin: 0; /* it's good practice to zero the margin and padding of the body element to account for differing browser defaults */
+	padding: 0;
+	text-align: center; /* this centers the container in IE 5* browsers. The text is then set to the left aligned default in the #container selector */
+	color: #000000;
 }
-.content {	font-family: Arial, Helvetica, sans-serif;
+
+/* Tips for Elastic layouts 
+1. Since the elastic layouts overall sizing is based on the user's default fonts size, they are more unpredictable. Used correctly, they are also more accessible for those that need larger fonts size since the line length remains proportionate.
+2. Sizing of divs in this layout are based on the 100% font size in the body element. If you decrease the text size overall by using a font-size: 80% on the body element or the #container, remember that the entire layout will downsize proportionately. You may want to increase the widths of the various divs to compensate for this.
+3. If font sizing is changed in differing amounts on each div instead of on the overall design (ie: #sidebar1 is given a 70% font size and #mainContent is given an 85% font size), this will proportionately change each of the divs overall size. You may want to adjust based on your final font sizing.
+*/
+.oneColElsCtrHdr #container {
+	width: 46em;  /* this width will create a container that will fit in an 800px browser window if text is left at browser default font sizes */
+	background: #FFFFFF;
+	margin: 0 auto; /* the auto margins (in conjunction with a width) center the page */
+	border: 1px solid #FFFFFF;
+	text-align: left; /* this overrides the text-align: center on the body element. */
 }
-.content {	font-family: Tahoma, Geneva, sans-serif;
+.oneColElsCtrHdr #header { 
+	background: #FFFFFF; 
+	padding: 0 10px 0 20px;  /* this padding matches the left alignment of the elements in the divs that appear beneath it. If an image is used in the #header instead of text, you may want to remove the padding. */
+} 
+.oneColElsCtrHdr #header h1 {
+	margin: 0; /* zeroing the margin of the last element in the #header div will avoid margin collapse - an unexplainable space between divs. If the div has a border around it, this is not necessary as that also avoids the margin collapse */
+	padding: 10px 0; /* using padding instead of margin will allow you to keep the element away from the edges of the div */
 }
-.content {	font-family: MS Serif, New York, serif;
+.oneColElsCtrHdr #mainContent {
+	padding: 0 20px; /* remember that padding is the space inside the div box and margin is the space outside the div box */
+	background: #FFFFFF;
 }
-.content {	font-family: Arial Black, Gadget, sans-serif;
-}
-.content {	font-family: Calibri;
-}
-.style4 {font-family: Verdana, Arial, Helvetica, sans-serif; font-weight: bold; }
-a:link {
-	color: #000;
-}
-a:visited {
-	color: #000;
+.oneColElsCtrHdr #footer { 
+	padding: 0 10px; /* this padding matches the left alignment of the elements in the divs that appear above it. */
+	background:#FFFFFF;
+} 
+.oneColElsCtrHdr #footer p {
+	margin: 0; /* zeroing the margins of the first element in the footer will avoid the possibility of margin collapse - a space between divs */
+	padding: 10px 0; /* padding on this element will create space, just as the the margin would have, without the margin collapse issue */
 }
 body,td,th {
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 11pt;
+	font-family: Trebuchet MS, Arial, Helvetica, sans-serif;
+}
+a:link {
+	color: #000;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #000;
+}
+a:hover {
+	text-decoration: none;
+}
+a:active {
+	text-decoration: none;
 }
 -->
-</style>
-</head>
+</style></head>
 
-<body>
-<table width="955" border="0" cellspacing="0" cellpadding="0">
-  <tr>
-    <td colspan="3"><img src="../images/amfmmag/danielayohannesbw.jpg" width="955" height="400" alt="tyanna" /></td>
-    <td width="4">&nbsp;</td>
-  </tr>
-  <tr>
-    <td colspan="3">&nbsp;</td>
-    <td>&nbsp;</td>
-  </tr>
-  <tr>
-    <td colspan="3" bgcolor="#000000"><div align="center"><a href="contact.html"><img src="../images/mkeissue/contactbutton.jpg" alt="blog" width="95" height="33" hspace="75" align="right" /></a><a href="magazine.html"><img src="../images/mkeissue/magazinebutton-b.jpg" alt="magazine" width="116" height="33" align="right" /></a><a href="fashion.html"><img src="../images/mkeissue/fashionbuttonb.jpg" alt="fashion" width="95" height="33" hspace="81" align="right" /></a><a href="music.html"><img src="../images/mkeissue/musicbuttonb.jpg" alt="music" width="81" height="33" hspace="0" align="right" /></a><a href="arts.html"><img src="../images/mkeissue/artbuttonw.jpg" alt="arts" width="61" height="33" hspace="81" align="right" /></a></div></td>
-    <td>&nbsp;</td>
-  </tr>
-  <tr>
-    <td width="228"><blockquote>
-      <blockquote>
-        <p>&nbsp;</p>
-        <p align="center">&nbsp;</p>
-<p>&nbsp;</p>
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-      </blockquote>
-    </blockquote></td>
-    <td width="517"><p>&nbsp;</p>
-      <p dir="ltr"><strong>Daniela Yohannes &quot;Painter of the Invisible&quot;</strong></p>
-      <p dir="ltr">Paris based Painter of the Invisible, Daniela Yohannes&rsquo; breathtaking work is as beautiful as it is intricate. Layered with symbolism and the complexities of human nature, her pieces walk the line of light and dark - there is a conversation between the two being had on canvas, spilling from her head to her brush. There is something haunting, yet whimsical about her art, whether it be the dark figures juxtaposed on bright and colorful backdrops, the inspiration it is derived from, or the small findings hidden within. </p>
-      There is a mysticism behind her work. A dubbed sorcerer with her wand, disguised as a paint brush. Art can speak volumes, and her art has a soft rumbling to it, bursting on the brink of a scream that shouts throughout your soul begging you to question. She paints for those who cannot, and tells stories that need to be told in such a vibrant way, the paint speaks louder than words.<br />
-      <p dir="ltr"><strong id="docs-internal-guid-4fb6b08a-deed-53c0-9a28-2d5ec95ccd6d">amfm: </strong>In what way do you beg the viewer to interrogate their identity and truth? How would you say turning the page onto the viewer rather than on yourself is more impactful? In return, how do you interrogate yourself?<br />
-      </p>
-      <p dir="ltr"><strong id="docs-internal-guid-4fb6b08a-deed-53c0-9a28-2d5ec95ccd6d">daniela yohannes: </strong>There is certainly an internal dialogue, which occurs before and during the process of making work. This is the primary &lsquo;Interrogation&rsquo; with the self. And it is in this process of going inwards that you render yourself truth. That process is deeply important. It's life&rsquo;s poetry. But the real poetry is that by going inwards, by searching, you force the viewer to undertake that same journey. When I paint, I&rsquo;m thinking about all of humanity, and I try to suggest narratives that are deeply compelling to the human spirit.</p>
-      <p dir="ltr"><strong id="docs-internal-guid-4fb6b08a-deed-53c0-9a28-2d5ec95ccd6d">amfm: </strong>What about the consciousness of the human condition do you find provoking? How does one being conscious of this experience rather than merely experiencing the condition elevate oneself to you?<br />
-      </p>
-      <p dir="ltr"><strong id="docs-internal-guid-4fb6b08a-deed-53c0-9a28-2d5ec95ccd6d">yohannes: </strong>The fact that we have the ability to contemplate life itself is quite amazing to me. Trying to understand your nature and your place within this universe is both profound and mystifying. We essentially think, dream and ponder because we are wired that way. It is through our experiences, which are connected to our emotions, that we expose our humanity. When we overcome, evolve and, at times even transcend. It is these emotional triumphs for survival that compel me and cause me to question my truth. My method centres me. I feel and experience. From that I confront myself and contemplate and then I release via art. I'm not saying everyone should be so conscious of his or her experiences. I often think of my grandparents back home, whom I believe merely experienced life; however their connection to the source - be it God, the earth, the elements - was far greater than mine. For me they were elevated in ways I&rsquo;m not. I find this to be true for certain other traditional communities of people who also live with nature. People who work the land and cultivate the food they eat. I admire those communities. A little anecdote for you - last summer I was invited to a dinner at a home of some farmers in the South of France. Everything we consumed at the dinner, they had cultivated: the vegetables, the meat, the cheese, fruits, and bread, and even the wine. Those farmers were completely self-sufficient. Now to me these people don&rsquo;t need to have an &lsquo;awareness&rsquo;. They don't need to sit to contemplate life necessarily. Since they are living in direct contact with nature, they already have an innate wisdom, which stems from that. I, on the other hand, I live in a city; I go to the supermarket for food and anything I need; there is noise all around me, etc; so it&rsquo;s important to me to nurture my nature. The quest for elevation begins with that consciousness. That need to find the silence among the noise.</p>
-      <p dir="ltr"><strong id="docs-internal-guid-4fb6b08a-deed-53c0-9a28-2d5ec95ccd6d">amfm: </strong>You say you are fascinated by what you say are universal feelings, and are quite moved by them and depict or take inspiration to your work, especially through your travels and various turns of life. What piece or series either in art, time or both intertwined has held the most emotional weight or depth to you? </p>
-<p dir="ltr"><strong id="docs-internal-guid-4fb6b08a-deed-53c0-9a28-2d5ec95ccd6d">yohannes: </strong>There are a number of paintings, which are particularly loaded with truth and depth that are very personal to me. In no particular order, I'd like to list the following: &quot;Ode 2180&quot; - This is a reflection on my mortality really, which everyone can relate to. &quot;The Kingdom&quot; - A painting in honour of this great love I found in my husband. You know when you meet someone that you feel a deep, almost nostalgic connection to, as if you had known them from a past life or were born from the same star? I&rsquo;m not the only one to have found this kind of love. This painting is about him and me in time and outside of time. &quot;Deep End&quot; - A triumphant painting that deals with the darkness and pain within all of us, out of which flowers can still bloom. &quot;The Agony&quot; - this was a way to explosively express my emotions in response to the horrors of today. I needed to make that painting. It was necessary. No question about that. &quot;The Net&quot; – inspired by Isaac Newton's recipe (turning base metals into gold), this painting depicts magic, mystery and hope. I believe it wasn&rsquo;t so much the gold Newton was after, but God's secrets. </p>
-<p dir="ltr"> <strong id="docs-internal-guid-4fb6b08a-deed-53c0-9a28-2d5ec95ccd6d">amfm: </strong>You say you've developed your own language when it comes to your art, can you describe that a bit further? Is this language universal?</p>
-<p dir="ltr"><strong id="docs-internal-guid-4fb6b08a-deed-53c0-9a28-2d5ec95ccd6d">yohannes: </strong>When I refer to language, I mean an identity. I don&rsquo;t really like the term style. I come from an Illustration background having studied that at University, and what I found was that I didn&rsquo;t fit in. There was a way to express yourself, which wasn&rsquo;t what I was about. I did most of my learning outside the classroom though, which helped me to discover what it is that I had inside of me to share. I'll use the example of jazz. If you're a jazz musician, you listen to a lot of music and hopefully you have the opportunity to play with many players. It's not about sounding like Miles, Coltrane or Monk. It's taking all of that in and bringing something of yourself, finding your own sound. It has taken me some time to find my own voice and develop my own language, but I believe now I have.<br />
-      </p>
-<p dir="ltr"><strong id="docs-internal-guid-4fb6b08a-deed-53c0-9a28-2d5ec95ccd6d">amfm: </strong>Studio Practice and the idea of ritual is of high importance to you. How has having a ritual and having your own studio space within your home helped you delve deeper into your art and yourself to explore other realms of your work? What is sacred about this space? Outside of art, what are some other rituals you have?</p>
-<p dir="ltr"><strong id="docs-internal-guid-4fb6b08a-deed-53c0-9a28-2d5ec95ccd6d">yohannes:</strong> I come from an Eritrean/Ethiopian background so rituals are important for me. Back home, we do a coffee ceremony most weekends, so now that I live in France away from my family, I try and create my own ceremonies and rituals. Every day, I take part in tiny rituals, which I often invent to ease myself into working, like a dancer or athlete might stretch before a performance. In terms of my studio space - it is a pocket of silence, a haven amongst the noise, which allows me to reflect and create. </p>
-      <p dir="ltr"> <strong id="docs-internal-guid-4fb6b08a-deed-53c0-9a28-2d5ec95ccd6d">amfm: </strong>You say painting is a privilege, why do you view it that way?</p>
-      <strong id="docs-internal-guid-4fb6b08a-deed-53c0-9a28-2d5ec95ccd6d">yohannes: ​</strong>In certain respects, I see painting as a privilege. I am a woman, I am African, I am an immigrant. When I watch the news of people dying in the sea, it is very easy for me to recognize and see myself in them. They look just like me. I then have to tell myself in quiet contemplation how lucky I am to have the freedom to live and be able to paint. As challenging as creativity is, I do feel an incredible sense of peace to have a creative outlet. This is also why I often speak of it as therapy. Words have never been my forte and art allows me to project concepts that I struggle to speak about. Through my work, I also want to be a voice for those that can&rsquo;t speak. This is something that weighs heavily on my heart. <br />
-      <p dir="ltr"><strong id="docs-internal-guid-4fb6b08a-deed-53c0-9a28-2d5ec95ccd6d">amfm: </strong>What is the significance of your name &quot;painter of the invisible?&quot; Who are the invisible?</p>
-      <p dir="ltr"><strong id="docs-internal-guid-4fb6b08a-deed-53c0-9a28-2d5ec95ccd6d">yohannes: </strong>When I was in Bangkok (Thailand) for a residency painting for three months, I met a fellow artist. He asked if he could visit me at the studio and when he came and saw my work, he concluded that I was not a painter, but a sorcerer! After threatening to put a spell on him, he named me Painter of the Invisible. When I was in Bangkok, I felt like I was not painting alone. I had these invisible sources that would visit me and often tell me what to paint. Maybe they were me all along. But maybe not...<br />
-      </p>
-      <table width="513" border="0">
-        <tr>
-          <td width="166"><p><a href="../images/amfmmag/yohannes1.jpg" target="_blank"><img src="../images/amfmmag/yohannes1.jpg" alt="jasonyi1" width="150" height="150" hspace="10" border="1" /></a></p></td>
-          <td width="160"><a href="../images/amfmmag/yohannes3.jpg" target="_blank"><img src="../images/amfmmag/yohannes3.jpg" alt="danielfleming3" width="150" height="150" hspace="10" border="1" /></a></td>
-          <td width="173"><a href="../images/amfmmag/yohannes2.jpg" target="_blank"><img src="../images/amfmmag/yohannes2.jpg" alt="danielfleming2" width="150" height="150" border="1" /></a></td>
-        </tr>
-      </table>
-      <p dir="ltr"><strong>For more from Daniela Yohannes:</strong></p>
-      <p dir="ltr"><a href="http://www.danielayohannes.com/" target="_blank">Daniela Yohanne's Website      </a></p>
-    <p dir="ltr"><em>photo credits: daniela yohannes</em></p>
-    <p dir="ltr"><br />
-    </p></td>
-    <td width="214">&nbsp;</td>
-    <td>&nbsp;</td>
-  </tr>
-  <tr>
-    <td align="right"><a href="http://www.facebook.com/amfmmag" target="_blank"><img src="../images/mkeissue/facebook.jpg" alt="facebook" width="50" height="50" align="left" /></a><a href="http://www.twitter.com/amfmmag" target="_blank"><img src="../images/mkeissue/tumblr.jpg" alt="tumblr" width="50" height="50" align="left" /></a><a href="http://www.instagram.com/amfmmag" target="_blank"><img src="../images/amfmmag/instagram.jpg" alt="instagram" width="41" height="41" vspace="3" align="left" /></a><a href="http://www.amfm-mag.tumblr.com" target="_blank"><img src="../images/amfmmag/tumblr.jpg" alt="tumblr" width="41" height="41" vspace="3" align="left" /></a></td>
-    <td align="right">&nbsp;</td>
-  </tr>
-  <tr>
-    <td align="right">&nbsp;</td>
-    <td align="right">&nbsp;</td>
-  </tr>
-  <tr>
-    <td align="right">&nbsp;</td>
-    <td align="right">&nbsp;</td>
-  </tr>
-</table>
+<body class="oneColElsCtrHdr">
+
+<div id="container">
+  <div id="header">
+    <h2 align="center"><a href="amfmmag.html">AMFM</a><a href="amfmarts.html"> | <em>ARTS</em></a><a href="amfmmusic.html"> | MUSIC </a><a href="amfmfashion.html">| FASHION </a><a href="amfmevents.html">| EVENTS</a>
+      <!-- end #header -->
+      | <img src="../images/amfmmag/socialmedia.jpg" alt="social media" width="141" height="28" border="0" align="absbottom" usemap="#Map" />
+      <map name="Map" id="Map22">
+        <area shape="circle" coords="17,13,9" href="#http://www.facebook.com/amfmmag" />
+        <area shape="circle" coords="57,15,9" href="#http://www.twitter.com/amfmmag" />
+        <area shape="rect" coords="121,7,141,25" href="#http://www.instagram.com/amfmmag" />
+        <area shape="circle" coords="92,14,9" href="#amfm-mag.tumblr.com" />
+      </map>
+      <br />
+      <br />
+    </h2>
+    <!-- end #header -->
+  </div>
+  <div id="mainContent"><img src="../images/amfmmag/danielayohannesbw.jpg" width="700" height="400" alt="edo and olivier" />
+    <h2>Q&amp;A : DANIELA YOHANNES </h2>
+<p dir="ltr">Paris based Painter of the Invisible, Daniela Yohannes&rsquo; breathtaking work is as beautiful as it is intricate. Layered with symbolism and the complexities of human nature, her pieces walk the line of light and dark - there is a conversation between the two being had on canvas, spilling from her head to her brush. There is something haunting, yet whimsical about her art, whether it be the dark figures juxtaposed on bright and colorful backdrops, the inspiration it is derived from, or the small findings hidden within.</p>
+<p>There is a mysticism behind her work. A dubbed sorcerer with her wand, disguised as a paint brush. Art can speak volumes, and her art has a soft rumbling to it, bursting on the brink of a scream that shouts throughout your soul begging you to question. She paints for those who cannot, and tells stories that need to be told in such a vibrant way, the paint speaks louder than words. </p>
+<p><img src="../images/amfmmag/yohannes2.jpg" width="700" height="500" alt="yohannes" /></p>
+<p dir="ltr"><strong id="docs-internal-guid-2afd7e31-2c3a-080b-3015-f685d9f5f4d8">AMFM: </strong>In what way do you beg the viewer to interrogate their identity and truth? How would you say turning the page onto the viewer rather than on yourself is more impactful? In return, how do you interrogate yourself?<br />
+</p>
+<p dir="ltr"><strong id="docs-internal-guid-2afd7e31-2c3a-080b-3015-f685d9f5f4d8">DANIELA YOHANNES: </strong>There is certainly an internal dialogue, which occurs before and during the process of making work. This is the primary &lsquo;Interrogation&rsquo; with the self. And it is in this process of going inwards that you render yourself truth. That process is deeply important. It's life&rsquo;s poetry. But the real poetry is that by going inwards, by searching, you force the viewer to undertake that same journey. When I paint, I&rsquo;m thinking about all of humanity, and I try to suggest narratives that are deeply compelling to the human spirit.</p>
+AMFM
+<strong id="docs-internal-guid-2afd7e31-2c3a-080b-3015-f685d9f5f4d8">: </strong>What about the consciousness of the human condition do you find provoking? How does one being conscious of this experience rather than merely experiencing the condition elevate oneself to you? <br />
+<br />
+<p dir="ltr"><strong id="docs-internal-guid-2afd7e31-2c3a-080b-3015-f685d9f5f4d8">YOHANNES: </strong>The fact that we have the ability to contemplate life itself is quite amazing to me. Trying to understand your nature and your place within this universe is both profound and mystifying. We essentially think, dream and ponder because we are wired that way. It is through our experiences, which are connected to our emotions, that we expose our humanity. When we overcome, evolve and, at times even transcend. It is these emotional triumphs for survival that compel me and cause me to question my truth. My method centres me. I feel and experience. From that I confront myself and contemplate and then I release via art. I'm not saying everyone should be so conscious of his or her experiences. I often think of my grandparents back home, whom I believe merely experienced life; however their connection to the source - be it God, the earth, the elements - was far greater than mine. For me they were elevated in ways I&rsquo;m not. I find this to be true for certain other traditional communities of people who also live with nature. People who work the land and cultivate the food they eat. I admire those communities. A little anecdote for you - last summer I was invited to a dinner at a home of some farmers in the South of France. Everything we consumed at the dinner, they had cultivated: the vegetables, the meat, the cheese, fruits, and bread, and even the wine. Those farmers were completely self-sufficient. Now to me these people don&rsquo;t need to have an &lsquo;awareness&rsquo;. They don't need to sit to contemplate life necessarily. Since they are living in direct contact with nature, they already have an innate wisdom, which stems from that. I, on the other hand, I live in a city; I go to the supermarket for food and anything I need; there is noise all around me, etc; so it&rsquo;s important to me to nurture my nature. The quest for elevation begins with that consciousness. That need to find the silence among the noise.</p>
+<p><strong id="docs-internal-guid-2afd7e31-2c3a-080b-3015-f685d9f5f4d8"><img src="../images/amfmmag/yohannes3.jpg" width="700" height="500" alt="yohannes" /></strong></p>
+<p><strong>AMFM: </strong>You say you are fascinated by what you say are universal feelings, and are quite moved by them and depict or take inspiration to your work, especially through your travels and various turns of life. What piece or series either in art, time or both intertwined has held the most emotional weight or depth to you? <br />
+</p>
+<p dir="ltr"><strong id="docs-internal-guid-2afd7e31-2c3a-080b-3015-f685d9f5f4d8">YOHANNES: </strong>There are a number of paintings, which are particularly loaded with truth and depth that are very personal to me. In no particular order, I'd like to list the following: &quot;Ode 2180&quot; - This is a reflection on my mortality really, which everyone can relate to. &quot;The Kingdom,&quot; a painting in honour of this great love I found in my husband. You know when you meet someone that you feel a deep, almost nostalgic connection to, as if you had known them from a past life or were born from the same star? I&rsquo;m not the only one to have found this kind of love. This painting is about him and me in time and outside of time. &quot;Deep End&quot; - A triumphant painting that deals with the darkness and pain within all of us, out of which flowers can still bloom. &quot;The Agony&quot; - this was a way to explosively express my emotions in response to the horrors of today. I needed to make that painting. It was necessary. No question about that. &quot;The Net,&quot;  inspired by Isaac Newton's recipe (turning base metals into gold), this painting depicts magic, mystery and hope. I believe it wasn&rsquo;t so much the gold Newton was after, but God's secrets.</p>
+<p dir="ltr"> <strong>AMFM:</strong> You say you've developed your own language when it comes to your art, can you describe that a bit further? Is this language universal? <br />
+</p>
+<p dir="ltr"><strong id="docs-internal-guid-2afd7e31-2c3a-080b-3015-f685d9f5f4d8">YOHANNES: </strong>When I refer to language, I mean an identity. I don&rsquo;t really like the term style. I come from an Illustration background having studied that at University, and what I found was that I didn&rsquo;t fit in. There was a way to express yourself, which wasn&rsquo;t what I was about. I did most of my learning outside the classroom though, which helped me to discover what it is that I had inside of me to share. I'll use the example of jazz. If you're a jazz musician, you listen to a lot of music and hopefully you have the opportunity to play with many players. It's not about sounding like Miles, Coltrane or Monk. It's taking all of that in and bringing something of yourself, finding your own sound. It has taken me some time to find my own voice and develop my own language, but I believe now I have.</p>
+<p dir="ltr">&nbsp;</p>
+<p dir="ltr"><strong id="docs-internal-guid-2afd7e31-2c3a-080b-3015-f685d9f5f4d8">AMFM: </strong>Studio Practice and the idea of ritual is of high importance to you. How has having a ritual and having your own studio space within your home helped you delve deeper into your art and yourself to explore other realms of your work? What is sacred about this space? Outside of art, what are some other rituals you have?</p>
+<strong>YOHANNES:</strong>
+I come from an Eritrean/Ethiopian background so rituals are important for me. Back home, we do a coffee ceremony most weekends, so now that I live in France away from my family, I try and create my own ceremonies and rituals. Every day, I take part in tiny rituals, which I often invent to ease myself into working, like a dancer or athlete might stretch before a performance. In terms of my studio space - it is a pocket of silence, a haven amongst the noise, which allows me to reflect and create. <br />
+<p dir="ltr"><strong id="docs-internal-guid-2afd7e31-2c3a-080b-3015-f685d9f5f4d8">AMFM: </strong>You say painting is a privilege, why do you view it that way?</p>
+<p><strong>YOHANNES:</strong> In certain respects, I see painting as a privilege. I am a woman, I am African, I am an immigrant. When I watch the news of people dying in the sea, it is very easy for me to recognize and see myself in them. They look just like me. I then have to tell myself in quiet contemplation how lucky I am to have the freedom to live and be able to paint. As challenging as creativity is, I do feel an incredible sense of peace to have a creative outlet. This is also why I often speak of it as therapy. Words have never been my forte and art allows me to project concepts that I struggle to speak about. Through my work, I also want to be a voice for those that can&rsquo;t speak. This is something that weighs heavily on my heart.</p>
+<p dir="ltr"><strong id="docs-internal-guid-2afd7e31-2c3a-080b-3015-f685d9f5f4d8">AMFM: </strong>What is the significance of your name &quot;painter of the invisible?&quot; Who are the invisible?</p>
+<strong>YOHANNES:</strong> When I was in Bangkok (Thailand) for a residency painting for three months, I met a fellow artist. He asked if he could visit me at the studio and when he came and saw my work, he concluded that I was not a painter, but a sorcerer! After threatening to put a spell on him, he named me Painter of the Invisible. When I was in Bangkok, I felt like I was not painting alone. I had these invisible sources that would visit me and often tell me what to paint. Maybe they were me all along. But maybe not... <br />
+<br />
+<p><strong id="docs-internal-guid-2afd7e31-2a9e-6be5-f20d-e5756aa19564">FOR MORE FROM DANIELA YOHANNES:</strong> <br />
+      <a href="http://www.danielayohannes.com/" target="_blank"> WEBSITE</a> / <a href="https://www.instagram.com/painteroftheinvisible/?hl=en" target="_blank">INSTAGRAM</a><br />
+    </p>
+    <h6 dir="ltr"><strong id="docs-internal-guid-2afd7e31-2a9e-6be5-f20d-e5756aa19564"><em>PHOTO CREDITS: DANIELA YOHANNES</em></strong><br />
+    <!-- end #mainContent -->
+</h6>
+  </div>
+  <div id="footer">
+    <h2><a href="aboutamfm.html">ABOUT AMFM</a><br />
+      <a href="mailto:info@amfm-mag.com">CONTACT</a><br />
+<img src="../images/amfmmag/socialmedia.jpg" alt="social media" width="150" height="32" border="0" usemap="#Map" />
+<map name="Map" id="Map2">
+  <area shape="circle" coords="93,15,9" href="#amfm-mag.tumblr.com" />
+  <area shape="rect" coords="120,5,140,25" href="#http://www.instagram.com/amfmmag" />
+  <area shape="circle" coords="57,17,11" href="#http://www.twitter.com/amfmmag" />
+  <area shape="circle" coords="20,19,10" href="#http://www.facebook.com/amfmmag" />
+</map>
+    </h2>
+    <h2>
+      <div id="mc_embed_signup">
+        <form action="//amfm-mag.us10.list-manage.com/subscribe/post?u=738860a67ed3f5cd20e478572&amp;id=8db9e6e243" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate="novalidate">
+          <div id="mc_embed_signup_scroll">SIGN UP FOR UPDATES!
+            <div class="mc-field-group">
+              <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" />
+            </div>
+            <div id="mce-responses" class="clear">
+              <div class="response" id="mce-error-response" style="display:none"></div>
+              <div class="response" id="mce-success-response" style="display:none"></div>
+            </div>
+            <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+            <div style="position: absolute; left: -5000px;" aria-hidden="true">
+              <input type="text" name="b_738860a67ed3f5cd20e478572_8db9e6e243" tabindex="-1" value="" />
+            </div>
+            <div class="clear">
+              <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button" />
+            </div>
+          </div>
+        </form>
+      </div>
+      <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
+      <script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+      <!--End mc_embed_signup-->
+      <br />
+    </h2>
+    <td align="right">&nbsp;</td></p>
+<!-- end #footer --></div></div>
 </body>
 </html>
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-48234405-1', 'amfm-mag.com');
-  ga('send', 'pageview');
-
-</script>
 <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
-</html>
-
+</head

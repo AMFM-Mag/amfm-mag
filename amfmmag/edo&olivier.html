@@ -2,128 +2,166 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>amfm</title>
+<title>amfm magazine</title>
 <style type="text/css">
 <!--
-.content {	font-family: Verdana, Geneva, sans-serif;
+body {
+	font: 100% Verdana, Arial, Helvetica, sans-serif;
+	background: #FFFFFF;
+	margin: 0; /* it's good practice to zero the margin and padding of the body element to account for differing browser defaults */
+	padding: 0;
+	text-align: center; /* this centers the container in IE 5* browsers. The text is then set to the left aligned default in the #container selector */
+	color: #000000;
 }
-.content {	font-family: Arial, Helvetica, sans-serif;
+
+/* Tips for Elastic layouts 
+1. Since the elastic layouts overall sizing is based on the user's default fonts size, they are more unpredictable. Used correctly, they are also more accessible for those that need larger fonts size since the line length remains proportionate.
+2. Sizing of divs in this layout are based on the 100% font size in the body element. If you decrease the text size overall by using a font-size: 80% on the body element or the #container, remember that the entire layout will downsize proportionately. You may want to increase the widths of the various divs to compensate for this.
+3. If font sizing is changed in differing amounts on each div instead of on the overall design (ie: #sidebar1 is given a 70% font size and #mainContent is given an 85% font size), this will proportionately change each of the divs overall size. You may want to adjust based on your final font sizing.
+*/
+.oneColElsCtrHdr #container {
+	width: 46em;  /* this width will create a container that will fit in an 800px browser window if text is left at browser default font sizes */
+	background: #FFFFFF;
+	margin: 0 auto; /* the auto margins (in conjunction with a width) center the page */
+	border: 1px solid #FFFFFF;
+	text-align: left; /* this overrides the text-align: center on the body element. */
 }
-.content {	font-family: Tahoma, Geneva, sans-serif;
+.oneColElsCtrHdr #header { 
+	background: #FFFFFF; 
+	padding: 0 10px 0 20px;  /* this padding matches the left alignment of the elements in the divs that appear beneath it. If an image is used in the #header instead of text, you may want to remove the padding. */
+} 
+.oneColElsCtrHdr #header h1 {
+	margin: 0; /* zeroing the margin of the last element in the #header div will avoid margin collapse - an unexplainable space between divs. If the div has a border around it, this is not necessary as that also avoids the margin collapse */
+	padding: 10px 0; /* using padding instead of margin will allow you to keep the element away from the edges of the div */
 }
-.content {	font-family: MS Serif, New York, serif;
+.oneColElsCtrHdr #mainContent {
+	padding: 0 20px; /* remember that padding is the space inside the div box and margin is the space outside the div box */
+	background: #FFFFFF;
 }
-.content {	font-family: Arial Black, Gadget, sans-serif;
-}
-.content {	font-family: Calibri;
-}
-.style4 {font-family: Verdana, Arial, Helvetica, sans-serif; font-weight: bold; }
-a:link {
-	color: #000;
-}
-a:visited {
-	color: #000;
+.oneColElsCtrHdr #footer { 
+	padding: 0 10px; /* this padding matches the left alignment of the elements in the divs that appear above it. */
+	background:#FFFFFF;
+} 
+.oneColElsCtrHdr #footer p {
+	margin: 0; /* zeroing the margins of the first element in the footer will avoid the possibility of margin collapse - a space between divs */
+	padding: 10px 0; /* padding on this element will create space, just as the the margin would have, without the margin collapse issue */
 }
 body,td,th {
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 11pt;
+	font-family: Trebuchet MS, Arial, Helvetica, sans-serif;
+}
+a:link {
+	color: #000;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #000;
+}
+a:hover {
+	text-decoration: none;
+}
+a:active {
+	text-decoration: none;
 }
 -->
-</style>
-</head>
+</style></head>
 
-<body>
-<table width="955" border="0" cellspacing="0" cellpadding="0">
-  <tr>
-    <td colspan="3"><img src="../images/amfmmag/edolivier.jpg" alt="tyanna" width="961" height="400" border="1" /></td>
-    <td width="4">&nbsp;</td>
-  </tr>
-  <tr>
-    <td colspan="3">&nbsp;</td>
-    <td>&nbsp;</td>
-  </tr>
-  <tr>
-    <td colspan="3" bgcolor="#000000"><div align="center"><a href="contact.html"><img src="../images/mkeissue/contactbutton.jpg" alt="blog" width="95" height="33" hspace="75" align="right" /></a><a href="magazine.html"><img src="../images/mkeissue/magazinebutton-b.jpg" alt="magazine" width="116" height="33" align="right" /></a><a href="fashion.html"><img src="../images/mkeissue/fashionbuttonb.jpg" alt="fashion" width="95" height="33" hspace="81" align="right" /></a><a href="music.html"><img src="../images/mkeissue/musicbuttonb.jpg" alt="music" width="81" height="33" hspace="0" align="right" /></a><a href="arts.html"><img src="../images/mkeissue/artbuttonw.jpg" alt="arts" width="61" height="33" hspace="81" align="right" /></a></div></td>
-    <td>&nbsp;</td>
-  </tr>
-  <tr>
-    <td width="227"><blockquote>
-      <blockquote>
-        <p>&nbsp;</p>
-        <p align="center">&nbsp;</p>
-<p>&nbsp;</p>
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-      </blockquote>
-    </blockquote></td>
-    <td width="513"><p dir="ltr">&nbsp;</p>
-      <p dir="ltr"><strong>Olivier &amp; Edo</strong> </p>
-      <p dir="ltr">Olivier Jean-Daniel Souffrant is a portrait of an artist as a young man. If you were to pluck Olivier from modern times and send him back in time to 1920&rsquo;s Harlem, he would fit right in. Surely his work is inspired by Basquiat, but not in the way most people would think. The homage to Basquiat is not an allusion, but an honest snapshot of the inner workings of his mind translated on the canvas, whether it be it a fleeting thought, a word, color block, or a sketch or doodle. There&rsquo;s a certain raw element in his approach to his work that you can see in his stroke and in the way that he interacts with the canvas. It&rsquo;s finished, yet a work in progress. It&rsquo;s what happens when minimalism meets collage, and when an old soul lives in modern times. </p>
-      <p dir="ltr"><strong><img src="../images/amfmmag/olivierheadshot.jpg" width="525" height="250" alt="olivier" /><br />
-        <br />
-        amfm: </strong>How did you get into making art, was it something you have always done or wanted to do? What were some of your earliest art memories?<br />
-      </p>
-      <p dir="ltr"><strong id="docs-internal-guid-fd0bcbe6-8fd4-c917-087e-9e0f946b35be">olivier: </strong>Growing up, my dad was an artist and an illustrator at some point, and my brother drew and sketched constantly. Early on, I got inspired by him and started copying the things he would draw. Coming home from work, my mom would also bring me Disney coloring books, paper and crayons. I didn&rsquo;t really take art seriously at first, but when I understood its importance, and how it can significantly impact the way we understand things in our society, I took it seriously.</p>
-      <p dir="ltr"><strong id="docs-internal-guid-fd0bcbe6-8fd4-c917-087e-9e0f946b35be">amfm: </strong>You have a very distinct style and incorporate text, images, scribbles and work colorfully, what are some of your themes you like to explore in your work and why are they of importance to you?</p>
-      <p dir="ltr"><strong id="docs-internal-guid-fd0bcbe6-8fd4-c917-087e-9e0f946b35be">olivier: </strong>I like facts and history. I try to incorporate those as much as possible in my paintings and drawings. I ultimately want to leave a body of work that is appreciated in our contemporary time, but also a body of work that the next generations will be able to look at and feel a certain level of connection to.      </p>
-      <p dir="ltr"><strong id="docs-internal-guid-fd0bcbe6-8fd4-c917-087e-9e0f946b35be">amfm: </strong>Your work seems to reminiscent of this past renaissance period for black art, and in Chicago it feels we are seeing this rise of black creatives. How has this renaissance, Chicago, and your life as a black male influenced you as an artist and your work?<br />
-      </p>
-      <p dir="ltr"><strong id="docs-internal-guid-fd0bcbe6-8fd4-c917-087e-9e0f946b35be">olivier: </strong>Yes, I feel like there is a creative renaissance going on in Chicago. There&rsquo;s always something buzzing during the weekends whether it&rsquo;s an art show, listening party, or local fashion show there&rsquo;s always something going on. So I&rsquo;m always surrounded by a constant stream of creative energy, and capturing the mood of some of those events, and putting them on canvas or on a paper. I also get inspired a lot by my Caribbean roots. Being black is hard in the States, it&rsquo;s always been hard. It&rsquo;s even harder I feel being a black creative in this country. </p>
+<body class="oneColElsCtrHdr">
+
+<div id="container">
+  <div id="header">
+    <h2 align="center"><a href="amfmmag.html">AMFM</a><a href="amfmarts.html"> | <em>ARTS</em></a><a href="amfmmusic.html"> | MUSIC </a><a href="amfmfashion.html">| FASHION </a><a href="amfmevents.html">| EVENTS</a>
+      <!-- end #header -->
+      | <img src="../images/amfmmag/socialmedia.jpg" alt="social media" width="141" height="28" border="0" align="absbottom" usemap="#Map" />
+      <map name="Map" id="Map22">
+        <area shape="circle" coords="18,13,9" href="#http://www.facebook.com/amfmmag" />
+        <area shape="circle" coords="57,15,9" href="#http://www.twitter.com/amfmmag" />
+        <area shape="rect" coords="121,7,141,25" href="#http://www.instagram.com/amfmmag" />
+        <area shape="circle" coords="95,15,11" href="#amfm-mag.tumblr.com" />
+      </map>
       <br />
-      <table width="513" border="0">
-        <tr>
-          <td width="166"><p><a href="../images/amfmmag/olivier3.jpg" target="_blank"><img src="../images/amfmmag/olivier3.jpg" alt="danielfleming2" width="150" height="150" border="1" /></a></p></td>
-          <td width="160"><a href="../images/amfmmag/olivier2.jpg" target="_blank"><img src="../images/amfmmag/olivier2.jpg" alt="jasonyi1" width="150" height="150" hspace="10" border="1" /></a></td>
-          <td width="173"><a href="../images/amfmmag/olivier4.jpg" target="_blank"><img src="../images/amfmmag/olivier4.jpg" alt="danielfleming3" width="150" height="150" hspace="10" border="1" /></a></td>
-        </tr>
-      </table>
       <br />
-      <p dir="ltr"><strong>1 | <a href="edo&amp;olivier2.html">2 </a></strong></p>
-      <p dir="ltr"><strong>For more from Edo &amp; Olivier:</strong> </p>
-      <p dir="ltr"><a href="https://www.instagram.com/0livier_/" target="_blank">Olivier's Instagram<br />
-      </a><a href="http://www.totheinfinite.com/box/2ghflkgbpdjwysgijw9ao1826j7iqn" target="_blank">Edo's Website<br />
-      </a><a href="https://www.instagram.com/legomyedo/" target="_blank">Edo's Instagram </a> </p>
-      <p dir="ltr"><em>photo credits: justin dwuan redding<br />
-      styling: ryan alexander / clothes courtesy of maybe sunday </em><em><br />
+    </h2>
+    <!-- end #header -->
+  </div>
+  <div id="mainContent"><img src="../images/amfmmag/edolivier.jpg" width="700" height="400" alt="edo and olivier" />
+    <h2><strong id="docs-internal-guid-fd0bcbe6-9029-98c6-56f3-34feb7c6844b">Q&amp;A: EDO &amp; OLIVIER</strong></h2>
+    <p> Olivier Jean-Daniel Souffrant is a portrait of an artist as a young man. If you were to pluck Olivier from modern times and send him back in time to 1920&rsquo;s Harlem, he would fit right in. Surely his work is inspired by Basquiat, but not in the way most people would think. The homage to Basquiat is not an allusion, but an honest snapshot of the inner workings of his mind translated on the canvas, whether it be it a fleeting thought, a word, color block, or a sketch or doodle. There&rsquo;s a certain raw element in his approach to his work that you can see in his stroke and in the way that he interacts with the canvas. It&rsquo;s finished, yet a work in progress. It&rsquo;s what happens when minimalism meets collage, and when an old soul lives in modern times.    <br />
+    </p>
+    <p><img src="../images/amfmmag/olivierheadshot.jpg" width="700" height="400" alt="calid b" /></p>
+    <p dir="ltr"><strong id="docs-internal-guid-2afd7e31-2a97-949a-4a1a-86cea30cf1b3">AMFM:</strong> How did you get into making art, was it something you have always done or wanted to do? What were some of your earliest art memories?<br />
+    </p>
+    <p dir="ltr"><strong id="docs-internal-guid-2afd7e31-2a97-949a-4a1a-86cea30cf1b3">OLIVIER:</strong> Growing up, my dad was an artist and an illustrator at some point, and my brother drew and sketched constantly. Early on, I got inspired by him and started copying the things he would draw. Coming home from work, my mom would also bring me Disney coloring books, paper and crayons. I didn&rsquo;t really take art seriously at first, but when I understood its importance, and how it can significantly impact the way we understand things in our society, I took it seriously.</p>
+    <img src="../images/amfmmag/olivier2.jpg" width="700" height="400" alt="olivier" /><br />
+    <p dir="ltr"><strong id="docs-internal-guid-2afd7e31-2a9a-462c-3236-c71e7b64b724">AMFM: </strong>You have a very distinct style and incorporate text, images, scribbles and work colorfully, what are some of your themes you like to explore in your work and why are they of importance to you?<br />
+    </p>
+    <p dir="ltr"><strong id="docs-internal-guid-2afd7e31-2a9a-462c-3236-c71e7b64b724">OLIVIER: </strong>I like facts and history. I try to incorporate those as much as possible in my paintings and drawings. I ultimately want to leave a body of work that is appreciated in our contemporary time, but also a body of work that the next generations will be able to look at and feel a certain level of connection to. </p>
+    <img src="../images/amfmmag/olivier3.jpg" width="700" height="400" alt="olivier" /><br />
+    <br />
+    <p dir="ltr"><strong id="docs-internal-guid-2afd7e31-2a9b-d9ad-d0ca-766530d7c0e9">AMFM: </strong>Your work seems to reminiscent of this past renaissance period for black art, and in Chicago it feels we are seeing this rise of black creatives. How has this renaissance, Chicago, and your life as a black male influenced you as an artist and your work?<br />
+    </p>
+    <p dir="ltr"><strong id="docs-internal-guid-2afd7e31-2a9b-d9ad-d0ca-766530d7c0e9">OLIVIER:</strong> Yes, I feel like there is a creative renaissance going on in Chicago. There&rsquo;s always something buzzing during the weekends whether it&rsquo;s an art show, listening party, or local fashion show there&rsquo;s always something going on. So I&rsquo;m always surrounded by a constant stream of creative energy, and capturing the mood of some of those events, and putting them on canvas or on a paper. I also get inspired a lot by my Caribbean roots. Being black is hard in the States, it&rsquo;s always been hard. It&rsquo;s even harder I feel being a black creative in this country. </p>
+    <p><img src="../images/amfmmag/edoheadshot.jpg" width="700" height="400" alt="edo" /></p>
+    <p dir="ltr">Edo&rsquo;s mission is infinite and grand, and he exudes this through his art. His work is a nod to the greats, specializing in intricate and colorful portraits of inspirational artists and individuals like Muhammed Ali, Andy Warhol, and late Chicago DJ Timbuck2, and they tell a story through images and words filling in their faces. He did this as a way to honor those lost in his own life. A member of the Treated Crew in Chicago, Edo&rsquo;s passions do not simply lie in art, but in design, whether it be graphic or clothing, or in music, it is clear to see the historical and popular culture influence within Edo&rsquo;s work.    </p>
+    <p dir="ltr"><img src="../images/amfmmag/edo.jpg" width="700" height="700" alt="edo" /></p>
+    <p dir="ltr"><strong>AMFM:</strong>Your most recent works, The Infinite Inception I/II are a part of a two part series, one dedicated to your mother, and the other to your late father, why was this something you sought to explore with your work and how have they influenced you as an artist?</p>
+    <p><strong>EDO: </strong>Well honestly, my parents didn't necessarily influence me as much as I would've wanted them to, if anything, my mom has been a huge support you know. She sacrificed a lot for me. My father was never really around, which also really motivated me to go extremely hard at what I do to show him that I belong here. I'm not a mistake you know. When all the smoke clears &quot;metaphorically speaking,&quot; I wouldn't be here without my parents, so my showcases were based on that. A dedication to both of them for creating me. I love my parents, both of them. They've made some mistakes in their lives but they're still my parents and I think that they did alright. I think I turned out okay. It shows through the art, for sure!    </p>
+    <p dir="ltr"><strong id="docs-internal-guid-2afd7e31-2ab0-0d54-a60c-9508c9ed0d9c">AMFM: </strong>Your father passed away and you said you channeled that all into your art. You fueled the emotions you were feeling into portraits of other lost famous individuals. How did this evolve the work, or change how you viewed it and that emotion you put into it? How was creating art during this monumental loss a point of catharsis for you?</p>
+    <p dir="ltr"><strong id="docs-internal-guid-2afd7e31-2ab0-0d54-a60c-9508c9ed0d9c">EDO: </strong>I think my work evolved tremendously. I find beauty in pain you know, as crazy as that might sound initially. We, as artists, honestly need to feel certain emotions to capture certain mediums in art. It helps. It was very tough for me to do some of those pieces but it also helped me release built up pain and frustration. Art has always done that for me and it really showed up when I needed it the most.</p>
+    <p> <img src="../images/amfmmag/edo3.jpg" width="325" height="325" alt="edo" />  <img src="../images/amfmmag/edo2.jpg" width="325" height="325" alt="edo" /><br />
       <br />
-    </em></p></td>
-    <td width="215">&nbsp;</td>
-    <td>&nbsp;</td>
-  </tr>
-  <tr>
-    <td align="right"><a href="http://www.facebook.com/amfmmag" target="_blank"><img src="../images/mkeissue/facebook.jpg" alt="facebook" width="50" height="50" align="left" /></a><a href="http://www.twitter.com/amfmmag" target="_blank"><img src="../images/mkeissue/tumblr.jpg" alt="tumblr" width="50" height="50" align="left" /></a><a href="http://www.instagram.com/amfmmag" target="_blank"><img src="../images/amfmmag/instagram.jpg" alt="instagram" width="41" height="41" vspace="3" align="left" /></a><a href="http://www.amfm-mag.tumblr.com" target="_blank"><img src="../images/amfmmag/tumblr.jpg" alt="tumblr" width="41" height="41" vspace="3" align="left" /></a></td>
-    <td align="right">&nbsp;</td>
-  </tr>
-  <tr>
-    <td align="right">&nbsp;</td>
-    <td align="right">&nbsp;</td>
-  </tr>
-  <tr>
-    <td align="right">&nbsp;</td>
-    <td align="right">&nbsp;</td>
-  </tr>
-</table>
+    </p>
+    <p dir="ltr"><strong id="docs-internal-guid-2afd7e31-2ab0-fc96-af69-82c18de4644e">AMFM:  </strong>How does popular culture and hip hop culture find it's way into your work and how do you think this changes the way people interact with the work? Where do your own personal art interests and influences collide with popular culture and hip hop? What are some things you like to explore with your work?</p>
+    <strong id="docs-internal-guid-2afd7e31-2ab0-fc96-af69-82c18de4644e">EDO: </strong>I love music! It's pretty much art with voice and beats you know, another outlet to get out what you want to say. The culture and scene is something I don't necessarily try to portray with my art, but it definitely has some influence on certain pieces. I'm usually listening to that type of music when I'm designing too, so subconsciously it creeps its way in there every now and then. As far as how I think people interact with it, I feel as though everybody has a certain take on my art you know. All feedback has been amazing, but even if it wasn't I don't think that would necessarily change anything you know. I'm humbled by all the love my art gets, truly, but either way it goes, my love for it won't change. My own personal interests and influences are really eclectic. The culture definitely plays a part, but more of a smaller part due to me being all over the place with genres and things of that nature. As far as what I want to explore with my work, that's simple - everything. I want to touch base with everything. I want to be free. That's what art is to me; freedom. Freedom to explore the unknown. That's my truth. Pure freedom, infinitely. <br />
+    <p dir="ltr"><strong id="docs-internal-guid-2afd7e31-2a9e-6be5-f20d-e5756aa19564">FOR MORE FROM OLIVIER &amp; EDO:<br />
+    </strong><strong>OLIVIER |</strong> <a href="https://www.instagram.com/0livier_/" target="_blank">INSTAGRAM</a><br />
+    <strong>EDO |</strong> <a href="https://www.instagram.com/legomyedo/" target="_blank">INSTAGRAM</a><br />
+    <strong>EDO |</strong> <a href="http://www.totheinfinite.com/" target="_blank">WEBSITE</a><br />
+    </p>
+    <h6 dir="ltr"><strong id="docs-internal-guid-2afd7e31-2a9e-6be5-f20d-e5756aa19564"><em>PHOTO CREDITS: <a href="http://justindwaunredding.com/" target="_blank">JUSTIN DWUAN REDDING</a>, OLIVIER </em></strong><strong><em><br />
+      STYLING: RYAN ALEXANDER / CLOTHES COURTESY OF <a href="http://www.maybesunday.us/" target="_blank">MAYBE SUNDAY</a></em></strong></h6>
+    <!-- end #mainContent -->
+</div>
+  <div id="footer">
+    <h2><a href="aboutamfm.html">ABOUT AMFM</a><br />
+      <a href="mailto:info@amfm-mag.com">CONTACT</a><br />
+<img src="../images/amfmmag/socialmedia.jpg" alt="social media" width="150" height="32" border="0" usemap="#Map" />
+<map name="Map" id="Map2">
+  <area shape="circle" coords="93,15,9" href="#amfm-mag.tumblr.com" />
+  <area shape="rect" coords="120,5,140,25" href="#http://www.instagram.com/amfmmag" />
+  <area shape="circle" coords="57,17,11" href="#http://www.twitter.com/amfmmag" />
+  <area shape="circle" coords="20,19,10" href="#http://www.facebook.com/amfmmag" />
+</map>
+    </h2>
+    <h2>
+      <div id="mc_embed_signup">
+        <form action="//amfm-mag.us10.list-manage.com/subscribe/post?u=738860a67ed3f5cd20e478572&amp;id=8db9e6e243" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate="novalidate">
+          <div id="mc_embed_signup_scroll">SIGN UP FOR UPDATES!
+            <div class="mc-field-group">
+              <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" />
+            </div>
+            <div id="mce-responses" class="clear">
+              <div class="response" id="mce-error-response" style="display:none"></div>
+              <div class="response" id="mce-success-response" style="display:none"></div>
+            </div>
+            <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+            <div style="position: absolute; left: -5000px;" aria-hidden="true">
+              <input type="text" name="b_738860a67ed3f5cd20e478572_8db9e6e243" tabindex="-1" value="" />
+            </div>
+            <div class="clear">
+              <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button" />
+            </div>
+          </div>
+        </form>
+      </div>
+      <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
+      <script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+      <!--End mc_embed_signup-->
+      <br />
+    </h2>
+    <td align="right">&nbsp;</td></p>
+  <!-- end #footer --></div></div>
 </body>
 </html>
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-48234405-1', 'amfm-mag.com');
-  ga('send', 'pageview');
-
-</script>
 <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
-</html>
-
+</head

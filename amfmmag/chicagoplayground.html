@@ -2,135 +2,161 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>amfm</title>
+<title>amfm magazine</title>
 <style type="text/css">
 <!--
-.content {	font-family: Verdana, Geneva, sans-serif;
+body {
+	font: 100% Verdana, Arial, Helvetica, sans-serif;
+	background: #FFFFFF;
+	margin: 0; /* it's good practice to zero the margin and padding of the body element to account for differing browser defaults */
+	padding: 0;
+	text-align: center; /* this centers the container in IE 5* browsers. The text is then set to the left aligned default in the #container selector */
+	color: #000000;
 }
-.content {	font-family: Arial, Helvetica, sans-serif;
+
+/* Tips for Elastic layouts 
+1. Since the elastic layouts overall sizing is based on the user's default fonts size, they are more unpredictable. Used correctly, they are also more accessible for those that need larger fonts size since the line length remains proportionate.
+2. Sizing of divs in this layout are based on the 100% font size in the body element. If you decrease the text size overall by using a font-size: 80% on the body element or the #container, remember that the entire layout will downsize proportionately. You may want to increase the widths of the various divs to compensate for this.
+3. If font sizing is changed in differing amounts on each div instead of on the overall design (ie: #sidebar1 is given a 70% font size and #mainContent is given an 85% font size), this will proportionately change each of the divs overall size. You may want to adjust based on your final font sizing.
+*/
+.oneColElsCtrHdr #container {
+	width: 46em;  /* this width will create a container that will fit in an 800px browser window if text is left at browser default font sizes */
+	background: #FFFFFF;
+	margin: 0 auto; /* the auto margins (in conjunction with a width) center the page */
+	border: 1px solid #FFFFFF;
+	text-align: left; /* this overrides the text-align: center on the body element. */
 }
-.content {	font-family: Tahoma, Geneva, sans-serif;
+.oneColElsCtrHdr #header { 
+	background: #FFFFFF; 
+	padding: 0 10px 0 20px;  /* this padding matches the left alignment of the elements in the divs that appear beneath it. If an image is used in the #header instead of text, you may want to remove the padding. */
+} 
+.oneColElsCtrHdr #header h1 {
+	margin: 0; /* zeroing the margin of the last element in the #header div will avoid margin collapse - an unexplainable space between divs. If the div has a border around it, this is not necessary as that also avoids the margin collapse */
+	padding: 10px 0; /* using padding instead of margin will allow you to keep the element away from the edges of the div */
 }
-.content {	font-family: MS Serif, New York, serif;
+.oneColElsCtrHdr #mainContent {
+	padding: 0 20px; /* remember that padding is the space inside the div box and margin is the space outside the div box */
+	background: #FFFFFF;
 }
-.content {	font-family: Arial Black, Gadget, sans-serif;
-}
-.content {	font-family: Calibri;
-}
-.style4 {font-family: Verdana, Arial, Helvetica, sans-serif; font-weight: bold; }
-a:link {
-	color: #000;
-}
-a:visited {
-	color: #000;
+.oneColElsCtrHdr #footer { 
+	padding: 0 10px; /* this padding matches the left alignment of the elements in the divs that appear above it. */
+	background:#FFFFFF;
+} 
+.oneColElsCtrHdr #footer p {
+	margin: 0; /* zeroing the margins of the first element in the footer will avoid the possibility of margin collapse - a space between divs */
+	padding: 10px 0; /* padding on this element will create space, just as the the margin would have, without the margin collapse issue */
 }
 body,td,th {
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 11pt;
+	font-family: Trebuchet MS, Arial, Helvetica, sans-serif;
+}
+a:link {
+	color: #000;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #000;
+}
+a:hover {
+	text-decoration: none;
+}
+a:active {
+	text-decoration: none;
 }
 -->
-</style>
-</head>
+</style></head>
 
-<body>
-<table width="955" border="0" cellspacing="0" cellpadding="0">
-  <tr>
-    <td colspan="3"><img src="../images/amfmmag/chicagoplayground.jpg" width="955" height="400" alt="cocoandbreezy" /></td>
-    <td width="4">&nbsp;</td>
-  </tr>
-  <tr>
-    <td colspan="3">&nbsp;</td>
-    <td>&nbsp;</td>
-  </tr>
-  <tr>
-    <td colspan="3" bgcolor="#000000"><div align="center"><a href="contact.html"><img src="../images/mkeissue/contactbutton.jpg" alt="blog" width="95" height="33" hspace="81" align="right" /></a><a href="magazine.html"><img src="../images/mkeissue/magazinebutton-b.jpg" alt="magazine" width="116" height="33" align="right" /></a><a href="fashion.html"><img src="../images/mkeissue/fashionbuttonb.jpg" alt="fashion" width="95" height="33" hspace="81" align="right" /></a><a href="music.html"><img src="../images/mkeissue/musicbuttonb.jpg" alt="music" width="81" height="33" hspace="0" align="right" /></a><a href="arts.html"><img src="../images/mkeissue/artsbuttonb.jpg" alt="arts" width="53" height="33" hspace="81" align="right" /></a></div></td>
-    <td>&nbsp;</td>
-  </tr>
-  <tr>
-    <td width="228"><blockquote>
-      <blockquote>
-        <p>&nbsp;</p>
-        <p align="center">&nbsp;</p>
-<p>&nbsp;</p>
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-      </blockquote>
-    </blockquote></td>
-    <td width="517"><p>&nbsp;</p>
-      <p dir="ltr"><strong>Chicago Playground </strong></p>
-      <p dir="ltr">Chicago Playground is a clothing line rooted in classic garment construction yet fueled with &nbsp;innovative energy. Founded by Rodnell Harris, Chicago Playground is a standing metaphor for the multitudinous avenues to success the &quot;land of the go&quot; is known to have. The brand represents expression that seeps through generations, and it goes further to praise the city via artistry.<br />
-      </p>
-      <p dir="ltr">Chicago Playgrounds signature styles are collegiate style letterman jackets and sweaters. Reinventing these classic silhouettes is a key in the brands development. These memorable molds are based on ancient principles of unity, passion, and excellence. The brand strives for inclusivity,aims to inspire an appreciation of the arts, and is a segment of designs molded for striving future leaders.<br />
-      </p>
-      <p dir="ltr"><strong id="docs-internal-guid-8d7232d4-caea-6607-ac06-ada8a8fd8362">amfm: </strong>You used to be captain of the basketball team back in high school and are now designing a line inspired by your love of the game, how did you get into designing and why did you want to pursue creating your own sports inspired brand?<br />
-      </p>
-      <p dir="ltr"><strong id="docs-internal-guid-8d7232d4-caea-6607-ac06-ada8a8fd8362">chicago playground: </strong>Being a student of the game of basketball, I&rsquo;ve always been a fan of the letterman and varsity jackets and the concept of how they represent one&rsquo;s accomplishments along one&rsquo;s journey; whether it be through high school or college. I got into designing 10 years ago by being inspired by how fashion moves on emotion based upon style. Going into building Chicago Playground, I wanted to build and create a brand that had substance. With the varsity and letterman jackets, I love how they tell a visual story amongst whomever is wearing the garments. It&rsquo;s what I like to call a &ldquo;conversation piece.&rdquo;<br />
-      </p>
-      <p dir="ltr"><strong id="docs-internal-guid-8d7232d4-caea-6607-ac06-ada8a8fd8362">amfm: </strong>What is it about the letterman jacket or varsity sweater that holds value to you? why did you want to create this level of prestige available to everyone?</p>
-      <p dir="ltr"><strong id="docs-internal-guid-8d7232d4-caea-6607-ac06-ada8a8fd8362">chicago playground: </strong>The value in the letterman and varsity sweaters are the mere fact of how they represent what an individual is about, represents or is affiliated with. Having this style of clothing available to everyone was essential during its beginning stages of creativity, because again, it&rsquo;s the average person who has a story to tell. I wanted to open the portal of one being complete when given the opportunity to design a piece which represents thyself. </p>
-      <p dir="ltr"><strong id="docs-internal-guid-8d7232d4-caea-6607-ac06-ada8a8fd8362">amfm: </strong>What did you learn playing sport that has helped you in running your own business or brand?<br />
-      </p>
-      <p dir="ltr"><strong id="docs-internal-guid-8d7232d4-caea-6607-ac06-ada8a8fd8362">chicago playground: </strong>What I&rsquo;ve learned from playing sports in relation to running Chicago Playground is the aspect of having an undeniable &ldquo;work ethic&rdquo; toward the art; from the preparation, to execution. Being creative is another aspect I took from the basketball court to the fashion industry<strong>.</strong> </p>
-      <p dir="ltr"><strong id="docs-internal-guid-8d7232d4-caea-6607-ac06-ada8a8fd8362">amfm: </strong>Your items are based on the principles of &quot;unity, passion and excellence,&quot; why are these virtues important to you and how do they impact your work?<br />
-      </p>
-      <p dir="ltr"><strong id="docs-internal-guid-8d7232d4-caea-6607-ac06-ada8a8fd8362">chicago playground:</strong> Unity, passion and excellence are great virtues that I carry along thy journey. Leading toward success, having unity is essential because of the union that shall be created when organizing a team. The passion is the fuel and fire that leads to the experience of being creative; which is followed by the excellence of one seeing thy dream come into reality. This has proven the fact of how when the different talents of art come together, the sky is the limit, creating a masterpiece of whatever thy endeavors take one. </p>
-      <p dir="ltr"><strong id="docs-internal-guid-8d7232d4-caea-6607-ac06-ada8a8fd8362">amfm: </strong>What is the inspiration behind naming it Chicago Playground? What specifically about Chicago inspires you?<br />
-      </p>
-      <p dir="ltr"><strong id="docs-internal-guid-8d7232d4-caea-6607-ac06-ada8a8fd8362">chicago playground: </strong>Chicago Playground originated its name from the metaphoric aspect of seeing the city of Chicago as a &ldquo;playground&rdquo; within itself. A city where many talents are originated; back to when we were children having several different talents on the playground, and now as adults, we still possess those talents of art. Being I&rsquo;m from Chicago, it&rsquo;s more embedded in me, the different aspects of influence the city holds, whether it be from the likes of sports to music, and culture. </p>
-<p dir="ltr"><strong id="docs-internal-guid-8d7232d4-caea-6607-ac06-ada8a8fd8362">amfm: </strong>Where do you like to &quot;play&quot; in Chicago metaphorically speaking? What are some things or places you like to go that you consider your playing grounds of life?</p>
-<p dir="ltr"><strong id="docs-internal-guid-8d7232d4-caea-6607-ac06-ada8a8fd8362">chicago playground: </strong>My Playground is wherever the spirit leads me to connect with the &ldquo;like-minds&rdquo; along this journey...It starts from &ldquo;within&rdquo; thyself, which, I consider to be my playground. Because from &ldquo;within&rdquo; is where the truth lies of one being great and learning thyself through ones talent of art. <br />
-      </p>
-      <table width="513" border="0">
-        <tr>
-          <td width="174"><p><a href="../images/amfmmag/chicagoplayground2.jpg" target="_blank"> <img src="../images/amfmmag/chicagoplayground2.jpg" alt="daniel fleming" width="150" height="150" hspace="10" border="1" /></a></p></td>
-          <td width="154"><a href="../images/amfmmag/craftcreations.jpg" target="_blank"><img src="../images/amfmmag/CP1.jpg" alt="danielfleming3" width="150" height="150" hspace="10" border="1" /></a></td>
-          <td width="171"><a href="../images/amfmmag/chicagoplayground3.jpg" target="_blank"><img src="../images/amfmmag/chicagoplayground3.jpg" alt="danielfleming2" width="150" height="150" border="1" /></a></td>
-        </tr>
-      </table>
-<br />
+<body class="oneColElsCtrHdr">
+
+<div id="container">
+  <div id="header">
+    <h2 align="center"><a href="amfmmag.html">AMFM</a><a href="amfmarts.html"> | ARTS</a><a href="amfmmusic.html"> | MUSIC </a><a href="amfmfashion.html">|<em> FASHION</em></a><a href="amfmevents.html">| EVENTS</a>
+      <!-- end #header -->
+      | <img src="../images/amfmmag/socialmedia.jpg" alt="social media" width="141" height="28" border="0" align="absbottom" usemap="#Map" />
+      <map name="Map" id="Map22">
+        <area shape="circle" coords="19,14,8" href="#http://www.facebook.com/amfmmag" />
+        <area shape="circle" coords="57,15,9" href="#http://www.twitter.com/amfmmag" />
+        <area shape="rect" coords="121,4,141,22" href="#http://www.instagram.com/amfmmag" />
+        <area shape="circle" coords="90,14,10" href="#amfm-mag.tumblr.com" />
+      </map>
       <br />
-<p><strong>      For more from Chicago Playground:
-</strong></p>
-      <p><a href="http://www.chicagoplayground.com" target="_blank">http://www.chicagoplayground.com<br />
-      </a></p>
-      <p><em>photo credits: chicago playground</em></p>
-<p>&nbsp;</p></td>
-    <td width="214">&nbsp;</td>
-    <td>&nbsp;</td>
-  </tr>
-  <tr>
-    <td align="right"><a href="http://www.facebook.com/amfmmag" target="_blank"><img src="../images/mkeissue/facebook.jpg" alt="facebook" width="50" height="50" align="left" /></a><a href="http://www.twitter.com/amfmmag" target="_blank"><img src="../images/mkeissue/tumblr.jpg" alt="tumblr" width="50" height="50" align="left" /></a><a href="http://www.instagram.com/amfmmag" target="_blank"><img src="../images/amfmmag/instagram.jpg" alt="instagram" width="41" height="41" vspace="3" align="left" /></a><a href="http://www.amfm-mag.tumblr.com" target="_blank"><img src="../images/amfmmag/tumblr.jpg" alt="tumblr" width="41" height="41" vspace="3" align="left" /></a></td>
-    <td align="right">&nbsp;</td>
-  </tr>
-  <tr>
-    <td align="right">&nbsp;</td>
-    <td align="right">&nbsp;</td>
-  </tr>
-  <tr>
-    <td align="right">&nbsp;</td>
-    <td align="right">&nbsp;</td>
-  </tr>
-</table>
+      <br />
+    </h2>
+    <!-- end #header -->
+  </div>
+  <div id="mainContent">
+    <p><img src="../images/amfmmag/chicagoplayground2.jpg" width="700" height="400" alt="calid b" /></p>
+    <h2>Q&amp;A: CHICAGO PLAYGROUND</h2>
+<p dir="ltr">Chicago Playground is a clothing line rooted in classic garment construction yet fueled with innovative energy. Founded by Rodnell Harris, Chicago Playground is a standing metaphor for the multitudinous avenues to success the &quot;land of the go&quot; is known to have. The brand represents expression that seeps through generations, and it goes further to praise the city via artistry.</p>
+<p>Chicago Playgrounds signature styles are collegiate style letterman jackets and sweaters. Reinventing these classic silhouettes is a key in the brands development. These memorable molds are based on ancient principles of unity, passion, and excellence. The brand strives for inclusivity,aims to inspire an appreciation of the arts, and is a segment of designs molded for striving future leaders.</p>
+<p><img src="../images/amfmmag/chicagoplayground.jpg" width="700" height="400" alt="CHI PLAY" /><br />
+</p>
+<p dir="ltr"><strong id="docs-internal-guid-2afd7e31-2fba-88d8-74ae-3d276c195dbf">AMFM: </strong>You used to be captain of the basketball team back in high school and are now designing a line inspired by your love of the game, how did you get into designing and why did you want to pursue creating your own sports inspired brand?<br />
+</p>
+<p dir="ltr"><strong id="docs-internal-guid-2afd7e31-2fba-88d8-74ae-3d276c195dbf">CHICAGO PLAYGROUND:</strong> Being a student of the game of basketball, I&rsquo;ve always been a fan of the letterman and varsity jackets and the concept of how they represent one&rsquo;s accomplishments along one&rsquo;s journey; whether it be through high school or college. I got into designing 10 years ago by being inspired by how fashion moves on emotion based upon style. Going into building Chicago Playground, I wanted to build and create a brand that had substance. With the varsity and letterman jackets, I love how they tell a visual story amongst whomever is wearing the garments. It&rsquo;s what I like to call a &ldquo;conversation piece.&rdquo;<br />
+</p>
+<p dir="ltr"><strong id="docs-internal-guid-2afd7e31-2fba-88d8-74ae-3d276c195dbf">AMFM: </strong>What is it about the letterman jacket or varsity sweater that holds value to you? why did you want to create this level of prestige available to everyone?<br />
+</p>
+<p dir="ltr"><strong id="docs-internal-guid-2afd7e31-2fba-88d8-74ae-3d276c195dbf">CHICAGO PLAYGROUND: </strong>The value in the letterman and varsity sweaters are the mere fact of how they represent what an individual is about, represents or is affiliated with. Having this style of clothing available to everyone was essential during its beginning stages of creativity, because again, it&rsquo;s the average person who has a story to tell. I wanted to open the portal of one being complete when given the opportunity to design a piece which represents thyself.<br />
+</p>
+<p dir="ltr"><strong id="docs-internal-guid-2afd7e31-2fba-88d8-74ae-3d276c195dbf">AMFM: </strong>What did you learn playing sport that has helped you in running your own business or brand?<br />
+</p>
+<p dir="ltr"><strong id="docs-internal-guid-2afd7e31-2fba-88d8-74ae-3d276c195dbf">CHICAGO PLAYGROUND: </strong>What I&rsquo;ve learned from playing sports in relation to running Chicago Playground is the aspect of having an undeniable &ldquo;work ethic&rdquo; toward the art; from the preparation, to execution. Being creative is another aspect I took from the basketball court to the fashion industry.<br />
+</p>
+<p dir="ltr"><img src="../images/amfmmag/chicagoplayground3.jpg" width="700" height="700" alt="CHI PLAY" /></p>
+<p dir="ltr"><strong>AMFM: </strong>Your items are based on the principles of &quot;unity, passion and excellence,&quot; why are these virtues important to you and how do they impact your work?<br />
+</p>
+<p dir="ltr"><strong id="docs-internal-guid-2afd7e31-2fba-88d8-74ae-3d276c195dbf">CHICAGO PLAYGROUND: </strong>Unity, passion and excellence are great virtues that I carry along thy journey. Leading toward success, having unity is essential because of the union that shall be created when organizing a team. The passion is the fuel and fire that leads to the experience of being creative; which is followed by the excellence of one seeing thy dream come into reality. This has proven the fact of how when the different talents of art come together, the sky is the limit, creating a masterpiece of whatever thy endeavors take one.<br />
+</p>
+<p dir="ltr"><strong id="docs-internal-guid-2afd7e31-2fba-88d8-74ae-3d276c195dbf">AMFM: </strong>What is the inspiration behind naming it Chicago Playground? What specifically about Chicago inspires you?<br />
+</p>
+<p dir="ltr"><strong id="docs-internal-guid-2afd7e31-2fba-88d8-74ae-3d276c195dbf">CHICAGO PLAYGROUND:</strong> Chicago Playground originated its name from the metaphoric aspect of seeing the city of Chicago as a &ldquo;playground&rdquo; within itself. A city where many talents are originated; back to when we were children having several different talents on the playground, and now as adults, we still possess those talents of art. Being I&rsquo;m from Chicago, it&rsquo;s more embedded in me, the different aspects of influence the city holds, whether it be from the likes of sports to music, and culture.<br />
+</p>
+<p dir="ltr"><strong id="docs-internal-guid-2afd7e31-2fba-88d8-74ae-3d276c195dbf">AMFM: </strong>Where do you like to &quot;play&quot; in Chicago metaphorically speaking? What are some things or places you like to go that you consider your playing grounds of life?<br />
+</p>
+<p dir="ltr"><strong id="docs-internal-guid-2afd7e31-2fba-88d8-74ae-3d276c195dbf">CHICAGO PLAYGROUND: </strong>My Playground is wherever the spirit leads me to connect with the &ldquo;like-minds&rdquo; along this journey...It starts from &ldquo;within&rdquo; thyself, which, I consider to be my playground. Because from &ldquo;within&rdquo; is where the truth lies of one being great and learning thyself through ones talent of art. </p>
+<strong id="docs-internal-guid-2afd7e31-2a9e-6be5-f20d-e5756aa19564">FOR MORE FROM CHICAGO PLAYGROUND:</strong> <br />
+<a href="https://www.facebook.com/Chicago-Playground-138640009580479/?fref=ts">FACEBOOK</a> <a href="https://www.instagram.com/CHICAGOPLAYGROUND/" target="_blank">/ INSTAGRAM</a><br />
+<h6 dir="ltr"><strong id="docs-internal-guid-2afd7e31-2a9e-6be5-f20d-e5756aa19564"><em>PHOTO CREDITS: CHICAGO PLAYGROUND</em></strong></h6></div>
+  <div id="footer">
+    <h2><a href="aboutamfm.html">ABOUT AMFM</a><br />
+      <a href="mailto:info@amfm-mag.com">CONTACT</a><br />
+<img src="../images/amfmmag/socialmedia.jpg" alt="social media" width="150" height="32" border="0" usemap="#Map" />
+<map name="Map" id="Map2">
+  <area shape="circle" coords="93,15,9" href="#amfm-mag.tumblr.com" />
+  <area shape="rect" coords="120,5,140,25" href="#http://www.instagram.com/amfmmag" />
+  <area shape="circle" coords="57,17,11" href="#http://www.twitter.com/amfmmag" />
+  <area shape="circle" coords="20,19,10" href="#http://www.facebook.com/amfmmag" />
+</map>
+    </h2>
+    <h2>
+      <div id="mc_embed_signup">
+        <form action="//amfm-mag.us10.list-manage.com/subscribe/post?u=738860a67ed3f5cd20e478572&amp;id=8db9e6e243" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate="novalidate">
+          <div id="mc_embed_signup_scroll">SIGN UP FOR UPDATES!
+            <div class="mc-field-group">
+              <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" />
+            </div>
+            <div id="mce-responses" class="clear">
+              <div class="response" id="mce-error-response" style="display:none"></div>
+              <div class="response" id="mce-success-response" style="display:none"></div>
+            </div>
+            <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+            <div style="position: absolute; left: -5000px;" aria-hidden="true">
+              <input type="text" name="b_738860a67ed3f5cd20e478572_8db9e6e243" tabindex="-1" value="" />
+            </div>
+            <div class="clear">
+              <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button" />
+            </div>
+          </div>
+        </form>
+      </div>
+      <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
+      <script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+      <!--End mc_embed_signup-->
+      <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+</head></h2>
+    <td align="right">&nbsp;</td></p>
+  <!-- end #footer --></div>
+<!-- end #container --></div>
 </body>
-</html>
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-48234405-1', 'amfm-mag.com');
-  ga('send', 'pageview');
-
-</script>
-<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
 </html>

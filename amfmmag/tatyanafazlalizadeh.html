@@ -2,127 +2,159 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>amfm</title>
+<title>amfm magazine</title>
 <style type="text/css">
 <!--
-.content {	font-family: Verdana, Geneva, sans-serif;
+body {
+	font: 100% Verdana, Arial, Helvetica, sans-serif;
+	background: #FFFFFF;
+	margin: 0; /* it's good practice to zero the margin and padding of the body element to account for differing browser defaults */
+	padding: 0;
+	text-align: center; /* this centers the container in IE 5* browsers. The text is then set to the left aligned default in the #container selector */
+	color: #000000;
 }
-.content {	font-family: Arial, Helvetica, sans-serif;
+
+/* Tips for Elastic layouts 
+1. Since the elastic layouts overall sizing is based on the user's default fonts size, they are more unpredictable. Used correctly, they are also more accessible for those that need larger fonts size since the line length remains proportionate.
+2. Sizing of divs in this layout are based on the 100% font size in the body element. If you decrease the text size overall by using a font-size: 80% on the body element or the #container, remember that the entire layout will downsize proportionately. You may want to increase the widths of the various divs to compensate for this.
+3. If font sizing is changed in differing amounts on each div instead of on the overall design (ie: #sidebar1 is given a 70% font size and #mainContent is given an 85% font size), this will proportionately change each of the divs overall size. You may want to adjust based on your final font sizing.
+*/
+.oneColElsCtrHdr #container {
+	width: 46em;  /* this width will create a container that will fit in an 800px browser window if text is left at browser default font sizes */
+	background: #FFFFFF;
+	margin: 0 auto; /* the auto margins (in conjunction with a width) center the page */
+	border: 1px solid #FFFFFF;
+	text-align: left; /* this overrides the text-align: center on the body element. */
 }
-.content {	font-family: Tahoma, Geneva, sans-serif;
+.oneColElsCtrHdr #header { 
+	background: #FFFFFF; 
+	padding: 0 10px 0 20px;  /* this padding matches the left alignment of the elements in the divs that appear beneath it. If an image is used in the #header instead of text, you may want to remove the padding. */
+} 
+.oneColElsCtrHdr #header h1 {
+	margin: 0; /* zeroing the margin of the last element in the #header div will avoid margin collapse - an unexplainable space between divs. If the div has a border around it, this is not necessary as that also avoids the margin collapse */
+	padding: 10px 0; /* using padding instead of margin will allow you to keep the element away from the edges of the div */
 }
-.content {	font-family: MS Serif, New York, serif;
+.oneColElsCtrHdr #mainContent {
+	padding: 0 20px; /* remember that padding is the space inside the div box and margin is the space outside the div box */
+	background: #FFFFFF;
 }
-.content {	font-family: Arial Black, Gadget, sans-serif;
-}
-.content {	font-family: Calibri;
-}
-.style4 {font-family: Verdana, Arial, Helvetica, sans-serif; font-weight: bold; }
-a:link {
-	color: #000;
-}
-a:visited {
-	color: #000;
+.oneColElsCtrHdr #footer { 
+	padding: 0 10px; /* this padding matches the left alignment of the elements in the divs that appear above it. */
+	background:#FFFFFF;
+} 
+.oneColElsCtrHdr #footer p {
+	margin: 0; /* zeroing the margins of the first element in the footer will avoid the possibility of margin collapse - a space between divs */
+	padding: 10px 0; /* padding on this element will create space, just as the the margin would have, without the margin collapse issue */
 }
 body,td,th {
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 11pt;
+	font-family: Trebuchet MS, Arial, Helvetica, sans-serif;
+}
+a:link {
+	color: #000;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #000;
+}
+a:hover {
+	text-decoration: none;
+}
+a:active {
+	text-decoration: none;
 }
 -->
-</style>
-</head>
+</style></head>
 
-<body>
-<table width="955" border="0" cellspacing="0" cellpadding="0">
-  <tr>
-    <td colspan="3"><img src="../images/amfmmag/tatyana.jpg" width="955" height="400" alt="tyanna" /></td>
-    <td width="4">&nbsp;</td>
-  </tr>
-  <tr>
-    <td colspan="3">&nbsp;</td>
-    <td>&nbsp;</td>
-  </tr>
-  <tr>
-    <td colspan="3" bgcolor="#000000"><div align="center"><a href="contact.html"><img src="../images/mkeissue/contactbutton.jpg" alt="blog" width="95" height="33" hspace="75" align="right" /></a><a href="magazine.html"><img src="../images/mkeissue/magazinebutton-b.jpg" alt="magazine" width="116" height="33" align="right" /></a><a href="fashion.html"><img src="../images/mkeissue/fashionbuttonb.jpg" alt="fashion" width="95" height="33" hspace="81" align="right" /></a><a href="music.html"><img src="../images/mkeissue/musicbuttonb.jpg" alt="music" width="81" height="33" hspace="0" align="right" /></a><a href="arts.html"><img src="../images/mkeissue/artbuttonw.jpg" alt="arts" width="61" height="33" hspace="81" align="right" /></a></div></td>
-    <td>&nbsp;</td>
-  </tr>
-  <tr>
-    <td width="228"><blockquote>
-      <blockquote>
-        <p>&nbsp;</p>
-        <p align="center">&nbsp;</p>
-<p>&nbsp;</p>
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
-      </blockquote>
-    </blockquote></td>
-    <td width="517"><p>&nbsp;</p>
-      <p dir="ltr"><strong>Tatyana Fazlalizadeh</strong></p>
-      <p dir="ltr">Brooklyn artist, Tatyana Fazlalizadeh found her art&rsquo;s calling when she splattered the truths of women across the streets of New York. Her prolific street art campaign, Stop Telling Women to Smile, has been seen on walls and buildings all over the globe, and translated into many languages with the common thread of empowerment and addressing the street harassment directed towards women. That in and of itself is something to smile about.<br />
-        <br />
-      Aside from this social art movement she has created, Fazlalizadeh is also an oil painter specializing in portraits of people as a vehicle to tell their stories through realistic, and powerful imagery that breathes life and energy into the canvas. Often focusing on a socio-political context and rooted in community activism, this young rising artist has much to say through her work for whomever will hear it, when they need to be touched by art that has deep value and meaning within its compelling execution. </p>
-      <p dir="ltr">I<strong id="docs-internal-guid-b848ea83-890b-fb9d-6f13-ee26a1d6e24a">amfm: </strong>Why did you feel that street art was the medium for your stop telling women to smile project? How was the fact that it is street art helped the project evolve? </p>
-<p dir="ltr"><strong id="docs-internal-guid-b848ea83-890b-fb9d-6f13-ee26a1d6e24a">tatyana fazlalizadeh: </strong>The site of the work and the content of the work were among the same idea. I never considered executing Stop Telling Women to Smile in an environment other than the street. To address street harassment, it needed to be outdoors. The idea was to open up the conversation on street harassment right where it happens - not in the gallery, or online, but in the street. What I didn't realize was that the street and the internet overlap in many contexts. I was not expecting for the project to become popular so quickly because I never accounted for an online presence when beginning the work. The internet helped the project evolve very quickly, because it placed it in front of the eyes of people not just passing it in the street but, across the world. And that forced me to consider the experiences of women not just in Brooklyn, but women from various communities and cities. &nbsp; </p>
-<p dir="ltr"><strong id="docs-internal-guid-b848ea83-890b-fb9d-6f13-ee26a1d6e24a">amfm: </strong>Before your Stop Telling Women to Smile project, was activism a conscious part of your work? You like to do work with a socio-political context, why are you drawn to these sorts of narratives, especially those surrounding gender and race? </p>
-<p dir="ltr"><strong id="docs-internal-guid-b848ea83-890b-fb9d-6f13-ee26a1d6e24a">fazlalizadeh: </strong>The intent behind all of my work is to look at issues of race and gender in a way that allows those from an oppressed group a space to tell their story. I think STWTS does this in a very simple and pointed way while the rest of my work, my painting, is not as direct. I'm always looking at different ways to express an idea, a narrative, or a reaction to an issue that's grown out of the constructs of race and gender. These are the things that have had everyday impacts on my own life - being black and being a woman. So, as a black woman I'm always looking at the larger events and issues hitting these communities. </p>
-<p dir="ltr"><strong id="docs-internal-guid-b848ea83-890b-fb9d-6f13-ee26a1d6e24a">amfm: </strong>A lot of your work outside of the project deals with human subjects, portraiture and this idea of the human experience and struggle, especially those voices left behind and not heard. What is it about people and their stories that fascinate you? What has been the most interesting story you have had the privilege to tell through your art?</p>
-      <p dir="ltr"> <strong id="docs-internal-guid-b848ea83-890b-fb9d-6f13-ee26a1d6e24a">fazlalizadeh:</strong> I paint people and their stories for a few reasons. I often find some element of myself in other people and I like to think that the viewer of my work will too. There's also, of course, the very real and important aspects of representation and visibility. I also think it's a good idea to listen to people who come from different backgrounds than you.I don't know if there's one story that I've felt most privileged to tell. I recently interviewed a woman in Brooklyn about her experiences being trans and black and moving throughout the public world. Hearing the complexities of what she experiences and how those things affect her mentally, emotionally - it's not just important to hear her story but to protect her. She passed along the sentiment that it's not really enough to mourn trans women after they've been murdered but, to acknowledge and support them now, while they are here. I guess this is what I'm trying to do with my work - to highlight the everyday experiences of women as being important.</p>
-<p dir="ltr"> <strong id="docs-internal-guid-b848ea83-890b-fb9d-6f13-ee26a1d6e24a">amfm: </strong>Your mother is also an artist, so you were exposed to art at a young age, was art something you feel you were meant to do? Has it always been a part of your existence?</p>
-<p dir="ltr"> <strong id="docs-internal-guid-b848ea83-890b-fb9d-6f13-ee26a1d6e24a">fazlalizadeh: </strong>I didn't grow up as one of those kids that was always painting and drawing. I didn't really start drawing until college, and I never painted with oil paint, my primary medium, until college. So, no, I didn't always feel like it was something I was meant to do. Even after realizing that I had technical talent for painting and drawing, it was still important for me to figure out the motivation behind being an artist. What's my intent? To paint pretty pictures or to paint pretty pictures that say something? And even then, what am I really saying in my work? Is that even important? This is stuff that arose in college and after. Even today, still. &nbsp;</p>
-<p dir="ltr"><strong id="docs-internal-guid-b848ea83-890b-fb9d-6f13-ee26a1d6e24a2">amfm: </strong>You also said you've never had a 9-5 and have been freelancing since college. In some alternate universe say you had a 9-5 what do you think you would be doing? </p>
-      <p dir="ltr"><strong id="docs-internal-guid-b848ea83-890b-fb9d-6f13-ee26a1d6e24a2">fazlalizadeh:</strong> As my career keeps going, I don't rule out the idea of being in a 9-5 type space. I wouldn't mind teaching at the college level. I can also see myself working within an art or design group or organization. I enjoy working with other people - collaborating with other creatives, teaching kids, exchanging ideas with artists in a studio space. If it made sense, I'd totally be open to working somewhere that had an inspiring and creative atmosphere. </p>
-<p dir="ltr"><strong id="docs-internal-guid-b848ea83-890b-fb9d-6f13-ee26a1d6e24a">amfm:</strong> You spoke before about the different subdivisions of the art world and New York in particular and about how you feel you'll never be an NYC art darling, what do you mean by that sentiment? What kind of artist would you say that you are? Who do you make art for? </p>
-<p dir="ltr"><strong id="docs-internal-guid-b848ea83-890b-fb9d-6f13-ee26a1d6e24a">fazlalizadeh:</strong> I'm not making work with the intent to sell to collectors or be shown in a museum. I think my work absolutely could and should be shown in spaces like that, but that's not the absolute goal. The goal is to make work that represents a movement, a people, a time, work that can be useful to people, and work that tells stories. I work as a muralist because I think that public art offers accessibility and ownership of art to communities. I work as a freelance illustrator because I enjoy the challenge of translating a text into an image. I work as an oil painter because oil paintings are beautiful and traditional. I work in the streets because I'm taking back physical and ideological space as a black woman. I'm just making work. I trust that it makes it way in front of the eyes of those who need to see it - whether that's a construction worker or a curator.</p>
-      <table width="513" border="0">
-        <tr>
-          <td width="166"><p><a href="../images/amfmmag/tatyana1.jpg" target="_blank"><img src="../images/amfmmag/tatyana1.jpg" alt="danielfleming2" width="150" height="150" border="1" /></a></p></td>
-          <td width="160"><a href="../images/amfmmag/tatyana3.jpg" target="_blank"><img src="../images/amfmmag/tatyana3.jpg" alt="jasonyi1" width="150" height="150" hspace="10" border="1" /></a></td>
-          <td width="173"><a href="../images/amfmmag/tatyana2.jpg" target="_blank"><img src="../images/amfmmag/tatyana2.jpg" alt="danielfleming3" width="150" height="150" hspace="10" border="1" /></a></td>
-        </tr>
-      </table>
-      <p dir="ltr"><strong>For more from Tatyana Fazlalizadeh:</strong></p>
-      <p dir="ltr"><a href="http://tlynnfaz.com/" target="_blank">Tatyana Fazlalizadeh's website</a><br />
-      <a href="http://stoptellingwomentosmile.com/" target="_blank">Stop Telling Women To Smile</a></p>
-    <p dir="ltr"><em>photo credits: tatyana tazlalizadeh</em></p>
-    <p dir="ltr">&nbsp;</p></td>
-    <td width="214">&nbsp;</td>
-    <td>&nbsp;</td>
-  </tr>
-  <tr>
-   <td align="right"><a href="http://www.facebook.com/amfmmag" target="_blank"><img src="../images/mkeissue/facebook.jpg" alt="facebook" width="50" height="50" align="left" /></a><a href="http://www.twitter.com/amfmmag" target="_blank"><img src="../images/mkeissue/tumblr.jpg" alt="tumblr" width="50" height="50" align="left" /></a><a href="http://www.instagram.com/amfmmag" target="_blank"><img src="../images/amfmmag/instagram.jpg" alt="instagram" width="41" height="41" vspace="3" align="left" /></a><a href="http://www.amfm-mag.tumblr.com" target="_blank"><img src="../images/amfmmag/tumblr.jpg" alt="tumblr" width="41" height="41" vspace="3" align="left" /></a></td>
-    <td align="right">&nbsp;</td>
-  </tr>
-  <tr>
-    <td align="right">&nbsp;</td>
-    <td align="right">&nbsp;</td>
-  </tr>
-  <tr>
-    <td align="right">&nbsp;</td>
-    <td align="right">&nbsp;</td>
-  </tr>
-</table>
+<body class="oneColElsCtrHdr">
+
+<div id="container">
+  <div id="header">
+    <h2 align="center"><a href="amfmmag.html">AMFM</a><a href="amfmarts.html"> | <em>ARTS</em></a><a href="amfmmusic.html"> | MUSIC </a><a href="amfmfashion.html">| FASHION </a><a href="amfmevents.html">| EVENTS</a>
+      <!-- end #header -->
+      | <img src="../images/amfmmag/socialmedia.jpg" alt="social media" width="141" height="28" border="0" align="absbottom" usemap="#Map" />
+      <map name="Map" id="Map22">
+        <area shape="circle" coords="19,13,11" href="#http://www.facebook.com/amfmmag" />
+        <area shape="circle" coords="55,15,9" href="#http://www.twitter.com/amfmmag" />
+        <area shape="rect" coords="122,7,142,25" href="#http://www.instagram.com/amfmmag" />
+        <area shape="circle" coords="92,16,10" href="#amfm-mag.tumblr.com" />
+      </map>
+      <br />
+      <br />
+    </h2>
+    <!-- end #header -->
+  </div>
+  <div id="mainContent"><img src="../images/amfmmag/tatyana.jpg" width="700" height="400" alt="edo and olivier" />
+    <h2>Q&amp;A : TATYANA FAZLALIZDEH</h2>
+<p dir="ltr">Brooklyn artist, Tatyana Fazlalizadeh found her art&rsquo;s calling when she splattered the truths of women across the streets of New York. Her prolific street art campaign, Stop Telling Women to Smile, has been seen on walls and buildings all over the globe, and translated into many languages with the common thread of empowerment and addressing the street harassment directed towards women. That in and of itself is something to smile about.</p>
+    Aside from this social art movement she has created, Fazlalizadeh is also an oil painter specializing in portraits of people as a vehicle to tell their stories through realistic, and powerful imagery that breathes life and energy into the canvas. Often focusing on a socio-political context and rooted in community activism, this young rising artist has much to say through her work for whomever will hear it, when they need to be touched by art that has deep value and meaning within its compelling execution. 
+    <p><img src="../images/amfmmag/tatyana1.jpg" width="700" height="400" alt="calid b" /></p>
+    <p dir="ltr"><strong id="docs-internal-guid-2afd7e31-2bc9-20b1-dbb4-bdfe780c52aa">AMFM: </strong>Why did you feel that street art was the medium for your stop telling women to smile project? How was the fact that it is street art helped the project evolve?</p>
+    <strong>TATYANA FAZLALIZDEH: </strong>The site of the work and the content of the work were among the same idea. I never considered executing Stop Telling Women to Smile in an environment other than the street. To address street harassment, it needed to be outdoors. The idea was to open up the conversation on street harassment right where it happens - not in the gallery, or online, but in the street. What I didn't realize was that the street and the internet overlap in many contexts. I was not expecting for the project to become popular so quickly because I never accounted for an online presence when beginning the work. The internet helped the project evolve very quickly, because it placed it in front of the eyes of people not just passing it in the street but, across the world. And that forced me to consider the experiences of women not just in Brooklyn, but women from various communities and cities. &nbsp;&nbsp;    <strong><br />
+    </strong>
+    <p dir="ltr"><strong>AMFM: </strong>Before your Stop Telling Women to Smile project, was activism a conscious part of your work? You like to do work with a socio-political context, why are you drawn to these sorts of narratives, especially those surrounding gender and race?<strong><br />
+    </strong>
+    </p>
+    <p dir="ltr"><strong>FAZLALIZADEH:</strong> The intent behind all of my work is to look at issues of race and gender in a way that allows those from an oppressed group a space to tell their story. I think STWTS does this in a very simple and pointed way while the rest of my work, my painting, is not as direct. I'm always looking at different ways to express an idea, a narrative, or a reaction to an issue that's grown out of the constructs of race and gender. These are the things that have had everyday impacts on my own life - being black and being a woman. So, as a black woman I'm always looking at the larger events and issues hitting these communities.</p>
+    <p><img src="../images/amfmmag/tatyana2.jpg" width="700" height="600" alt="calid b" /></p>
+    <p dir="ltr"><strong id="docs-internal-guid-2afd7e31-2bce-4c43-217c-ccbf05efca03">AMFM: </strong>A lot of your work outside of the project deals with human subjects, portraiture and this idea of the human experience and struggle, especially those voices left behind and not heard. What is it about people and their stories that fascinate you? What has been the most interesting story you have had the privilege to tell through your art?<br />
+    </p>
+    <p dir="ltr"><strong id="docs-internal-guid-2afd7e31-2bce-4c43-217c-ccbf05efca03">FAZLALIZADEH: </strong>I paint people and their stories for a few reasons. I often find some element of myself in other people and I like to think that the viewer of my work will too. There's also, of course, the very real and important aspects of representation and visibility. I also think it's a good idea to listen to people who come from different backgrounds than you.I don't know if there's one story that I've felt most privileged to tell. I recently interviewed a woman in Brooklyn about her experiences being trans and black and moving throughout the public world. Hearing the complexities of what she experiences and how those things affect her mentally, emotionally - it's not just important to hear her story but to protect her. She passed along the sentiment that it's not really enough to mourn trans women after they've been murdered but, to acknowledge and support them now, while they are here. I guess this is what I'm trying to do with my work - to highlight the everyday experiences of women as being important.</p>
+    <p dir="ltr"><strong id="docs-internal-guid-2afd7e31-2bce-4c43-217c-ccbf05efca03">AMFM: </strong>Your mother is also an artist, so you were exposed to art at a young age, was art something you feel you were meant to do? Has it always been a part of your existence?</p>
+    <p><strong id="docs-internal-guid-2afd7e31-2bce-4c43-217c-ccbf05efca03">FAZLALIZADEH:</strong> I didn't grow up as one of those kids that was always painting and drawing. I didn't really start drawing until college, and I never painted with oil paint, my primary medium, until college. So, no, I didn't always feel like it was something I was meant to do. Even after realizing that I had technical talent for painting and drawing, it was still important for me to figure out the motivation behind being an artist. What's my intent? To paint pretty pictures or to paint pretty pictures that say something? And even then, what am I really saying in my work? Is that even important? This is stuff that arose in college and after. Even today, still. </p>
+    <p><img src="../images/amfmmag/tatyana3.jpg" width="700" height="600" alt="tatyana" /><strong id="docs-internal-guid-2afd7e31-2bd1-e158-7b70-31c2f25aa087">AMFM: </strong>You also said you've never had a 9-5 and have been freelancing since college. In some alternate universe say you had a 9-5 what do you think you would be doing?<br />
+    </p>
+    <p dir="ltr"><strong id="docs-internal-guid-2afd7e31-2bd1-e158-7b70-31c2f25aa087">FAZLALIZADEH: </strong>As my career keeps going, I don't rule out the idea of being in a 9-5 type space. I wouldn't mind teaching at the college level. I can also see myself working within an art or design group or organization. I enjoy working with other people - collaborating with other creatives, teaching kids, exchanging ideas with artists in a studio space. If it made sense, I'd totally be open to working somewhere that had an inspiring and creative atmosphere. </p>
+    AMFM
+    <strong id="docs-internal-guid-2afd7e31-2bd1-e158-7b70-31c2f25aa087">: </strong>You spoke before about the different subdivisions of the art world and New York in particular and about how you feel you'll never be an NYC art darling, what do you mean by that sentiment? What kind of artist would you say that you are? Who do you make art for? <br />
+    <p dir="ltr"><strong id="docs-internal-guid-2afd7e31-2bd1-e158-7b70-31c2f25aa">FAZLALIZADEH:</strong> I'm not making work with the intent to sell to collectors or be shown in a museum. I think my work absolutely could and should be shown in spaces like that, but that's not the absolute goal. The goal is to make work that represents a movement, a people, a time, work that can be useful to people, and work that tells stories. I work as a muralist because I think that public art offers accessibility and ownership of art to communities. I work as a freelance illustrator because I enjoy the challenge of translating a text into an image. I work as an oil painter because oil paintings are beautiful and traditional. I work in the streets because I'm taking back physical and ideological space as a black woman. I'm just making work. I trust that it makes it way in front of the eyes of those who need to see it - whether that's a construction worker or a curator.</p>
+    <p><strong id="docs-internal-guid-2afd7e31-2a9e-6be5-f20d-e5756aa19564">FOR MORE FROM TATAYANA FAZLALIZADEH:</strong> <br />
+      <a href="http://tlynnfaz.com/" target="_blank">STOP TELLING WOMEN TO SMILE / WEBSITE</a><br />
+    </p>
+    <h6 dir="ltr"><strong id="docs-internal-guid-2afd7e31-2a9e-6be5-f20d-e5756aa19564"><em>PHOTO CREDITS: TATYANA FAZLALIZADEH</em></strong><br />
+    <!-- end #mainContent -->
+</h6>
+  </div>
+  <div id="footer">
+    <h2><a href="aboutamfm.html">ABOUT AMFM</a><br />
+      <a href="mailto:info@amfm-mag.com">CONTACT</a><br />
+<img src="../images/amfmmag/socialmedia.jpg" alt="social media" width="150" height="32" border="0" usemap="#Map" />
+<map name="Map" id="Map2">
+  <area shape="circle" coords="93,15,9" href="#amfm-mag.tumblr.com" />
+  <area shape="rect" coords="120,5,140,25" href="#http://www.instagram.com/amfmmag" />
+  <area shape="circle" coords="57,17,11" href="#http://www.twitter.com/amfmmag" />
+  <area shape="circle" coords="20,19,10" href="#http://www.facebook.com/amfmmag" />
+</map>
+    </h2>
+    <h2>
+      <div id="mc_embed_signup">
+        <form action="//amfm-mag.us10.list-manage.com/subscribe/post?u=738860a67ed3f5cd20e478572&amp;id=8db9e6e243" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate="novalidate">
+          <div id="mc_embed_signup_scroll">SIGN UP FOR UPDATES!
+            <div class="mc-field-group">
+              <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" />
+            </div>
+            <div id="mce-responses" class="clear">
+              <div class="response" id="mce-error-response" style="display:none"></div>
+              <div class="response" id="mce-success-response" style="display:none"></div>
+            </div>
+            <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+            <div style="position: absolute; left: -5000px;" aria-hidden="true">
+              <input type="text" name="b_738860a67ed3f5cd20e478572_8db9e6e243" tabindex="-1" value="" />
+            </div>
+            <div class="clear">
+              <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button" />
+            </div>
+          </div>
+        </form>
+      </div>
+      <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
+      <script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+      <!--End mc_embed_signup-->
+      <br />
+    </h2>
+    <td align="right">&nbsp;</td></p>
+  <!-- end #footer --></div></div>
 </body>
 </html>
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-48234405-1', 'amfm-mag.com');
-  ga('send', 'pageview');
-
-</script>
 <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
-</html>
-
-
+</head
