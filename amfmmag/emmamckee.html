@@ -1,0 +1,290 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>amfm </title>
+<style type="text/css">
+<!--
+body {
+	font: 100% Verdana, Arial, Helvetica, sans-serif;
+	background: #FFFFFF;
+	margin: 0; /* it's good practice to zero the margin and padding of the body element to account for differing browser defaults */
+	padding: 0;
+	text-align: center; /* this centers the container in IE 5* browsers. The text is then set to the left aligned default in the #container selector */
+	color: #000000;
+}
+
+/* Tips for Elastic layouts 
+1. Since the elastic layouts overall sizing is based on the user's default fonts size, they are more unpredictable. Used correctly, they are also more accessible for those that need larger fonts size since the line length remains proportionate.
+2. Sizing of divs in this layout are based on the 100% font size in the body element. If you decrease the text size overall by using a font-size: 80% on the body element or the #container, remember that the entire layout will downsize proportionately. You may want to increase the widths of the various divs to compensate for this.
+3. If font sizing is changed in differing amounts on each div instead of on the overall design (ie: #sidebar1 is given a 70% font size and #mainContent is given an 85% font size), this will proportionately change each of the divs overall size. You may want to adjust based on your final font sizing.
+*/
+.oneColElsCtrHdr #container {
+	width: 46em;  /* this width will create a container that will fit in an 800px browser window if text is left at browser default font sizes */
+	background: #FFFFFF;
+	margin: 0 auto; /* the auto margins (in conjunction with a width) center the page */
+	border: 1px solid #FFFFFF;
+	text-align: left; /* this overrides the text-align: center on the body element. */
+}
+.oneColElsCtrHdr #header { 
+	background: #FFFFFF; 
+	padding: 0 10px 0 20px;  /* this padding matches the left alignment of the elements in the divs that appear beneath it. If an image is used in the #header instead of text, you may want to remove the padding. */
+} 
+.oneColElsCtrHdr #header h1 {
+	margin: 0; /* zeroing the margin of the last element in the #header div will avoid margin collapse - an unexplainable space between divs. If the div has a border around it, this is not necessary as that also avoids the margin collapse */
+	padding: 10px 0; /* using padding instead of margin will allow you to keep the element away from the edges of the div */
+}
+.oneColElsCtrHdr #mainContent {
+	padding: 0 20px; /* remember that padding is the space inside the div box and margin is the space outside the div box */
+	background: #FFFFFF;
+}
+.oneColElsCtrHdr #footer { 
+	padding: 0 10px; /* this padding matches the left alignment of the elements in the divs that appear above it. */
+	background:#FFFFFF;
+} 
+.oneColElsCtrHdr #footer p {
+	margin: 0; /* zeroing the margins of the first element in the footer will avoid the possibility of margin collapse - a space between divs */
+	padding: 10px 0; /* padding on this element will create space, just as the the margin would have, without the margin collapse issue */
+}
+body,td,th {
+	font-family: Trebuchet MS, Arial, Helvetica, sans-serif;
+}
+a:link {
+	color: #000;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #000;
+}
+a:hover {
+	text-decoration: none;
+}
+a:active {
+	text-decoration: none;
+}
+-->
+</style></head>
+
+<body class="oneColElsCtrHdr">
+
+<div id="container">
+  <div id="header">
+    <h2 align="center"><a href="amfmmag.html">AMFM</a><a href="amfmarts.html"> | ARTS</a><a href="amfmmusic.html"> | MUSIC </a><a href="amfmfashion.html">| <em>FASHION</em></a><a href="amfmevents.html">| EVENTS</a>
+      <!-- end #header -->
+      | <img src="../images/amfmmag/socialmedia.jpg" alt="social media" width="141" height="28" border="0" align="absbottom" usemap="#Map" />
+      <map name="Map" id="Map223">
+        <area shape="circle" coords="18,13,10" href="http://www.facebook.com/amfmlife" target="_blank" />
+        <area shape="circle" coords="56,14,12" href="http://www.twitter.com/amfmlife" target="_blank" />
+        <area shape="rect" coords="113,6,133,24" href="http://www.instagram.com/amfmlife" target="_blank" />
+        <area shape="circle" coords="91,14,11" href="http://www.amfm-mag.tumblr.com" target="_blank" />
+      </map>
+      <map name="Map" id="Map24">
+        <area shape="circle" coords="93,15,9" href="#amfm-mag.tumblr.com" />
+        <area shape="rect" coords="120,5,140,25" href="#http://www.instagram.com/amfmmag" />
+        <area shape="circle" coords="57,17,11" href="#http://www.twitter.com/amfmmag" />
+        <area shape="circle" coords="20,19,10" href="#http://www.facebook.com/amfmmag" />
+      </map>
+      <map name="Map" id="Map222">
+        <area shape="circle" coords="20,16,8" href="#http://www.facebook.com/amfmmag" />
+        <area shape="circle" coords="57,17,8" href="#http://www.twitter.com/amfmmag" />
+        <area shape="rect" coords="116,5,136,23" href="#http://www.instagram.com/amfmmag" />
+        <area shape="circle" coords="93,15,11" href="#amfm-mag.tumblr.com" />
+      </map>
+      <map name="Map" id="Map222">
+        <area shape="circle" coords="18,13,10" href="http://www.facebook.com/amfmmag" target="_blank" />
+        <area shape="circle" coords="56,14,12" href="http://www.twitter.com/amfmmag" target="_blank" />
+        <area shape="rect" coords="113,6,133,24" href="http://www.instagram.com/amfmmag" target="_blank" />
+        <area shape="circle" coords="91,14,11" href="http://www.amfm-mag.tumblr.com" target="_blank" />
+      </map>
+      <map name="Map" id="Map23">
+        <area shape="circle" coords="93,15,9" href="#amfm-mag.tumblr.com" />
+        <area shape="rect" coords="120,5,140,25" href="#http://www.instagram.com/amfmmag" />
+        <area shape="circle" coords="57,17,11" href="#http://www.twitter.com/amfmmag" />
+        <area shape="circle" coords="20,19,10" href="#http://www.facebook.com/amfmmag" />
+      </map>
+      <map name="Map" id="Map23">
+        <area shape="circle" coords="93,15,9" href="#amfm-mag.tumblr.com" />
+        <area shape="rect" coords="120,5,140,25" href="#http://www.instagram.com/amfmmag" />
+        <area shape="circle" coords="57,17,11" href="#http://www.twitter.com/amfmmag" />
+        <area shape="circle" coords="20,19,10" href="#http://www.facebook.com/amfmmag" />
+      </map>
+<map name="Map" id="Map22">
+        <area shape="circle" coords="18,13,9" href="#http://www.facebook.com/amfmmag" />
+        <area shape="circle" coords="57,15,9" href="#http://www.twitter.com/amfmmag" />
+        <area shape="rect" coords="121,7,141,25" href="#http://www.instagram.com/amfmmag" />
+        <area shape="circle" coords="95,15,11" href="#amfm-mag.tumblr.com" />
+      </map>
+      <br />
+      <br />
+    </h2>
+    <!-- end #header -->
+  </div>
+  <div id="mainContent">
+    <h2><img src="../images/amfmmag/emmamckee2.jpg" width="700" height="400" alt="emma mckee" /></h2>
+    <h2><strong>Q&amp;A: EMMA MCKEE</strong></h2>
+    <p dir="ltr">There are no mistakes in life, the same goes for embroidery. Emma Mckee, better known as The Stitch Gawd, knows this all too well, so it&rsquo;s no mistake that she found herself in immersed in Chicago&rsquo;s Hip-Hop scene far from her hometown in Tulsa, Oklahoma after her stint in Canada had come to an abrupt ending. It&rsquo;s also no mistake that she found solace in the music scene and found herself rubbing elbows and thus embroidering the backs for some of Chicago&rsquo;s finest emerging artists and creatives like Louder Than A Bomb&rsquo;s Kevin Coval, Malcolm London, Chance The Rapper, BJ The Chicago Kid, Vic Mensa, and even The Wests, Kanye and Kim. </p>
+    <div dir="ltr">For many, embroidery may be seen as a hobby for housewives and old ladies, but for Mckee, this is truly a labor of love she embarked on as a way to pay homage to a city where she found her heart and her home, and the myriad of talented individuals that inspire her daily. Sales gawd by day, Stitch Gawd by night, she&rsquo;ll throw on a lil &ldquo;It G Ma&rdquo; and spend 30-60 hours on a design, and give it away, for free. Yes, for free. You&rsquo;re blessed if you&rsquo;ve been blessed by the Stitch Gawd, and even more blessed if she lends you her time and her words.</div>
+<div dir="ltr">
+  <p><strong id="docs-internal-guid-8b27a01f-ae23-a530-9879-673889208627"><img src="../images/amfmmag/emmamckee.jpg" width="700" height="400" alt="emma mckee" /><br />
+  </strong><strong>AMFM:</strong> How did you get into embroidery? I know that your mom tried to get you into it when you were younger but you weren't into it. What changed? </p>
+</div>
+<div dir="ltr"><strong id="docs-internal-guid-8b27a01f-ae23-a530-9879-673889208627"><br />
+EMMA MCKEE:</strong> I felt it was historically a hobby to keep women who were otherwise not occupied, occupied. Like the gentry, like the gentle types, women who had all this time on their hands, who didn't have to make money, and they only took care of their kids. Embroidery was associated with birth announcements and feminine themed stitchings. So at the time I was like, No. There were so many things I&rsquo;d rather do with my time. It felt archaically feminine and I don't really ascribe to those types of perceptions. The craziest thing about all of this so far is seeing the reception I get about it. I feel like I had a kid or something! Like social media is so prevalent in everything that you do, and at a certain age you see everyone getting married and having kids, and reaching all these goals or whatever. The thing is that people see that I&rsquo;m doing so well, and it's funny because nobody asks me about my boyfriend and about having kids anymore. They used to, because I'm a women of a certain age. They don't ask anymore, and It's really liberating. So it&rsquo;s funny that I would take this very traditional, archaic and very fem thing and do it the way I&rsquo;m doing it. That's why you have to stay away from irony. There's never been an art form whose product is so defined by the medium. It's weird that I came from something with so much story from it. <strong>&nbsp;</strong></div>
+<div dir="ltr"><strong id="docs-internal-guid-8b27a01f-ae23-a530-9879-673889208627"><br />
+AMFM: </strong>What type of stuff were you doing in the beginning? Were you ever into art as a kid? </div>
+<div dir="ltr"><strong id="docs-internal-guid-8b27a01f-ae23-a530-9879-673889208627"><br />
+MCKEE: </strong>The first thing I&rsquo;ve ever stitched was Chance The Rapper. I can't draw, or paint. Nothing.<br />
+<br />
+</div>
+<div dir="ltr"></div>
+<div dir="ltr"></div>
+<div dir="ltr"><strong id="docs-internal-guid-8b27a01f-ae23-a530-9879-673889208627"><img src="../images/amfmmag/emma-chance.jpg" width="700" height="400" alt="chance" /><br />
+AMFM: </strong>Does it come so easily to you? </div>
+<div dir="ltr"><strong><br />
+MCKEE: </strong>It does. When people call me an artist I would always refute it. I wouldn't call myself an artist because the pieces I work on are made by actual artist and I'm just reinterpreting it. I got really uncomfortable with the monicar. When I started to realize that people were really receptive to it and really thought it was different, I was like ok it&rsquo;s artistry. It's the artistry of pre-planning well and having good taste basically. It&rsquo;s funny, people are just reflections of themselves, and the art I make is me reflecting what I think of them. People love that shit. </div>
+<div dir="ltr"><strong id="docs-internal-guid-8b27a01f-ae23-a530-9879-673889208627"><br />
+AMFM: </strong>How&rsquo;d you get the name Stitch Gawd?</div>
+<p dir="ltr"> <strong id="docs-internal-guid-8b27a01f-ae23-a530-9879-673889208627">MCKEE: </strong>It was a joke. It was my rapper name. The coverage that I get, like photos, interviews and even the blogs I&rsquo;m featured on, they treat me like I'm a rapper. There's a photo of me stitching with like a fucking blunt in my hand. <em>Fake Shore Drive </em>premiered a piece about me. <em>Fake Shore Drive</em> premieres rappers, not fucking cross stitchers. The girl who did the<em> Fader</em> article on me, we were talking and she joked and called me the Stitch Gawd. Four months later, I was at the Kanye West concert and four strangers in cars yelled Stitch Gawd out at me. It just stuck. If someone wants a piece they&rsquo;ll just send me the praying hands emoji and say &ldquo;Bless me Stitch Gawd.&rdquo; Or like if I like your album, someone will retweet me and say &ldquo;Blessings from the Stitch Gawd.&rdquo;</p>
+<p><img src="../images/amfmmag/emmamckee4.jpg" width="700" height="400" alt="emma mckee" /></p>
+<div dir="ltr"><strong id="docs-internal-guid-8b27a01f-ae23-a530-9879-673889208627">AMFM: </strong>What about Hip-Hop do you love and how does Hip-Hop and embroidery, marry itself for you? Why make a cross stitch of Chance? </div>
+<div dir="ltr"><strong id="docs-internal-guid-8b27a01f-ae23-a530-9879-673889208627"><br />
+MCKEE: </strong>Well, Chance is special. My dad&rsquo;s a preacher and my mom&rsquo;s an opera singer, so I grew up around church music, which is community based, and classical music, which is a big sound and very choral. Both things emotional. On a certain level it was them, because there was no exposure to things before that. The first pop record I ever heard I was like six years old and it was Paul Simon's Graceland. My parents left me alone a lot when I was a kid because I was like &nbsp;a tiny grown up. I would walk myself down to the record store in St. Louis and I just bought albums based on the albums artwork because I didn't know how else to choose. I got a Queen album, the Clueless soundtrack, Friday After Next and The Wallflowers. I think that&rsquo;s why Hip-Hop is so important. I was always like a weirdo misanthrope and what better place to go and shield yourself than with like a bunch of other people who are talking about being isolated. I always liked &nbsp;narratives. I have a quote from the poem &lsquo;Motto&rsquo; by Langston Hughes on my back. It says &ldquo;I play it cool and dig all jive, that's the reason I stay alive,&rdquo; and my motto as I live and learn is, &ldquo;dig and be dug in return.&rdquo;</div>
+<div dir="ltr">
+  <h5><img src="../images/amfmmag/chancejacket.jpg" width="700" height="400" alt="chance jacket" /><em>(Chance The Rapper)</em></h5>
+</div>
+<div dir="ltr">
+  <p><strong>AMFM: </strong>Over the last 2 years you've really blown up. How did you get to this point? How are you coping with all of that and how are you trying to maintain yourself in the midst of it?</p>
+  <p><strong>MCKEE: </strong>People think I'm crazy when I tell them they can&rsquo;t buy my work because they aren't for sale. That's been the saving grace. It has allowed me to leap over hurdles because I'm not looking for anyone else's approval. I get to pick the people who put it on. There's a high demand for my work because only really dope people have it. So I&rsquo;m not wasting my time on lames. It also takes me so much time to do that shit. I said not to the Grammy Museum because I had so much shit to do for the homies. I don't make stuff for just anyone, but this is my version of holding it down for my city. </p>
+</div>
+<div dir="ltr">
+  <h5><strong id="docs-internal-guid-8b27a01f-ae23-a530-9879-673889208627"><img src="../images/amfmmag/kevinshirt.jpg" width="700" height="400" alt="kevin shirt" /><em>(Louder Than A Bomb Founder Kevin Coval)</em><br />
+  </strong></h5>
+</div>
+<div dir="ltr">
+  <p><strong id="docs-internal-guid-8b27a01f-ae23-a530-9879-">AMFM: </strong>Why do you think people have gravitated towards your work? </p>
+  <p><strong>MCKEE: </strong>Thank you Chicago rap community for embracing me with open arms. I feel so lucky. I would be totally different if I wasn't accepted in the artist community and rap scene. The past three years I wrote for a blog and I went to hella shows and I was friends with people like Kevin Koval. I always made sure to be really nice and really candid but also I stuck to myself a lot. I was a loner but I still knew people. I first met Chance when he was doing open mics in the community.</p>
+</div>
+<div dir="ltr">
+  <h5><strong id="docs-internal-guid-8b27a01f-ae23-a530-9879-673889208627"><img src="../images/amfmmag/kashinkjacket.jpg" width="700" height="400" alt="kashink jacket" /><em>(Street Artist Kashink)</em><br />
+  </strong></h5>
+  <p><strong>    AMFM: </strong>Why do you think you gravitate to these types of people? </p>
+</div>
+<p dir="ltr"><strong id="docs-internal-guid-8b27a01f-ae23-a530-9879-673889208627">MCKEE: </strong>They&rsquo;re the ones with the best stories and the best art. I'm making art for people I really fuck with. I think it's confound to people because there's obviously a relevant strain to all these people I made stuff for. Bill Cunningham said, &ldquo;Clothes are the everyday armor that protects us from the mundanity of everyday life.&rdquo; And that&rsquo;s the truth. You&rsquo;re saying stuff by how your dressed and what your wearing. If you have access to Supreme that means you have the hook up or you&rsquo;re rich. If you're wearing those Jordan boots that came out that means &lsquo;you got the plug&rsquo; or your super important. We use the things that we wear to tell something about ourselves.</p>
+    <div dir="ltr"><strong id="docs-internal-guid-8b27a01f-ae23-a530-9879-673889208627">AMFM: </strong>Why do you choose to do the Barter system to promote your artwork and give it to only people that you fuck with? Why is it something that's important to you? <strong>&nbsp;</strong></div>
+<div dir="ltr"><strong id="docs-internal-guid-8b27a01f-ae23-a530-9879-673889208627"><br />
+MCKEE: </strong>When people would ask me to do something for them I didn't know how to price it. I wasn't sure if I should do it by square inch or time spent. If I do minimum wage hourly each piece would cost thousands of dollars. I didn't know how to value it and I refuse to. I saw what people would do for it. A dollar is worth the same thing, but people&rsquo;s time is a whole different currency. One person's time is definitely more valuable than another&rsquo;s. If you can get your hands on someone's time, especially if they&rsquo;re talented and smart who know what you can do with it. It negated so many steps for me. I didn't have to show up at galleries. I didn't have to compromise or make shit for people I don't like. I think as women we have to say yes to many things with smiles on our faces. It's not really a world made for us, and I find joy in saying no to things I don't want to do. There's some weird power in that.</div>
+<div dir="ltr"><strong id="docs-internal-guid-8b27a01f-ae23-a530-9879-673889208627"><br />
+</strong></div>
+    <div dir="ltr"><strong id="docs-internal-guid-2afd7e31-2a9e-6be5-f20d-e5756aa19564">FOR MORE FROM EMMA MCKEE:<br />
+      </strong><br />
+      <a href="http://www.somedopeness.com/" target="_blank">WEBSITE</a><br />
+      <a href="https://www.instagram.com/emmamlmckee/" target="_blank">INSTAGRAM</a><br />
+    </div>
+<h6 dir="ltr"><strong id="docs-internal-guid-2afd7e31-2a9e-6be5-f20d-e5756aa19564"><em>PHOTO CREDITS: <a href="http://justindwaunredding.com/" target="_blank">JUSTIN DWUAN REDDING</a>, KATER JAYNE PHOTOGRAPHY (VIA EMMA MCKEE)</em></strong><strong><em><br />
+</em></strong></h6>
+    <!-- end #mainContent -->
+</div>
+  <div id="footer">
+    <h2><a href="aboutamfm.html">ABOUT AMFM</a><br />
+      <a href="mailto:info@amfm-mag.com">CONTACT</a><br />
+      <img src="../images/amfmmag/socialmedia.jpg" alt="social media" width="141" height="28" border="0" align="absbottom" usemap="#Map" />
+      <map name="Map" id="Map2232">
+        <area shape="circle" coords="18,13,10" href="http://www.facebook.com/amfmmag" target="_blank" />
+        <area shape="circle" coords="56,14,12" href="http://www.twitter.com/amfmmag" target="_blank" />
+        <area shape="rect" coords="113,6,133,24" href="http://www.instagram.com/amfmmag" target="_blank" />
+        <area shape="circle" coords="91,14,11" href="http://www.amfm-mag.tumblr.com" target="_blank" />
+      </map>
+      <map name="Map" id="Map242">
+        <area shape="circle" coords="93,15,9" href="#amfm-mag.tumblr.com" />
+        <area shape="rect" coords="120,5,140,25" href="#http://www.instagram.com/amfmmag" />
+        <area shape="circle" coords="57,17,11" href="#http://www.twitter.com/amfmmag" />
+        <area shape="circle" coords="20,19,10" href="#http://www.facebook.com/amfmmag" />
+      </map>
+      <map name="Map" id="Map224">
+        <area shape="circle" coords="20,16,8" href="#http://www.facebook.com/amfmmag" />
+        <area shape="circle" coords="57,17,8" href="#http://www.twitter.com/amfmmag" />
+        <area shape="rect" coords="116,5,136,23" href="#http://www.instagram.com/amfmmag" />
+        <area shape="circle" coords="93,15,11" href="#amfm-mag.tumblr.com" />
+      </map>
+      <map name="Map" id="Map2222">
+        <area shape="circle" coords="18,13,10" href="http://www.facebook.com/amfmmag" target="_blank" />
+        <area shape="circle" coords="56,14,12" href="http://www.twitter.com/amfmmag" target="_blank" />
+        <area shape="rect" coords="113,6,133,24" href="http://www.instagram.com/amfmmag" target="_blank" />
+        <area shape="circle" coords="91,14,11" href="http://www.amfm-mag.tumblr.com" target="_blank" />
+      </map>
+      <map name="Map" id="Map232">
+        <area shape="circle" coords="93,15,9" href="#amfm-mag.tumblr.com" />
+        <area shape="rect" coords="120,5,140,25" href="#http://www.instagram.com/amfmmag" />
+        <area shape="circle" coords="57,17,11" href="#http://www.twitter.com/amfmmag" />
+        <area shape="circle" coords="20,19,10" href="#http://www.facebook.com/amfmmag" />
+      </map>
+      <map name="Map" id="Map25">
+        <area shape="circle" coords="93,15,9" href="#amfm-mag.tumblr.com" />
+        <area shape="rect" coords="120,5,140,25" href="#http://www.instagram.com/amfmmag" />
+        <area shape="circle" coords="57,17,11" href="#http://www.twitter.com/amfmmag" />
+        <area shape="circle" coords="20,19,10" href="#http://www.facebook.com/amfmmag" />
+      </map>
+      <map name="Map" id="Map2">
+  <area shape="circle" coords="93,15,9" href="#amfm-mag.tumblr.com" />
+  <area shape="rect" coords="120,5,140,25" href="#http://www.instagram.com/amfmmag" />
+  <area shape="circle" coords="57,17,11" href="#http://www.twitter.com/amfmmag" />
+  <area shape="circle" coords="20,19,10" href="#http://www.facebook.com/amfmmag" />
+</map>
+    </h2>
+    <h2>
+      <div id="mc_embed_signup">
+        <form action="//amfm-mag.us10.list-manage.com/subscribe/post?u=738860a67ed3f5cd20e478572&amp;id=8db9e6e243" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate="novalidate">
+          <div id="mc_embed_signup_scroll">SIGN UP FOR UPDATES!
+            <div class="mc-field-group">
+              <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" />
+            </div>
+            <div id="mce-responses" class="clear">
+              <div class="response" id="mce-error-response" style="display:none"></div>
+              <div class="response" id="mce-success-response" style="display:none"></div>
+            </div>
+            <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+            <div style="position: absolute; left: -5000px;" aria-hidden="true">
+              <input type="text" name="b_738860a67ed3f5cd20e478572_8db9e6e243" tabindex="-1" value="" />
+            </div>
+            <div class="clear">
+              <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button" />
+            </div>
+          </div>
+        </form>
+      </div>
+      <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
+      <script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+      <!--End mc_embed_signup-->
+      <div id="mc_embed_signup2">
+        <form action="//amfm-mag.us10.list-manage.com/subscribe/post?u=738860a67ed3f5cd20e478572&amp;id=8db9e6e243" method="post" id="mc-embedded-subscribe-form2" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate="novalidate">
+          <div id="mc_embed_signup_scroll2">
+            <div class="clear"></div>
+          </div>
+        </form>
+      </div>
+      <div align="center">
+        <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
+        <script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+        <!--End mc_embed_signup-->
+      </div>
+    </h2>
+    <h5 align="center">&nbsp;</h5>
+    <h5 align="center">
+      </p>
+      <!-- end #footer -->
+       © AMFM ALL RIGHTS RESERVED. </h5>
+  </div>
+<!-- end #container --></div>
+</body>
+</html>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-48234405-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
