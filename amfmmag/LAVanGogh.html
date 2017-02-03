@@ -1,0 +1,299 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>amfm </title>
+<style type="text/css">
+<!--
+body {
+	font: 100% Verdana, Arial, Helvetica, sans-serif;
+	background: #FFFFFF;
+	margin: 0; /* it's good practice to zero the margin and padding of the body element to account for differing browser defaults */
+	padding: 0;
+	text-align: center; /* this centers the container in IE 5* browsers. The text is then set to the left aligned default in the #container selector */
+	color: #000000;
+}
+
+/* Tips for Elastic layouts 
+1. Since the elastic layouts overall sizing is based on the user's default fonts size, they are more unpredictable. Used correctly, they are also more accessible for those that need larger fonts size since the line length remains proportionate.
+2. Sizing of divs in this layout are based on the 100% font size in the body element. If you decrease the text size overall by using a font-size: 80% on the body element or the #container, remember that the entire layout will downsize proportionately. You may want to increase the widths of the various divs to compensate for this.
+3. If font sizing is changed in differing amounts on each div instead of on the overall design (ie: #sidebar1 is given a 70% font size and #mainContent is given an 85% font size), this will proportionately change each of the divs overall size. You may want to adjust based on your final font sizing.
+*/
+.oneColElsCtrHdr #container {
+	width: 46em;  /* this width will create a container that will fit in an 800px browser window if text is left at browser default font sizes */
+	background: #FFFFFF;
+	margin: 0 auto; /* the auto margins (in conjunction with a width) center the page */
+	border: 1px solid #FFFFFF;
+	text-align: left; /* this overrides the text-align: center on the body element. */
+}
+.oneColElsCtrHdr #header { 
+	background: #FFFFFF; 
+	padding: 0 10px 0 20px;  /* this padding matches the left alignment of the elements in the divs that appear beneath it. If an image is used in the #header instead of text, you may want to remove the padding. */
+} 
+.oneColElsCtrHdr #header h1 {
+	margin: 0; /* zeroing the margin of the last element in the #header div will avoid margin collapse - an unexplainable space between divs. If the div has a border around it, this is not necessary as that also avoids the margin collapse */
+	padding: 10px 0; /* using padding instead of margin will allow you to keep the element away from the edges of the div */
+}
+.oneColElsCtrHdr #mainContent {
+	padding: 0 20px; /* remember that padding is the space inside the div box and margin is the space outside the div box */
+	background: #FFFFFF;
+}
+.oneColElsCtrHdr #footer { 
+	padding: 0 10px; /* this padding matches the left alignment of the elements in the divs that appear above it. */
+	background:#FFFFFF;
+} 
+.oneColElsCtrHdr #footer p {
+	margin: 0; /* zeroing the margins of the first element in the footer will avoid the possibility of margin collapse - a space between divs */
+	padding: 10px 0; /* padding on this element will create space, just as the the margin would have, without the margin collapse issue */
+}
+body,td,th {
+	font-family: Trebuchet MS, Arial, Helvetica, sans-serif;
+}
+a:link {
+	color: #000;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #000;
+}
+a:hover {
+	text-decoration: none;
+}
+a:active {
+	text-decoration: none;
+}
+-->
+</style></head>
+
+<body class="oneColElsCtrHdr">
+
+<div id="container">
+  <div id="header">
+    <h2 align="center"><a href="amfmmag.html">AMFM</a><a href="amfmarts.html"> | ARTS</a> <a href="amfmmusic.html">| <em>MUSIC</em></a><a href="amfmfashion.html">| FASHION </a><a href="amfmevents.html">| EVENTS</a>
+      <!-- end #header -->
+      | <img src="../images/amfmmag/socialmedia.jpg" alt="social media" width="141" height="28" border="0" align="absbottom" usemap="#Map" />
+      <map name="Map" id="Map223">
+        <area shape="circle" coords="18,13,10" href="http://www.facebook.com/amfmmag" target="_blank" />
+        <area shape="circle" coords="56,14,12" href="http://www.twitter.com/amfmmag" target="_blank" />
+        <area shape="rect" coords="113,6,133,24" href="http://www.instagram.com/amfmmag" target="_blank" />
+        <area shape="circle" coords="91,14,11" href="http://www.amfm-mag.tumblr.com" target="_blank" />
+      </map>
+      <map name="Map" id="Map24">
+        <area shape="circle" coords="93,15,9" href="#amfm-mag.tumblr.com" />
+        <area shape="rect" coords="120,5,140,25" href="#http://www.instagram.com/amfmmag" />
+        <area shape="circle" coords="57,17,11" href="#http://www.twitter.com/amfmmag" />
+        <area shape="circle" coords="20,19,10" href="#http://www.facebook.com/amfmmag" />
+      </map>
+      <map name="Map" id="Map222">
+        <area shape="circle" coords="20,16,8" href="#http://www.facebook.com/amfmmag" />
+        <area shape="circle" coords="57,17,8" href="#http://www.twitter.com/amfmmag" />
+        <area shape="rect" coords="116,5,136,23" href="#http://www.instagram.com/amfmmag" />
+        <area shape="circle" coords="93,15,11" href="#amfm-mag.tumblr.com" />
+      </map>
+      <map name="Map" id="Map222">
+        <area shape="circle" coords="18,13,10" href="http://www.facebook.com/amfmmag" target="_blank" />
+        <area shape="circle" coords="56,14,12" href="http://www.twitter.com/amfmmag" target="_blank" />
+        <area shape="rect" coords="113,6,133,24" href="http://www.instagram.com/amfmmag" target="_blank" />
+        <area shape="circle" coords="91,14,11" href="http://www.amfm-mag.tumblr.com" target="_blank" />
+      </map>
+      <map name="Map" id="Map23">
+        <area shape="circle" coords="93,15,9" href="#amfm-mag.tumblr.com" />
+        <area shape="rect" coords="120,5,140,25" href="#http://www.instagram.com/amfmmag" />
+        <area shape="circle" coords="57,17,11" href="#http://www.twitter.com/amfmmag" />
+        <area shape="circle" coords="20,19,10" href="#http://www.facebook.com/amfmmag" />
+      </map>
+      <map name="Map" id="Map23">
+        <area shape="circle" coords="93,15,9" href="#amfm-mag.tumblr.com" />
+        <area shape="rect" coords="120,5,140,25" href="#http://www.instagram.com/amfmmag" />
+        <area shape="circle" coords="57,17,11" href="#http://www.twitter.com/amfmmag" />
+        <area shape="circle" coords="20,19,10" href="#http://www.facebook.com/amfmmag" />
+      </map>
+<map name="Map" id="Map22">
+        <area shape="circle" coords="18,13,10" href="#http://www.facebook.com/amfmmag" />
+        <area shape="circle" coords="59,16,9" href="#http://www.twitter.com/amfmmag" />
+        <area shape="rect" coords="119,7,139,25" href="#http://www.instagram.com/amfmmag" />
+        <area shape="circle" coords="93,15,9" href="#amfm-mag.tumblr.com" />
+      </map>
+      <br />
+      <br />
+    </h2>
+    <!-- end #header -->
+  </div>
+  <div id="mainContent"><img src="../images/amfmmag/LAVanGoghQ.jpg" width="700" height="400" alt="edo and olivier" />
+    <h2><strong>Q&amp;A:  LA VAN GOGH</strong></h2>
+    <p dir="ltr">In a world were organization and classification rules as a law of nature, musician and lyricist LA Van Gogh journeys out of this societal box by conceptualizing his own style of tunes along with his identity. LA is of both Mexican and African-American descent and identifies this &ldquo;mixed raced&rdquo; middle land as a huge influencer to his musical development. Identity, duality, and the widely known, &ldquo;I&rsquo;m an artist and I'm sensitive about my shit,&rdquo; attitude are themes LA emits within his lyrical lines. Driven by cinematography, sports and literature at a young age, LA and the people around him never pegged him to develop into an musician. The creation of music is like all three interests gobbled up and spit out into one fine tune.<br />
+      <br />
+      Amongst the many talents of the city, this south suburban Chicago native has made a special lane for himself with several collaborations with fellow peers and independent lead projects. His most current project, jointly crafted with Ambi lyrics titled safeNsound was made with &ldquo;SQUAD&rdquo; in mind. &nbsp;The song Grow up ft. Yomi, Schenay Mosley, and Jameson Brenner places growing up and childhood in perfect juxtaposition. The hook &ldquo; I don't want to grow up, I don't want to grow up. Still throwing pieces signs until the world blow up. Reality is catching up. Won't tell it to slow up, cuz I don't want to grow up.&rdquo; safeNsound is a project created to promote safe spaces within the industry. He also just released a new project called Friends First as well. This forever evolving lyricist is definitely making his mark on the streets of Chicago.    </p>
+    <p dir="ltr"><img src="../images/amfmmag/LAVangogh2.jpg" width="700" height="400" alt="la van gogh" /></p>
+<p dir="ltr"><strong id="docs-internal-guid-270d9df0-05c0-cfbc-b2d7-6b907ee0ebba">AMFM : </strong>You have been a poet since a pretty young age! How does your poetry background kind of influence you music nowadays?<br />
+</p>
+<p dir="ltr"><strong id="docs-internal-guid-270d9df0-05c0-cfbc-b2d7-6b907ee0ebba">LA Van Gogh:</strong> I write literature. So I can't write anything unless I see it in my head. It's like I write the song and the music video at the same time. My music is really influenced by literature and I learned that through poetry, and through poetic devices I learned in English class. That morphed into me wanting to rap like Lil&rsquo; Wayne, and I wanted to be Charles Hamilton and Jay-Z at the same time. Eventually I started going to open mics and slam poetry like YCA and Louder Than A Bomb. I was kind of late on those platforms, but a lot of my friends were into that. The people I hung around were also huge influencers. The talented souls around me influenced me, but by being analytical and self aware I became. I&rsquo;m picky about words. I can&rsquo;t waste words. Even the word &ldquo;the&rdquo; in a rap matter.<br />
+</p>
+<p dir="ltr"><strong id="docs-internal-guid-270d9df0-05c0-cfbc-b2d7-6b907ee0ebba">AMFM: </strong>We love words too.<br />
+</p>
+<p dir="ltr"><strong id="docs-internal-guid-270d9df0-05c0-cfbc-b2d7-6b907ee0ebba">LA: </strong>All words matter (laughs)<br />
+</p>
+<p dir="ltr"><strong id="docs-internal-guid-270d9df0-05c0-cfbc-b2d7-6b907ee0ebba">AMFM: </strong>Chicago is just this brewing pot of all these really great musicians and artist and creatives. We&rsquo;re kind of, and I hate to say this, in a renaissance. How does it feel to be surrounded by and to be a part of something so amazing?<br />
+</p>
+<p dir="ltr"><strong id="docs-internal-guid-270d9df0-05c0-cfbc-b2d7-6b907ee0ebba">L.A: </strong>Honestly, It&rsquo;s great for the city because we&rsquo;ve been getting so much negative attention. I went to &nbsp;New York and I told people that I was from Chicago and their were like &ldquo;Oh don't shoot me.&rdquo; I was just like ARE YOU SERIOUS? All the people I know from Chicago are so uplifting even amongst all of the politics, the violence, the segregation every body I know is uplifting. So It&rsquo;s kind of a catch 22 feelings. I also feel drowned in that. I feel drowned in the fact that all of my friends are doing so good. I feel like I'm trying to play catch up. I went to school, I graduated, I worked. I just decided to quit my job to pursue music &nbsp;full time. Trying to get out of that hierarchy; I definitely try to separate myself from crews and stuff because I&rsquo;m just an introvert, period. Overall, the city is going great and I love all the music that coming out of here. People like Tink, whom I grown up with, to Dreezy, to Katie Got Bandz to Chance to Vick to Keef. It's &nbsp;a blessing to be around all the talent because it pushed you to do better.<br />
+</p>
+<p dir="ltr"><strong id="docs-internal-guid-270d9df0-05c0-cfbc-b2d7-6b907ee0ebba">AMFM: </strong>You talk a lot about of this introverted side and not wanting to read or hear your music once you put it out. I read something, that you have a lot of themes that focus on identity. Why is that something that important to you?<br />
+</p>
+<p dir="ltr"><strong id="docs-internal-guid-270d9df0-05c0-cfbc-b2d7-6b907ee0ebba">LA: </strong>Because of my race. I'm Black and Mexican. I have fair skin, but a lot of people can not tell what I am. When I used to have short hair I could go either way. When I go to different scenarios I&rsquo;m either treated like the &ldquo;nigga&rdquo; or I&rsquo;m treated like the &ldquo;spic&rdquo;. So I'm always trying to figure out who I am. I always had a complex of &ldquo;am I black enough?&rdquo; But I was raised in a Black household so I didn't speak Spanish. I also had a complex of &nbsp;&ldquo;Am I Mexican enough?&rdquo; My music is me trying to sort through that and also trying to accept the fact that I&rsquo;m more than one thing. I feel like we always get stuck on the idea that we have to be one thing. We&rsquo;re defined by boxes that are put on us and I don't like boxes put on me. I'm a taurus I don't do none of that.<br />
+</p>
+<p dir="ltr"><strong id="docs-internal-guid-270d9df0-05c0-cfbc-b2d7-6b907ee0ebba">AMFM: </strong>I want to know more about your beginnings. How were you like as a kid? How does it influence your art today? Was there music around you growing up?<br />
+</p>
+<p dir="ltr"><strong id="docs-internal-guid-270d9df0-05c0-cfbc-b2d7-6b907ee0ebba">LA:</strong> I don't think I have any direct influences with music other than the fact that I loved to listen to it. I grew up listening to Snoop Dogg, Avant, Silk, and 112. I was raised on the typical 90&rsquo;s stuff. I was shy to sing in the car alone. I always kept a lot of things to myself. So when I decided to do music, it was a huge shock to everybody. I was a quiet straight A student. I did music and wrote on the side. I played basketball and baseball. I was really good at baseball until I was injured. I was playing with 13 yr olds at nine. In practice one of the 13 year olds hit my in the back of the head at pitch and I swear to you that was when my life changed. I never looked at sports the same and that pitch knocked something out of me and left open a door for me to pursue music. A lot of my music direction was influenced by my social setting rather than music. I always had a love form music but most of my influences came from literature, education and the people around me.<br />
+</p>
+<p dir="ltr"><img src="../images/amfmmag/LA.jpg" width="700" height="400" alt="la" /></p>
+<p dir="ltr"><strong>AMFM: </strong>What's your stage presence like if you're shy and naturally introverted?<br />
+</p>
+<p dir="ltr"><strong id="docs-internal-guid-270d9df0-05c0-cfbc-b2d7-6b907ee0ebba">LA: </strong>It&rsquo;s like a switch. I have to meditate and center myself before my shows. When I get onstage I feel free because then I don't care. At that present state I&rsquo;m controlling the crowd and I get to see people react to my hard work.<br />
+</p>
+<p dir="ltr"><strong id="docs-internal-guid-270d9df0-05c0-cfbc-b2d7-6b907ee0ebba">AMFM: </strong>It&rsquo;s interesting to hear that you dont care.To have that release to the point that you dont think about it while at the same time remaing so critical of your own work. You're into so much that you don't ever think about what ifs….<br />
+</p>
+<p dir="ltr"><strong id="docs-internal-guid-270d9df0-05c0-cfbc-b2d7-6b907ee0ebba">LA: &nbsp;</strong>They say your most conscious streams come from when you&rsquo;re in the shower and when you're driving. That's true because it's something that you're so trained to do that your mind is open to do something else. So I spend so much time practicing and singing throughout the day that I sing to calm anxiety. So when I get onstage it&rsquo;s like I'm driving, It&rsquo;s like I&rsquo;m in the shower. I really don't even think about it because I'm really just practicing. It&rsquo;s all a culmination of my introvertedness.<br />
+</p>
+<p dir="ltr"><strong id="docs-internal-guid-270d9df0-05c0-cfbc-b2d7-6b907ee0ebba">AMFM:</strong> How do you overcome artist duality? How do you overcome insecurities? Was it a difficult or easy decision to become a fulltime musician?<br />
+</p>
+<p dir="ltr"><strong id="docs-internal-guid-270d9df0-05c0-cfbc-b2d7-6b907ee0ebba">LA: </strong>I was the hardest and easiest thing of my life. I&rsquo;ve been doing this writing program called The Artist Way by Julia Cameron. It was hard because I&rsquo;ve been working for two years. I've grown comfortable with working to where my expenses are paid, I can do music on the side, I can go hang out and I can eat however I want. Then, I started doing this program telling me to really focus on my craft. I had a epiphany where I felt like it was time for me to quit my job. I didn't question it I didn't do nothing but started talking to other people.<br />
+</p>
+<p dir="ltr"><strong id="docs-internal-guid-270d9df0-05c0-cfbc-b2d7-6b907ee0ebba">AMFM: </strong>Can you tell me a little bit about your project safeNsound with Ambi Lyrics?<br />
+</p>
+<p dir="ltr"><strong id="docs-internal-guid-270d9df0-05c0-cfbc-b2d7-6b907ee0ebba">LA: </strong>safeNsound is her and I as a production duo but it's also like a squad. safeNsound was a album title I started conceptualizing. Ambi and I started working together consistently in 2016.<br />
+</p>
+<p dir="ltr"><strong id="docs-internal-guid-270d9df0-05c0-cfbc-b2d7-6b907ee0ebba">AMFM: </strong>What does the name mean?<br />
+</p>
+<p dir="ltr"><strong id="docs-internal-guid-270d9df0-05c0-cfbc-b2d7-6b907ee0ebba">LA: </strong>Basically what it says. You&rsquo;re safe and you&rsquo;re sound. I feel like if were not safe anywhere in the world as artists and creatives, then we're safe in between the things that we create. So I'm safe in my sound and Ambi is safe in her sound, but were also pushing our sound. Our sound is relative. For you, safe and sound is something else. You're safe in curating and residence.</p>
+<p dir="ltr"><iframe width="700" height="400" src="https://www.youtube.com/embed/CavEFqpiMPE" frameborder="0" allowfullscreen></iframe><br />
+  <strong id="docs-internal-guid-270d9df0-05c0-cfbc-b2d7-6b907ee0ebba">AMFM: </strong>Where do you get you stage name from? If there's any relevance to vincent Van Gogh? Are you going to cut of your ear?<br />
+</p>
+<p dir="ltr"><strong id="docs-internal-guid-270d9df0-05c0-cfbc-b2d7-6b907ee0ebba">LA: </strong>My initials are L.A. Van Gogh came from a rap I wrote when I was 15. I wrote &ldquo; I&rsquo;m the Da Vinci of 16, the Van Gogh of flow, paint a picture in your head when I write it like Poe.&rdquo; I was in a group and at the time I was L.A Mcfly and we were the Mcfly Kids.<br />
+</p>
+<p dir="ltr"><strong id="docs-internal-guid-270d9df0-05c0-cfbc-b2d7-6b907ee0ebba">AMFM: </strong>How do you think you've evolved as a artist? Whats the evolution look like for you?<br />
+</p>
+<p dir="ltr"><strong id="docs-internal-guid-270d9df0-05c0-cfbc-b2d7-6b907ee0ebba">LA: </strong>A lot of writers block and a lot of me questioning myself. I've become a lot more creative and self aware about what I say. Like, I used to just rhyme just to rhyme. I would only have one rhyme and a whole line and I think that&rsquo;s trash now. The punch lines were always fire, I just had a terrible way of delivering it, so now I try to combine both. I came from being more like a writer that just wanted to hear good punch line, to being a true storyteller in every facet. Not just the words but structuring the song around the story. I like to think of myself now as like an audio director, as like a musical cinematographer because that&rsquo;s literally how I write a lot of my songs now. I&rsquo;d write the story first, then I&rsquo;d write the song based on the story. In movies you have to understand what does each character want. If I'm going to tell a story I have to understand what each character is motivated by. I&rsquo;d kind of set that story of I&rsquo;ll make different affirmations and then I'll set it to the side. I&rsquo;m more precise as far of the process. Overall I've grown more versatile as a writer.<br />
+</p>
+<p dir="ltr"><strong id="docs-internal-guid-270d9df0-05c0-cfbc-b2d7-6b907ee0ebba">AMFM: </strong>Why is Lupe your favorite rapper?<br />
+</p>
+<p dir="ltr"><strong id="docs-internal-guid-270d9df0-05c0-cfbc-b2d7-6b907ee0ebba">LA:</strong> He was the first person to introduce me to metaphors and similes done super well on a storytelling way. Like, I&rsquo;m a huge fan of Wayne, so punchlines were stuck in my head. Then, I heard Lupe&rsquo;s remix of Jesus Walks and it was my first introduction to Islam through a rapper. I just wanted to be Lupe and Drake when I recorded.<br />
+</p>
+<p dir="ltr"><strong id="docs-internal-guid-270d9df0-05c0-cfbc-b2d7-6b907ee0ebba">AMFM: </strong>What's the most influential theme that you think you have told through your music?<br />
+</p>
+<p dir="ltr"><strong id="docs-internal-guid-270d9df0-05c0-cfbc-b2d7-6b907ee0ebba">LA: </strong>Identity and duality. Its all encompassing so I pick out identity in situations of drug abuse and situations of self self abuse, and situations of emotional abuse. I think the most important song that I&rsquo;ve made so far is this song called &ldquo;Suicide,&rdquo; and the song &ldquo;Gon&rsquo; be OK.&rdquo; They&rsquo;re polar opposites. &ldquo;Suicide&rdquo; was about me questioning if I would be okay if I died. &ldquo;Gon&rsquo; be OK&rdquo; came right after it. I wrote it as therapy for me and my girlfriend at the time. It was my most heartfelt song, and this song I wrote for my friend Calez&rsquo; project too. He's up and coming, and he&rsquo;s worked with Alex Wiley a lot. I did a song for him and it's called &ldquo;Who do you love?&rdquo; He sent me the project and wanted me to add to it. I heard the interlude and I was like I have to write about this because I&rsquo;ve been going through a lot of self love reflection. I started talking about me talking to myself in the mirror. It's really uplifting. </p>
+<strong id="docs-internal-guid-270d9df0-05c0-cfbc-b2d7-6b907ee0ebba">AMFM: </strong>If you had to tell people one thing about LA Van Gogh or about anything what would you say?
+<p dir="ltr"><strong>LA:</strong> Understanding duality is probably one of the biggest keys to peace. Get out of your own head. </p>
+<p><strong id="docs-internal-guid-2afd7e31-2a9e-6be5-f20d-e5756aa19564">FOR MORE FROM LA VAN GOGH:</strong> <br />
+      <a href="http://www.closedsessions.com/kweku-collins/" target="_blank"> WEBSITE </a>/ <a href="https://soundcloud.com/lavangogh" target="_blank">SOUNDCLOUD</a><br />
+    </p>
+    <h6 dir="ltr"><strong id="docs-internal-guid-2afd7e31-2a9e-6be5-f20d-e5756aa19564"><em>PHOTO CREDITS: LA VAN GOGH</em></strong>
+    <!-- end #mainContent --> / DANIEL MARTINEZ
+</h6>
+  </div>
+  <div id="footer">
+    <h2><a href="aboutamfm.html">ABOUT AMFM</a><br />
+      <a href="mailto:info@amfm-mag.com">CONTACT</a><br />
+      <img src="../images/amfmmag/socialmedia.jpg" alt="social media" width="141" height="28" border="0" align="absbottom" usemap="#Map" />
+      <map name="Map" id="Map2232">
+        <area shape="circle" coords="18,13,10" href="http://www.facebook.com/amfmmag" target="_blank" />
+        <area shape="circle" coords="56,14,12" href="http://www.twitter.com/amfmmag" target="_blank" />
+        <area shape="rect" coords="113,6,133,24" href="http://www.instagram.com/amfmmag" target="_blank" />
+        <area shape="circle" coords="91,14,11" href="http://www.amfm-mag.tumblr.com" target="_blank" />
+      </map>
+      <map name="Map" id="Map242">
+        <area shape="circle" coords="93,15,9" href="#amfm-mag.tumblr.com" />
+        <area shape="rect" coords="120,5,140,25" href="#http://www.instagram.com/amfmmag" />
+        <area shape="circle" coords="57,17,11" href="#http://www.twitter.com/amfmmag" />
+        <area shape="circle" coords="20,19,10" href="#http://www.facebook.com/amfmmag" />
+      </map>
+      <map name="Map" id="Map224">
+        <area shape="circle" coords="20,16,8" href="#http://www.facebook.com/amfmmag" />
+        <area shape="circle" coords="57,17,8" href="#http://www.twitter.com/amfmmag" />
+        <area shape="rect" coords="116,5,136,23" href="#http://www.instagram.com/amfmmag" />
+        <area shape="circle" coords="93,15,11" href="#amfm-mag.tumblr.com" />
+      </map>
+      <map name="Map" id="Map2222">
+        <area shape="circle" coords="18,13,10" href="http://www.facebook.com/amfmmag" target="_blank" />
+        <area shape="circle" coords="56,14,12" href="http://www.twitter.com/amfmmag" target="_blank" />
+        <area shape="rect" coords="113,6,133,24" href="http://www.instagram.com/amfmmag" target="_blank" />
+        <area shape="circle" coords="91,14,11" href="http://www.amfm-mag.tumblr.com" target="_blank" />
+      </map>
+      <map name="Map" id="Map232">
+        <area shape="circle" coords="93,15,9" href="#amfm-mag.tumblr.com" />
+        <area shape="rect" coords="120,5,140,25" href="#http://www.instagram.com/amfmmag" />
+        <area shape="circle" coords="57,17,11" href="#http://www.twitter.com/amfmmag" />
+        <area shape="circle" coords="20,19,10" href="#http://www.facebook.com/amfmmag" />
+      </map>
+      <map name="Map" id="Map25">
+        <area shape="circle" coords="93,15,9" href="#amfm-mag.tumblr.com" />
+        <area shape="rect" coords="120,5,140,25" href="#http://www.instagram.com/amfmmag" />
+        <area shape="circle" coords="57,17,11" href="#http://www.twitter.com/amfmmag" />
+        <area shape="circle" coords="20,19,10" href="#http://www.facebook.com/amfmmag" />
+      </map>
+      <map name="Map" id="Map2">
+  <area shape="circle" coords="93,15,9" href="#amfm-mag.tumblr.com" />
+  <area shape="rect" coords="120,5,140,25" href="#http://www.instagram.com/amfmmag" />
+  <area shape="circle" coords="57,17,11" href="#http://www.twitter.com/amfmmag" />
+  <area shape="circle" coords="20,19,10" href="#http://www.facebook.com/amfmmag" />
+</map>
+    </h2>
+    <h2>
+      <div id="mc_embed_signup">
+        <form action="//amfm-mag.us10.list-manage.com/subscribe/post?u=738860a67ed3f5cd20e478572&amp;id=8db9e6e243" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate="novalidate">
+          <div id="mc_embed_signup_scroll">SIGN UP FOR UPDATES!
+            <div class="mc-field-group">
+              <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" />
+            </div>
+            <div id="mce-responses" class="clear">
+              <div class="response" id="mce-error-response" style="display:none"></div>
+              <div class="response" id="mce-success-response" style="display:none"></div>
+            </div>
+            <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+            <div style="position: absolute; left: -5000px;" aria-hidden="true">
+              <input type="text" name="b_738860a67ed3f5cd20e478572_8db9e6e243" tabindex="-1" value="" />
+            </div>
+            <div class="clear">
+              <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button" />
+            </div>
+          </div>
+        </form>
+      </div>
+      <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
+      <script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+      <!--End mc_embed_signup-->
+      <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" /></h2>
+    <td align="right">&nbsp;</td></p>
+  <!-- end #footer -->
+  <h2>
+    <div id="mc_embed_signup2">
+      <form action="//amfm-mag.us10.list-manage.com/subscribe/post?u=738860a67ed3f5cd20e478572&amp;id=8db9e6e243" method="post" id="mc-embedded-subscribe-form2" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate="novalidate">
+        <div id="mc_embed_signup_scroll2">
+          <div class="clear"></div>
+        </div>
+      </form>
+    </div>
+    <div align="center">
+      <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
+      <script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+      <!--End mc_embed_signup-->
+    </div>
+  </h2>
+  <h5 align="center">
+    </p>
+    <!-- end #footer -->
+    © AMFM ALL RIGHTS RESERVED. </h5></td></p>
+  <!-- end #footer --></div>
+<!-- end #container --></div>
+</body>
+</html>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-48234405-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
