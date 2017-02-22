@@ -1,0 +1,252 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>amfm </title>
+<style type="text/css">
+<!--
+body {
+	font: 100% Verdana, Arial, Helvetica, sans-serif;
+	background: #FFFFFF;
+	margin: 0; /* it's good practice to zero the margin and padding of the body element to account for differing browser defaults */
+	padding: 0;
+	text-align: center; /* this centers the container in IE 5* browsers. The text is then set to the left aligned default in the #container selector */
+	color: #000000;
+}
+
+/* Tips for Elastic layouts 
+1. Since the elastic layouts overall sizing is based on the user's default fonts size, they are more unpredictable. Used correctly, they are also more accessible for those that need larger fonts size since the line length remains proportionate.
+2. Sizing of divs in this layout are based on the 100% font size in the body element. If you decrease the text size overall by using a font-size: 80% on the body element or the #container, remember that the entire layout will downsize proportionately. You may want to increase the widths of the various divs to compensate for this.
+3. If font sizing is changed in differing amounts on each div instead of on the overall design (ie: #sidebar1 is given a 70% font size and #mainContent is given an 85% font size), this will proportionately change each of the divs overall size. You may want to adjust based on your final font sizing.
+*/
+.oneColElsCtrHdr #container {
+	width: 46em;  /* this width will create a container that will fit in an 800px browser window if text is left at browser default font sizes */
+	background: #FFFFFF;
+	margin: 0 auto; /* the auto margins (in conjunction with a width) center the page */
+	border: 1px solid #FFFFFF;
+	text-align: left; /* this overrides the text-align: center on the body element. */
+}
+.oneColElsCtrHdr #header { 
+	background: #FFFFFF; 
+	padding: 0 10px 0 20px;  /* this padding matches the left alignment of the elements in the divs that appear beneath it. If an image is used in the #header instead of text, you may want to remove the padding. */
+} 
+.oneColElsCtrHdr #header h1 {
+	margin: 0; /* zeroing the margin of the last element in the #header div will avoid margin collapse - an unexplainable space between divs. If the div has a border around it, this is not necessary as that also avoids the margin collapse */
+	padding: 10px 0; /* using padding instead of margin will allow you to keep the element away from the edges of the div */
+}
+.oneColElsCtrHdr #mainContent {
+	padding: 0 20px; /* remember that padding is the space inside the div box and margin is the space outside the div box */
+	background: #FFFFFF;
+}
+.oneColElsCtrHdr #footer { 
+	padding: 0 10px; /* this padding matches the left alignment of the elements in the divs that appear above it. */
+	background:#FFFFFF;
+} 
+.oneColElsCtrHdr #footer p {
+	margin: 0; /* zeroing the margins of the first element in the footer will avoid the possibility of margin collapse - a space between divs */
+	padding: 10px 0; /* padding on this element will create space, just as the the margin would have, without the margin collapse issue */
+}
+body,td,th {
+	font-family: Trebuchet MS, Arial, Helvetica, sans-serif;
+}
+a:link {
+	color: #000;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #000;
+}
+a:hover {
+	text-decoration: none;
+}
+a:active {
+	text-decoration: none;
+}
+-->
+</style></head>
+
+<body class="oneColElsCtrHdr">
+
+<div id="container">
+  <div id="header">
+    <h2 align="center"><a href="amfmmag.html">AMFM</a><a href="amfmarts.html"> | ARTS</a><a href="amfmmusic.html"> | <em>MUSIC </em></a><a href="amfmfashion.html">| FASHION </a><a href="amfmevents.html">| EVENTS</a>
+      <!-- end #header -->
+      | <img src="../images/amfmmag/socialmedia.jpg" alt="social media" width="141" height="28" border="0" align="absbottom" usemap="#Map" />
+      <map name="Map" id="Map2232">
+        <area shape="circle" coords="18,13,10" href="http://www.facebook.com/amfmmag" target="_blank" />
+        <area shape="circle" coords="56,14,12" href="http://www.twitter.com/amfmmag" target="_blank" />
+        <area shape="rect" coords="113,6,133,24" href="http://www.instagram.com/amfmmag" target="_blank" />
+        <area shape="circle" coords="91,14,11" href="http://www.amfm-mag.tumblr.com" target="_blank" />
+      </map>
+      <map name="Map" id="Map242">
+        <area shape="circle" coords="93,15,9" href="#amfm-mag.tumblr.com" />
+        <area shape="rect" coords="120,5,140,25" href="#http://www.instagram.com/amfmmag" />
+        <area shape="circle" coords="57,17,11" href="#http://www.twitter.com/amfmmag" />
+        <area shape="circle" coords="20,19,10" href="#http://www.facebook.com/amfmmag" />
+      </map>
+      <map name="Map" id="Map224">
+        <area shape="circle" coords="20,16,8" href="#http://www.facebook.com/amfmmag" />
+        <area shape="circle" coords="57,17,8" href="#http://www.twitter.com/amfmmag" />
+        <area shape="rect" coords="116,5,136,23" href="#http://www.instagram.com/amfmmag" />
+        <area shape="circle" coords="93,15,11" href="#amfm-mag.tumblr.com" />
+      </map>
+      <map name="Map" id="Map2222">
+        <area shape="circle" coords="18,13,10" href="http://www.facebook.com/amfmmag" target="_blank" />
+        <area shape="circle" coords="56,14,12" href="http://www.twitter.com/amfmmag" target="_blank" />
+        <area shape="rect" coords="113,6,133,24" href="http://www.instagram.com/amfmmag" target="_blank" />
+        <area shape="circle" coords="91,14,11" href="http://www.amfm-mag.tumblr.com" target="_blank" />
+      </map>
+      <map name="Map" id="Map232">
+        <area shape="circle" coords="93,15,9" href="#amfm-mag.tumblr.com" />
+        <area shape="rect" coords="120,5,140,25" href="#http://www.instagram.com/amfmmag" />
+        <area shape="circle" coords="57,17,11" href="#http://www.twitter.com/amfmmag" />
+        <area shape="circle" coords="20,19,10" href="#http://www.facebook.com/amfmmag" />
+      </map>
+      <map name="Map" id="Map25">
+        <area shape="circle" coords="93,15,9" href="#amfm-mag.tumblr.com" />
+        <area shape="rect" coords="120,5,140,25" href="#http://www.instagram.com/amfmmag" />
+        <area shape="circle" coords="57,17,11" href="#http://www.twitter.com/amfmmag" />
+        <area shape="circle" coords="20,19,10" href="#http://www.facebook.com/amfmmag" />
+      </map>
+<map name="Map" id="Map22">
+        <area shape="circle" coords="18,13,10" href="#http://www.facebook.com/amfmmag" />
+        <area shape="circle" coords="54,14,9" href="#http://www.twitter.com/amfmmag" />
+        <area shape="rect" coords="117,5,144,27" href="#http://www.instagram.com/amfmmag" />
+        <area shape="circle" coords="92,17,13" href="#amfm-mag.tumblr.com" />
+      </map>
+      <br />
+      <br />
+    </h2>
+    <!-- end #header -->
+  </div>
+  <div id="mainContent">
+    <h2><img src="../images/amfmmag/Chicago---Sampha-718.jpg" width="700" height="400" alt="sampha" /></h2>
+    <h2>REVIEW: SAMPHA,NONAME &amp; SANGO @ METRO CHICAGO    </h2>
+    <p dir="ltr">February kicked off with a musical bang at Metro Chicago, with three hard hitting sold out shows back to back. Metro is always known for it&rsquo;s great and eclectic taste in music booking, so it was no surprise that we found ourselves at three amazing shows, within a two week span, London&rsquo;s Sampha, Chicago&rsquo;s very own Noname, and Seattle&rsquo;s Sango.<br />
+      <br />
+    Sampha, fresh off of a his debut record release, <em>Process</em>, made his Chicago debut on Feb 6th, with the most intimate set that you could have in a room packed full of people. The opener Mal Devisa set the tone, with her soft and the molasses like richness of her voice. The two complemented each other&rsquo;s tone&rsquo;s quite well. When Sampha took the stage it was like a call to attention. He opened the show with the opening track of his album, &ldquo;Plastic 100°C,&rdquo; beginning with the soft piano, almost lullaby like, his soothing voice centering in the midst of a crowd of &nbsp;chaos. The lighting mimicked the lights of heaven shining down, so bright at times you could not make out the difference between the glow and Sampha. </p>
+    <p dir="ltr"><img src="../images/amfmmag/Chicago---Sampha-75.jpg" width="700" height="400" alt="samha" /><br />
+    <img src="../images/amfmmag/Chicago---Sampha-519.jpg" width="700" height="800" alt="sampha" /></p>
+    <p dir="ltr">The crowd was quiet, yet intrigued and present. It was almost like being at the theater or an orchestral concert, especially in a theater like Metro, and at the way the crowd listened and clapped after each song it felt like a musical work of art was just witnessed. He played with sound in his signature way with the manipulation of his voice in songs like &ldquo;Timmy&rsquo;s Prayer,&rdquo; and later in his set with &ldquo;Kora Sings&rdquo; and sound bites from the synthesizer, and his band mates with the live drums paired with the drum pad.</p>
+    <p dir="ltr">He, unlike most artists, played his most widely known song, &ldquo;Too Much&rdquo; quite early in the set, and of course everyone sung along, and loved it. Some folks in the room may clearly just know him from that song alone, or his cameo in Solange&rsquo;s A Seat at the Table. They left knowing Sampha a bit more though, the focus was really on the debut project and Process. &ldquo;Blood on Me&rdquo; was a another crowd favorite, with its upbeat, grandeur sound and feel, and the percussive and piano repetition.</p>
+    <p dir="ltr"><img src="../images/amfmmag/Chicago---Sampha-381.jpg" width="700" height="800" alt="sampha" /><br />
+    It&rsquo;s easy to see why no one knows Sampha quite like the piano, which was his &ldquo;last song&rdquo; before thanking the crowd humbly. He did come back for quite the epic encore, after the crowd began to chant &ldquo;Sampha, Sampha.&rdquo; He and his band mates circled around one drum, each with a stick in hand, and each played &ldquo;Without&rdquo; like a pack, acapella, before going fully into the song.</p>
+    <p dir="ltr"><img src="../images/amfmmag/nonamebw.jpg" width="700" height="800" alt="noname" /><br />
+    Noname needed two days to perform in her hometown - two sold out nights, on the entirely sold out Telefone tour that she was about to embark on. Opening for her were also Chicago favorite rising songstresses Akenya, and Rayvn Lenae, who were also joining her on tour, and later did on stage as well.</p>
+    Noname catapulted to fame in her own regard with the release of her highly acclaimed, debut solo project many many years in the making Telefone. She was known as &ldquo;Noname Gypsy&rdquo; before, and for her feature on Chance The Rapper&rsquo;s Acid Rap and most recently Saba&rsquo;s &ldquo;Bucketlist Project.&rdquo; Telefone was really Noname&rsquo;s way of claiming herself the throne in her home, but in the sweetest, most humble way she could. 
+    <p dir="ltr"><img src="../images/amfmmag/ravynlenae.jpg" width="700" height="800" alt="rayvn" /></p>
+    <p dir="ltr">The set mimicked a living room, where friends or family gathers to &ldquo;shoot the shit,&rdquo; a telefone, and a table and chairs placed with a bottle of Hennessy resting on top. If you went to the show on day two, it was the same show, but had a very different feeling and meaning because it followed the announcement of the loss of John Walt, one of Chicago&rsquo;s own rappers from PivotGang and friend of Noname.<br />
+    </p>
+    <p dir="ltr">She perfrmed Telefone in it&rsquo;s entirety, her most notable songs being her most popular &ldquo;Diddy Bop&rdquo; and &ldquo;Yesterday&rdquo; her flow so effortless it was as easy as talking. &nbsp;Everyone knew all of the words to what appeared to be every song at this all ages show. To many, Noname is a Chicago icon already, but she is definitely still the girl next door in her school dress skirt and white tennis shoes. </p>
+    <img src="../images/amfmmag/mickjenkins.jpg" width="700" height="800" alt="mick" /><br />
+    <p dir="ltr">She definitely reached icon status when she did a wardrobe change into a red silky, sequined cape with her name on back and shades on singing R-Kelly&rsquo;s cult classic with Mr. Isley, &ldquo;Trapped in the Closet,&rdquo; and the crowd lost it. Rayvn Lenae, who had played earlier came out again for her &ldquo;Forever,&rdquo; her song with Noname. Mick Jenkins made an appearance on, this time rapping alongside her, and sitting in the chair for a moment as he sipped from the bottle, watching, like the audience, with that Chicago pride.</p>
+    <p dir="ltr"><img src="../images/amfmmag/sangocrowd.jpg" width="700" height="400" alt="crowd" /></p>
+    <p dir="ltr">DJ and Producer, Sango is no stranger to Chicago, nor is he a stranger to working with some of Chicago&rsquo;s current star musicians like Smino and Jean Deaux, who he has collaborated with on some occasion. His current tour precedes the release of his latest project to release in Spring, In Comfort Of, a sort of coming of age second release for the Soulection DJ.</p>
+    <p dir="ltr"><img src="../images/amfmmag/montebooker.jpg" width="700" height="800" alt="monte" /></p>
+    <p dir="ltr">Coming from a past of musical influences like his way of juxtaposing Brazilian dance music with hip hop, the show was a mass of moving bodies. Chicago&rsquo;s Stefan Ponce, and Monte Booker, opened the crowd, who in their own regard know how to get a crowd moving, it was a wonderful build up to the climax. Ponce alone played for almost three hours straight. Sango at times couldn&rsquo;t resist coming out on stage to feel the music of his preceding acts more. Smino made a cameo during Booker&rsquo;s set for &ldquo;Colors,&rdquo; before they finally passed the decks.</p>
+    <img src="../images/amfmmag/sango.jpg" width="700" height="800" alt="sango" /><br />
+    The set stretched on into the night
+    <h5><strong id="docs-internal-guid-2afd7e31-2a9e-6be5-f20d-e5756aa19564"><em>PHOTO CREDITS SAMPHA (RYAN BARAYUGA) NONAME/SANGO (CAMILLE JOHNSON)</em></strong><br />
+    </h5>
+  <!-- end #mainContent --></div>
+  <div id="footer">
+    <h2><a href="aboutamfm.html">ABOUT AMFM</a><br />
+      <a href="mailto:info@amfm-mag.com">CONTACT</a><br />
+      <img src="../images/amfmmag/socialmedia.jpg" alt="social media" width="141" height="28" border="0" align="absbottom" usemap="#Map" />
+      <map name="Map" id="Map223">
+        <area shape="circle" coords="18,13,10" href="http://www.facebook.com/amfmmag" target="_blank" />
+        <area shape="circle" coords="56,14,12" href="http://www.twitter.com/amfmmag" target="_blank" />
+        <area shape="rect" coords="113,6,133,24" href="http://www.instagram.com/amfmmag" target="_blank" />
+        <area shape="circle" coords="91,14,11" href="http://www.amfm-mag.tumblr.com" target="_blank" />
+      </map>
+      <map name="Map" id="Map24">
+        <area shape="circle" coords="93,15,9" href="#amfm-mag.tumblr.com" />
+        <area shape="rect" coords="120,5,140,25" href="#http://www.instagram.com/amfmmag" />
+        <area shape="circle" coords="57,17,11" href="#http://www.twitter.com/amfmmag" />
+        <area shape="circle" coords="20,19,10" href="#http://www.facebook.com/amfmmag" />
+      </map>
+      <map name="Map" id="Map222">
+        <area shape="circle" coords="20,16,8" href="#http://www.facebook.com/amfmmag" />
+        <area shape="circle" coords="57,17,8" href="#http://www.twitter.com/amfmmag" />
+        <area shape="rect" coords="116,5,136,23" href="#http://www.instagram.com/amfmmag" />
+        <area shape="circle" coords="93,15,11" href="#amfm-mag.tumblr.com" />
+      </map>
+      <map name="Map" id="Map222">
+        <area shape="circle" coords="18,13,10" href="http://www.facebook.com/amfmmag" target="_blank" />
+        <area shape="circle" coords="56,14,12" href="http://www.twitter.com/amfmmag" target="_blank" />
+        <area shape="rect" coords="113,6,133,24" href="http://www.instagram.com/amfmmag" target="_blank" />
+        <area shape="circle" coords="91,14,11" href="http://www.amfm-mag.tumblr.com" target="_blank" />
+      </map>
+      <map name="Map" id="Map23">
+        <area shape="circle" coords="93,15,9" href="#amfm-mag.tumblr.com" />
+        <area shape="rect" coords="120,5,140,25" href="#http://www.instagram.com/amfmmag" />
+        <area shape="circle" coords="57,17,11" href="#http://www.twitter.com/amfmmag" />
+        <area shape="circle" coords="20,19,10" href="#http://www.facebook.com/amfmmag" />
+      </map>
+      <map name="Map" id="Map23">
+        <area shape="circle" coords="93,15,9" href="#amfm-mag.tumblr.com" />
+        <area shape="rect" coords="120,5,140,25" href="#http://www.instagram.com/amfmmag" />
+        <area shape="circle" coords="57,17,11" href="#http://www.twitter.com/amfmmag" />
+        <area shape="circle" coords="20,19,10" href="#http://www.facebook.com/amfmmag" />
+      </map>
+      <map name="Map" id="Map2">
+  <area shape="circle" coords="93,15,9" href="#amfm-mag.tumblr.com" />
+  <area shape="rect" coords="120,5,140,25" href="#http://www.instagram.com/amfmmag" />
+  <area shape="circle" coords="57,17,11" href="#http://www.twitter.com/amfmmag" />
+  <area shape="circle" coords="20,19,10" href="#http://www.facebook.com/amfmmag" />
+</map>
+    </h2>
+    <h2>
+      <div id="mc_embed_signup">
+        <form action="//amfm-mag.us10.list-manage.com/subscribe/post?u=738860a67ed3f5cd20e478572&amp;id=8db9e6e243" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate="novalidate">
+          <div id="mc_embed_signup_scroll">SIGN UP FOR UPDATES!
+            <div class="mc-field-group">
+              <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" />
+            </div>
+            <div id="mce-responses" class="clear">
+              <div class="response" id="mce-error-response" style="display:none"></div>
+              <div class="response" id="mce-success-response" style="display:none"></div>
+            </div>
+            <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+            <div style="position: absolute; left: -5000px;" aria-hidden="true">
+              <input type="text" name="b_738860a67ed3f5cd20e478572_8db9e6e243" tabindex="-1" value="" />
+            </div>
+            <div class="clear">
+              <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button" />
+            </div>
+          </div>
+        </form>
+      </div>
+      <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
+      <script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+      <!--End mc_embed_signup-->
+      <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" /></h2>
+    <td align="right">&nbsp;</td></p>
+  <!-- end #footer -->
+  <h2>
+    <div id="mc_embed_signup2"></div>
+    <div align="center">
+      <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
+      <script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+      <!--End mc_embed_signup-->
+    </div>
+  </h2>
+  <h5 align="center">
+    </p>
+    <!-- end #footer -->
+    © AMFM ALL RIGHTS RESERVED. </h5>
+  </div>
+<!-- end #container --></div>
+</body>
+</html>
+><script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-48234405-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
