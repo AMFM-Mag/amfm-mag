@@ -1,0 +1,344 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>amfm </title>
+<style type="text/css">
+<!--
+body {
+	font: 100% Verdana, Arial, Helvetica, sans-serif;
+	background: #FFFFFF;
+	margin: 0; /* it's good practice to zero the margin and padding of the body element to account for differing browser defaults */
+	padding: 0;
+	text-align: center; /* this centers the container in IE 5* browsers. The text is then set to the left aligned default in the #container selector */
+	color: #000000;
+}
+
+/* Tips for Elastic layouts 
+1. Since the elastic layouts overall sizing is based on the user's default fonts size, they are more unpredictable. Used correctly, they are also more accessible for those that need larger fonts size since the line length remains proportionate.
+2. Sizing of divs in this layout are based on the 100% font size in the body element. If you decrease the text size overall by using a font-size: 80% on the body element or the #container, remember that the entire layout will downsize proportionately. You may want to increase the widths of the various divs to compensate for this.
+3. If font sizing is changed in differing amounts on each div instead of on the overall design (ie: #sidebar1 is given a 70% font size and #mainContent is given an 85% font size), this will proportionately change each of the divs overall size. You may want to adjust based on your final font sizing.
+*/
+.oneColElsCtrHdr #container {
+	width: 46em;  /* this width will create a container that will fit in an 800px browser window if text is left at browser default font sizes */
+	background: #FFFFFF;
+	margin: 0 auto; /* the auto margins (in conjunction with a width) center the page */
+	border: 1px solid #FFFFFF;
+	text-align: left; /* this overrides the text-align: center on the body element. */
+}
+.oneColElsCtrHdr #header { 
+	background: #FFFFFF; 
+	padding: 0 10px 0 20px;  /* this padding matches the left alignment of the elements in the divs that appear beneath it. If an image is used in the #header instead of text, you may want to remove the padding. */
+} 
+.oneColElsCtrHdr #header h1 {
+	margin: 0; /* zeroing the margin of the last element in the #header div will avoid margin collapse - an unexplainable space between divs. If the div has a border around it, this is not necessary as that also avoids the margin collapse */
+	padding: 10px 0; /* using padding instead of margin will allow you to keep the element away from the edges of the div */
+}
+.oneColElsCtrHdr #mainContent {
+	padding: 0 20px; /* remember that padding is the space inside the div box and margin is the space outside the div box */
+	background: #FFFFFF;
+}
+.oneColElsCtrHdr #footer { 
+	padding: 0 10px; /* this padding matches the left alignment of the elements in the divs that appear above it. */
+	background:#FFFFFF;
+} 
+.oneColElsCtrHdr #footer p {
+	margin: 0; /* zeroing the margins of the first element in the footer will avoid the possibility of margin collapse - a space between divs */
+	padding: 10px 0; /* padding on this element will create space, just as the the margin would have, without the margin collapse issue */
+}
+body,td,th {
+	font-family: Trebuchet MS, Arial, Helvetica, sans-serif;
+}
+a:link {
+	color: #000;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #000;
+}
+a:hover {
+	text-decoration: none;
+}
+a:active {
+	text-decoration: none;
+}
+-->
+</style></head>
+
+<body class="oneColElsCtrHdr">
+
+<div id="container">
+  <div id="header">
+    <h2 align="center"><a href="amfmmag.html">AMFM</a><a href="amfmarts.html"> | ARTS</a><a href="amfmmusic.html"> | <em>MUSIC </em></a><a href="amfmfashion.html">| FASHION </a><a href="amfmevents.html">| EVENTS</a>
+      <!-- end #header -->
+      | <img src="../images/amfmmag/socialmedia.jpg" alt="social media" width="141" height="28" border="0" align="absbottom" usemap="#Map" />
+      <map name="Map" id="Map2233">
+        <area shape="circle" coords="18,13,10" href="http://www.facebook.com/amfmlife" target="_blank" />
+        <area shape="circle" coords="56,14,12" href="http://www.twitter.com/amfmlife" target="_blank" />
+        <area shape="rect" coords="113,6,133,24" href="http://www.instagram.com/amfmlife" target="_blank" />
+        <area shape="circle" coords="91,14,11" href="http://www.amfm-mag.tumblr.com" target="_blank" />
+      </map>
+      <map name="Map" id="Map243">
+        <area shape="circle" coords="93,15,9" href="#amfm-mag.tumblr.com" />
+        <area shape="rect" coords="120,5,140,25" href="#http://www.instagram.com/amfmmag" />
+        <area shape="circle" coords="57,17,11" href="#http://www.twitter.com/amfmmag" />
+        <area shape="circle" coords="20,19,10" href="#http://www.facebook.com/amfmmag" />
+      </map>
+      <map name="Map" id="Map2223">
+        <area shape="circle" coords="20,16,8" href="#http://www.facebook.com/amfmmag" />
+        <area shape="circle" coords="57,17,8" href="#http://www.twitter.com/amfmmag" />
+        <area shape="rect" coords="116,5,136,23" href="#http://www.instagram.com/amfmmag" />
+        <area shape="circle" coords="93,15,11" href="#amfm-mag.tumblr.com" />
+      </map>
+      <map name="Map" id="Map2223">
+        <area shape="circle" coords="18,13,10" href="http://www.facebook.com/amfmmag" target="_blank" />
+        <area shape="circle" coords="56,14,12" href="http://www.twitter.com/amfmmag" target="_blank" />
+        <area shape="rect" coords="113,6,133,24" href="http://www.instagram.com/amfmmag" target="_blank" />
+        <area shape="circle" coords="91,14,11" href="http://www.amfm-mag.tumblr.com" target="_blank" />
+      </map>
+      <map name="Map" id="Map233">
+        <area shape="circle" coords="93,15,9" href="#amfm-mag.tumblr.com" />
+        <area shape="rect" coords="120,5,140,25" href="#http://www.instagram.com/amfmmag" />
+        <area shape="circle" coords="57,17,11" href="#http://www.twitter.com/amfmmag" />
+        <area shape="circle" coords="20,19,10" href="#http://www.facebook.com/amfmmag" />
+      </map>
+      <map name="Map" id="Map233">
+        <area shape="circle" coords="93,15,9" href="#amfm-mag.tumblr.com" />
+        <area shape="rect" coords="120,5,140,25" href="#http://www.instagram.com/amfmmag" />
+        <area shape="circle" coords="57,17,11" href="#http://www.twitter.com/amfmmag" />
+        <area shape="circle" coords="20,19,10" href="#http://www.facebook.com/amfmmag" />
+      </map>
+      <map name="Map" id="Map225">
+        <area shape="circle" coords="18,13,9" href="#http://www.facebook.com/amfmmag" />
+        <area shape="circle" coords="57,15,9" href="#http://www.twitter.com/amfmmag" />
+        <area shape="rect" coords="121,7,141,25" href="#http://www.instagram.com/amfmmag" />
+        <area shape="circle" coords="95,15,11" href="#amfm-mag.tumblr.com" />
+      </map>
+      <map name="Map" id="Map22322">
+        <area shape="circle" coords="18,13,10" href="http://www.facebook.com/amfmmag" target="_blank" />
+        <area shape="circle" coords="56,14,12" href="http://www.twitter.com/amfmmag" target="_blank" />
+        <area shape="rect" coords="113,6,133,24" href="http://www.instagram.com/amfmmag" target="_blank" />
+        <area shape="circle" coords="91,14,11" href="http://www.amfm-mag.tumblr.com" target="_blank" />
+      </map>
+      <map name="Map" id="Map2422">
+        <area shape="circle" coords="93,15,9" href="#amfm-mag.tumblr.com" />
+        <area shape="rect" coords="120,5,140,25" href="#http://www.instagram.com/amfmmag" />
+        <area shape="circle" coords="57,17,11" href="#http://www.twitter.com/amfmmag" />
+        <area shape="circle" coords="20,19,10" href="#http://www.facebook.com/amfmmag" />
+      </map>
+      <map name="Map" id="Map2242">
+        <area shape="circle" coords="20,16,8" href="#http://www.facebook.com/amfmmag" />
+        <area shape="circle" coords="57,17,8" href="#http://www.twitter.com/amfmmag" />
+        <area shape="rect" coords="116,5,136,23" href="#http://www.instagram.com/amfmmag" />
+        <area shape="circle" coords="93,15,11" href="#amfm-mag.tumblr.com" />
+      </map>
+      <map name="Map" id="Map22222">
+        <area shape="circle" coords="18,13,10" href="http://www.facebook.com/amfmmag" target="_blank" />
+        <area shape="circle" coords="56,14,12" href="http://www.twitter.com/amfmmag" target="_blank" />
+        <area shape="rect" coords="113,6,133,24" href="http://www.instagram.com/amfmmag" target="_blank" />
+        <area shape="circle" coords="91,14,11" href="http://www.amfm-mag.tumblr.com" target="_blank" />
+      </map>
+      <map name="Map" id="Map2322">
+        <area shape="circle" coords="93,15,9" href="#amfm-mag.tumblr.com" />
+        <area shape="rect" coords="120,5,140,25" href="#http://www.instagram.com/amfmmag" />
+        <area shape="circle" coords="57,17,11" href="#http://www.twitter.com/amfmmag" />
+        <area shape="circle" coords="20,19,10" href="#http://www.facebook.com/amfmmag" />
+      </map>
+      <map name="Map" id="Map252">
+        <area shape="circle" coords="93,15,9" href="#amfm-mag.tumblr.com" />
+        <area shape="rect" coords="120,5,140,25" href="#http://www.instagram.com/amfmmag" />
+        <area shape="circle" coords="57,17,11" href="#http://www.twitter.com/amfmmag" />
+        <area shape="circle" coords="20,19,10" href="#http://www.facebook.com/amfmmag" />
+      </map>
+      <map name="Map" id="Map26">
+        <area shape="circle" coords="93,15,9" href="#amfm-mag.tumblr.com" />
+        <area shape="rect" coords="120,5,140,25" href="#http://www.instagram.com/amfmmag" />
+        <area shape="circle" coords="57,17,11" href="#http://www.twitter.com/amfmmag" />
+        <area shape="circle" coords="20,19,10" href="#http://www.facebook.com/amfmmag" />
+      </map>
+<map name="Map" id="Map2232">
+        <area shape="circle" coords="18,13,10" href="http://www.facebook.com/amfmmag" target="_blank" />
+        <area shape="circle" coords="56,14,12" href="http://www.twitter.com/amfmmag" target="_blank" />
+        <area shape="rect" coords="113,6,133,24" href="http://www.instagram.com/amfmmag" target="_blank" />
+        <area shape="circle" coords="91,14,11" href="http://www.amfm-mag.tumblr.com" target="_blank" />
+      </map>
+      <map name="Map" id="Map242">
+        <area shape="circle" coords="93,15,9" href="#amfm-mag.tumblr.com" />
+        <area shape="rect" coords="120,5,140,25" href="#http://www.instagram.com/amfmmag" />
+        <area shape="circle" coords="57,17,11" href="#http://www.twitter.com/amfmmag" />
+        <area shape="circle" coords="20,19,10" href="#http://www.facebook.com/amfmmag" />
+      </map>
+      <map name="Map" id="Map224">
+        <area shape="circle" coords="20,16,8" href="#http://www.facebook.com/amfmmag" />
+        <area shape="circle" coords="57,17,8" href="#http://www.twitter.com/amfmmag" />
+        <area shape="rect" coords="116,5,136,23" href="#http://www.instagram.com/amfmmag" />
+        <area shape="circle" coords="93,15,11" href="#amfm-mag.tumblr.com" />
+      </map>
+      <map name="Map" id="Map2222">
+        <area shape="circle" coords="18,13,10" href="http://www.facebook.com/amfmmag" target="_blank" />
+        <area shape="circle" coords="56,14,12" href="http://www.twitter.com/amfmmag" target="_blank" />
+        <area shape="rect" coords="113,6,133,24" href="http://www.instagram.com/amfmmag" target="_blank" />
+        <area shape="circle" coords="91,14,11" href="http://www.amfm-mag.tumblr.com" target="_blank" />
+      </map>
+      <map name="Map" id="Map232">
+        <area shape="circle" coords="93,15,9" href="#amfm-mag.tumblr.com" />
+        <area shape="rect" coords="120,5,140,25" href="#http://www.instagram.com/amfmmag" />
+        <area shape="circle" coords="57,17,11" href="#http://www.twitter.com/amfmmag" />
+        <area shape="circle" coords="20,19,10" href="#http://www.facebook.com/amfmmag" />
+      </map>
+      <map name="Map" id="Map25">
+        <area shape="circle" coords="93,15,9" href="#amfm-mag.tumblr.com" />
+        <area shape="rect" coords="120,5,140,25" href="#http://www.instagram.com/amfmmag" />
+        <area shape="circle" coords="57,17,11" href="#http://www.twitter.com/amfmmag" />
+        <area shape="circle" coords="20,19,10" href="#http://www.facebook.com/amfmmag" />
+      </map>
+<map name="Map" id="Map22">
+        <area shape="circle" coords="18,13,10" href="#http://www.facebook.com/amfmmag" />
+        <area shape="circle" coords="54,14,9" href="#http://www.twitter.com/amfmmag" />
+        <area shape="rect" coords="117,5,144,27" href="#http://www.instagram.com/amfmmag" />
+        <area shape="circle" coords="92,17,13" href="#amfm-mag.tumblr.com" />
+      </map>
+      <br />
+      <br />
+    </h2>
+    <!-- end #header -->
+  </div>
+  <div id="mainContent">
+    <p><img src="../images/amfmmag/musicmonday1.jpg" width="700" height="400" alt="sylvie grace" /></p>
+    <h2 dir="ltr">MIXTAPE MONDAYS</h2>
+    <p dir="ltr">Summer&rsquo;s finally here in Chicago! Of course, what better way to celebrate this warm atmosphere than by us providing y&rsquo;all with some tunes to help get you through the week? Coming back again with our installment of Mixtape Mondays, our purpose is to enhance your musical knowledge with some of the dopest music that&rsquo;s been buzzing through our ears at the AMFM Lab. So whether you&rsquo;re riding your bike out through the neighborhood, or you&rsquo;re waiting to hop on the Pink Line, here&rsquo;s some jawns to keep y&rsquo;all flowing through the week. </p>
+    <h2 dir="ltr">&quot;ARRACHERA&quot;: HYPENS</h2>
+    <p dir="ltr"><img src="../images/amfmmag/hyphens.jpg" width="700" height="400" alt="hyphens" /></p>
+    <p dir="ltr">With the political climate that we&rsquo;re currently in, it&rsquo;s soothing and therapeutic for us to engage through our various platforms and communities across the city. <strong><a href="https://www.facebook.com/hyphensmusic/" target="_blank">HYPHENS</a></strong> is the collaborative duo of <strong><a href="https://www.facebook.com/DXTRSpits/" target="_blank">DXTR Spits</a></strong> and <strong><a href="https://www.lesterrey.com/" target="_blank">Lester Rey</a></strong>, who have released their latest music video &ldquo;Arrachera&rdquo;, stemming from their upcoming project &ldquo;everybody eats!&rdquo;. In this video, we see the two representatives of black and brown communities uniting with each other while cooking up some arrechera (skirt steak) in the kitchen. With Lester Rey&rsquo;s soulful voice resonating the anthem &ldquo;Yo estoy ganando&rdquo; and DXTR&rsquo;s witty rhyme skills (I&rsquo;m walking in here like I own the whole world/ Cuz you know my soul glo like the Jheri Curl), this is a powerful anthem that touches on the continuing support of our black and brown communities. So, be on the lookout for their project coming out this summer. Until then, keep this on the loop.</p>
+<p dir="ltr"><iframe width="700" height="400" src="https://www.youtube.com/embed/fuvVRjACvPM" frameborder="0" allowfullscreen></iframe>
+</p>
+<h2 dir="ltr">&quot;GEM AND I&quot; EP: GEM TREE</h2>
+<p dir="ltr"><img src="../images/amfmmag/gemandi.jpg" width="700" height="400" alt="gem and i" /></p>
+<p dir="ltr">Based out of St. Louis while residing in Chicago, the multi-disciplinary female singer/MC known as <strong><a href="gemtree.com" target="_blank">Gem Tree</a></strong> has now released a 5-track EP titled &ldquo;Gem and I&rdquo; (nice play on the word Gemini). With her inspirations ranging from Lauryn Hill and Anita Baker to Migos and Anderson Paak, it should come as no secret that her method of embodying her original sound through a magnified balance of hip-hop and R&amp;B bleeds through each song. The first single, &ldquo;Mary Jane&rdquo; contains a meditative harp-like melody that is equivalent to waking up to a bright Sunday morning. The next track after, &ldquo;No More&rdquo;, settles as a distinctive polar opposite to the previous one; a high-energy, 808-heavy, booming trap performance, with a melodic balance of her soothing vocals and versatile rap skills. Check out her entire EP below!<br />
+</p>
+<p dir="ltr"><iframe width="100%" height="150" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/331716647&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>  
+</p>
+<h2 dir="ltr">&quot;NO CLUE&quot;: RICH JONES FEAT. MYKELE DEVILLE </h2>
+<p dir="ltr"><img src="../images/amfmmag/noclue.jpg" width="700" height="400" alt="no clue" /></p>
+<p dir="ltr"><a href="https://www.facebook.com/richjonesmusic/" target="_blank"><strong>Rich Jones</strong></a> is no stranger to bridging the gap and blending the genres of Chicago&rsquo;s historic sound of soul music and the modern Chicago rap scene. With his latest track &ldquo;No Clue&rdquo; starting off with a witty snap of the finger, then progressing into a relaxing trio-blend of live instrumentation (bass, guitar, drums), Rich&rsquo;s voice just adds another soothing layer on top of what is already a vibe-filled song. The guest verse of <strong><a href="https://www.facebook.com/mykeledeville/" target="_blank">Mykele Deville</a></strong> should come as no surprise, that being the brother oozes knowledge and wisdom beyond his years. As Rich said it himself, &ldquo;If this 1 doesn't make you move even a little bit, YOU are the Feds!&rdquo; Peep the new track <a href="https://soundcloud.com/richjonesmusic/no-clue-ft-mykele-deville">here</a>, and let the vibes take control. </p>
+<p dir="ltr"><iframe width="100%" height="150" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/329517445&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>&nbsp;</p>
+<h2>&quot;MVMNT&quot;: MOTHER NATURE </h2>
+<p><img src="../images/amfmmag/mothernaturemvmnt.jpg" width="700" height="400" alt="mother nature" /></p>
+<p><strong id="docs-internal-guid-c6add5e0-e510-6eb2-257a-8124e8b7a5f5"><a href="https://www.mothernaturebarz.com/">Mother Nature </a></strong><a href="https://www.mothernaturebarz.com/">i</a>s a hip-hop duo made up of Klevah from Champaign, IL and T.R.U.T.H., repping the Austin neighborhood of Chicago. One aspect of their group that is incredibly unique is the dichotomy between their flow and the political messages they want to convey through their music (&ldquo;I got the sun on me/ they got the gun on me&rdquo;). Shots and moments of strong beautiful black women fill the screen, each having their own story to tell. The video directed, shot, and edited by Chicago artist<strong> <a href="http://jovanlandry.com/">Jovan Landry</a> </strong>illustrates the multi-faceted personalities of Mother Nature: the liveliness, the enticing, and the charismatic; all while fearlessly addressing social issues without hesitation. Check out the video below, be on the lookout for their upcoming EP, and check their website for more details on what&rsquo;s to come. &nbsp;</p>
+<p><iframe width="700" height="400" src="https://www.youtube.com/embed/VGqDHXYnGTU" frameborder="0" allowfullscreen></iframe>
+</p>
+<h2>&quot;BAELIAN&quot;: DJ EARN MONEY</h2>
+<p><img src="../images/amfmmag/baelian.jpg" width="700" height="400" alt="baelian" /></p>
+<p>If you&rsquo;re not familiar with Earnest Streeter aka <strong><a href="https://www.facebook.com/DJEARNMONEY/" target="_blank">DJEarnMoney</a></strong>, or his company <a href="http://www.splashdrip.com/" target="_blank"><strong>Splash Paradise</strong></a>, best believe you&rsquo;re not going to be disappointed with what you find. With this new song titled &ldquo;<a href="https://soundcloud.com/djearnmoney/baelien">Baelien</a>&rdquo;, it&rsquo;s a vibe-filling song that just oozes with a confident producer, and an even more confident MC. This song might not be the most lyrical or complex we&rsquo;ve heard thus far, and why would it be? Its booming bass line, tinkling hi-hats, and soothing synthesizers are essential ingredients to make this juicy track, in addition to conveying a simple message: You&rsquo;re out of this world with your beauty and vibes. </p>
+<p><iframe width="100%" height="150" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/314928928&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+</p>
+<h2>&quot;EARF GURL&quot; ALBUM: BRITTANY NACOLE</h2>
+<p><img src="../images/amfmmag/earfgurl.jpg" width="700" height="400" alt="earf gurl" /></p>
+<p dir="ltr">Two years after her previous release of her EP &ldquo;Daydream,&rdquo; the 25-year-old singer/songwriter <strong><a href="https://www.facebook.com/Brittanynacolemusic/" target="_blank">Brittany Nacole</a></strong> has finally graced the world with the debut of her much anticipated album &ldquo;Earf Gurl.&rdquo; A sound that resonates under the same breath as its predecessors such as Mya or Solange, yet it breathes a new modernity, while still playing to its early 90s and 00s roots. Her charisma and savvy approach to her art is seen through multiple visions throughout this project - her casualness of deleting thirsty voicemail messages, and archiving the ones that actually motivate her to continue what she was born to do. Tracks like &ldquo;Golden&rdquo; and &ldquo;Changed My Mind&rdquo; release a sense of warmth and comfort that is reflective off this album as a whole. Brittany&rsquo;s positive attitude comes off  naturally and therapeutic on the 15 track album, much like the comfort of nature. Check out &quot;Earf Gurl&quot; below. </p>
+<p dir="ltr"><iframe width="100%" height="150" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/330279077&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>&nbsp;</p>
+<br />
+<h6><em>CONTRIBUTING WRITER: ABEL ARAYA</em><br />
+  <em>PHOTO CREDITS: FACEBOOK</em><br />
+</h6>
+  <!-- end #mainContent --></div>
+  <div id="footer">
+    <h2><a href="aboutamfm.html">ABOUT AMFM</a><br />
+      <a href="mailto:info@amfm-mag.com">CONTACT</a><br />
+      <img src="../images/amfmmag/socialmedia.jpg" alt="social media" width="141" height="28" border="0" align="absbottom" usemap="#Map" />
+      <map name="Map" id="Map223">
+        <area shape="circle" coords="18,13,10" href="http://www.facebook.com/amfmmag" target="_blank" />
+        <area shape="circle" coords="56,14,12" href="http://www.twitter.com/amfmmag" target="_blank" />
+        <area shape="rect" coords="113,6,133,24" href="http://www.instagram.com/amfmmag" target="_blank" />
+        <area shape="circle" coords="91,14,11" href="http://www.amfm-mag.tumblr.com" target="_blank" />
+      </map>
+      <map name="Map" id="Map24">
+        <area shape="circle" coords="93,15,9" href="#amfm-mag.tumblr.com" />
+        <area shape="rect" coords="120,5,140,25" href="#http://www.instagram.com/amfmmag" />
+        <area shape="circle" coords="57,17,11" href="#http://www.twitter.com/amfmmag" />
+        <area shape="circle" coords="20,19,10" href="#http://www.facebook.com/amfmmag" />
+      </map>
+      <map name="Map" id="Map222">
+        <area shape="circle" coords="20,16,8" href="#http://www.facebook.com/amfmmag" />
+        <area shape="circle" coords="57,17,8" href="#http://www.twitter.com/amfmmag" />
+        <area shape="rect" coords="116,5,136,23" href="#http://www.instagram.com/amfmmag" />
+        <area shape="circle" coords="93,15,11" href="#amfm-mag.tumblr.com" />
+      </map>
+      <map name="Map" id="Map222">
+        <area shape="circle" coords="18,13,10" href="http://www.facebook.com/amfmmag" target="_blank" />
+        <area shape="circle" coords="56,14,12" href="http://www.twitter.com/amfmmag" target="_blank" />
+        <area shape="rect" coords="113,6,133,24" href="http://www.instagram.com/amfmmag" target="_blank" />
+        <area shape="circle" coords="91,14,11" href="http://www.amfm-mag.tumblr.com" target="_blank" />
+      </map>
+      <map name="Map" id="Map23">
+        <area shape="circle" coords="93,15,9" href="#amfm-mag.tumblr.com" />
+        <area shape="rect" coords="120,5,140,25" href="#http://www.instagram.com/amfmmag" />
+        <area shape="circle" coords="57,17,11" href="#http://www.twitter.com/amfmmag" />
+        <area shape="circle" coords="20,19,10" href="#http://www.facebook.com/amfmmag" />
+      </map>
+      <map name="Map" id="Map23">
+        <area shape="circle" coords="93,15,9" href="#amfm-mag.tumblr.com" />
+        <area shape="rect" coords="120,5,140,25" href="#http://www.instagram.com/amfmmag" />
+        <area shape="circle" coords="57,17,11" href="#http://www.twitter.com/amfmmag" />
+        <area shape="circle" coords="20,19,10" href="#http://www.facebook.com/amfmmag" />
+      </map>
+      <map name="Map" id="Map2">
+  <area shape="circle" coords="93,15,9" href="#amfm-mag.tumblr.com" />
+  <area shape="rect" coords="120,5,140,25" href="#http://www.instagram.com/amfmmag" />
+  <area shape="circle" coords="57,17,11" href="#http://www.twitter.com/amfmmag" />
+  <area shape="circle" coords="20,19,10" href="#http://www.facebook.com/amfmmag" />
+</map>
+    </h2>
+    <h2>
+      <div id="mc_embed_signup">
+        <form action="//amfm-mag.us10.list-manage.com/subscribe/post?u=738860a67ed3f5cd20e478572&amp;id=8db9e6e243" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate="novalidate">
+          <div id="mc_embed_signup_scroll">SIGN UP FOR UPDATES!
+            <div class="mc-field-group">
+              <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" />
+            </div>
+            <div id="mce-responses" class="clear">
+              <div class="response" id="mce-error-response" style="display:none"></div>
+              <div class="response" id="mce-success-response" style="display:none"></div>
+            </div>
+            <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+            <div style="position: absolute; left: -5000px;" aria-hidden="true">
+              <input type="text" name="b_738860a67ed3f5cd20e478572_8db9e6e243" tabindex="-1" value="" />
+            </div>
+            <div class="clear">
+              <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button" />
+            </div>
+          </div>
+        </form>
+      </div>
+      <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
+      <script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+      <!--End mc_embed_signup-->
+      <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" /></h2>
+    <td align="right">&nbsp;</td></p>
+  <!-- end #footer -->
+  <h2>
+    <div id="mc_embed_signup2"></div>
+    <div align="center">
+      <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
+      <script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+      <!--End mc_embed_signup-->
+    </div>
+  </h2>
+  <h5 align="center">
+    </p>
+    <!-- end #footer -->
+    © AMFM ALL RIGHTS RESERVED. </h5>
+  </div>
+<!-- end #container --></div>
+</body>
+</html>
+><script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-48234405-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
