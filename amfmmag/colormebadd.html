@@ -1,0 +1,228 @@
+@@ -0,0 +1,232 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>amfm </title>
+<style type="text/css">
+<!--
+body {
+	font: 100% Verdana, Arial, Helvetica, sans-serif;
+	background: #FFFFFF;
+	margin: 0; /* it's good practice to zero the margin and padding of the body element to account for differing browser defaults */
+	padding: 0;
+	text-align: center; /* this centers the container in IE 5* browsers. The text is then set to the left aligned default in the #container selector */
+	color: #000000;
+}
+
+/* Tips for Elastic layouts 
+1. Since the elastic layouts overall sizing is based on the user's default fonts size, they are more unpredictable. Used correctly, they are also more accessible for those that need larger fonts size since the line length remains proportionate.
+2. Sizing of divs in this layout are based on the 100% font size in the body element. If you decrease the text size overall by using a font-size: 80% on the body element or the #container, remember that the entire layout will downsize proportionately. You may want to increase the widths of the various divs to compensate for this.
+3. If font sizing is changed in differing amounts on each div instead of on the overall design (ie: #sidebar1 is given a 70% font size and #mainContent is given an 85% font size), this will proportionately change each of the divs overall size. You may want to adjust based on your final font sizing.
+*/
+.oneColElsCtrHdr #container {
+	width: 46em;  /* this width will create a container that will fit in an 800px browser window if text is left at browser default font sizes */
+	background: #FFFFFF;
+	margin: 0 auto; /* the auto margins (in conjunction with a width) center the page */
+	border: 1px solid #FFFFFF;
+	text-align: left; /* this overrides the text-align: center on the body element. */
+}
+.oneColElsCtrHdr #header { 
+	background: #FFFFFF; 
+	padding: 0 10px 0 20px;  /* this padding matches the left alignment of the elements in the divs that appear beneath it. If an image is used in the #header instead of text, you may want to remove the padding. */
+} 
+.oneColElsCtrHdr #header h1 {
+	margin: 0; /* zeroing the margin of the last element in the #header div will avoid margin collapse - an unexplainable space between divs. If the div has a border around it, this is not necessary as that also avoids the margin collapse */
+	padding: 10px 0; /* using padding instead of margin will allow you to keep the element away from the edges of the div */
+}
+.oneColElsCtrHdr #mainContent {
+	padding: 0 20px; /* remember that padding is the space inside the div box and margin is the space outside the div box */
+	background: #FFFFFF;
+}
+.oneColElsCtrHdr #footer { 
+	padding: 0 10px; /* this padding matches the left alignment of the elements in the divs that appear above it. */
+	background:#FFFFFF;
+} 
+.oneColElsCtrHdr #footer p {
+	margin: 0; /* zeroing the margins of the first element in the footer will avoid the possibility of margin collapse - a space between divs */
+	padding: 10px 0; /* padding on this element will create space, just as the the margin would have, without the margin collapse issue */
+}
+body,td,th {
+	font-family: Trebuchet MS, Arial, Helvetica, sans-serif;
+}
+a:link {
+	color: #000;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #000;
+}
+a:hover {
+	text-decoration: none;
+}
+a:active {
+	text-decoration: none;
+}
+-->
+</style></head>
+
+<body class="oneColElsCtrHdr">
+
+<div id="container">
+  <div id="header">
+    <h2 align="center"><a href="amfmmag.html">AMFM</a><a href="amfmarts.html"> | <em>ARTS</em></a> <a href="amfmmusic.html">| MUSIC </a><a href="amfmfashion.html">| FASHION </a><a href="amfmevents.html">| EVENTS</a>
+      <!-- end #header -->
+      | <img src="../images/amfmmag/socialmedia.jpg" alt="social media" width="141" height="28" border="0" align="absbottom" usemap="#Map" />
+      <map name="Map" id="Map2232">
+        <area shape="circle" coords="18,13,10" href="http://www.facebook.com/amfmmag" target="_blank" />
+        <area shape="circle" coords="56,14,12" href="http://www.twitter.com/amfmmag" target="_blank" />
+        <area shape="rect" coords="113,6,133,24" href="http://www.instagram.com/amfmmag" target="_blank" />
+        <area shape="circle" coords="91,14,11" href="http://www.amfm-mag.tumblr.com" target="_blank" />
+      </map>
+      <map name="Map" id="Map242">
+        <area shape="circle" coords="93,15,9" href="#amfm-mag.tumblr.com" />
+        <area shape="rect" coords="120,5,140,25" href="#http://www.instagram.com/amfmmag" />
+        <area shape="circle" coords="57,17,11" href="#http://www.twitter.com/amfmmag" />
+        <area shape="circle" coords="20,19,10" href="#http://www.facebook.com/amfmmag" />
+      </map>
+      <map name="Map" id="Map224">
+        <area shape="circle" coords="20,16,8" href="#http://www.facebook.com/amfmmag" />
+        <area shape="circle" coords="57,17,8" href="#http://www.twitter.com/amfmmag" />
+        <area shape="rect" coords="116,5,136,23" href="#http://www.instagram.com/amfmmag" />
+        <area shape="circle" coords="93,15,11" href="#amfm-mag.tumblr.com" />
+      </map>
+      <map name="Map" id="Map2222">
+        <area shape="circle" coords="18,13,10" href="http://www.facebook.com/amfmmag" target="_blank" />
+        <area shape="circle" coords="56,14,12" href="http://www.twitter.com/amfmmag" target="_blank" />
+        <area shape="rect" coords="113,6,133,24" href="http://www.instagram.com/amfmmag" target="_blank" />
+        <area shape="circle" coords="91,14,11" href="http://www.amfm-mag.tumblr.com" target="_blank" />
+      </map>
+      <map name="Map" id="Map232">
+        <area shape="circle" coords="93,15,9" href="#amfm-mag.tumblr.com" />
+        <area shape="rect" coords="120,5,140,25" href="#http://www.instagram.com/amfmmag" />
+        <area shape="circle" coords="57,17,11" href="#http://www.twitter.com/amfmmag" />
+        <area shape="circle" coords="20,19,10" href="#http://www.facebook.com/amfmmag" />
+      </map>
+      <map name="Map" id="Map25">
+        <area shape="circle" coords="93,15,9" href="#amfm-mag.tumblr.com" />
+        <area shape="rect" coords="120,5,140,25" href="#http://www.instagram.com/amfmmag" />
+        <area shape="circle" coords="57,17,11" href="#http://www.twitter.com/amfmmag" />
+        <area shape="circle" coords="20,19,10" href="#http://www.facebook.com/amfmmag" />
+      </map>
+<map name="Map" id="Map22">
+        <area shape="circle" coords="18,13,10" href="#http://www.facebook.com/amfmmag" />
+        <area shape="circle" coords="54,14,9" href="#http://www.twitter.com/amfmmag" />
+        <area shape="rect" coords="117,5,144,27" href="#http://www.instagram.com/amfmmag" />
+        <area shape="circle" coords="92,17,13" href="#amfm-mag.tumblr.com" />
+      </map>
+      <br />
+      <br />
+    </h2>
+    <!-- end #header -->
+  </div>
+  <div id="mainContent">
+    <p><img src="../images/amfmmag/jeffpak.jpg" width="700" height="400" alt="sylvie grace" /></p>
+    <h2 dir="ltr">COLOR ME BADD: JEFF PAK</h2>
+    <p dir="ltr">Last week we had Chicago illustrator and SAIC alum Jeff Pak come in and adorn our gallery walls with his life size coloring book installation, <em>Color Me Badd</em> which includes a light hearted mixture of characters, words, anime, phrases, and pop coluture references pre-drawn by Pak. If you've ever been told not to draw on the walls or to stay within the lines, this show is not that. Guests are invited to color in his illustrations and actively be a part of the piece. </p>
+    <p dir="ltr">This is his second installment of the show, which he describes as collective and experiential art. A large component of why he wanted to create this show was to bring people together through art and for people to tap into their inner child and create something together, begging the question of and art, collaboration and ownership. He doesn't color in any of the pieces once he creates the blueprint of illustrations, he sits back and watches how others engage with the work and see his art come to life. Hear more from Pak below on <em>Color Me Badd</em>, and look out for his next show in a city near you! He hopes to travel with the show in the near future. </p>
+    <p dir="ltr">
+      <iframe width="700" height="400" src="https://www.youtube.com/embed/mbGlItXF7ws" frameborder="0" allowfullscreen></iframe>
+      <br />
+    </p>
+    <p dir="ltr"><strong>FOR MORE FROM JEFF PAK:<br />
+    </strong></p>
+    <p dir="ltr"><strong><a href="https://www.instagram.com/jpak4ever/" target="_blank">INSTAGRAM</a></strong></p>
+    <p dir="ltr"><br />
+    </p>
+  <!-- end #mainContent --></div>
+  <div id="footer">
+    <h2><a href="aboutamfm.html">ABOUT AMFM</a><br />
+      <a href="mailto:info@amfm-mag.com">CONTACT</a><br />
+      <img src="../images/amfmmag/socialmedia.jpg" alt="social media" width="141" height="28" border="0" align="absbottom" usemap="#Map" />
+      <map name="Map" id="Map223">
+        <area shape="circle" coords="18,13,10" href="http://www.facebook.com/amfmmag" target="_blank" />
+        <area shape="circle" coords="56,14,12" href="http://www.twitter.com/amfmmag" target="_blank" />
+        <area shape="rect" coords="113,6,133,24" href="http://www.instagram.com/amfmmag" target="_blank" />
+        <area shape="circle" coords="91,14,11" href="http://www.amfm-mag.tumblr.com" target="_blank" />
+      </map>
+      <map name="Map" id="Map24">
+        <area shape="circle" coords="93,15,9" href="#amfm-mag.tumblr.com" />
+        <area shape="rect" coords="120,5,140,25" href="#http://www.instagram.com/amfmmag" />
+        <area shape="circle" coords="57,17,11" href="#http://www.twitter.com/amfmmag" />
+        <area shape="circle" coords="20,19,10" href="#http://www.facebook.com/amfmmag" />
+      </map>
+      <map name="Map" id="Map222">
+        <area shape="circle" coords="20,16,8" href="#http://www.facebook.com/amfmmag" />
+        <area shape="circle" coords="57,17,8" href="#http://www.twitter.com/amfmmag" />
+        <area shape="rect" coords="116,5,136,23" href="#http://www.instagram.com/amfmmag" />
+        <area shape="circle" coords="93,15,11" href="#amfm-mag.tumblr.com" />
+      </map>
+      <map name="Map" id="Map222">
+        <area shape="circle" coords="18,13,10" href="http://www.facebook.com/amfmmag" target="_blank" />
+        <area shape="circle" coords="56,14,12" href="http://www.twitter.com/amfmmag" target="_blank" />
+        <area shape="rect" coords="113,6,133,24" href="http://www.instagram.com/amfmmag" target="_blank" />
+        <area shape="circle" coords="91,14,11" href="http://www.amfm-mag.tumblr.com" target="_blank" />
+      </map>
+      <map name="Map" id="Map23">
+        <area shape="circle" coords="93,15,9" href="#amfm-mag.tumblr.com" />
+        <area shape="rect" coords="120,5,140,25" href="#http://www.instagram.com/amfmmag" />
+        <area shape="circle" coords="57,17,11" href="#http://www.twitter.com/amfmmag" />
+        <area shape="circle" coords="20,19,10" href="#http://www.facebook.com/amfmmag" />
+      </map>
+      <map name="Map" id="Map23">
+        <area shape="circle" coords="93,15,9" href="#amfm-mag.tumblr.com" />
+        <area shape="rect" coords="120,5,140,25" href="#http://www.instagram.com/amfmmag" />
+        <area shape="circle" coords="57,17,11" href="#http://www.twitter.com/amfmmag" />
+        <area shape="circle" coords="20,19,10" href="#http://www.facebook.com/amfmmag" />
+      </map>
+      <map name="Map" id="Map2">
+  <area shape="circle" coords="93,15,9" href="#amfm-mag.tumblr.com" />
+  <area shape="rect" coords="120,5,140,25" href="#http://www.instagram.com/amfmmag" />
+  <area shape="circle" coords="57,17,11" href="#http://www.twitter.com/amfmmag" />
+  <area shape="circle" coords="20,19,10" href="#http://www.facebook.com/amfmmag" />
+</map>
+    </h2>
+    <h2>
+      <div id="mc_embed_signup">
+        <form action="//amfm-mag.us10.list-manage.com/subscribe/post?u=738860a67ed3f5cd20e478572&amp;id=8db9e6e243" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate="novalidate">
+          <div id="mc_embed_signup_scroll">SIGN UP FOR UPDATES!
+            <div class="mc-field-group">
+              <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" />
+            </div>
+            <div id="mce-responses" class="clear">
+              <div class="response" id="mce-error-response" style="display:none"></div>
+              <div class="response" id="mce-success-response" style="display:none"></div>
+            </div>
+            <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+            <div style="position: absolute; left: -5000px;" aria-hidden="true">
+              <input type="text" name="b_738860a67ed3f5cd20e478572_8db9e6e243" tabindex="-1" value="" />
+            </div>
+            <div class="clear">
+              <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button" />
+            </div>
+          </div>
+        </form>
+      </div>
+      <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
+      <script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+      <!--End mc_embed_signup-->
+      <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" /></h2>
+    <td align="right">&nbsp;</td></p>
+  <!-- end #footer -->
+  <h2>
+    <div id="mc_embed_signup2"></div>
+    <div align="center">
+      <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
+      <script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+      <!--End mc_embed_signup-->
+    </div>
+  </h2>
+  <h5 align="center">
+    </p>
+    <!-- end #footer -->
+    © AMFM ALL RIGHTS RESERVED. </h5>
+  </div>
+<!-- end #container --></div>
+</body>
+</html>
