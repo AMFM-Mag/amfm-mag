@@ -1,0 +1,271 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>amfm </title>
+<style type="text/css">
+<!--
+body {
+	font: 100% Verdana, Arial, Helvetica, sans-serif;
+	background: #FFFFFF;
+	margin: 0; /* it's good practice to zero the margin and padding of the body element to account for differing browser defaults */
+	padding: 0;
+	text-align: center; /* this centers the container in IE 5* browsers. The text is then set to the left aligned default in the #container selector */
+	color: #000000;
+}
+
+/* Tips for Elastic layouts 
+1. Since the elastic layouts overall sizing is based on the user's default fonts size, they are more unpredictable. Used correctly, they are also more accessible for those that need larger fonts size since the line length remains proportionate.
+2. Sizing of divs in this layout are based on the 100% font size in the body element. If you decrease the text size overall by using a font-size: 80% on the body element or the #container, remember that the entire layout will downsize proportionately. You may want to increase the widths of the various divs to compensate for this.
+3. If font sizing is changed in differing amounts on each div instead of on the overall design (ie: #sidebar1 is given a 70% font size and #mainContent is given an 85% font size), this will proportionately change each of the divs overall size. You may want to adjust based on your final font sizing.
+*/
+.oneColElsCtrHdr #container {
+	width: 46em;  /* this width will create a container that will fit in an 800px browser window if text is left at browser default font sizes */
+	background: #FFFFFF;
+	margin: 0 auto; /* the auto margins (in conjunction with a width) center the page */
+	border: 1px solid #FFFFFF;
+	text-align: left; /* this overrides the text-align: center on the body element. */
+}
+.oneColElsCtrHdr #header { 
+	background: #FFFFFF; 
+	padding: 0 10px 0 20px;  /* this padding matches the left alignment of the elements in the divs that appear beneath it. If an image is used in the #header instead of text, you may want to remove the padding. */
+} 
+.oneColElsCtrHdr #header h1 {
+	margin: 0; /* zeroing the margin of the last element in the #header div will avoid margin collapse - an unexplainable space between divs. If the div has a border around it, this is not necessary as that also avoids the margin collapse */
+	padding: 10px 0; /* using padding instead of margin will allow you to keep the element away from the edges of the div */
+}
+.oneColElsCtrHdr #mainContent {
+	padding: 0 20px; /* remember that padding is the space inside the div box and margin is the space outside the div box */
+	background: #FFFFFF;
+}
+.oneColElsCtrHdr #footer { 
+	padding: 0 10px; /* this padding matches the left alignment of the elements in the divs that appear above it. */
+	background:#FFFFFF;
+} 
+.oneColElsCtrHdr #footer p {
+	margin: 0; /* zeroing the margins of the first element in the footer will avoid the possibility of margin collapse - a space between divs */
+	padding: 10px 0; /* padding on this element will create space, just as the the margin would have, without the margin collapse issue */
+}
+body,td,th {
+	font-family: Trebuchet MS, Arial, Helvetica, sans-serif;
+}
+a:link {
+	color: #000;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #000;
+}
+a:hover {
+	text-decoration: none;
+}
+a:active {
+	text-decoration: none;
+}
+-->
+</style></head>
+
+<body class="oneColElsCtrHdr">
+
+<div id="container">
+  <div id="header">
+    <h2 align="center"><a href="amfmmag.html">AMFM</a><a href="amfmarts.html"> | ARTS</a> <a href="amfmmusic.html">| <em>MUSIC</em></a><a href="amfmfashion.html">| FASHION </a><a href="amfmevents.html">| EVENTS</a>
+      <!-- end #header -->
+      | <img src="../images/amfmmag/socialmedia.jpg" alt="social media" width="141" height="28" border="0" align="absbottom" usemap="#Map" />
+      <map name="Map" id="Map223">
+        <area shape="circle" coords="18,13,10" href="http://www.facebook.com/amfmmag" target="_blank" />
+        <area shape="circle" coords="56,14,12" href="http://www.twitter.com/amfmmag" target="_blank" />
+        <area shape="rect" coords="113,6,133,24" href="http://www.instagram.com/amfmmag" target="_blank" />
+        <area shape="circle" coords="91,14,11" href="http://www.amfm-mag.tumblr.com" target="_blank" />
+      </map>
+      <map name="Map" id="Map24">
+        <area shape="circle" coords="93,15,9" href="#amfm-mag.tumblr.com" />
+        <area shape="rect" coords="120,5,140,25" href="#http://www.instagram.com/amfmmag" />
+        <area shape="circle" coords="57,17,11" href="#http://www.twitter.com/amfmmag" />
+        <area shape="circle" coords="20,19,10" href="#http://www.facebook.com/amfmmag" />
+      </map>
+      <map name="Map" id="Map222">
+        <area shape="circle" coords="20,16,8" href="#http://www.facebook.com/amfmmag" />
+        <area shape="circle" coords="57,17,8" href="#http://www.twitter.com/amfmmag" />
+        <area shape="rect" coords="116,5,136,23" href="#http://www.instagram.com/amfmmag" />
+        <area shape="circle" coords="93,15,11" href="#amfm-mag.tumblr.com" />
+      </map>
+      <map name="Map" id="Map222">
+        <area shape="circle" coords="18,13,10" href="http://www.facebook.com/amfmmag" target="_blank" />
+        <area shape="circle" coords="56,14,12" href="http://www.twitter.com/amfmmag" target="_blank" />
+        <area shape="rect" coords="113,6,133,24" href="http://www.instagram.com/amfmmag" target="_blank" />
+        <area shape="circle" coords="91,14,11" href="http://www.amfm-mag.tumblr.com" target="_blank" />
+      </map>
+      <map name="Map" id="Map23">
+        <area shape="circle" coords="93,15,9" href="#amfm-mag.tumblr.com" />
+        <area shape="rect" coords="120,5,140,25" href="#http://www.instagram.com/amfmmag" />
+        <area shape="circle" coords="57,17,11" href="#http://www.twitter.com/amfmmag" />
+        <area shape="circle" coords="20,19,10" href="#http://www.facebook.com/amfmmag" />
+      </map>
+      <map name="Map" id="Map23">
+        <area shape="circle" coords="93,15,9" href="#amfm-mag.tumblr.com" />
+        <area shape="rect" coords="120,5,140,25" href="#http://www.instagram.com/amfmmag" />
+        <area shape="circle" coords="57,17,11" href="#http://www.twitter.com/amfmmag" />
+        <area shape="circle" coords="20,19,10" href="#http://www.facebook.com/amfmmag" />
+      </map>
+<map name="Map" id="Map22">
+        <area shape="circle" coords="18,13,10" href="#http://www.facebook.com/amfmmag" />
+        <area shape="circle" coords="59,16,9" href="#http://www.twitter.com/amfmmag" />
+        <area shape="rect" coords="119,7,139,25" href="#http://www.instagram.com/amfmmag" />
+        <area shape="circle" coords="93,15,9" href="#amfm-mag.tumblr.com" />
+      </map>
+      <br />
+      <br />
+    </h2>
+    <!-- end #header -->
+  </div>
+  <div id="mainContent"><img src="../images/amfmmag/pitchforkpreview.jpg" width="700" height="400" alt="edo and olivier" />
+    <h2><strong>SIX PITCHFORK ACTS TO LOOK OUT FOR IN 2017:</strong></h2>
+    <p dir="ltr">Many of us turn to music for many different reasons. Some of us turn to it as a way to distract ourselves from confronting the realities that we must face, while others use it as a meditative and therapeutic approach while working on something important, or other use it to turn up, but what they all have in common: it&rsquo;s a method of escapism. We hypnotize ourselves for a 60-minute trance in which the only world we live in is the one being created by the artist we&rsquo;re listening to.</p>
+    <p dir="ltr"> Pitchfork, for the last eleven years, has had a long-standing tradition of recruiting emerging both young and seasoned artists, giving them a platform to visually display their talents to not only the festive-goers, but to everyone around the world watching them. With the current political climate that&rsquo;s been placed over the last months with this new administration it has been incredulously dark for many citizens in the United States. While many of us were pre-emptively elated to see a women take charge in the White House for the first time in our nation&rsquo;s history, after eight years of having our first Black President in Barack Obama, there was a large portion of America that felt their voices were of a much larger bravado than ours, and they succeed in getting their man in the White House. </p>
+<p dir="ltr"> However, over the course of the months since he&rsquo;s taken office, there&rsquo;s been a titanic surge of bands and musicians outpouring their frustrations of the political and systematic oppression and using their art as a way to try and unload &nbsp;the weight of the world. While this isn&rsquo;t relatively new (think back to uprising of the 60&rsquo;s and 70&rsquo;s), festivals are known for bringing people from all walks of life together through a common love of music, and artists have always used the stage as a platform to speak to the masses. &nbsp;This year Pitchfork definitely made its statement. </p>
+<br />
+<h2>DAY ONE: </h2>
+<p>When it comes to opening at a major music festival, there&rsquo;s a certain level of heightened sensibility one must ascertain. You have to be able to sway with the crowd, contain an electric stage presence, and above all that: you have to leave your crowd hungry for more than what they expected. The openers for this year&rsquo;s Pitchfork (Madame Gandhi, Vagabon, Kilo Kish) were successful in their efforts.</p>
+    <p dir="ltr"><img src="../images/amfmmag/madameghandi.jpg" width="700" height="400" alt="ghandi" /></p>
+    <p dir="ltr">Madame Gandhi and her yellow ensemble, including an all-female band (dancers, DJ, vocalist, and percussionist) wasted no time in tackling the topics that centered on the issue of obtaining feminist empowerment. Part singer, part drummer, part rapper, part dancer, and full-bodied activist, it should come as no surprise that her performance was eclectic, as much as it was a political buckshot aimed at the toxic misogyny that continues to inherently bind us to a pastime that we do not want to relive. Lyrics such as &ldquo;The Future is Female&rdquo; or &ldquo;the biggest threat is a girl with a book&rdquo; re-enable a concept that Gloria Steinem often says: &ldquo;Imagine a world in which we are linked and not ranked.&rdquo; Midway through her set, she pulls out a notebook, and reads lines from &ldquo;The Feminist Utopia Project,&rdquo; using her socially conscious messages and empowering statements as a catalyst to challenge the systematic oppression that we face in the times of the present and of the future. It was refreshing to see this level of energy exuberated in the early hours of Day One and this pattern would continue to follow.</p>
+    <p dir="ltr">    <img src="../images/amfmmag/kamiyah.jpg" width="700" height="400" alt="kamiyah" /><br />
+    When it came to the rap performances for Day One, I was thoroughly surprised at Vince Staples, despite the stage malfunctions that may have hindered his performance. If there was anything to take away from his set, it was almost certain that his core fan base was not going to let him get dragged into being labeled a subpar performance. One thing about Vince Staples&rsquo; fans—they&rsquo;ll bounce to anything and everything he&rsquo;ll throw at them. His classic 2014 hit &ldquo;Blue Suede&rdquo; and &ldquo;745&rdquo; from his latest project Big Fish Theory were bumping throughout and his cadence didn&rsquo;t seem to fail him.    </p>
+    <p><img src="../images/amfmmag/vagabond.jpg" width="700" height="400" alt="vagabond" /></p>
+    <p dir="ltr">Next up was Danny Brown, and placing him on the Green Stage was the perfect decision, in my opinion. His raspy rap vocals and lyrical wordplay, along with a booming trap-like beat spectrum in his arsenal, he was ready to bring the f**king house down. The thing that puts Danny Brown in the top tier of modern-coated rappers is his method of incorporating the hardcore/punk rock subgenre into his music. It was immediately known that Danny Brown&rsquo;s presence was felt when his DJ started off played Black Sabbath&rsquo;s &ldquo;Iron Man&rdquo;, just to get a quick feel of the crowd. Then, here comes Danny. He slowly approaches center stage, places his boot on one of the low platforms, and gestures the signs of the horn to his audience, then starting off with a banger in &ldquo;Die Like A Rockstar&rdquo;, which completely molds the epitome of him as an artist bridging the gaps between the two polarizing subgenres. I didn&rsquo;t even know till about 10 minutes in, I looked at him and saw that he no longer has the long flowing hair or the chipped tooth. It&rsquo;s been a minute since he dropped Atrocity Exhibition last September, so one can only hope that this new look of his will continue to push the precincts of rap to unknown boundaries.    </p>
+    <p dir="ltr"><img src="../images/amfmmag/madlib.jpg" width="700" height="400" alt="madlib" /></p>
+    <p>Kamaiyah, in my opinion, certainly had the best performance of Day One. While her setlist only last for about 30 minutes, it was easy to get warped into her onstage presence only to realize that it ended just as quick as it had started. But despite all that, I got caught in the moment. Everything seemed to work in her favor—from the DJ giving us a pre-turn up ritual of &ldquo;Humble,&rdquo; the tone was already set for her, she just had to come out and do the damn thing. It certainly helped when she had her hype man come out and sway with the crowd. (Side note: whatever happened to those times when the hype man actually hyped up the crowd? Seems like those times have just vanished over the years). Her stage presence was glowing; there was never a momentous pause to let her audience breathe because she kept putting on bangers after bangers, with joints like &ldquo;Build You Up,&rdquo; &ldquo;How Does It Feel?&rdquo;, and &ldquo;Fuck It Up.&rdquo; One of my favorite soundbites to come out from this performance was the &ldquo;Hootchie-Hoo&rdquo; audio clip that had me dying of laughter. Kamaiyah really came into her own on Day One, and her trajectory can only get higher after this.</p>
+    <h2>DAY TWO:  </h2>
+    <h2><strong><img src="../images/amfmmag/kilokash.jpg" width="700" height="400" alt="kilo" /></strong></h2>
+    <p>After a successful Day One, I was looking forward to seeing Vagabon after hearing a lot of praise from their latest release Infinite Worlds. Laetitia Tamko (aka Vagabon) is a soft-spoken and semi-reserved Cameroonian from Brooklyn who, when playing with her bassist and drummer, encompasses a thundering vocal performance, giving a blistering boost of confidence to young black women who may feel a sense of isolation or abandonment of any sorts. Delivering what might be the best line I&rsquo;ve heard all weekend: &ldquo;I&rsquo;m just a small fish/And you&rsquo;re a shark that eats everything.&rdquo; Throughout her set, she takes her time, saying &ldquo;I am not a woman of many words,&rdquo; making deliberate pauses to pull her audience into her world.    </p>
+    <h2><img src="../images/amfmmag/jamilawoods-holy.jpg" width="700" height="400" alt="jamila" /></h2>
+    <p dir="ltr">After a disappointing performance from George Clinton &amp; P-Funk, I was looking forward to seeing the Blue Stage packed with a congregation of head-bopping, purist hip-hop connoisseurs waiting patiently for Madlib aka The Loop Digga aka Lord Quas. The crowd was all welcoming and inclusively transparent; there was even a patron who raised a cutout stick figure of Quasimoto near the front of the stage. I was interested to see what sort of style Madlib would project to the audience. He&rsquo;s deeply rooted in a multitude of musical genres (Hip-Hop, Reggae, Bossanova, Jazz, etc.), so anything he would bring to the crowd would have some significance behind it. He wasted no time in catering to his day-one fans, delivering his collaborations with MF Doom, Erykah Badu, Lootpack, even some Mos Def. He paid homage to Prodigy by playing Mobb Deep&rsquo;s &ldquo;Shook Ones,&rdquo; and even got some modern hypes into his mix, like &ldquo;Mask Off&rdquo; and &ldquo;Bad &amp; Boujee&rdquo;. The only disappointment I had was the limit to which his time was given; Madlib is not the type of artist that can summarize his set in a 40-minute window. If anything, that&rsquo;s when he would grasp onto the audience the most.</p>
+    <h2><img src="../images/amfmmag/jamilawoods-holy.jpg" width="700" height="400" alt="jamila" /></h2>
+    <p dir="ltr">At 8:30pm, the Pitchfork crowd had galvanized into a unified front by the Green Stage, itching to see the traditional tri-color formula of red, black, and green. For Q-Tip, Jerobi, and Ali Shaheed, it must&rsquo;ve been a strange feeling, knowing that Phife Dawg was no longer there to accompany them onstage; and it was hard for us fans as well. But Q-Tip&rsquo;s charismatic stage presence was magnetic and uplifting, putting me in a world of nostalgia where I remembered walking down my block as a kid, and my neighbors would be blasting &ldquo;Check The Rhyme&rdquo; from their rooftop window. As silly as it sounds, it was such a historic moment that united fans of vintage old-school hip-hop heads and the modernists who might just be discovering this group at the moment. The set drew from all six of the group&rsquo;s albums, along with Q-Tip&rsquo;s solo hit &ldquo;Vivrant Thing&rdquo; and Consequence&rsquo;s verse from Kanye West&rsquo;s &ldquo;Spaceship.&rdquo; And the energy built gradually, starting with recent tracks and deep cuts and building toward the undeniable, foundational classics. I left that night with a huge smile on my face, knowing that despite Phife not being with us anymore, Tribe will continue to do extraordinary things for the genre of hip-hop.</p>
+    <p dir="ltr"><img src="../images/amfmmag/jamilawoods-holy.jpg" width="700" height="400" alt="jamila" /></p>
+    <h2 dir="ltr">DAY THREE: </h2>
+    <p dir="ltr">If there were ever a day to possess the definition of being unapologetically black, Sunday was the day for it. As soon as I walked into Union Park, I saw a significantly larger amount of black men and women; all beautifully draped in Black Girl Magic and Black Boy Joy, all prepping for the opportunity to see some of the greatest black performers Pitchfork&rsquo;s had to offer through one night. Kilo Kish, Isaiah Rashad, Jamila Woods, and the headliner Solange all in the same day. For me and for many others, this was set to become a moment of authentic black celebration.</p>
+    <p dir="ltr"><img src="../images/amfmmag/jamilawoods-holy.jpg" width="700" height="400" alt="jamila" /><br />
+    Kilo Kish graced us with a strikingly theatrical and stimulating performance, channeling the exact amount of concentration and thought on her stage presence as she does to her music. A slowly stride to the stage, she arrives onstage clad in a red business suit, perusing through the crowd with a glance of confusion in her eyes. Like she had just landed on a foreign planet. There&rsquo;s a chair center-stage, and she sits on it. She picks up a New Yorker and starts to read, the festive watchers sweating at the idea of what her next move is. As her set transitions into one of her more bubbly songs &ldquo;Hello, Lakisha,&rdquo; she doesn&rsquo;t limit herself to just her vocals, but rather she fervently swings her arms and upper body in an aggressive, choreograph-focused approach. It&rsquo;s an interesting dichotomy to her more bouncy and lightly sarcastic songs. She proceeds to incorporate a variety of props in her performance (a suitcase and a red telephone) before she ultimately destroys them in which, at one point, she almost knocked the DJ&rsquo;s head off (Yep, I caught that. But he seemed chill about it though). That being said, Kilo Kish is a mystifier; a perplexing and blurring performance artist who continues to break the traditional archetypes of the modern R&amp;B musician. Her music is a representative of the millennial generation, and her performance at Pitchfork certainly mirrors that as such.</p>
+    <p dir="ltr"><img src="../images/amfmmag/jamilawoods-holy.jpg" width="700" height="400" alt="jamila" /></p>
+    <p dir="ltr">Jamila Woods could not have been the perfect precursor to get us ready for Solange&rsquo;s performance. However, that&rsquo;s not to say that Jamila wasn&rsquo;t able to successfully hone under the larger stage. Due to an unfortunate cancellation from The Avalanches, that opened up the window for Jamila Woods to transition from the more enclosed and intimate Blue Stage to the larger Green Stage, and she took that opportunity and delivered an unforgettable presentation. &nbsp;While she may have lost some level of intimacy, she gained the larger crowd and audience that she unquestionably deserves. With the harmonies of her three backing singers, her soothingly soft voice contained a level of heaviness that was filled with layers of soulful drum breaks, jazz-infected bass lines, and Jamila&rsquo;s spoken word poetry. It was a mesmerizing refresher that the term &ldquo;Black Girl Magic&rdquo; is more than just a simple hashtag, but rather it is an embodiment that reflects on the underlying confidence and multifariousness of black women worldwide.</p>
+    <p dir="ltr"><img src="../images/amfmmag/jamilawoods-holy.jpg" width="700" height="400" alt="jamila" /></p>
+    <p dir="ltr">As much as we hate to admit it, none of us were ready for Solange. No matter how many times we would re-loop A Seat at the Table in our quiet bedrooms just to calibrate some level of ambiance, it certainly did not match on the calibration of seeing her perform live. Many of the patrons at Pitchfork sacrificed empty bellies and weak knees, sifting through performance after performance, just to get a front-row sight of being within a few feet of the front stage. That&rsquo;s the level of dedication that Solange&rsquo;s presence had amongst black people, in particular to black women. The stage shifts colors to an immensely deep bi-coloration of Red and Orange, as her band members start to set the mood with an extended medley of &ldquo;Rise,&rdquo; followed by her dancers, and then, finally…Solange. Her onstage presence was not only gratifying, but contained a level of catharsis that left everyone spellbound to her. With every swing in her voice and every choreographed move in her stride, I saw the joyous tears of the young black women surrounding me; while some of which had never met each other before the show, they felt a strong sense of comfort with one another; a vigorous sisterhood that, for the remainder of the show, would not be broken by outside forces. She then continued into &ldquo;F.U.B.U.&rdquo;, an inherently Black Anthem that is a divine representation of Black culture that is strictly for us. I can&rsquo;t tell you how many times I&rsquo;ve been in situations where Jay-Z and Kanye&rsquo;s &ldquo;N**gas in Paris&rdquo; would come on at parties and everyone, including people not of color, would say that verbatim. So, it was invigorating for us as black people to chant the chorus, knowing that our white counterparts would receive heavy backlash for even muttering those words. At one point, it was easy to forget that there were even white people amongst us watching her perform; the level of black energy and excellence that was exuberated throughout Union Park was so captivating that I had nearly forgotten where I was. Perhaps that was her mission all along; to have us disregard the daily micro-aggressions that surround us on a daily basis, only to come together in a unifying front. And it worked, too! Her performance left me in a state of exultation that made me proud to be black, to be unashamed, to exuberate all the things that are attached with being so. &nbsp;</p>
+    <p dir="ltr"><img src="../images/amfmmag/jamilawoods-holy.jpg" width="700" height="400" alt="jamila" /></p>
+    <p dir="ltr">I&rsquo;d be remiss if I failed to mention the Young Chicago Authors and its artistic director Kevin Coval, who have become a pioneering force in instilling the confidence for young Chicagoans to document their daily lives in their own words. It was exhilarating to see many people coming together to observe the readings from Kevin Coval, Nate Marshall, Sofia Elhillo, Fatimah Asghar, and the countless others whom I had unfortunately missed from the start. With all the white noise that had surrounded the festival throughout, there was a thick and calm muteness that had filled the park; the only voices being heard were the ones grabbing the microphone and spilling their words from the pages in their journals; passages reciting the continual struggle of black bodies being disproportionately targeted by the white dominant society.</p>
+    <p dir="ltr"> In retrospect, this year&rsquo;s Pitchfork Festival served as a momentous reminder that, while the current political system continues to denigrate and dehumanize our POC brothers and sisters, it is extremely imperative that we must encourage people who are invested in healing ourselves and transforming the culture to take it a step further: If we want to win, it&rsquo;s inherently important not just to be black, but to be black with a designated purpose. </p>
+<br />
+    <p dir="ltr"><br />
+    </p>
+    <h6 dir="ltr"><em><strong>PHOTO CREDITS: CIERA MCKISSICK<br />
+      CONTRIBUTING WRITER: ABEL ARAYA 
+      </strong><br />
+    </em></h6>
+  </div>
+  <div id="footer">
+    <h2><a href="aboutamfm.html">ABOUT AMFM</a><br />
+      <a href="mailto:info@amfm-mag.com">CONTACT</a><br />
+      <img src="../images/amfmmag/socialmedia.jpg" alt="social media" width="141" height="28" border="0" align="absbottom" usemap="#Map" />
+      <map name="Map" id="Map2232">
+        <area shape="circle" coords="18,13,10" href="http://www.facebook.com/amfmmag" target="_blank" />
+        <area shape="circle" coords="56,14,12" href="http://www.twitter.com/amfmmag" target="_blank" />
+        <area shape="rect" coords="113,6,133,24" href="http://www.instagram.com/amfmmag" target="_blank" />
+        <area shape="circle" coords="91,14,11" href="http://www.amfm-mag.tumblr.com" target="_blank" />
+      </map>
+      <map name="Map" id="Map242">
+        <area shape="circle" coords="93,15,9" href="#amfm-mag.tumblr.com" />
+        <area shape="rect" coords="120,5,140,25" href="#http://www.instagram.com/amfmmag" />
+        <area shape="circle" coords="57,17,11" href="#http://www.twitter.com/amfmmag" />
+        <area shape="circle" coords="20,19,10" href="#http://www.facebook.com/amfmmag" />
+      </map>
+      <map name="Map" id="Map224">
+        <area shape="circle" coords="20,16,8" href="#http://www.facebook.com/amfmmag" />
+        <area shape="circle" coords="57,17,8" href="#http://www.twitter.com/amfmmag" />
+        <area shape="rect" coords="116,5,136,23" href="#http://www.instagram.com/amfmmag" />
+        <area shape="circle" coords="93,15,11" href="#amfm-mag.tumblr.com" />
+      </map>
+      <map name="Map" id="Map2222">
+        <area shape="circle" coords="18,13,10" href="http://www.facebook.com/amfmmag" target="_blank" />
+        <area shape="circle" coords="56,14,12" href="http://www.twitter.com/amfmmag" target="_blank" />
+        <area shape="rect" coords="113,6,133,24" href="http://www.instagram.com/amfmmag" target="_blank" />
+        <area shape="circle" coords="91,14,11" href="http://www.amfm-mag.tumblr.com" target="_blank" />
+      </map>
+      <map name="Map" id="Map232">
+        <area shape="circle" coords="93,15,9" href="#amfm-mag.tumblr.com" />
+        <area shape="rect" coords="120,5,140,25" href="#http://www.instagram.com/amfmmag" />
+        <area shape="circle" coords="57,17,11" href="#http://www.twitter.com/amfmmag" />
+        <area shape="circle" coords="20,19,10" href="#http://www.facebook.com/amfmmag" />
+      </map>
+      <map name="Map" id="Map25">
+        <area shape="circle" coords="93,15,9" href="#amfm-mag.tumblr.com" />
+        <area shape="rect" coords="120,5,140,25" href="#http://www.instagram.com/amfmmag" />
+        <area shape="circle" coords="57,17,11" href="#http://www.twitter.com/amfmmag" />
+        <area shape="circle" coords="20,19,10" href="#http://www.facebook.com/amfmmag" />
+      </map>
+      <map name="Map" id="Map2">
+  <area shape="circle" coords="93,15,9" href="#amfm-mag.tumblr.com" />
+  <area shape="rect" coords="120,5,140,25" href="#http://www.instagram.com/amfmmag" />
+  <area shape="circle" coords="57,17,11" href="#http://www.twitter.com/amfmmag" />
+  <area shape="circle" coords="20,19,10" href="#http://www.facebook.com/amfmmag" />
+</map>
+    </h2>
+    <h2>
+      <div id="mc_embed_signup">
+        <form action="//amfm-mag.us10.list-manage.com/subscribe/post?u=738860a67ed3f5cd20e478572&amp;id=8db9e6e243" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate="novalidate">
+          <div id="mc_embed_signup_scroll">SIGN UP FOR UPDATES!
+            <div class="mc-field-group">
+              <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" />
+            </div>
+            <div id="mce-responses" class="clear">
+              <div class="response" id="mce-error-response" style="display:none"></div>
+              <div class="response" id="mce-success-response" style="display:none"></div>
+            </div>
+            <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+            <div style="position: absolute; left: -5000px;" aria-hidden="true">
+              <input type="text" name="b_738860a67ed3f5cd20e478572_8db9e6e243" tabindex="-1" value="" />
+            </div>
+            <div class="clear">
+              <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button" />
+            </div>
+          </div>
+        </form>
+      </div>
+      <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
+      <script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+      <!--End mc_embed_signup-->
+      <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" /></h2>
+    <td align="right">&nbsp;</td></p>
+  <!-- end #footer -->
+  <h2>
+    <div id="mc_embed_signup2">
+      <form action="//amfm-mag.us10.list-manage.com/subscribe/post?u=738860a67ed3f5cd20e478572&amp;id=8db9e6e243" method="post" id="mc-embedded-subscribe-form2" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate="novalidate">
+        <div id="mc_embed_signup_scroll2">
+          <div class="clear"></div>
+        </div>
+      </form>
+    </div>
+    <div align="center">
+      <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
+      <script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+      <!--End mc_embed_signup-->
+    </div>
+  </h2>
+  <h5 align="center">
+    </p>
+    <!-- end #footer -->
+    © AMFM ALL RIGHTS RESERVED. </h5></td></p>
+  <!-- end #footer --></div>
+<!-- end #container --></div>
+</body>
+</html>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-48234405-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
