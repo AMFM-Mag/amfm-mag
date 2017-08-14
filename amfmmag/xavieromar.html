@@ -1,0 +1,267 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>amfm </title>
+<style type="text/css">
+<!--
+body {
+	font: 100% Verdana, Arial, Helvetica, sans-serif;
+	background: #FFFFFF;
+	margin: 0; /* it's good practice to zero the margin and padding of the body element to account for differing browser defaults */
+	padding: 0;
+	text-align: center; /* this centers the container in IE 5* browsers. The text is then set to the left aligned default in the #container selector */
+	color: #000000;
+}
+
+/* Tips for Elastic layouts 
+1. Since the elastic layouts overall sizing is based on the user's default fonts size, they are more unpredictable. Used correctly, they are also more accessible for those that need larger fonts size since the line length remains proportionate.
+2. Sizing of divs in this layout are based on the 100% font size in the body element. If you decrease the text size overall by using a font-size: 80% on the body element or the #container, remember that the entire layout will downsize proportionately. You may want to increase the widths of the various divs to compensate for this.
+3. If font sizing is changed in differing amounts on each div instead of on the overall design (ie: #sidebar1 is given a 70% font size and #mainContent is given an 85% font size), this will proportionately change each of the divs overall size. You may want to adjust based on your final font sizing.
+*/
+.oneColElsCtrHdr #container {
+	width: 46em;  /* this width will create a container that will fit in an 800px browser window if text is left at browser default font sizes */
+	background: #FFFFFF;
+	margin: 0 auto; /* the auto margins (in conjunction with a width) center the page */
+	border: 1px solid #FFFFFF;
+	text-align: left; /* this overrides the text-align: center on the body element. */
+}
+.oneColElsCtrHdr #header { 
+	background: #FFFFFF; 
+	padding: 0 10px 0 20px;  /* this padding matches the left alignment of the elements in the divs that appear beneath it. If an image is used in the #header instead of text, you may want to remove the padding. */
+} 
+.oneColElsCtrHdr #header h1 {
+	margin: 0; /* zeroing the margin of the last element in the #header div will avoid margin collapse - an unexplainable space between divs. If the div has a border around it, this is not necessary as that also avoids the margin collapse */
+	padding: 10px 0; /* using padding instead of margin will allow you to keep the element away from the edges of the div */
+}
+.oneColElsCtrHdr #mainContent {
+	padding: 0 20px; /* remember that padding is the space inside the div box and margin is the space outside the div box */
+	background: #FFFFFF;
+}
+.oneColElsCtrHdr #footer { 
+	padding: 0 10px; /* this padding matches the left alignment of the elements in the divs that appear above it. */
+	background:#FFFFFF;
+} 
+.oneColElsCtrHdr #footer p {
+	margin: 0; /* zeroing the margins of the first element in the footer will avoid the possibility of margin collapse - a space between divs */
+	padding: 10px 0; /* padding on this element will create space, just as the the margin would have, without the margin collapse issue */
+}
+body,td,th {
+	font-family: Trebuchet MS, Arial, Helvetica, sans-serif;
+}
+a:link {
+	color: #000;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #000;
+}
+a:hover {
+	text-decoration: none;
+}
+a:active {
+	text-decoration: none;
+}
+-->
+</style></head>
+
+<body class="oneColElsCtrHdr">
+
+<div id="container">
+  <div id="header">
+    <h2 align="center"><a href="amfmmag.html">AMFM</a><a href="amfmarts.html"> | ARTS</a> <a href="amfmmusic.html">| <em>MUSIC</em></a><a href="amfmfashion.html">| FASHION </a><a href="amfmevents.html">| EVENTS</a>
+      <!-- end #header -->
+      | <img src="../images/amfmmag/socialmedia.jpg" alt="social media" width="141" height="28" border="0" align="absbottom" usemap="#Map" />
+      <map name="Map" id="Map223">
+        <area shape="circle" coords="18,13,10" href="http://www.facebook.com/amfmmag" target="_blank" />
+        <area shape="circle" coords="56,14,12" href="http://www.twitter.com/amfmmag" target="_blank" />
+        <area shape="rect" coords="113,6,133,24" href="http://www.instagram.com/amfmmag" target="_blank" />
+        <area shape="circle" coords="91,14,11" href="http://www.amfm-mag.tumblr.com" target="_blank" />
+      </map>
+      <map name="Map" id="Map24">
+        <area shape="circle" coords="93,15,9" href="#amfm-mag.tumblr.com" />
+        <area shape="rect" coords="120,5,140,25" href="#http://www.instagram.com/amfmmag" />
+        <area shape="circle" coords="57,17,11" href="#http://www.twitter.com/amfmmag" />
+        <area shape="circle" coords="20,19,10" href="#http://www.facebook.com/amfmmag" />
+      </map>
+      <map name="Map" id="Map222">
+        <area shape="circle" coords="20,16,8" href="#http://www.facebook.com/amfmmag" />
+        <area shape="circle" coords="57,17,8" href="#http://www.twitter.com/amfmmag" />
+        <area shape="rect" coords="116,5,136,23" href="#http://www.instagram.com/amfmmag" />
+        <area shape="circle" coords="93,15,11" href="#amfm-mag.tumblr.com" />
+      </map>
+      <map name="Map" id="Map222">
+        <area shape="circle" coords="18,13,10" href="http://www.facebook.com/amfmmag" target="_blank" />
+        <area shape="circle" coords="56,14,12" href="http://www.twitter.com/amfmmag" target="_blank" />
+        <area shape="rect" coords="113,6,133,24" href="http://www.instagram.com/amfmmag" target="_blank" />
+        <area shape="circle" coords="91,14,11" href="http://www.amfm-mag.tumblr.com" target="_blank" />
+      </map>
+      <map name="Map" id="Map23">
+        <area shape="circle" coords="93,15,9" href="#amfm-mag.tumblr.com" />
+        <area shape="rect" coords="120,5,140,25" href="#http://www.instagram.com/amfmmag" />
+        <area shape="circle" coords="57,17,11" href="#http://www.twitter.com/amfmmag" />
+        <area shape="circle" coords="20,19,10" href="#http://www.facebook.com/amfmmag" />
+      </map>
+      <map name="Map" id="Map23">
+        <area shape="circle" coords="93,15,9" href="#amfm-mag.tumblr.com" />
+        <area shape="rect" coords="120,5,140,25" href="#http://www.instagram.com/amfmmag" />
+        <area shape="circle" coords="57,17,11" href="#http://www.twitter.com/amfmmag" />
+        <area shape="circle" coords="20,19,10" href="#http://www.facebook.com/amfmmag" />
+      </map>
+<map name="Map" id="Map22">
+        <area shape="circle" coords="18,13,10" href="#http://www.facebook.com/amfmmag" />
+        <area shape="circle" coords="59,16,9" href="#http://www.twitter.com/amfmmag" />
+        <area shape="rect" coords="119,7,139,25" href="#http://www.instagram.com/amfmmag" />
+        <area shape="circle" coords="93,15,9" href="#amfm-mag.tumblr.com" />
+      </map>
+      <br />
+      <br />
+    </h2>
+    <!-- end #header -->
+  </div>
+  <div id="mainContent"><img src="../images/amfmmag/xavieromar.jpg" width="700" height="400" alt="edo and olivier" />
+    <h2><strong>Q&amp;A:  XAVIER OM</strong>ÄR    </h2>
+    <p dir="ltr">You may remember him as SPZYRKT, and it&rsquo;s not that <a href="https://mobile.twitter.com/XvrOmar?ref_src=twsrc%5Eappleios%7Ctwcamp%5Esafari%7Ctwgr%5Eprofile">Xavier Omär</a> is going out of his way ultra-intentionally to further himself from the moniker, but the organic evolution of an artist with something personal to share could not be more apparent than it is when he blesses the stage or steps into the studio. He has fully embraced the idea of true self-expression, largely limiting the amount of space between the artist on stage and the artist in real life. What you see is what you get, and what you get is Cee-Lo Green and Anderson Paak vibes spliced with Frank Ocean and The Weeknd with a dash of De La Soul and a little Luther Vandross.<strong><br />
+    <br />
+    </strong>Don&rsquo;t get it twisted though, Omär has found his very own unique niche in the fairly newfound contemporary R&amp;B genre that is ever-expanding and finds itself as everlasting as the wave Xavier Omär has created with his style of songwriting. With <a href="https://mobile.twitter.com/jadapsmith/status/886067517294116864">co-signs from the likes of Jada Pinkett-Smith</a>, fresh off a memorial Lollapalooza set and touring with Little Dragon, the world is at the self-described perfectionist&rsquo;s fingertips.</p>
+    <p dir="ltr"><img src="../images/amfmmag/xavieromar2.jpg" width="700" height="400" alt="xavier omar" /><br />
+      <strong id="docs-internal-guid-a1b2af38-e28c-64d0-0c71-f2cd7cdd8498">You said once, &ldquo;You could play for your kid, you could play for yourself, and everybody just be lifted. Would you care to elaborate on that?</strong><br />
+    </p>
+    <p dir="ltr"><strong>OMÄR:</strong> I won&rsquo;t even really want go to the studio unless I know I have a particular thing I want to talk about. At times you get to the studio and music brings that out of you, things that you didn&rsquo;t even know you were thinking about subconsciously. I want everything that I put out to have substance. And I want this message to be able to work for as many people as possible. I don&rsquo;t want to alienate anybody because of the way I&rsquo;m speaking. You know, everything has its time and place. What I&rsquo;m meant to do is meant for everybody. I don&rsquo;t expect everyone&rsquo;s music to be that way, and I don&rsquo;t condemn anyone&rsquo;s music that&rsquo;s not that way, but I would like to convey a message that could help anyone. No matter your age, what you&rsquo;re going through in life, the subject matter, I just want to be able to be a part of it. I think what I have to say is needed.<br />
+    </p>
+    <p dir="ltr"><strong id="docs-internal-guid-a1b2af38-e28c-64d0-0c71-f2cd7cdd8498">You&rsquo;ve described SPZRKT, the Spazzy Rocket as a character. Do you feel like yourself now as an artist?</strong><br />
+    </p>
+    <p dir="ltr"><strong>OMÄR:</strong> Oh very much. Very much so. I mean, a lot more, as you can see now with the wrestling gear and all. I feel as if I&rsquo;m fully able to be myself and not have to build this particular character up. I don&rsquo;t know what people are expecting, but if I&rsquo;m myself it kind of doesn&rsquo;t matter, because I&rsquo;m just going to give them me. And apt of times as that character I didn&rsquo;t know what I was going to give them. More than anything, I want to share my music and hear people say my name in a way that gives them access to your actual name. A lot of times it makes you stay humble because it isn&rsquo;t some moniker. It isn&rsquo;t something you can hide behind. This isn&rsquo;t some alter-ego. IT&rsquo;S YOU. It&rsquo;s no different than what your mother calls you.<br />
+    </p>
+    <p dir="ltr"><strong id="docs-internal-guid-a1b2af38-e28c-64d0-0c71-f2cd7cdd8498">Do you feel that the music you&rsquo;ve put forth is more pure as a result of that?</strong><strong><br />
+    </strong>    </p>
+    <p dir="ltr"><strong>OMÄR: </strong>In a lot of ways I&rsquo;ve never truly hidden the emotion of my writing, but now it does feel very much like you&rsquo;re baring all. Records like Afraid and No Way Out allow me to go deeper with the lyrics, go deeper within myself, and just share me and let that be the difference in the music. Not even so much how I create it or how it sounds, but the way it connects because it&rsquo;s a place that a lot of people won&rsquo;t allow themselves to go and pull from. A lot of R&amp;B artists are pulling from their experiences, but they&rsquo;re doing it in a way that still makes them look like they didn&rsquo;t get played or nothing happened to them, but people who are honest, you&rsquo;re seeing the success of someone like SZA right now, some of the most honest music you&rsquo;ve ever heard, and that&rsquo;s something I&rsquo;ve been doing and want to continue to do.<br />
+    </p>
+    <p dir="ltr"><strong id="docs-internal-guid-a1b2af38-e28c-64d0-0c71-f2cd7cdd8498">Take us through your process if you would from inception of idea to the decision to feature a song on an album.</strong><br />
+    </p>
+    <p dir="ltr"><strong>OMÄR:</strong> It varies a lot because there are some songs where the chorus comes to me immediately, and there are other songs where it doesn&rsquo;t. Sometimes it comes to me as I&rsquo;ve written the verses. You think, &ldquo;oh I&rsquo;ve written this great hook now let&rsquo;s write around that,&rdquo; honestly that doesn&rsquo;t happen for me a lot. The process varies. There&rsquo;s no set way that it has to be. I won&rsquo;t release a record unless when it&rsquo;s finished I play it like 10 times in a row. Then I know I really like it. I do like a minimum amount of people in the studio. A lot of times, if I can, I like to handle the stop and go of recording, so I don&rsquo;t feel I&rsquo;m frustrating the engineer, and let them just do their thing, because I stop a lot. I&rsquo;m just such a perfectionist in my head.</p>
+    <p dir="ltr"><img src="../images/amfmmag/xavieromar3.jpg" width="700" height="400" alt="xavier omar" /><br />
+      <strong id="docs-internal-guid-a1b2af38-e28c-64d0-0c71-f2cd7cdd8498">How did you connect with Sango and decide to make music together?</strong><br />
+    </p>
+    <p dir="ltr"><strong>OMÄR: </strong>It was Twitter, so shout out to Twitter! He found me on a website. I was just putting my music wherever I could. He found my Twitter, and I guess I was doing lyrically what he needed someone to do vocally. You know? He was a producer, so I was saying what he needed to say. At the time we were just fresh kids trying to do something new, and we were like, &ldquo;We should just do a project together.&rdquo; It&rsquo;s one of those perfect storms. And we&rsquo;re working on our second.<br />
+    </p>
+    <p dir="ltr"><strong id="docs-internal-guid-a1b2af38-e28c-64d0-0c71-f2cd7cdd8498">You find yourself now in this contemporary R&amp;B genre with a few other names, either intentional or not. Describe what that means to you and then the evolution of R&amp;B as a whole.</strong><br />
+    </p>
+    <p dir="ltr"><strong>OMÄR:</strong> It&rsquo;s one of the most versatile genres. It&rsquo;s more about the voice than it is even about the music. I&rsquo;ll hear some songs off of Blond, and someone will tell me it&rsquo;s R&amp;B, and I&rsquo;m like, &ldquo;No. That&rsquo;s not R&amp;B at all.&rdquo; But he&rsquo;s an R&amp;B artist. The voice defines it even more than the music does. People call Khaled an R&amp;B artist, and his voice has every capability of it, but to me that man&rsquo;s a pop artist. That man&rsquo;s a pop star. I feel like I will continue to toe that line between pop and R&amp;B. The voice is R&amp;B and sometimes the record is really poppy, but sometimes the record is full of soul. I&rsquo;m a drummer, so everything is based on feel. Combining those elements, I&rsquo;ll always toe that line. You can think of two names right off the top of your head that do both: Frank Ocean and The Weeknd. It puts me in that class immediately. I&rsquo;ll always touch as many corners of R&amp;B as I can, &nbsp;is eight different styles of R&amp;B. I will continue to be that unpredictable guy, but the roots and the foundation you know what they are.</p>
+    <br />
+<p><strong id="docs-internal-guid-2afd7e31-2a9e-6be5-f20d-e5756aa19564">FOR MORE FROM XAVIER OMAR:</strong> <br />
+      <a href="https://www.xavieromar.com/" target="_blank"> WEBSITE </a>/ <a href="https://soundcloud.com/xvromar" target="_blank">SOUNDCLOUD</a><br />
+    </p>
+    <h6 dir="ltr"><strong id="docs-internal-guid-2afd7e31-2a9e-6be5-f20d-e5756aa19564"><em>PHOTO CREDITS: AMFM</em></strong>
+    <!-- end #mainContent -->
+    <br />
+    <em>CONTRIBUTING WRITER: <a href="http://gozamos.com/2017/08/the-wavy-evolution-of-xavier-omar/" target="_blank">TERRY CARAY - FROM GOZAMOS</a></em><br />
+    </h6>
+  </div>
+  <div id="footer">
+    <h2><a href="aboutamfm.html">ABOUT AMFM</a><br />
+      <a href="mailto:info@amfm-mag.com">CONTACT</a><br />
+      <img src="../images/amfmmag/socialmedia.jpg" alt="social media" width="141" height="28" border="0" align="absbottom" usemap="#Map" />
+      <map name="Map" id="Map2232">
+        <area shape="circle" coords="18,13,10" href="http://www.facebook.com/amfmmag" target="_blank" />
+        <area shape="circle" coords="56,14,12" href="http://www.twitter.com/amfmmag" target="_blank" />
+        <area shape="rect" coords="113,6,133,24" href="http://www.instagram.com/amfmmag" target="_blank" />
+        <area shape="circle" coords="91,14,11" href="http://www.amfm-mag.tumblr.com" target="_blank" />
+      </map>
+      <map name="Map" id="Map242">
+        <area shape="circle" coords="93,15,9" href="#amfm-mag.tumblr.com" />
+        <area shape="rect" coords="120,5,140,25" href="#http://www.instagram.com/amfmmag" />
+        <area shape="circle" coords="57,17,11" href="#http://www.twitter.com/amfmmag" />
+        <area shape="circle" coords="20,19,10" href="#http://www.facebook.com/amfmmag" />
+      </map>
+      <map name="Map" id="Map224">
+        <area shape="circle" coords="20,16,8" href="#http://www.facebook.com/amfmmag" />
+        <area shape="circle" coords="57,17,8" href="#http://www.twitter.com/amfmmag" />
+        <area shape="rect" coords="116,5,136,23" href="#http://www.instagram.com/amfmmag" />
+        <area shape="circle" coords="93,15,11" href="#amfm-mag.tumblr.com" />
+      </map>
+      <map name="Map" id="Map2222">
+        <area shape="circle" coords="18,13,10" href="http://www.facebook.com/amfmmag" target="_blank" />
+        <area shape="circle" coords="56,14,12" href="http://www.twitter.com/amfmmag" target="_blank" />
+        <area shape="rect" coords="113,6,133,24" href="http://www.instagram.com/amfmmag" target="_blank" />
+        <area shape="circle" coords="91,14,11" href="http://www.amfm-mag.tumblr.com" target="_blank" />
+      </map>
+      <map name="Map" id="Map232">
+        <area shape="circle" coords="93,15,9" href="#amfm-mag.tumblr.com" />
+        <area shape="rect" coords="120,5,140,25" href="#http://www.instagram.com/amfmmag" />
+        <area shape="circle" coords="57,17,11" href="#http://www.twitter.com/amfmmag" />
+        <area shape="circle" coords="20,19,10" href="#http://www.facebook.com/amfmmag" />
+      </map>
+      <map name="Map" id="Map25">
+        <area shape="circle" coords="93,15,9" href="#amfm-mag.tumblr.com" />
+        <area shape="rect" coords="120,5,140,25" href="#http://www.instagram.com/amfmmag" />
+        <area shape="circle" coords="57,17,11" href="#http://www.twitter.com/amfmmag" />
+        <area shape="circle" coords="20,19,10" href="#http://www.facebook.com/amfmmag" />
+      </map>
+      <map name="Map" id="Map2">
+  <area shape="circle" coords="93,15,9" href="#amfm-mag.tumblr.com" />
+  <area shape="rect" coords="120,5,140,25" href="#http://www.instagram.com/amfmmag" />
+  <area shape="circle" coords="57,17,11" href="#http://www.twitter.com/amfmmag" />
+  <area shape="circle" coords="20,19,10" href="#http://www.facebook.com/amfmmag" />
+</map>
+    </h2>
+    <h2>
+      <div id="mc_embed_signup">
+        <form action="//amfm-mag.us10.list-manage.com/subscribe/post?u=738860a67ed3f5cd20e478572&amp;id=8db9e6e243" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate="novalidate">
+          <div id="mc_embed_signup_scroll">SIGN UP FOR UPDATES!
+            <div class="mc-field-group">
+              <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" />
+            </div>
+            <div id="mce-responses" class="clear">
+              <div class="response" id="mce-error-response" style="display:none"></div>
+              <div class="response" id="mce-success-response" style="display:none"></div>
+            </div>
+            <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+            <div style="position: absolute; left: -5000px;" aria-hidden="true">
+              <input type="text" name="b_738860a67ed3f5cd20e478572_8db9e6e243" tabindex="-1" value="" />
+            </div>
+            <div class="clear">
+              <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button" />
+            </div>
+          </div>
+        </form>
+      </div>
+      <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
+      <script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+      <!--End mc_embed_signup-->
+      <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" /></h2>
+    <td align="right">&nbsp;</td></p>
+  <!-- end #footer -->
+  <h2>
+    <div id="mc_embed_signup2">
+      <form action="//amfm-mag.us10.list-manage.com/subscribe/post?u=738860a67ed3f5cd20e478572&amp;id=8db9e6e243" method="post" id="mc-embedded-subscribe-form2" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate="novalidate">
+        <div id="mc_embed_signup_scroll2">
+          <div class="clear"></div>
+        </div>
+      </form>
+    </div>
+    <div align="center">
+      <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
+      <script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+      <!--End mc_embed_signup-->
+    </div>
+  </h2>
+  <h5 align="center">
+    </p>
+    <!-- end #footer -->
+    © AMFM ALL RIGHTS RESERVED. </h5></td></p>
+  <!-- end #footer --></div>
+<!-- end #container --></div>
+</body>
+</html>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-48234405-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
